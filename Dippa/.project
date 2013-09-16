@@ -14,4 +14,11 @@
 	<natures>
 		<nature>net.sourceforge.texlipse.builder.TexlipseNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>AtlasBackup/AgileMetricsDippa.hpr7</name>
+			<type>1</type>
+			<location>C:/Users/ekupiain/Desktop/Dropbox/Dippa/AtlasBackup/AgileMetricsDippa.hpr7</location>
+		</link>
+	</linkedResources>
 </projectDescription>
