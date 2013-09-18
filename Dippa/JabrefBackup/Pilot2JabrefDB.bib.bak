@@ -183,7 +183,6 @@
 	Yin, R., (2003) Case Study Research: Design and Methods, , SAGE Publications,
 	Thousand Oaks, CA},
   source = {Scopus},
-  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33745794661&partnerID=40&md5=217cdde6a358d024afdd831891006bce}
 }
 
@@ -214,7 +213,6 @@
   art_number = {1667571},
   document_type = {Conference Paper},
   doi = {10.1109/AGILE.2006.17},
-  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\BR86ZC9M\\Hartmann and Dymond - 2006 - Appropriate agile measurement using metrics and d.pdf:PDF},
   isbn = {0769525628; 9780769525624},
   journal = {Proceedings - AGILE Conference, 2006},
   keywords = {Industrial management; Risk management; Societies and institutions;
@@ -239,7 +237,6 @@
 	, Collins; Open Space, A.D.C., http://fitnesse.org/ AdcOpenSpace.WhatAreAgileMetrics,
 	Retrieved Dec 15, 2005 from},
   source = {Scopus},
-  stage2status = {Ideapile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247582998&partnerID=40&md5=b4420398fe4e0c5b87c37225bba43eae}
 }
 
@@ -283,7 +280,6 @@
 	NC 27695, United States; email: lmlayma2@ncsu.edu},
   document_type = {Article},
   doi = {10.1016/j.sysarc.2006.06.009},
-  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\RWJVQKX4\\Layman et al. - 2006 - Motivations and measurements in an agile case stud.pdf:PDF},
   issn = {13837621},
   keywords = {Agile practices; Agile software development; Case study; Extreme programming,
 	Competitive intelligence; Computer programming; Electronic communities;
@@ -320,7 +316,6 @@
 	Experimental models for validating technology (1998) IEEE Computer,
 	31, pp. 23-31},
   source = {Scopus},
-  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33749642083&partnerID=40&md5=f85ed15e1a0a4c77a9ea27740c487803}
 }
 
@@ -410,8 +405,6 @@
 	dated 25/10/},
   source = {Scopus},
   sponsors = {IASTED, Technical Committee on Software Engineering},
-  stage2reason = {NotFound},
-  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-1542433701&partnerID=40&md5=85f25ff79f9fb7c40ae94ec58cbdf246}
 }
 
@@ -425,7 +418,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7a3b8ff
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@dc67144; Conference
 	Code:87477},
-  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - EUROMICRO Conf. Softw. Eng. Adv. Appl., SEAA},
   abstract = {Telecom Product Maintenance at two Ericsson R&D Centers implemented
 	Kanban. The third level maintenance is performed by the Customer
@@ -476,7 +468,6 @@
   sponsors = {The Finnish Funding Agency for Technology and Innovation (Tekes);
 	Cloud Softw. Program (www.cloudsoftwareprogram.org) Tivit Oy; Univ.
 	Oulu Dep. Inf. Process. Sci.},
-  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-82955234100&partnerID=40&md5=b9c11760d8c68fdf34fa2ac9f474d46e}
 }
 
@@ -519,7 +510,6 @@
 	of GothenburgSweden; email: miroslaw.staron@ituniv.se},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-642-21843-9_3},
-  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\M68URNGE\\Staron and Meding - 2011 - Monitoring Bottlenecks in Agile and Lean Software .pdf:PDF},
   isbn = {9783642218422},
   issn = {03029743},
   keywords = {Agile software development; Ericsson; Good practices; Industrial use;
@@ -576,7 +566,6 @@
 	Software Engineering: An Introduction, , Kluwer Academic Publisher,
 	Boston},
   source = {Scopus},
-  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79960204976&partnerID=40&md5=6daccbcdd4087a89bd08a329879ed0d2}
 }
 
@@ -636,7 +625,6 @@
 	Roles at Work R M Belbin, Butterworth-Heinemann, 1993 ISBN 0-7506-0925-7The
 	Dynamic Systems Development Method & TickIT ISBN: 0 580 27081 5},
   source = {Scopus},
-  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247584196&partnerID=40&md5=4d6472181509fa76ce09f76a5e443480}
 }
 
