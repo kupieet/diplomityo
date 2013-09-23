@@ -2206,7 +2206,6 @@
   volume = {47},
   pages = {3-14},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Adv. Soft Comput.},
   abstract = {The paper discusses the alternative method of medical experts participation
 	in technical inventions for medicine. Blind tests and various statistic-based
@@ -2274,7 +2273,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@573fa4d2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@135e03be; Conference
 	Code:97333},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - Int. Conf. Qual. Inf. Commun. Technol., QUATIC},
   abstract = {In today's dynamic market environments, producing high quality software
 	rapidly and efficiently is crucial. In order to allow fast and reliable
@@ -2422,7 +2420,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4666b6cb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@16aed89; Conference
 	Code:65724},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {In this article, we describe an approach to empirical software engineering
 	based on a combined software factory and software laboratory. The
@@ -2531,7 +2528,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@d0f1f1e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5bc3f144; Conference
 	Code:59591},
-  __markedentry = {},
   abbrev_source_title = {Conf Rec Annu ACM Symp Princ Program Lang},
   abstract = {The goal of the SLAM project is to check whether or not a program
 	obeys "API usage rules" that specify what it means to be a good client
@@ -2637,7 +2633,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@28244f90
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@67e38b86; Conference
 	Code:77867},
-  __markedentry = {},
   abbrev_source_title = {SIGDOC - Proc. ACM Int. Conf. Des. Commun.},
   abstract = {uScrum (uncertainty Scrum) is an agile process developed by a small
 	team at Altitude Software to manage the process of writing user documentation.
@@ -2680,7 +2675,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4a67452d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@41eeb384; Conference
 	Code:80680},
-  __markedentry = {},
   abbrev_source_title = {Software Eng Educ Proc},
   abstract = {Given the unique nature of the software business, the faculty of Carnegie
 	Mellon University's Silicon Valley campus concluded that mid-career
@@ -2752,7 +2746,6 @@
   pages = {65-82},
   number = {C},
   note = {cited By (since 1996)13},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Adv. Comput.},
   abstract = {This chapter describes the principles behind a specific set of integrated
 	software quality improvement approaches which include the Quality
@@ -2793,7 +2786,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3d460a2f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4146b316; Conference
 	Code:44661},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {One of the major concerns of any maintenance organization is to understand
 	and estimate the cost of maintenance releases of software systems.
@@ -2837,7 +2829,6 @@
   pages = {83-87},
   number = {6},
   note = {cited By (since 1996)24},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {IEEE Software},
   abstract = {For nearly two decades, the Software Engineering Laboratory (SEL)
 	has worked to understand, assess, and improve software and the software-development
@@ -2874,7 +2865,6 @@
   pages = {45},
   number = {6},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {PC World (San Francisco CA)},
   abstract = {The solutions for viewing open computer applications are presented.
 	The first step is to increase the monitor's resolution. The screen
@@ -2908,7 +2898,6 @@
   pages = {98-106},
   number = {6},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {PC World (San Francisco CA)},
   abstract = {The ways to improve the performance and functions of the personal
 	computers (PC) are discussed. The PC could be used to create the
@@ -2942,7 +2931,6 @@
   pages = {42-48},
   number = {5},
   note = {cited By (since 1996)16},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {IEEE Software},
   abstract = {The Personal Software Process (PSP) was developed and first taught
 	as a graduate course to help make software engineers to become better
@@ -3004,7 +2992,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@64add8f5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@517ef076; Conference
 	Code:78413},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {Software reliability growth modeling aims to use data on experienced
 	failures for prediction of future quality levels. We analyze the
@@ -3103,7 +3090,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@253b15db
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4a17eff5; Conference
 	Code:80031},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Conf. Center Adv. Stud. Collab. Res., CASCON},
   abstract = {Successful businesses must sustain a competitive advantage and consistently
 	deliver business value. In order to maximize business value, software
@@ -3136,7 +3122,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3b41411c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3919b3a8; Conference
 	Code:73583},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {Service-oriented Computing (SOC) is becoming the leading paradigm
 	for the creation of agile and flexible enterprise IT infrastructures.
@@ -3206,7 +3191,6 @@
   pages = {87-101},
   number = {3},
   note = {cited By (since 1996)8},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {IEE Proc Software},
   abstract = {A variety of life cycle models for software development are generally
 	available. Many of the variations were composed to overcome problems
@@ -3336,7 +3320,6 @@
   pages = {23-30},
   number = {12},
   note = {cited By (since 1996)4},
-  __markedentry = {},
   abbrev_source_title = {Commun ACM},
   abstract = {The importance of identifying and defending against port-related vulnerabilities
 	to computer software is discussed. Taking preventive measures against
@@ -3380,7 +3363,6 @@
   volume = {26},
   number = {4},
   note = {cited By (since 1996)32},
-  __markedentry = {},
   abbrev_source_title = {ACM Trans. Inf. Syst.},
   abstract = {Traditionally users access their personal files mainly by using folder
 	navigation. We evaluate whether recent improvements in desktop search
@@ -3554,7 +3536,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4443ca3e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3e92cf75; Conference
 	Code:64953},
-  __markedentry = {},
   abbrev_source_title = {Proc IEEE Int Conf Ind Technol},
   abstract = {This contribution deals with communication possibilities of embedded
 	systems and their environment, remote administration and diagnostic.
@@ -3605,7 +3586,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@55346425
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@629ae4d6; Conference
 	Code:85667},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Software process improvement needs guidance in proposing, assessing,
 	and selecting a right set of steps and measurements. Often, a process
@@ -3684,7 +3664,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e1a0da7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@30766696; Conference
 	Code:43853},
-  __markedentry = {},
   abbrev_source_title = {Proc IEEE Int Conf Rob Autom},
   abstract = {We describe a domain modeling process and framework for use in lifecycle
 	engineering of software to monitor and control agile machining equipment.
@@ -3717,7 +3696,6 @@
   publisher = {IEEE, New York, NY, USA},
   note = {cited By (since 1996)2; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@14b52a81
 	; Conference Code:10046},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proceedings - International Conference on Software Engineering 9th.},
   abstract = {The Session Chairman reviews three papers on large-scale software
 	development written in different periods in the past. These papers
@@ -3766,7 +3744,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@51cf631c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@673ed3a; Conference
 	Code:92980},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Amer. Conf. Inf. Sys., AMCIS},
   abstract = {Proponents of agile processes claim that agile practices result in
 	higher quality software while allowing the flexibility to respond
@@ -3926,7 +3903,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2bd6fedb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2ff5f259; Conference
 	Code:69469},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {A number of agile practices are included in software engineering curricula,
 	including test-driven development. Continuous integration often is
@@ -4014,7 +3990,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@354d2940
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5ccf4416; Conference
 	Code:83792},
-  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. FSE/SDP Workshop Future Softw. Eng. Res., FoSER},
   abstract = {Delivering increasingly complex software-reliant systems demands better
 	ways to manage the long-term effects of shortterm expedients. The
@@ -4109,7 +4084,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7a07d2ac
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@179858cb; Conference
 	Code:46971},
-  __markedentry = {},
   abbrev_source_title = {Proc IEEE Int Conf Rob Autom},
   abstract = {Modular fixturing kits are sets of components used for flexible, rapid
 	construction of fixtures. A modular vise is a parallel-jaw vise,
@@ -4153,7 +4127,7 @@
   journal = {Computer Physics Communications},
   year = {2013},
   note = {cited By (since 1996)0; Article in Press},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {This is the manual and user guide for the Rivet system for the validation
 	and tuning of Monte Carlo event generators. As well as the core Rivet
@@ -4204,6 +4178,7 @@
   issn = {00104655},
   language = {English},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84879658097&partnerID=40&md5=318f5c5972198c745454043ca1b03d70}
 }
 
@@ -4218,7 +4193,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1af92020
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59ac22b5; Conference
 	Code:76926},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {AGILE is an ASI (Italian Space Agency) Small Scientific Mission dedicated
 	to high-energy astrophysics which was launched on April 23 2007 from
@@ -4316,6 +4291,7 @@
 	PII S0168900202010628},
   source = {Scopus},
   sponsors = {The International Society for Optical Engineering (SPIE); SPIE Europe},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67649162657&partnerID=40&md5=87022b11bde7a582ba45f821c58270b9}
 }
 
@@ -4332,7 +4308,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@73188c95
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@50b5c53b; Conference
 	Code:65825},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect Notes Artif Intell},
   abstract = {Early and consistent detection of abnormal conditions is important
 	to ' the safe and efficient operation of complex industrial processes.
@@ -4409,6 +4385,7 @@
 	multi-agent system technology (2004) Proceedings of the Hawaii International
 	Conference on System Sciences},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-26944470356&partnerID=40&md5=62dbc8a6eecb660b8e934514631d11cd}
 }
 
@@ -4425,7 +4402,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@218ab869
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1a5106b3; Conference
 	Code:76482},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Model-driven development has become an important engineering paradigm.
 	It is said to have many advantages over traditional approaches, such
@@ -4490,6 +4467,7 @@
 	of software reuse with special attention to ADA (1997) IEEE Transaction
 	on Software Engineering, 23 (9)},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67650133011&partnerID=40&md5=5cc4f9eeb3391308b9c09858ccee3275}
 }
 
@@ -4505,7 +4483,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@910c606
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2c38b890; Conference
 	Code:67905},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software describes an imagined machine. To be software, the description
 	must be executable, which means written so a computer can animate
@@ -4560,6 +4538,7 @@
 	22 (1). , http://www.vector.org.uk/archive/v221/sjt221.htm},
   source = {Scopus},
   sponsors = {Exoftware; Philips},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746192646&partnerID=40&md5=99f77566c41d8acb21ea7fe752f98930}
 }
 
@@ -4571,7 +4550,7 @@
   volume = {294},
   pages = {2-11},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Electron. Notes Theor. Comput. Sci.},
   abstract = {Proponents of Agile development processes claim that adhering to Agile
 	principles leads to the delivery of high quality code in evolutionary
@@ -4639,6 +4618,7 @@
 	on Programming Language Design and Implementation, PLDI E11, pp.
 	504-515. , ACM New York, NY, USA},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875169679&partnerID=40&md5=1e9c521b7e6c6f65bcf872d182004e25}
 }
 
@@ -4652,7 +4632,7 @@
   pages = {168-179},
   number = {1-2},
   note = {cited By (since 1996)6},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Int J Adv Manuf Technol},
   abstract = {Flexibility and responsiveness to customer demands are very important
 	for success. Generally additional time is needed for setup caused
@@ -4756,6 +4736,7 @@
 	tasarimi (2005) Ulusal Ekonometri Ve Istatistik Sempozyumu, , Proceeding,
 	IIV Istanbul, Turkey},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-60949083486&partnerID=40&md5=637cb0ca6270cec59eca2107f94faf8c}
 }
 
@@ -4769,7 +4750,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@11baeb2f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6a663c1; Conference
 	Code:72062},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. IEEE Int. Conf. Workshops Eng. Comput. Based Syst. ECBS},
   abstract = {Agile software development methodologies are driven by user created
 	stories known as scenarios. These scenarios capture a subset of the
@@ -4850,6 +4831,7 @@
 	pp. 352-357},
   source = {Scopus},
   sponsors = {IEEE Comput. Soc. Tech. Comm. Eng. Computer-Based Systems},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-44149092216&partnerID=40&md5=c51f8d3a9f7e0820ceb697585c05731d}
 }
 
@@ -4864,7 +4846,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6a5eab26
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6d368258; Conference
 	Code:85380},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Feature-driven software development is a novel approach that has grown
 	in popularity over the past decade. Researchers and practitioners
@@ -4996,6 +4978,7 @@
   sponsors = {Assoc. Comput. Mach., Spec. Interest Group Softw.; Eng. (ACM SIGSOFT);
 	IEEE Computer Society; Technical Council on Software Engineering
 	(TCSE)},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79959859896&partnerID=40&md5=d103413dbddf35f7c2de4e7a004b0748}
 }
 
@@ -5011,7 +4994,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2dfaddc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2b0f47fd; Conference
 	Code:73351},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Comput. Supported Coop. Work Des., CSCWD},
   abstract = {Lean production is now a wildly adopted philosophy to eliminating
 	waste and string towards continuous improvement in production but
@@ -5073,6 +5056,7 @@
   source = {Scopus},
   sponsors = {Xi'an Jiaotong University; IEEE China Council; International Working
 	Group on CSCW in Design; Xidian University; IEEE PRESS},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-51049124510&partnerID=40&md5=b2ee5150b67e51a41a2b20faca960a82}
 }
 
@@ -5086,7 +5070,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1b28f48f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1dcfe637; Conference
 	Code:79649},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Environ. Comput. Sci., ICECS},
   abstract = {Motion Estimation is a well-studied problem and researchers are coming
 	up with new algorithms. The aim of this paper is to implement a Motion
@@ -5137,6 +5121,7 @@
   source = {Scopus},
   sponsors = {International Association of Computer Science; and Information Technology
 	(IACSIT)},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77949838862&partnerID=40&md5=1641897538f39cdba356aaa3272a158d}
 }
 
@@ -5151,7 +5136,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@679280b9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@434126ce; Conference
 	Code:78821},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {NPC - Int. Conf. Netw. Parallel Comput.},
   abstract = {In this paper, we propose a demand-driven virtual disk (VD) prefetch
 	mechanism-DPM to improve the performance of virtual machine (VM)
@@ -5245,6 +5230,7 @@
   source = {Scopus},
   sponsors = {Deakin University; Central Queensland University; Swinburne University
 	of Technology; IFIP},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-73449108426&partnerID=40&md5=290a9756acce587755f62aa0c42dd337}
 }
 
@@ -5257,7 +5243,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@284d811b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@78572848; Conference
 	Code:74850},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Wirel. Commun., Netw. Mob. Comput., WiCOM},
   abstract = {Current approaches for malicious code defense are mostly signature-scanning
 	and execution-monitoring. Limited by the undecidability of malicious
@@ -5311,6 +5297,7 @@
   sponsors = {Wuhan University, China; Dalian University of Technology, China; IEEE
 	Antennas and Propagation Society; Scientific Research Publishing,
 	USA; IEEE Communications Society},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-58049130036&partnerID=40&md5=a876272b32feb420bc1491ac8adef93e}
 }
 
@@ -5325,7 +5312,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2a8efa2b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@10ca32e1; Conference
 	Code:77501},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. ICSE Workshop Softw. Dev. Governance, SDG},
   abstract = {Agile software development governance depends on successful monitoring
 	and control mechanisms. Software development managers generally are
@@ -5383,6 +5370,7 @@
   source = {Scopus},
   sponsors = {Association for Computing Machinery, ACM; IEEE; IEEE Computer Society;
 	SIGSOFT},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70349823923&partnerID=40&md5=ee1422c55d41da0fb02e84c7a34c36a3}
 }
 
@@ -5396,7 +5384,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@42058fb9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7b1edc8b; Conference
 	Code:73459},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. - Int. Conf. Comput. Sci. Appl., ICCSA},
   abstract = {API fuzz testing is to insert unexpected data into parameters of functions
 	and to monitor exceptions or errors of a software system in order
@@ -5463,6 +5451,7 @@
 	James A. Whittaker, Herbert H. Thompson, How to Break Software Security,
 	Addison-Wesley},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-52249088922&partnerID=40&md5=15dcdfeb3be787bc66fdd3a0ca6ad321}
 }
 
@@ -5479,7 +5468,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6f5eaad5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3021bf12; Conference
 	Code:82132},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {In this paper, we present a novel technique for assessing and prioritizing
 	architectural quality in large-scale software development projects.
@@ -5560,6 +5549,7 @@
 	processes (2008) ICSP 2008. LNCS, 5007, pp. 112-122. , Wang, Q.,
 	Pfahl, D., Raffo, D. M. eds., Springer, Heidelberg},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78049327920&partnerID=40&md5=35ec52b12ceec73a782155a3f39b01e7}
 }
 
@@ -5575,7 +5565,7 @@
   pages = {685-693},
   number = {9},
   note = {cited By (since 1996)9},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {A FORTRAN 77 program for calculating energy values, reaction matrix
 	and corresponding radial wave functions in a coupled-channel approximation
@@ -5750,6 +5740,7 @@
 	V.A., Vinitsky, S.I., Abrashkevich, A.G., Kaschiev, M.S., Serov,
 	V.V., (2007) Comput. Phys. Comm., 178, pp. 301-330},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-52949133385&partnerID=40&md5=3f6ee90513c5100782bafa890a880fce}
 }
 
@@ -5762,7 +5753,7 @@
   pages = {12-21},
   number = {1},
   note = {cited By (since 1996)15},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Signal Process Mag},
   abstract = {Implementing highly agile, software driven waveform generators, new
 	radar transmitter concepts have emerged over the past decade. Such
@@ -5855,6 +5846,7 @@
 	and control for discrete time systems (1971) Proc. IEEE, 59 (11),
 	pp. 1557-1566},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-61449182633&partnerID=40&md5=c1e11f2c78d1daa45e72fd852acc5d6b}
 }
 
@@ -5867,6 +5859,7 @@
   pages = {107-122},
   number = {2},
   note = {cited By (since 1996)12},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Softw. Qual. J.},
   abstract = {Software organizations can significantly improve the quality of their
 	output if they have a defined and documented software process, together
@@ -5919,6 +5912,7 @@
 	Adapting the personal software process to industry (1996) Software
 	Engineering Technical Council Newsletter, 14 (2), pp. 10-12},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0542397516&partnerID=40&md5=ad0df747f07753c56c00d53a303fb583}
 }
 
@@ -5935,6 +5929,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7cbd60b8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@75191002; Conference
 	Code:78413},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {The vision of service-oriented computing is one of loosely coupled
 	services that create agile applications to encapsulate business objectives
@@ -6013,6 +6008,7 @@
 	Systems, Man and Cybernectics, SMC-16, pp. 844-853},
   source = {Scopus},
   sponsors = {IEEE; IEEE Computer Society},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449633673&partnerID=40&md5=08f907a1fa6a54d9775cbdf057a8a8c0}
 }
 
@@ -6026,6 +6022,7 @@
   pages = {525-548},
   number = {4},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Int. J. Software Engineer. Knowledge Engineer.},
   abstract = {We present an analysis of the evolution of a Web application project
 	developed with object-oriented technology and an agile process. During
@@ -6151,6 +6148,7 @@
 	Int. Conf. on Software Engineering (ICSE'08) (2008) Leipzig, Germany,
 	pp. 531-540. , 10-18 May},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84865385132&partnerID=40&md5=b51b887d19d3e170655a27b87f20ca5f}
 }
 
@@ -6168,6 +6166,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5085e71
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@68704f4b; Conference
 	Code:72799},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {We present an agile process used for the development of a Web application
 	written in Java, devised by choosing a set of proven agile practices
@@ -6228,6 +6227,7 @@
 	for Object-Oriented Design Complexity: Implications for Software
 	Defects (2007) IEEE Trans. Software Eng, 33, pp. 687-708},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-48249129609&partnerID=40&md5=c13bcb690efa678a3f53e0d34593a864}
 }
 
@@ -6244,6 +6244,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@47ffb4ef
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@64bfdbd6; Conference
 	Code:70864},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Agile methods focus on customer satisfaction and delivering business
 	value early, however if flexibility and adaptability are not managed
@@ -6289,6 +6290,7 @@
 	InformÃ¡tica, Universidad TÃ©cnica Federico Santa MarÃ­a (2007),
 	Technical Report 2007/03 January},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-38149091888&partnerID=40&md5=48484ce8ab8be9d7a592de9a5043c260}
 }
 
@@ -6301,6 +6303,7 @@
   pages = {345-356},
   number = {3},
   note = {cited By (since 1996)1},
+  __markedentry = {},
   abbrev_source_title = {Comput. Hum. Behav.},
   abstract = {Audio computer-assisted self-interviewing (audio-CASI) technologies
 	have become standard tools for collecting information on sensitive
@@ -6381,6 +6384,7 @@
 	a feasible method of surveying in Zimbabwe? (2000) International
 	Journal of Epidemiology, 29, pp. 885-890},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-1642586352&partnerID=40&md5=cecbce118b7070bfd89cc96bfc014598}
 }
 
@@ -6398,6 +6402,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@30f1d4cf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54ca7b23; Conference
 	Code:90034},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Understanding the dynamics of a software development process is of
 	paramount importance for managers to identify the most important
@@ -6490,6 +6495,7 @@
 	, http://code.google.com/p/broadcom-ble/, (retrieved on January 10,
 	2011)},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862187530&partnerID=40&md5=4af49697a09c3e68a2090b2905540329}
 }
 
@@ -6503,6 +6509,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a6caacc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@64413c6c; Conference
 	Code:72507},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - AGILE},
   abstract = {A primary measure of success in both student and commercial software
 	development projects is the value delivered to the client. Of equal
@@ -6564,6 +6571,7 @@
 	and D. Thomas, Principles behind the Agile Manifesto, http://agilemanifesto.org/principles.html
 	January 18, 2007},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-46449122286&partnerID=40&md5=145564a3daea25f438321a761aaf50cd}
 }
 
@@ -6576,6 +6584,7 @@
   pages = {233-245},
   number = {2},
   note = {cited By (since 1996)12},
+  __markedentry = {},
   abbrev_source_title = {Comput. Electron. Agric.},
   abstract = {Some recent commercial combine harvesters are equipped with a Controller
 	Area Network (CAN) system. This is a serial communications protocol
@@ -6669,6 +6678,7 @@
 	analysis of the CAN bus protocol (2001) Proceedings of the Sixth
 	IEEE International Symposium on High-Assurance Systems Engineering},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-24344455178&partnerID=40&md5=99fd838abad128b06d4de6fd9dd0e444}
 }
 
@@ -6683,6 +6693,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@44192fa7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@51879fde; Conference
 	Code:84447},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {A flexible tool for collection of data from imaging sensors is presented.
 	It is compatible to Windows XP and later. It is designed to meet
@@ -6726,6 +6737,7 @@
 	and Information Processing, , IEEE press},
   source = {Scopus},
   sponsors = {The Society of Photo-Optical Instrumentation Engineers (SPIE)},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79953727899&partnerID=40&md5=bd2c9d7a07ea0bfdfc5029719a2c61d6}
 }
 
@@ -6740,6 +6752,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77327c57
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@138170e4; Conference
 	Code:72716},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Embedded Comput. Syst.: Archit., Model. Simul., IC-SAMOS},
   abstract = {Tool path generation is one of the most complex problems in Computer
 	Aided Manufacturing. Although some efficient strategies have been
@@ -6809,6 +6822,7 @@
 	Celoxica Ltd; Data Stream Manager Datasheet, , http://www.celoxica.com/techlib/files/CEL-W0506201CG6-46.pdf,
 	Celoxica Ltd},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-47749154472&partnerID=40&md5=0120a7557bc0a5ca65b106ac73f38cd7}
 }
 
@@ -6822,6 +6836,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@c6ec022
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3b07fe8e; Conference
 	Code:72047},
+  __markedentry = {},
   abbrev_source_title = {AUTOTESTCON Proc},
   abstract = {The Next Generation Automatic Test System (NGATS) is the latest addition
 	to the Integrated Family of Test Equipment (IFTE) developed and managed
@@ -6879,6 +6894,7 @@
 	Development Document NGATS Test and Evaluation Master Plan},
   source = {Scopus},
   sponsors = {IEEE},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-43549095297&partnerID=40&md5=dbb080e500e8d7e733e8edc008e8ee2d}
 }
 
@@ -6892,6 +6908,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@136cd77b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4eb6d633; Conference
 	Code:93756},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {For a software-intensive system, software quality measures how well
 	the software is designed and how well the software conforms to that
@@ -6964,6 +6981,7 @@
 	K., Stream execution of object queries, grid and distributed computing
 	(2010) Control and Automation, 121, pp. 167-176},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869046762&partnerID=40&md5=b8016d14957d5d4578203e069745c465}
 }
 
@@ -6980,6 +6998,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@74e3cafe
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@172425a6; Conference
 	Code:70864},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Many organizations using agile processes would like to adopt a process
 	measurement framework, e.g. for assessing their process maturity.
@@ -7031,6 +7050,7 @@
 	Process and Project Meta-model (2005) Proc. of OTM Workshops, pp.
 	516-525. , Cyprus, pp, October 31-November 4},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-38149091890&partnerID=40&md5=b6d21b8b4b60364bd9b13641191230b1}
 }
 
@@ -7044,6 +7064,7 @@
   pages = {2394-2397},
   number = {11},
   note = {cited By (since 1996)0},
+  __markedentry = {},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {Model-Driven Engineering (MDE) is the software engineering discipline,
 	which considers models as the most important element for software
@@ -7144,6 +7165,7 @@
 	system, Computer software},
   language = {English},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70149108282&partnerID=40&md5=265b72d1bef3d531cb308b56bacfb8db}
 }
 
@@ -7157,6 +7179,7 @@
   pages = {70-73},
   number = {1},
   note = {cited By (since 1996)0},
+  __markedentry = {},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {A practical computing algorithm working in real time has been developed
 	for calculations of the reflection high-energy electron diffraction
@@ -7260,6 +7283,7 @@
 	(1999) Surf. Sci., 424, p. 169; Lucas, C.A., Loretto, D., (1995)
 	Surf. Sci. Lett., 344, p. 1219},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33751584453&partnerID=40&md5=a23579b404805decec621f04935d0697}
 }
 
@@ -7273,6 +7297,7 @@
   pages = {83-85},
   number = {1},
   note = {cited By (since 1996)0},
+  __markedentry = {},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {We present a new version of the RHEED program which contains a graphical
 	user interface enabling the use of the program in the graphical environment.
@@ -7352,6 +7377,7 @@
 	J.F., Valacich, J.S., (1999) Modern Systems Analysis and Design,
 	, Addison-Wesley},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-29144441484&partnerID=40&md5=07dd7fa8a327e0a23567ffb51d08a617}
 }
 
@@ -7365,6 +7391,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3232e185
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2a73fc82; Conference
 	Code:75024},
+  __markedentry = {},
   abbrev_source_title = {Comp. Agric. Nat. Resour. - Proc. World Cong.},
   abstract = {The software Assistat-Statistical Assistance was developed with the
 	objective of being accessible for students and researchers, regarding
@@ -7437,6 +7464,7 @@
 	, 2.ed. SÃ£o Paulo: Atlas, 185p},
   source = {Scopus},
   sponsors = {ASABE},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-58249101039&partnerID=40&md5=0a1cd91bb1dae0b0ea659129ba5d7df0}
 }
 
@@ -7452,6 +7480,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5100b10c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@467b460; Conference
 	Code:87769},
+  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Contemporary middleware offers powerful abstractions to construct
 	distributed software systems. However, when inspecting the software
@@ -7571,6 +7600,7 @@
   sponsors = {International Federation for Information Processing (IFIP); Association
 	for Computing Machinery (ACM); Advanced Computing Systems Association
 	(USENIX); Instituto Superior Tecnico (IST); INESC-ID Lisboa},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-83755228972&partnerID=40&md5=3d71ccb4d52a2f2ce61d7c02507954d1}
 }
 
@@ -7583,6 +7613,7 @@
   volume = {217},
   pages = {163-181},
   note = {cited By (since 1996)0},
+  __markedentry = {},
   abbrev_source_title = {Front. Artif. Intell. Appl.},
   abstract = {In order to improve the information system development process many
 	companies have adopted system development methodologies. Various
@@ -7727,6 +7758,7 @@
 	and DEA: Measuring branch office efficiency (1994) Internal Auditing,
 	10, pp. 3-12},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78049244598&partnerID=40&md5=4d908e04a39ddd04a1379bbc9aa4a5fa}
 }
 
@@ -7740,6 +7772,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7085722
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@34907cc9; Conference
 	Code:89644},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Int. Conf. New Trends Softw. Methodol., Tools Tech., SoMeT},
   abstract = {In order to improve the information system development process many
 	companies have adopted system development methodologies. Various
@@ -7888,6 +7921,7 @@
 	10, pp. 3-12},
   source = {Scopus},
   sponsors = {Japan Society for the Promotion of Science (JSPS); SANGIKYO Co.},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84861557950&partnerID=40&md5=c72df0b4fad99ba609c24dfc5576c869}
 }
 
@@ -7902,6 +7936,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2d0c7d77
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@f0126bc; Conference
 	Code:89579},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. IADIS Int. Conf. Inf. Syst.},
   abstract = {Many organizations have deployed system development methodologies
 	in order to improve information systems development. Various factors
@@ -8025,6 +8060,7 @@
 	methodologies: An examination of research methods (1997) Information
 	Systems Journal, 7 (1), pp. 47-65},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84860761616&partnerID=40&md5=c3c647d206f1802f51898826bff32a03}
 }
 
@@ -8042,6 +8078,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@39546fc4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5675ca43; Conference
 	Code:81847},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {The SuperAGILE experiment is the hard X-ray monitor of the AGILE mission.
 	It is a 2 x one-dimensional imager, with 6-arcmin angular resolution
@@ -8126,6 +8163,7 @@
 	Circular Service, p. 10810},
   source = {Scopus},
   sponsors = {The Society of Photo-Optical Instrumentation Engineers (SPIE)},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957882887&partnerID=40&md5=79049558edfe7b7e724eb8c84c5f572d}
 }
 
@@ -8138,6 +8176,7 @@
   pages = {24-26},
   number = {3},
   note = {cited By (since 1996)13},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Commun ACM},
   abstract = {Software engineering has contributed principles for managing complexity
 	in software systems, delivering reliable, dependable, and affordable
@@ -8185,6 +8224,7 @@
 	computer scientists experiment more? (1998) IEEE Computer, pp. 32-40.
 	, May},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-61849116693&partnerID=40&md5=c680c0ffc0c4ce5018bf9717f3e26b5a}
 }
 
@@ -8198,6 +8238,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a3743b7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@323ea89e; Conference
 	Code:92379},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {Agile Project Management (APM) is widely used in different software
 	projects from different application domains. APM includes a series
@@ -8278,6 +8319,7 @@
   sponsors = {Universita degli Studi di Bari Aldo Moro; Dipartimento di Informatica
 	(DIB); Driving Advances of ICT in South Italy - Net (DAISY-Net);
 	Spin Univ. Studi Bari, Softw. Eng. Res. Pract.; exprivia},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84865639430&partnerID=40&md5=633ed765b6fe9ad1b78bc36fc446adbf}
 }
 
@@ -8292,6 +8334,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@303070a5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3c33795a; Conference
 	Code:88175},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - Jt. Conf. Int. Workshop Softw. Meas., IWSM Int. Conf. Softw.
 	Process Prod. Meas., MENSURA},
   abstract = {Agile Project Management (APM) must adopt dynamic project plans to
@@ -8362,6 +8405,7 @@
 	- A six sigma perspective (2010) International Workshop on Software
 	Measurement - IWSM 2010, , Stuttgart, Germany, November},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84856189252&partnerID=40&md5=ff1d1fe010f824f5697d82f965c719e6}
 }
 
@@ -8374,6 +8418,7 @@
   pages = {41-44},
   number = {3},
   note = {cited By (since 1996)4},
+  __markedentry = {},
   abbrev_source_title = {Interactions},
   abstract = {The importance and the applicability of software security among the
 	computer users, is discussed. Polaris has conducted a usability study
@@ -8415,6 +8460,7 @@
 	Aligning security and usability (2004) IEEE Security and Privacy,
 	2 (5), pp. 48-55},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33646687062&partnerID=40&md5=b62e423676f20e827391d74854e1fed7}
 }
 
@@ -8428,6 +8474,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@28253368
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2252056f; Conference
 	Code:75781},
+  __markedentry = {},
   abbrev_source_title = {Proc ACM SIGUCCS Serv Conf},
   abstract = {The Department of Surgery at the University Of Washington School Of
 	Medicine is faced with the challenge of providing IT security to
@@ -8495,6 +8542,7 @@
 	June 20, 2008; http://depts.washington.edu/surgery/about/index.html,
 	UW Department of Surgery, retrieved May 20, 2008},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-63449098373&partnerID=40&md5=6a7ac5125bf290e77328699d4166939d}
 }
 
@@ -8508,6 +8556,7 @@
   pages = {248-256},
   number = {4},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Comput Ind},
   abstract = {Production agility becomes a measurable quantity when its scope is
 	limited to those agility enablers that are demonstrated to positively
@@ -8595,6 +8644,7 @@
 	1259-1285; Fairly, R.E., (1985) Software Engineering Concepts. int.
 	ed., , McGraw-Hill p8},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-63049132376&partnerID=40&md5=a3f1dc70ab77199495941874ddcc700b}
 }
 
@@ -8610,6 +8660,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4b3ac4c3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7f4c04ca; Conference
 	Code:91518},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {We present a high fidelity cognitive radio (CR) network emulation
 	platform for wireless system tests, measure- ments, and validation.
@@ -8709,6 +8760,7 @@
 	Product Brochure},
   source = {Scopus},
   sponsors = {The Society of Photo-Optical Instrumentation Engineers (SPIE)},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84864346828&partnerID=40&md5=99fb300ba687d55c0fd1edea4e7ef4e5}
 }
 
@@ -8722,6 +8774,7 @@
   pages = {1265-1282},
   number = {11},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Inf Software Technol},
   abstract = {Context: There are lots of approaches or methodologies in the Model-Driven
 	Web Engineering (MDWE) context to develop Web Applications without
@@ -8872,6 +8925,7 @@
 	retrieved 03.11; WebML (The Web Modeling Language), , http://www.Webml.org,
 	retrieved 03.11},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84864755910&partnerID=40&md5=ac2094f1f8a7679629c6f9a0b92df6b7}
 }
 
@@ -8886,6 +8940,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5c167f4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5c8fc71f; Conference
 	Code:88265},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Asia Pac. Softw. Eng. Conf. APSEC},
   abstract = {Selection of the right user stories and planning their implementation
 	for the next iteration is critical for success of eXtreme Programming
@@ -8982,6 +9037,7 @@
 	heuristic algorithm for forest harvest decision (2009) Global Congress
 	on Intelligent System, 1, pp. 551-558},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84863071883&partnerID=40&md5=cdfafd7e5a2d43f36b9f02b1b5796638}
 }
 
@@ -8996,6 +9052,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@13ef62a0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@49340099; Conference
 	Code:89877},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {Wireless sensor network (WSN) is recently emerged as a powerful tool
 	in the structural health monitoring (SHM). Due to the limitations
@@ -9087,6 +9144,7 @@
   sponsors = {The Society of Photo-Optical Instrumentation Engineers (SPIE); American
 	Society of Mechanical Engineers; Asian-Pac. Netw. Cent. Res. Smart
 	Struct. Technol. (ANCRiSST)},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84861133424&partnerID=40&md5=51cb9904fb2842f43762f0ebca748307}
 }
 
@@ -9100,6 +9158,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5ad02bd6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@18ee1d2e; Conference
 	Code:82824},
+  __markedentry = {},
   abbrev_source_title = {Proc. - Int. Conf. Softw. Eng. Adv., ICSEA},
   abstract = {Developers ought to maintain awareness of the status of a software
 	project. However, there are very few recorded best practices for
@@ -9158,6 +9217,7 @@
 	API Example, the Build Wallboard, , retrieved October 3, 2009},
   source = {Scopus},
   sponsors = {IARIA},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78649844481&partnerID=40&md5=18e798cc2d62932279d7f8baea730b31}
 }
 
@@ -9172,6 +9232,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3d464c34
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@52350959; Conference
 	Code:88680},
+  __markedentry = {},
   abbrev_source_title = {Telecommun. Forum, TELFOR - Proc. Pap.},
   abstract = {This paper presents a study on implementation and performance evaluations
 	on data application measurements in two different operating Systems:
@@ -9226,6 +9287,7 @@
   sponsors = {Joint Stock Telecommunications Company "TELEKOM SRBIJA" d.d.; ERICSSON
 	d.o.o. - Belgrade; ALCATEL-LUCENT SERBIA - Belgrade; AMIS TELEKOMUNIKACIJE
 	d.o.o. Belgrade - F-Secure; CRONY d.o.o. - Belgrade},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84857466771&partnerID=40&md5=c5c38fc174696f811e4a6dc5cc24c5c3}
 }
 
@@ -9238,6 +9300,7 @@
   pages = {693-699},
   number = {11},
   note = {cited By (since 1996)10},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {J Syst Archit},
   abstract = {Roles' playing is common in our lives. We play different roles with
 	our family, at work as well as in other environments. Role allocation
@@ -9280,6 +9343,7 @@
 	Putnam, L., Myers, W., (1997) Industrial Strength Software - Effective
 	Management Using Measurement, , IEEE Computer Society Press},
   source = {Scopus},
+  stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33749629484&partnerID=40&md5=2f21e8dea09b5c58d06136f824dc2cc1}
 }
 
@@ -9295,6 +9359,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@60dc1c00
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@12b275ae; Conference
 	Code:80774},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ICEIS - Int. Conf. Enterp. Inf. Syst., Proc.},
   abstract = {Agile software development methods mainly aim at increasing software
 	quality by fostering customer collaboration and performing exhaustive
@@ -9362,6 +9427,7 @@
 	Cyclomatic Complexity Metric, , NIST Special Publication 500-235},
   source = {Scopus},
   sponsors = {Cyprus Computer Society},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77953879921&partnerID=40&md5=52e098ee5fdddcd00c89cf5f0a317b73}
 }
 
@@ -9376,6 +9442,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4e7a8691
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4e18c1d7; Conference
 	Code:85238},
+  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {We will first give a brief introduction to a versatile modeling environment
 	that allows the early validation of system specifications by a test-driven
@@ -9443,6 +9510,7 @@
 	Transactions on Software Engineering, 20 (10)},
   source = {Scopus},
   sponsors = {ACM SIGSOFT; IEEE CS},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79959443087&partnerID=40&md5=5b439629a2a7deec6a6072498afcee09}
 }
 
@@ -9457,6 +9525,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@712cfdf4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@40d4d838; Conference
 	Code:76195},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {The National Radio Astronomy Observatory (NRAO) is launching the Green
 	Bank Ultimate Pulsar Processing Instrument (GUPPI), a prototype flexible
@@ -9525,6 +9594,7 @@
 	and Practice of FPGA-Based Computation.Systems on silicon. San Francisco,
 	CA, Morgan Kaufmann},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-66949119948&partnerID=40&md5=99bf76ed251b3ee939a20c3464aeb415}
 }
 
@@ -9537,6 +9607,7 @@
   pages = {19-21},
   number = {5},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {IEEE Software},
   abstract = {A close look at the evidence underpinning the original concept of
 	lean production and its popular interpretation reveals the inherent
@@ -9557,6 +9628,7 @@
 	engineering for practitioners (2005) IEEE Software, 22 (1), pp. 58-65.
 	, DOI 10.1109/MS.2005.6},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84865464043&partnerID=40&md5=d6b920170e74400a8e87f8ef27f6373e}
 }
 
@@ -9572,6 +9644,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@63d47a98
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@12bcc45c; Conference
 	Code:76875},
+  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {In this paper we consider a new way for automated camera calibration
 	and specification. The proposed setup is optimized for working with
@@ -9647,6 +9720,7 @@
 	245 (1-6), pp. 49-53. , DOI 10.1016/j.optcom.2004.09.077, PII S003040180400971X},
   source = {Scopus},
   sponsors = {SPIE Europe},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-69949149865&partnerID=40&md5=cd0b340637c55556f10179f3478cb9c6}
 }
 
@@ -9662,6 +9736,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@28cef597
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2b5da16f; Conference
 	Code:92975},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Amer. Conf. Inf. Sys., AMCIS},
   abstract = {IS projects continue to present a problematic endeavor for organizations.
 	A high percentage of IS projects fail to meet efficiency metrics
@@ -9786,6 +9861,7 @@
 	High Reliability: Process of collective mindfulness (1999) Research
 	in Organizational Behavior, (21), pp. 81-123},
   source = {Scopus},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84870367228&partnerID=40&md5=b8d1e6e85889864d4ee5a7ad044a9d16}
 }
 
@@ -9801,6 +9877,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4941e62b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@56e36a0; Conference
 	Code:90032},
+  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {According to a folk theorem, every program can be transformed into
 	a program that produces the same output and only has one loop. We
@@ -9857,6 +9934,7 @@
 	, 3rd edn. Addison-Wesley Publishing Company, Inc., Reading; Williams,
 	J.W.J., Algorithm 232: Heapsort (1964) Commun. ACM, 7 (6), pp. 347-348},
   source = {Scopus},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84861996343&partnerID=40&md5=ba56aef371f44767bdee7e7d05185897}
 }
 
@@ -9870,6 +9948,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6c8a535f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6d67b9a4; Conference
 	Code:59595},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {The agile software development process called Extreme Programming
 	(XP) is a set of best practices which, when used, promises swifter
@@ -9908,6 +9987,7 @@
   source = {Scopus},
   sponsors = {ACM; ACM SIGSOFT; IEEE Computer Society; IEEE Computer Society Technical
 	Council of Software Engineering},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0036039192&partnerID=40&md5=800b5482bb184f413584c4bcc8c45fca}
 }
 
@@ -9921,6 +10001,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@129e5f92
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5b9473ca; Conference
 	Code:82230},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ESEM - Proce. ACM-IEEE Int. Symp. Empir. Softw. Eng. Measur.},
   abstract = {A critical claim in software requirements regards the assertion that
 	the team performances improve when media with higher richness levels
@@ -9982,6 +10063,7 @@
   source = {Scopus},
   sponsors = {ACM Special Interest Group on Software Engineering (SIGSOFT); IEEE
 	CS},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78149246228&partnerID=40&md5=faaa1055bbfebd9da2b785b75f895e52}
 }
 
@@ -9995,6 +10077,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@141f63c6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@18cf667c; Conference
 	Code:95715},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lat. America Conf. Informatics, CLEI - Conf. Proc.},
   abstract = {The worldwide acceptance of software as an important aspect in daily
 	life, and the continued growth of the software development industry,
@@ -10099,6 +10182,7 @@
 	Method: A Practical Guide for Quality Improvement of Software Development,
 	, McGraw Hill},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84874322625&partnerID=40&md5=16c8ea08dee5204b958c866b96471b6b}
 }
 
@@ -10112,6 +10196,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@51c98885
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@621fdb6; Conference
 	Code:85667},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Software processes have an important role to play in realizing organizational
 	strategies. When a software organization is about to decide on the
@@ -10197,6 +10282,7 @@
 	, Springer Berlin / Heidelberg},
   source = {Scopus},
   sponsors = {International Software Process Association (ISPA)},
+  stage2status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79960616089&partnerID=40&md5=337405badf5141d0471ab21dd3c308d5}
 }
 
@@ -10209,6 +10295,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7828cdb0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3ed81b71; Conference
 	Code:83418},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. E-Prod. E-Serv. E-Entertain., ICEEE},
   abstract = {A testing device for torque extraction generator based on IPC is presented
 	in this paper. It may be automatic and manual operating. Its hardware
@@ -10259,6 +10346,7 @@
   source = {Scopus},
   sponsors = {IEEE Consumer Electronics Society; Henan Polytechnic University; Huazhong
 	Normal University},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78651512396&partnerID=40&md5=86ab59fb92929647508aeca1ccdb94c7}
 }
 
@@ -10272,6 +10360,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6ab80552
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5765813a; Conference
 	Code:72984},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Can Conf Electr Comput Eng},
   abstract = {In software industry there is a common assumption that deployment
 	of software reliability engineering (SRE) contributes to huge overhead
@@ -10318,6 +10407,7 @@
 	LoadRunner, , www.mercury.com/us/products/loadrunner; NUnit, , http://www.nunit.org;
 	Visual Studio, , http://msdn2.microsoft.com/en-us/vstudio/default.aspx},
   source = {Scopus},
+  stage2status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-48749112091&partnerID=40&md5=6146d1015346dbe0b5ecf1caec0bb62a}
 }
 
@@ -10333,6 +10423,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@325d83b5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1971f9e8; Conference
 	Code:78770},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {WRI World Congr. Softw. Eng., WCSE},
   abstract = {Agile process models have evolved in the recent past to overcome the
 	problems associated with traditional models however, these are facing
@@ -10423,6 +10514,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3ffe2d31
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@48490cc9; Conference
 	Code:98899},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Conf Proc IEEE SOUTHEASTCON},
   abstract = {Agile software development and project management methodologies, such
 	as Scrum and Extreme Programming, have become very popular in quickly
@@ -10502,6 +10594,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2556d153
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66c8b34b; Conference
 	Code:74893},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Service-oriented architecture enables creation of enterprise-wide
 	and cross-enterprise flexible, dynamic business processes and agile
@@ -10591,6 +10684,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@bb17759
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@30127a0e; Conference
 	Code:76769},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {The high rate of systems development (SD) failure is often attributed
 	to the complexity of traditional SD methodologies (e.g. Waterfall)
@@ -10721,6 +10815,7 @@
   pages = {200-213},
   number = {2},
   note = {cited By (since 1996)80},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Eur. J. Inf. Syst.},
   abstract = {Tailoring of methods is commonplace in the vast majority of software
 	development projects and organisations. However, there is not much
@@ -10906,6 +11001,7 @@
   pages = {2241-2260},
   number = {10},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {J Syst Software},
   abstract = {Refactoring is recognized as an essential practice in the context
 	of evolutionary and agile software development. Recognizing the importance
@@ -11084,6 +11180,7 @@
   pages = {44-49},
   number = {5},
   note = {cited By (since 1996)5},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Commun ACM},
   abstract = {Cloud computing and the shift in the software industry toward Software
 	as a Serviceb (SaaS) using Agile development has led to tools and
@@ -11142,6 +11239,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2cc6ca21
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2f00537e; Conference
 	Code:82230},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {ESEM - Proce. ACM-IEEE Int. Symp. Empir. Softw. Eng. Measur.},
   abstract = {In this article, factors considered critical for the success of projects
 	managed using Scrum are correlated to the results of software projects
@@ -11233,6 +11331,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@59eeb766
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@474ab7aa; Conference
 	Code:80762},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - ACM Int. Workshop Empir. Assess. Softw. Eng. Lang. Technol.,
 	WEASELTech, Held IEEE/ACM Int. Conf. Autom. Softw. Eng.,},
   abstract = {The design of empirical experiments involves making design decisions
@@ -11298,6 +11397,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2600553a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5fdb6653; Conference
 	Code:88076},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Int. Symp. Inf., Commun. Autom. Technol., ICAT},
   abstract = {Although induction machines are reliable, they are subjected to some
 	failures; the understanding degradation behaviour of Induction Motors
@@ -11376,6 +11476,7 @@
   volume = {50},
   pages = {108-117},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Adv. Soft Comput.},
   abstract = {One of the key issues in development of Multi-agent System is following
 	the more suitable development process for a particular problem. This
@@ -11452,6 +11553,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@67358f0f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6d4356b8; Conference
 	Code:85674},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Technical debt assessments often follow a similar pattern across engagements.
 	In contrast, technical debt reduction projects can vary significantly
@@ -11495,6 +11597,7 @@
   pages = {17-27},
   number = {1-2},
   note = {cited By (since 1996)21},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {J Syst Software},
   abstract = {The emergence of various software development methodologies raises
 	the need to evaluate and compare their efficiencies. One way of performing
@@ -11611,6 +11714,7 @@
   pages = {35-39},
   number = {1},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Cutter IT J.},
   abstract = {Various aspects of Agile Specification Quality Control (SQC) are discussed.
 	The main purpose of Agile Specification Quality Control (SQC) is
@@ -11648,6 +11752,7 @@
   pages = {31-35},
   number = {7},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Cutter IT J.},
   abstract = {A number of agile methods are described that try to simplify project
 	management and systems implementation. Evolutionary project management
@@ -11693,6 +11798,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4485c973
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2b6cc02a; Conference
 	Code:86483},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {One of the greatest challenges to the evaluation of UX in video games
 	is to ascertain if the experience is appropriate for the game. Thus,
@@ -11757,6 +11863,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3228034d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@60f0cdf4; Conference
 	Code:74376},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Apart from source code, software infrastructures supporting agile
 	and distributed software projects contain traces of developer activity
@@ -11836,6 +11943,7 @@
   pages = {943-944},
   number = {9},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Software Pract Exper},
   abstract = {This focus section contains papers related to agile software development.
 	The papers address a range of research areas including the application
@@ -11881,6 +11989,7 @@
   pages = {530-563},
   number = {4},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Pattern Recogn. Image Anal.},
   abstract = {Algorithmic/software system (ASS) referred to as "Black Square" (BS)
 	is described. It is intended for scientific research and education
@@ -12055,6 +12164,7 @@
   pages = {444-473},
   number = {4},
   note = {cited By (since 1996)8},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J. Manuf. Technol. Manage.},
   abstract = {Purpose - Generally, the implementation of lean manufacturing (LM)
 	starts with the development of value stream maps. However, it has
@@ -12337,6 +12447,7 @@
   pages = {219-249},
   number = {3},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Empir Software Eng},
   abstract = {To be relevant to the goals of an enterprise, an industrial software
 	engineering research organization must identify problems of interest
@@ -12455,6 +12566,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@660ff5a2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@21c79307; Conference
 	Code:83780},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Int. Conf. Comput. Intell. Softw. Eng., CiSE},
   abstract = {With Java runtime-based application has been widely used in our enterprise
 	application and mobile computing.We must maintain many machines in
@@ -12526,6 +12638,7 @@
   pages = {518-520},
   number = {6},
   note = {cited By (since 1996)13},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {We present a vectorized version of the MatLab (MathWorks Inc.) package
 	tweezercalib for calibration of optical tweezers with precision.
@@ -12646,6 +12759,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4feecd69
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@46efd17e; Conference
 	Code:69553},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {Agile Software Development continually measures both our product and
 	the process used to create it, to allow improvement. With increased
@@ -12698,6 +12812,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@537f43fa
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4847fce9; Conference
 	Code:73174},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc.- IEEE/ACIS Int. Conf. Comput. Inf. Sci., IEEE/ACIS ICIS},
   abstract = {XP (eXtreme Programming) has been used for reducing defects and dealing
 	with changing customer requirements effectively. It has been well
@@ -12765,6 +12880,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77fb59b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@516bd6f5; Conference
 	Code:69553},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {Group estimation of user stories is an important part of Extreme Programming
 	(XP), used for both planning releases and iterations. Research has
@@ -12821,6 +12937,7 @@
   pages = {297-323},
   number = {5},
   note = {cited By (since 1996)7},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {J. Software Maint. Evol.},
   abstract = {We introduce the observe-mine-adopt (OMA) paradigm that assists organizations
 	in making improvements to their software development processes without
@@ -13005,6 +13122,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@47bb5fbe
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5e8ad7bc; Conference
 	Code:81137},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Our tutorial for ICSE 2010 focuses on coaching agile software teams.
 	Based on eight years of experience guiding agile software projects
@@ -13059,6 +13177,7 @@
   pages = {124-137},
   number = {1},
   note = {cited By (since 1996)16},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {IEEE Trans Software Eng},
   abstract = {Bayesian networks, which can combine sparse data, prior assumptions
 	and expert judgment into a single causal model, have already been
@@ -13187,6 +13306,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@42f46ecd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3d967712; Conference
 	Code:80533},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {IEEE Int. Conf. Workshops Eng. Comput.-Based Syst., ECBS},
   abstract = {Agile and lean approaches favor self-organizing teams that use low-tech
 	solutions for communicating and negotiating project content and scope
@@ -13277,6 +13397,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4fb676e1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5436d6a9; Conference
 	Code:73478},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software customers want both sufficient product quality and agile
 	response to requirements changes. Formal software requirements tracing
@@ -13385,6 +13506,7 @@
   pages = {60-65},
   number = {2},
   note = {cited By (since 1996)31},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Software},
   abstract = {An overview is given on test-first design and the creation of testable
 	code for Web applications. It is explained how testing has been critical
@@ -13416,6 +13538,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3072737
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4a9f8d6e; Conference
 	Code:76415},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - Int. Conf. Softw. Test., Verif., Validation, ICST},
   abstract = {Unit testing component-based distributed systems traditionally involves
 	testing functional concerns of the application logic throughout the
@@ -13530,6 +13653,7 @@
   pages = {22-23},
   number = {5},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Graph. Arts Mon.},
   abstract = {The closed-loop color systems, combining color measurement hardware
 	and process control software to continually monitor and ink densities
@@ -13562,6 +13686,7 @@
   pages = {389-398},
   number = {3},
   note = {cited By (since 1996)80},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Parallel Comput},
   abstract = {The communication performance of the Interl iPSC/860, Paragon XP/S
 	and the Meiko CS-2 are compared using the COMMS1 benchmark from the
@@ -13606,6 +13731,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@fc55f71
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66fcfbcd; Conference
 	Code:72507},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. - AGILE},
   abstract = {This report examines how the VeriSign Managed Security Services team
 	(MSS) has successfully extended agile software development practices
@@ -13656,6 +13782,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@376e9d03
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3f064c63; Conference
 	Code:77188},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Progr. Biomed. Opt. Imaging Proc. SPIE},
   abstract = {A Total Quality Management (TQM) approach can be used to analyze data
 	from biomedical optical and imaging platforms of tissues. A shift
@@ -13792,6 +13919,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@514513fe
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@e23b261; Conference
 	Code:62464},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. of the Ann. SIGSCE Conf. on Innovation and Technol. in Comput.
 	Sci. Educ. (ITiSCE)},
   abstract = {The development of a managed learning environment (MLE) by students
@@ -13835,6 +13963,7 @@
   pages = {620-623},
   number = {9},
   note = {cited By (since 1996)11},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {A routine for histogram analysis of images has been written in the
 	object-oriented, graphical development environment LabVIEW. The program
@@ -13936,6 +14065,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@c55e2bf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5a996fec; Conference
 	Code:88624},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Malays. Conf. Softw. Eng., MySEC},
   abstract = {In this paper we propose a tool-based approach called CMMIbySCRUM
 	to improve CMMI-based processes with Agile technique such as Scrum.
@@ -14007,6 +14137,7 @@
   pages = {16-26},
   number = {21},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Int. J. Digit. Content Technol. Appl.},
   abstract = {In this paper we propose a tool-based approach called CMMIbyScrum
 	to improve CMMI-based processes with Agile technique such as Scrum.
@@ -14100,6 +14231,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@130a6e46
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@11cdbf6e; Conference
 	Code:83841},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. Asia Pac. Softw. Eng. Conf. APSEC},
   abstract = {This paper describes how scrum method was customized for outsourced
 	e-commerce software projects. While the waterfall process was used
@@ -14163,6 +14295,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@62692c88
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66eac731; Conference
 	Code:80836},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Conf Hum Fact Comput Syst Proc},
   abstract = {Perceptual, cognitive and motor deficits cause many older adults to
 	have difficulty conducting pointing tasks on computers. Many strategies
@@ -14366,6 +14499,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1b8e51ea
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1ca3e7c8; Conference
 	Code:97210},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {Although some researchers have studied agile techniques of software
 	development using simulation, simulation studies of actual agile
@@ -14542,6 +14676,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4b08b5f9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@28e314eb; Conference
 	Code:70864},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Agile development and software reuse are both recognized as effective
 	ways of improving time to market and quality in software engineering.
@@ -14613,6 +14748,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4eff340c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54b22858; Conference
 	Code:72135},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software process improvement has been a focus of industry for many
 	years. To assist with the implementation of process improvement,
@@ -14707,6 +14843,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e8f796a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4d6c3607; Conference
 	Code:81373},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Measurement of software size from user requirements is crucial for
 	the estimation of the developmental time and effort. COSMIC, an ISO/IEC
@@ -14830,6 +14967,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@21387320
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@10e4aea; Conference
 	Code:97864},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {CEUR Workshop Proc.},
   abstract = {Agile methods are the response to turbulent software development environments
 	and requirements definitions differs in these methods from what is
@@ -14908,6 +15046,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@60180b22
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4a831677; Conference
 	Code:44238},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Conf Tools Artif Intell},
   abstract = {In this paper, we present new results on the automated generalization
 	of performance-related heuristics learned for knowledge-lean applications.
@@ -14954,6 +15093,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4f5345f3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@64157d34; Conference
 	Code:77505},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Int. Conf. Softw. Eng. - Companion Vol., ICSE},
   abstract = {This paper provides a metric for evaluating the agility of software
 	development projects and organizations. The metric is based on a
@@ -15029,6 +15169,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77e967a8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7c948418; Conference
 	Code:64179},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Conf. Proc. EUROMICRO},
   abstract = {In the last few years Agile methodologies appeared as a reaction to
 	traditional ways of developing software and acknowledge the need
@@ -15078,6 +15219,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@79614937
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@620df822; Conference
 	Code:98106},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - Lat.-Amer. Symp. Dependable Comput., LADC},
   abstract = {Online Failure Prediction is a cutting-edge technique for improving
 	the dependability of software systems. It makes extensive use of
@@ -15193,6 +15335,7 @@
   pages = {140-143},
   number = {8},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {PC World (San Francisco CA)},
   abstract = {The features of some uninterruptible power supply (UPS) equipment
 	are discussed. The APC's Back-UPS ES 725 Broadband, costs $75 and
@@ -15225,6 +15368,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@11c19d03
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3e2b3910; Conference
 	Code:86573},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. - Agile Conf., Agile},
   abstract = {Systematic works at CMMI level 5 and uses Lean Software Development
 	as a driver for optimizing software processes. Many of the optimizations
@@ -15280,6 +15424,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@364c2c32
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@42e9a277; Conference
 	Code:69895},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. Euromicro Conf. Softw. Eng. Adv. Applic.},
   abstract = {In situations where software systems are developed under formal contractual
 	arrangements it is common for the buyer and supplier to dispute whether
@@ -15370,6 +15515,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@749a90dd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f9cd8f9; Conference
 	Code:78926},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Conf Object Orient Program Syst Lang Appl OOPSLA},
   abstract = {The Toyota Production System promotes "pull" scheduling to reduce
 	the production of parts that do not comply to what the customer needs.
@@ -15467,6 +15613,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7bdc089
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3aab6657; Conference
 	Code:91246},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Int. Workshop Emerg. Trends Softw. Metrics, WETSoM - Proc.},
   abstract = {Continuous Integration is an Agile Practice for the continuous integration
 	of new Source Code into the Code Base including the automated compile,
@@ -15539,6 +15686,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7519c740
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6f6876cf; Conference
 	Code:95665},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {ICIAFS - Proc.: IEEE Int. Conf. Inf. Autom. Sustainability},
   abstract = {This paper comprehends our work on assessing the feasibility of utilizing
 	different NoSQL databases in handling a huge tree data structure
@@ -15630,6 +15778,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@353bf787
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@73f7db5e; Conference
 	Code:85407},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {IEEE-CS Conf. Softw. Eng. Educ. Train., CSEE T - Proc.},
   abstract = {Waterfall and Extreme Programming are two software project methods
 	used for project management. Although there are a number of opinions
@@ -15696,6 +15845,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5aa0fadd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7eb5f1a6; Conference
 	Code:88140},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - IEEE Int. Conf. Trust, Secur. Priv. Comput. Commun., TrustCom,
 	IEEE Int. Conf. Embedded Softw. Syst., ICESS},
   abstract = {Although dynamic analysis is immune to polymorphic, metamorphic, and
@@ -15798,6 +15948,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@385ec216
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@55184f43; Conference
 	Code:95287},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - Int. Symp. Softw. Reliab. Eng. Workshops, ISSREW},
   abstract = {The needs for rapid software release to the market are increasing.
 	We notice the limitation for sequential software development like
@@ -15872,6 +16023,7 @@
   volume = {3154},
   pages = {1-17},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {It's a fact of life that organizations love to reorganize. Reorganizations
 	have a profound effect on the way product lines are governed. We
@@ -15924,6 +16076,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a0e0223
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1dae4cfd; Conference
 	Code:98919},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {Recommender Systems are a hot application area these days, made popular
 	by well known web sites. The problem of predicting user preferences
@@ -15987,6 +16140,7 @@
   pages = {2045-2058},
   number = {11},
   note = {cited By (since 1996)4},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {J Syst Software},
   abstract = {Integrating human-computer interaction (HCI) activities in software
 	engineering (SE) processes is an often-expressed desire. Two metrics
@@ -16122,6 +16276,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4f806ff8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@79372b8e; Conference
 	Code:89003},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. India Softw. Eng. Conf., ISEC},
   abstract = {This paper analyzes different technical quantitative aspects of ERP
 	systems development and maintenance in agile approach context. ERP
@@ -16196,6 +16351,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@334f954b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2dd2893e; Conference
 	Code:77488},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Int. Symp. Softw. Reliab. Eng.},
   abstract = {While commercial Off-the-Shelf (COTS) operating systems (OS) have
 	long been widely used, the issue regarding their robustness is far
@@ -16308,6 +16464,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4d7b4b36
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5986edf7; Conference
 	Code:70820},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Conf Machine Learning Cybernetics, ICMLC},
   abstract = {Quality and productivity are two of the most important factors in
 	software development. Quality based software productivity improvement
@@ -16369,6 +16526,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5fad68cf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@71bc1f1b; Conference
 	Code:75756},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. Ann. Hawai'i Int. Conf. Syst. Sci., HICSS},
   abstract = {Most of the agile methods mainly concentrate on the development phase.
 	None of them however is explicitly dedicated to the evolution and
@@ -16435,6 +16593,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17a10fac
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f0bf152; Conference
 	Code:82351},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. - IEEE/ACIS Int. Conf. Comput. Inf. Sci., ICIS},
   abstract = {In this paper, we present a software cost estimation model for agile
 	development which can help estimate concrete development costs for
@@ -16513,6 +16672,7 @@
   pages = {99-111},
   number = {2},
   note = {cited By (since 1996)6},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Behav Inf Technol},
   abstract = {The aim of the research described in this paper is to gain a qualitative
 	understanding of how cohesiveness relates to personality type, performance
@@ -16658,6 +16818,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@246265b9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@38046758; Conference
 	Code:93850},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. Eur. Conf. Inf. Syst., ECIS},
   abstract = {One of the key measures of the resilience of a project is its ability
 	to reach completion on time and on budget, regardless of the turbulent
@@ -16872,6 +17033,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@60bb6a11
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3030b3b4; Conference
 	Code:73064},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {AICCSA - IEEE/ACS Int. Conf. Comput. Syst. Appl.},
   abstract = {Because of several vulnerabilities in software products and high amount
 	of damage caused by them, software developers are enforced to produce
@@ -16944,6 +17106,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@31f7f8e5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@ef59c04; Conference
 	Code:81535},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {ICENT - Int. Conf. Educ. Netw. Technol.},
   abstract = {The emergence of software offshore outsourcing phenomena hits every
 	country positively and one of the offshore client/vendor attractng
@@ -17057,6 +17220,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@34e5c3c3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@58975256; Conference
 	Code:75628},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
   abstract = {One of the key objectives of Business Process Modelling is to better
 	understand and visualise business processes in order to improve and/or
@@ -17127,6 +17291,7 @@
   volume = {149},
   pages = {75-88},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Stud. Comput. Intell.},
   abstract = {Due to the complexity and size of embedded software together with
 	strong demands on time-to-market and quality, testing is a crucial
@@ -17203,6 +17368,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@731f62a4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@11853808; Conference
 	Code:74377},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {The achievement of quantifiable business impact is an essential goal
 	of improvement activities in software development. Traditionally,
@@ -17286,6 +17452,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@41f4b3a5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@283e3777; Conference
 	Code:76734},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Int. Conf. Softw. Test., Verif., Validation Workshops, ICSTW},
   abstract = {Agile development methods have gained momentum in the last few years
 	and, as a consequence, test-driven development has become more prevalent
@@ -17393,6 +17560,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@12e5e5c2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@334f2d3f; Conference
 	Code:94489},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {GraphiCon - Int. Conf. Comput. Graph. Vis., Proc.},
   abstract = {Precise measurements of human body surface geometric parameters are
 	very important for wide variety of applications such as medicine,
@@ -17456,6 +17624,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2373f68f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@12403878; Conference
 	Code:69469},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {In this paper, we discuss interactions between XP (eXtreme Programming)
 	practices. We discuss 2 case studies of introducing XP practices
@@ -17517,6 +17686,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@228e75aa
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@36cefd9f; Conference
 	Code:70234},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Workshop Rapid Syst Prototyping},
   abstract = {This paper describes a lightweight framework for prototyping runtime
 	reconfigurable systems in a Xilinx Virtex-II Pro FPGA. The framework
@@ -17586,6 +17756,7 @@
   pages = {599-624},
   number = {4},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Softw. Qual. J.},
   abstract = {Many software-development organizations have recently started to adopt
 	agile practices in order to benefit from the improvements they clearly
@@ -17719,6 +17890,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4222d05f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7b9e2ee4; Conference
 	Code:71164},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software development in offshoring settings with distributed teams
 	presents particular challenges for all participants. Process models
@@ -17802,6 +17974,7 @@
   pages = {81-89},
   number = {2},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {IEEE Software},
   abstract = {Recent studies have repeatedly found that smaller modules are proportionally
 	more defect-prone. In this article, the authors formulate and test
@@ -17886,7 +18059,7 @@
 }
 
 @ARTICLE{KrÃ¡l201010,
-  author = {KrÃ¡l, J.a b and Å½emliÄ�ka, M.a },
+  author = {KrÃ¡l, J.a b and Å½emliÄ�ka, M.a},
   title = {SOA worlds},
   journal = {Communications in Computer and Information Science},
   year = {2010},
@@ -17897,6 +18070,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a068a5a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@33651fda; Conference
 	Code:83372},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Commun. Comput. Info. Sci.},
   abstract = {Service orientation and service-oriented architecture (SOA) are a
 	successful philosophy, even the leading edge of current software
@@ -18009,6 +18183,7 @@
   pages = {650-664},
   number = {10},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {A package has been developed for calculating analytic expressions
 	for forces and torques onto an arbitrarily shaped convex tracer (aerosol)
@@ -18131,6 +18306,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@50cdc24c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@748f3505; Conference
 	Code:80234},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Am. Nucl. Soc. - Am. Nucl. Soc. Int. Top. Meet. Nucl. Plant Instrum.,
 	Control, Hum.-Mach. Interface Technol.},
   abstract = {The contribution describes the new instrumentation and control (I&C)
@@ -18224,6 +18400,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4e85cdbb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3285d843; Conference
 	Code:81567},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {Agile developers are generally reluctant to non-agile practices. Promoted
 	by senior software practitioners, agile methods were intended to
@@ -18312,6 +18489,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e702bce
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@564bf0fe; Conference
 	Code:79959},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {ISEC - Proc. India Softw. Eng. Conf.},
   abstract = {In the IT industry, companies look at various ways to reduce operational
 	cost, space, lead time and at the same time increase productivity,
@@ -18374,6 +18552,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5a3b0391
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@586752de; Conference
 	Code:73065},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - Int. Conf. Networking, ICN},
   abstract = {TCP-SYN attack is one of the commonly used DDoS attacks aimed at bringing
 	down a computer system connected to Internet. There has been an increased
@@ -18466,6 +18645,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@696926bf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@766efba9; Conference
 	Code:73942},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Agile Software Development Methods are nowadays wide spread and accepted.
 	From the Software Measurement point-of-view not all metrics and methods
@@ -18521,6 +18701,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7394cae6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2d94fd52; Conference
 	Code:73114},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Aust Software Eng Conf ASWEC},
   abstract = {Agile Software Development Methods are nowadays wide spread and accepted.
 	From the Software Measurement point-of-view not all metrics and methods
@@ -18579,6 +18760,7 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@458e3ac9
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7cb585cb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@71631263},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. Int. Conf. Softw. Eng. Res. Pract., SERP},
   abstract = {Agile Software Development Methods are nowadays wide spread and accepted.
 	From the Software Measurement point-of-view not all metrics and methods
@@ -18637,6 +18819,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3b813874
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@20a16631; Conference
 	Code:86894},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. Int. Conf. Electr. Eng. Informatics, ICEEI},
   abstract = {Software development is a series of processes activity involving more
 	than one person, especially in medium to large software projects.
@@ -18747,6 +18930,7 @@
   pages = {251-273},
   number = {2},
   note = {cited By (since 1996)4},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Turk J Electr Eng Comput Sci},
   abstract = {Several communication techniques are investigated in the first part
 	of this paper: software radio, cognitive radio and encrypted communications.
@@ -18930,6 +19114,7 @@
   pages = {654-667},
   number = {11},
   note = {cited By (since 1996)12},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {J Syst Archit},
   abstract = {With the recent emergence of agile software development technologies,
 	the software community is awaiting sound, empirical investigation
@@ -19009,6 +19194,7 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@17d715b9
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@29d330e9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@68302672},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Int. Conf. Front. Educ.: Comput. Sci. Comput. Eng., FECS},
   abstract = {We report on the successful process of transitioning a 4th-year university
 	software engineering capstone course from a waterfall approach to
@@ -19081,6 +19267,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4297842a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6966038d; Conference
 	Code:46971},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc IEEE Int Conf Rob Autom},
   abstract = {Agile manufacturing systems can benefit significantly from a database
 	support. This paper describes AMDS, an agile manufacturing database
@@ -19117,6 +19304,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@741022c0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f59a6c7; Conference
 	Code:78450},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Asian Control Conf., ASCC},
   abstract = {This paper presents a fault detection and diagnosis (FDD) method for
 	unmanned ground vehicles (UGVs) operating in multi agent systems.
@@ -19194,6 +19382,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@78707356
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1ea450e0; Conference
 	Code:83606},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {In software development, it is important to mediate various concerns
 	coming from user experience (UX) designers and application developers.
@@ -19307,6 +19496,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3729cecd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@19c81106; Conference
 	Code:77501},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. ICSE Workshop Softw. Dev. Governance, SDG},
   abstract = {We studied how a middle-sized Finnish company employing agile methods
 	governs its software product development. Through observations and
@@ -19381,6 +19571,7 @@
   pages = {1420-1431},
   number = {9},
   note = {cited By (since 1996)35},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comput. Geosci.},
   abstract = {The ROCKMAG ANALYZER is a software to determine rock magnetic parameters
 	from a broad variety of rock magnetic measurements. This software
@@ -19489,6 +19680,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@13558245
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@52db89ed; Conference
 	Code:74193},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {This paper is an in-depth study on the basis of the passed summary
 	of relevant technologies. Multi-channel ring electrode has been developed
@@ -19583,6 +19775,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@e0e82f9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5ab8b0a4; Conference
 	Code:75024},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comp. Agric. Nat. Resour. - Proc. World Cong.},
   abstract = {One of the major challenges to food security in the developing world
 	is how to provide an adequate but not excessive application of nutrients
@@ -19681,6 +19874,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1ad7539c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2eb23488; Conference
 	Code:76734},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Int. Conf. Softw. Test., Verif., Validation Workshops, ICSTW},
   abstract = {With recent increased expectations for quality, and the growth of
 	agile processes and test driven development, developers are expected
@@ -19801,6 +19995,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5c47ade0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@65e87c74; Conference
 	Code:71154},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Fifth Int. Conf. Commun. Internet Inf. Technol.},
   abstract = {Data warehouses (DWs) must be agile and continuously evolve to meet
 	changing business needs. While change management in DW is frequently
@@ -19889,6 +20084,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6d4b5167
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6bcd793f; Conference
 	Code:94227},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Int. Conf. Inf. Manage., Innov. Manage. Ind. Eng., ICIII},
   abstract = {Agility is one of key solutions to responding to changing surroundings.
 	Enterprise Information systems (EISs) are main support for enterprise
@@ -19971,6 +20167,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1513fc85
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@53278a92; Conference
 	Code:75774},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Eur. Radar Conf. Proc., EuRAD},
   abstract = {Polarimetric agile radar is able to transmit and receive two dual-orthogonal
 	signals simultaneously. Some special requirements for the receivers
@@ -20032,6 +20229,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7de7b471
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@76f7a74a; Conference
 	Code:71177},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Spyware infections are becoming extremely pervasive, posing a grave
 	threat to Internet users' privacy. Control of such an epidemic is
@@ -20137,6 +20335,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@56fbaba3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@24c186f2; Conference
 	Code:77132},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {ISPASS - Int. Symp. Perform. Anal. Syst. Softw.},
   abstract = {We describe and evaluate two new, independently-applicable power reduction
 	techniques for power management on processors that support dynamic
@@ -20305,6 +20504,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@27aee7a7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4bea994b; Conference
 	Code:67693},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Jt Conf Neural Networks},
   abstract = {In this paper a Real-Valued Time-Delayed Neural Network (RVTDNN) is
 	utilized to build a baseband behavioral model of a 3G power amplifier.
@@ -20362,6 +20562,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@23776b92
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7537506e; Conference
 	Code:73739},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - Agile Conf.},
   abstract = {Five years ago, Healthwise began transitioning into an Agile and Lean
 	organization. In 2007, four years after introduction to Agile, Healthwise
@@ -20401,6 +20602,7 @@
   pages = {1413-1420},
   number = {7},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {WSEAS Trans. Comput.},
   abstract = {This paper presents a new flexible software and a complementary hardware
 	system for process identification, controller design, analysis and
@@ -20479,6 +20681,7 @@
   pages = {27-44},
   number = {1},
   note = {cited By (since 1996)6},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Inf. Syst. Manage.},
   abstract = {Requirements change with the ebbs and flows of a business. Applications
 	must be able to react to changes in the business model and, likewise,
@@ -20564,6 +20767,7 @@
   pages = {915-925},
   number = {9},
   note = {cited By (since 1996)23},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Int J Hum Comput Stud},
   abstract = {Agile Software Development methodologies have grown in popularity
 	both among academic researchers and industrial practitioners. Among
@@ -20649,6 +20853,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3a1513f4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3dd115f6; Conference
 	Code:77825},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {This paper focuses on the production of authoring tools that teachers
 	may use to prototype interactive geographical web applications. We
@@ -20755,6 +20960,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@25a9a272
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@23e7fdaf; Conference
 	Code:70372},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Code coverage and mutation score measure how thoroughly tests exercise
 	programs and how effective they are, respectively. The objective
@@ -20911,6 +21117,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3afb26eb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3eb82c8d; Conference
 	Code:67894},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Background: Test-driven development (TDD) and pair programming are
 	software development practices popularized by eXtreme Programming
@@ -21037,6 +21244,7 @@
   pages = {567-576},
   number = {6},
   note = {cited By (since 1996)2},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Prod Plann Control},
   abstract = {Agility is the ability of a project to respond to a changing environment
 	effectively. This may include the capability of a project to be adapted
@@ -21145,6 +21353,7 @@
   pages = {241-247},
   number = {5},
   note = {cited By (since 1996)4},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {Elektroteh Vestn Electrotech Rev},
   abstract = {We describe a metrics plan for monitoring and improving the performance
 	of the software development process based on the Scrum agile method.
@@ -21221,6 +21430,7 @@
   pages = {1605-1617},
   number = {10},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:3]},
   abbrev_source_title = {WSEAS Trans. Comput.},
   abstract = {The aim of this paper is to determine the level of compliance of AGIT
 	model, developed during our previous research for measuring Scrum-based
@@ -21333,6 +21543,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@56a6d121
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@61ebf9f8; Conference
 	Code:69955},
+  __markedentry = {[ekupiain:1]},
   abstract = {The speed of today's worms demands automated detection, but the risk
 	of false positives poses a difficult problem. In prior work, we proposed
 	a host-based intrusion-detection system for worms that leveraged
@@ -21472,6 +21683,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5bace35d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@33831db0; Conference
 	Code:80405},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Int. Microw. Workshop Ser. "RF Front-ends Softw. Defined Cognitive
 	Radio Solut.", IMWS - Proc.},
   abstract = {In this paper, we present GaAs MMIC based reconfigurable RF MEMS impedance
@@ -21544,6 +21756,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4a3a5b56
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3d42912c; Conference
 	Code:92969},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Assoc. Inf. Sys. - Amer. Conf. Inf. Sys., AMCIS: Reaching New Heights},
   abstract = {Trust is increasingly becoming an important area of research in software
 	development with the proliferation of agile methodologies. In this
@@ -21683,6 +21896,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@21e247bf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@ed45dfa; Conference
 	Code:63590},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {A software engineering department in a Daimler-Chrysler business unit
 	was highly professional at developing embedded software for busses
@@ -21763,6 +21977,7 @@
   pages = {640-648},
   number = {8},
   note = {cited By (since 1996)11},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Comput Phys Commun},
   abstract = {The Invar package is introduced, a fast manipulator of generic scalar
 	polynomial expressions formed from the Riemann tensor of a four-dimensional
@@ -21846,6 +22061,7 @@
   pages = {218-263},
   number = {2},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J. Univers. Comput. Sci.},
   abstract = {The primary goal of most OSs (Operating Systems) is the efficient
 	use of computer systems software and hardware resources. Since Windows
@@ -21997,6 +22213,7 @@
   pages = {377-399},
   number = {3},
   note = {cited By (since 1996)37},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Inf. Syst. Res.},
   abstract = {In this paper, we draw on control theory to understand the conditions
 	under which the use of agile practices Iis most effective in improving
@@ -22222,6 +22439,7 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@e964ab2
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2d01f399
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5b1fd8e4},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. Int. Conf. Softw. Eng. Res. Pract., SERP},
   abstract = {Agile Development Methodologies have evolved since the mid 90's and
 	today most Software Development and IT Organizations have adopted
@@ -22272,6 +22490,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6f1c515c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2c21a801; Conference
 	Code:97333},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - Int. Conf. Qual. Inf. Commun. Technol., QUATIC},
   abstract = {Refactoring, aims to improve the design of existing code to cope with
 	foreseen software architecture evolution. The selection of the optimum
@@ -22413,6 +22632,7 @@
   pages = {1460-1471},
   number = {9},
   note = {cited By (since 1996)4},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J Syst Software},
   abstract = {Objective: Comparison of program defects caused by programmer pairs
 	and solo developers. Design: Analysis of programs developed during
@@ -22478,6 +22698,7 @@
   volume = {83},
   pages = {193-203},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {ISPRS J. Photogramm. Remote Sens.},
   abstract = {Efficient data processing is a long-standing challenge in remote sensing.
 	Effective and efficient algorithms are required for product generation
@@ -22698,6 +22919,7 @@
   pages = {24-31},
   number = {1},
   note = {cited By (since 1996)22},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {IEEE Software},
   abstract = {Software process assessments are typically the first step to commencing
 	software process improvement. Small software companies find that
@@ -22790,6 +23012,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@37f3cc27
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66e03123; Conference
 	Code:72738},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Workshop Networking Technol. Softw. Defined Radio Netw., SDR},
   abstract = {While mechanisms exist to instantiate common security functionality
 	such as confidentiality and integrity, little has been done to define
@@ -22904,6 +23127,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@39daa244
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@40d33c08; Conference
 	Code:72833},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Annu. IEEE Commu. Soc. Conf. Sens., Mesh Ad Hoc Commu. Netw., SECON},
   abstract = {While mechanisms exist to instantiate common security functionality
 	such as confidentiality and integrity, little has been done to define
@@ -23015,6 +23239,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@79007a3e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@e59ba82; Conference
 	Code:80678},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Build systems are responsible for transforming static source code
 	artifacts into executable software. While build systems play such
@@ -23111,6 +23336,7 @@
   volume = {3134},
   pages = {164-174},
   note = {cited By (since 1996)0},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Many students begin to form their software development habits in introductory
 	programming courses. Although problem-solving strategies and other
@@ -23222,6 +23448,7 @@
   pages = {921-929},
   number = {6},
   note = {cited By (since 1996)2},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Transp. Res. Part C Emerg. Technol.},
   abstract = {The increasing span of control of Air Traffic Control enterprise automation
 	(e.g. Flight Schedule Monitor, Departure Flow Management), along
@@ -23355,6 +23582,7 @@
   pages = {599-617},
   number = {6},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Empir Software Eng},
   abstract = {This study assesses the Shodan survey as an instrument for measuring
 	an individuals or a teams adherence to the extreme programming (XP)
@@ -23518,6 +23746,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@758ab869
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@665131c8; Conference
 	Code:93855},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Eur. Conf. Inf. Syst., ECIS},
   abstract = {The rise of Software as a Service (SaaS) platforms is driven by the
 	current trend towards customer-oriented, agile and scalable service
@@ -23607,6 +23836,7 @@
   pages = {113-121},
   number = {5},
   note = {cited By (since 1996)13},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Commun Mag},
   abstract = {We present the details of a portable, powerful, and flexible software-defined
 	radio development platform called the Kansas University Agile Radio
@@ -23669,6 +23899,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7fb08b7f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1f968057; Conference
 	Code:69526},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. Int. Conf. Aspect-oriented Softw. Dev't.},
   abstract = {Usually, aspects enhance a software product by being composed - or
 	woven - into it. Here, on the other hand, we use aspects to support
