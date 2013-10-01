@@ -35259,7 +35259,7 @@
 	- An Analysis of Graduate and Freshmen Student Data. In: Empirical
 	Assessment in Software Engineering (EASE 2003) (2003)},
   source = {Scopus},
-  stage2status = {Unclear},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-50949125152&partnerID=40&md5=955fca8b967389ae23d2936538fb0ba3}
 }
 
@@ -35381,7 +35381,7 @@
   source = {Scopus},
   sponsors = {IEEE Computer Society; Microsoft Research; SigSoft; Universidad Politecnica
 	Madrid; Ministerio de Educacion Y Ciencia},
-  stage2status = {Unclear},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-47949108130&partnerID=40&md5=f49d8287afdf6ecd2d912c5ed83f04b8}
 }
 
