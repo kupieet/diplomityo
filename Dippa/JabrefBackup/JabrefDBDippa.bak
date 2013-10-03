@@ -150,6 +150,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2179316f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1b9c7f94; Conference
 	Code:81931},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - Agile Conf., AGILE},
   abstract = {In this paper we present a statistically tested evidence about how
 	quality and success rate are correlated with variables reflecting
@@ -173,6 +174,7 @@
 	Science, Southampton SO17 1BJ, United Kingdom; email: n.abbas@ecs.soton.ac.uk},
   document_type = {Conference Paper},
   doi = {10.1109/AGILE.2010.16},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\8KEUTQWJ\\Abbas et al. - 2010 - The Impact of Organization, Project and Governance.pdf:PDF},
   isbn = {9780769541259},
   journal = {Proceedings - 2010 Agile Conference, AGILE 2010},
   keywords = {Agile projects governance; Correlations; Empirical research; Project
@@ -1045,6 +1047,7 @@
   pages = {269-274},
   number = {3},
   note = {cited By (since 1996)28},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {J Syst Software},
   abstract = {Software project tracking and project plan adjustment are two important
 	software engineering activities. The class growth shows the design
@@ -1077,6 +1080,7 @@
 	P.O. Box 1172, Dhahran 31261, Saudi Arabia; email: mohammad@alshayeb.com},
   document_type = {Article},
   doi = {10.1016/j.jss.2004.02.002},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\NR9CA7J2\\Alshayeb and Li - 2005 - An empirical study of system design instability me.pdf:PDF},
   issn = {01641212},
   keywords = {Feedback; Java programming language; Metric system; Object oriented
 	programming; Project management; Software engineering, Agile software
@@ -1718,6 +1722,7 @@
   correspondence_address1 = {Ambu, W.; AgileTec, Via G. Murat, 26, 09134 Cagliari, Italy; email:
 	w.ambu@agiletec.it},
   document_type = {Conference Paper},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\T2G7JNTE\\Ambu et al. - 2006 - Studying the Evolution of Quality Metrics in an Ag.pdf:PDF},
   isbn = {3540350942; 9783540350941},
   issn = {03029743},
   keywords = {Codes (symbols); Database systems; Distributed computer systems; Portals;
@@ -35259,7 +35264,7 @@
 	- An Analysis of Graduate and Freshmen Student Data. In: Empirical
 	Assessment in Software Engineering (EASE 2003) (2003)},
   source = {Scopus},
-  stage2status = {Unclear},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-50949125152&partnerID=40&md5=955fca8b967389ae23d2936538fb0ba3}
 }
 
@@ -35381,7 +35386,7 @@
   source = {Scopus},
   sponsors = {IEEE Computer Society; Microsoft Research; SigSoft; Universidad Politecnica
 	Madrid; Ministerio de Educacion Y Ciencia},
-  stage2status = {Unclear},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-47949108130&partnerID=40&md5=f49d8287afdf6ecd2d912c5ed83f04b8}
 }
 

@@ -150,6 +150,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2179316f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1b9c7f94; Conference
 	Code:81931},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - Agile Conf., AGILE},
   abstract = {In this paper we present a statistically tested evidence about how
 	quality and success rate are correlated with variables reflecting
@@ -173,6 +174,7 @@
 	Science, Southampton SO17 1BJ, United Kingdom; email: n.abbas@ecs.soton.ac.uk},
   document_type = {Conference Paper},
   doi = {10.1109/AGILE.2010.16},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\8KEUTQWJ\\Abbas et al. - 2010 - The Impact of Organization, Project and Governance.pdf:PDF},
   isbn = {9780769541259},
   journal = {Proceedings - 2010 Agile Conference, AGILE 2010},
   keywords = {Agile projects governance; Correlations; Empirical research; Project
@@ -1045,6 +1047,7 @@
   pages = {269-274},
   number = {3},
   note = {cited By (since 1996)28},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {J Syst Software},
   abstract = {Software project tracking and project plan adjustment are two important
 	software engineering activities. The class growth shows the design
@@ -1077,6 +1080,7 @@
 	P.O. Box 1172, Dhahran 31261, Saudi Arabia; email: mohammad@alshayeb.com},
   document_type = {Article},
   doi = {10.1016/j.jss.2004.02.002},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\NR9CA7J2\\Alshayeb and Li - 2005 - An empirical study of system design instability me.pdf:PDF},
   issn = {01641212},
   keywords = {Feedback; Java programming language; Metric system; Object oriented
 	programming; Project management; Software engineering, Agile software
@@ -1701,6 +1705,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@b54b51c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@663e4713; Conference
 	Code:67905},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {This paper analyzes the development of a project initiated by a co-located
 	agile team that subsequently evolved into a distributed context.
@@ -1718,6 +1723,7 @@
   correspondence_address1 = {Ambu, W.; AgileTec, Via G. Murat, 26, 09134 Cagliari, Italy; email:
 	w.ambu@agiletec.it},
   document_type = {Conference Paper},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\T2G7JNTE\\Ambu et al. - 2006 - Studying the Evolution of Quality Metrics in an Ag.pdf:PDF},
   isbn = {3540350942; 9783540350941},
   issn = {03029743},
   keywords = {Codes (symbols); Database systems; Distributed computer systems; Portals;
@@ -2792,6 +2798,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3d460a2f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4146b316; Conference
 	Code:44661},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {One of the major concerns of any maintenance organization is to understand
 	and estimate the cost of maintenance releases of software systems.
@@ -2822,6 +2829,8 @@
   source = {Scopus},
   sponsors = {IEEE},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0029519035&partnerID=40&md5=366697400cf1b7daed45ce2b51a4b62a}
 }
 
@@ -2835,6 +2844,7 @@
   pages = {83-87},
   number = {6},
   note = {cited By (since 1996)24},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Software},
   abstract = {For nearly two decades, the Software Engineering Laboratory (SEL)
 	has worked to understand, assess, and improve software and the software-development
@@ -2859,6 +2869,8 @@
   publisher = {IEEE, Los Alamitos, CA, United States},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0029405924&partnerID=40&md5=e71e55dd4441c5fbc44b1241a1236b19}
 }
 
@@ -2998,6 +3010,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@64add8f5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@517ef076; Conference
 	Code:78413},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {Software reliability growth modeling aims to use data on experienced
 	failures for prediction of future quality levels. We analyze the
@@ -3197,6 +3210,7 @@
   pages = {87-101},
   number = {3},
   note = {cited By (since 1996)8},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEE Proc Software},
   abstract = {A variety of life cycle models for software development are generally
 	available. Many of the variations were composed to overcome problems
@@ -3314,6 +3328,8 @@
 	New York, 6th edn},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33745324025&partnerID=40&md5=715c3527892824dcb4f0fac6d6519512}
 }
 
@@ -3702,6 +3718,7 @@
   publisher = {IEEE, New York, NY, USA},
   note = {cited By (since 1996)2; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@14b52a81
 	; Conference Code:10046},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proceedings - International Conference on Software Engineering 9th.},
   abstract = {The Session Chairman reviews three papers on large-scale software
 	development written in different periods in the past. These papers
@@ -3735,6 +3752,7 @@
 	IEEE, New York, NY, USA; ACM, New York, NY, USA; Agence de l'Informatique,
 	Fr; et al},
   stage2status = {Include},
+  stage3status = {NotAgile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0023170490&partnerID=40&md5=d7c391e6942a711f6b9d3b54d80263ee}
 }
 
@@ -4198,7 +4216,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1af92020
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59ac22b5; Conference
 	Code:76926},
-  __markedentry = {[ekupiain:]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {AGILE is an ASI (Italian Space Agency) Small Scientific Mission dedicated
 	to high-energy astrophysics which was launched on April 23 2007 from
@@ -4296,7 +4314,7 @@
 	PII S0168900202010628},
   source = {Scopus},
   sponsors = {The International Society for Optical Engineering (SPIE); SPIE Europe},
-  stage2status = {Include},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67649162657&partnerID=40&md5=87022b11bde7a582ba45f821c58270b9}
 }
 
@@ -5325,6 +5343,7 @@
 	Padualaan 14, 3584 CH Utrecht, Netherlands; email: Tcheng@cs.uu.nl},
   document_type = {Conference Paper},
   doi = {10.1109/SDG.2009.5071334},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\9ZRFRADT\\Cheng et al. - 2009 - Controlling and monitoring agile software developm.pdf:PDF},
   isbn = {9781424437368},
   journal = {Proceedings of the 2009 ICSE Workshop on Software Development Governance,
 	SDG 2009},
@@ -5901,6 +5920,7 @@
 	Engineering Technical Council Newsletter, 14 (2), pp. 10-12},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {Roskaa},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0542397516&partnerID=40&md5=ad0df747f07753c56c00d53a303fb583}
 }
 
