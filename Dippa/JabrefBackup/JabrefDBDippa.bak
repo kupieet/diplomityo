@@ -3752,7 +3752,8 @@
 	IEEE, New York, NY, USA; ACM, New York, NY, USA; Agence de l'Informatique,
 	Fr; et al},
   stage2status = {Include},
-  stage3status = {NotAgile},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0023170490&partnerID=40&md5=d7c391e6942a711f6b9d3b54d80263ee}
 }
 
@@ -12523,6 +12524,8 @@
 	, May 19, 2009},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {ResultsNotBySDM},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77954756917&partnerID=40&md5=2ab0d4e6ba33a89ba7f224179d70aac0}
 }
 
@@ -12849,6 +12852,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77fb59b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@516bd6f5; Conference
 	Code:69553},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {Group estimation of user stories is an important part of Extreme Programming
 	(XP), used for both planning releases and iterations. Research has
@@ -12863,6 +12867,7 @@
 	it increased estimation error in the extreme cases. Â© 2006 IEEE.},
   affiliation = {Objectnet As, RuselÃ¸kkveien 14, 0251 Oslo, Norway},
   art_number = {1667560},
+  articletype = {Conference paper},
   correspondence_address1 = {Haugen, N.C.; Objectnet As, RuselÃ¸kkveien 14, 0251 Oslo, Norway;
 	email: nch@objectnet.no},
   document_type = {Conference Paper},
@@ -12907,6 +12912,7 @@
   pages = {297-323},
   number = {5},
   note = {cited By (since 1996)7},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {J. Software Maint. Evol.},
   abstract = {We introduce the observe-mine-adopt (OMA) paradigm that assists organizations
 	in making improvements to their software development processes without
@@ -13079,6 +13085,7 @@
 	to Perot Systems, , http://www.perotsystems.com/, [3 July 2003]},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Unclear},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0142165066&partnerID=40&md5=99027f9dd70545eb6c324eae142e2e39}
 }
 
@@ -13148,6 +13155,7 @@
   pages = {124-137},
   number = {1},
   note = {cited By (since 1996)16},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {IEEE Trans Software Eng},
   abstract = {Bayesian networks, which can combine sparse data, prior assumptions
 	and expert judgment into a single causal model, have already been
@@ -13166,6 +13174,7 @@
 	End Road, London E1 4NS, United Kingdom; email: hearty@dcs.qmul.ac.uk},
   document_type = {Article},
   doi = {10.1109/TSE.2008.76},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\KHH8WGNE\\Hearty et al. - 2009 - Predicting Project Velocity in XP Using a Learning.pdf:PDF},
   issn = {00985589},
   keywords = {Distributed parameter networks; Forecasting; Inference engines; Intelligent
 	networks; Marine biology; Programming theory; Risk assessment; Risk
@@ -13510,6 +13519,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3072737
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4a9f8d6e; Conference
 	Code:76415},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - Int. Conf. Softw. Test., Verif., Validation, ICST},
   abstract = {Unit testing component-based distributed systems traditionally involves
 	testing functional concerns of the application logic throughout the
@@ -13613,6 +13623,7 @@
   source = {Scopus},
   sponsors = {IEEE Computer Society},
   stage2status = {Include},
+  stage3reason = {NotAgile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67650177534&partnerID=40&md5=3e9d3c9a5b27017e133f42d542e99f67}
 }
 
