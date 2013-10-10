@@ -14214,6 +14214,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@130a6e46
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@11cdbf6e; Conference
 	Code:83841},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. Asia Pac. Softw. Eng. Conf. APSEC},
   abstract = {This paper describes how scrum method was customized for outsourced
 	e-commerce software projects. While the waterfall process was used
@@ -14234,6 +14235,7 @@
 	South Korea; Dept. of Computer Science and Engineering, Korea University,
 	Seoul, South Korea},
   art_number = {5693207},
+  articletype = {Conference paper},
   author_keywords = {Agile; Scrum; Software engineering},
   correspondence_address1 = {Hong, N.; Dept. of Software Engineering, Korea University, Seoul,
 	South Korea; email: h4022@nate.com},
@@ -14731,6 +14733,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4eff340c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54b22858; Conference
 	Code:72135},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software process improvement has been a focus of industry for many
 	years. To assist with the implementation of process improvement,
@@ -14826,6 +14829,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e8f796a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4d6c3607; Conference
 	Code:81373},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Measurement of software size from user requirements is crucial for
 	the estimation of the developmental time and effort. COSMIC, an ISO/IEC

@@ -13377,7 +13377,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4fb676e1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5436d6a9; Conference
 	Code:73478},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software customers want both sufficient product quality and agile
 	response to requirements changes. Formal software requirements tracing
@@ -13714,6 +13713,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@fc55f71
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66fcfbcd; Conference
 	Code:72507},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {Proc. - AGILE},
   abstract = {This report examines how the VeriSign Managed Security Services team
 	(MSS) has successfully extended agile software development practices
@@ -14205,7 +14205,7 @@
 }
 
 @CONFERENCE{Hong2010310,
-  author = {Hong, N.a and Yoo, J.b and Cha, S.c },
+  author = {Hong, N.a and Yoo, J.b and Cha, S.c},
   title = {Customization of Scrum methodology for outsourced e-commerce projects},
   year = {2010},
   pages = {310-315},
@@ -23230,7 +23230,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@79007a3e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@e59ba82; Conference
 	Code:80678},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {Build systems are responsible for transforming static source code
 	artifacts into executable software. While build systems play such
@@ -23574,7 +23573,6 @@
   pages = {599-617},
   number = {6},
   note = {cited By (since 1996)1},
-  __markedentry = {},
   abbrev_source_title = {Empir Software Eng},
   abstract = {This study assesses the Shodan survey as an instrument for measuring
 	an individuals or a teams adherence to the extreme programming (XP)
@@ -41593,7 +41591,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@727ca107
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54300d49; Conference
 	Code:68524},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {Ubiquitous computing (ubicomp) environments often consist of many
 	embedded or handheld devices, either mobile or stationary, communicating
@@ -43053,7 +43050,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e2cf94d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1aa33db5; Conference
 	Code:98049},
-  __markedentry = {},
   abbrev_source_title = {Commun. Comput. Info. Sci.},
   abstract = {The proceedings contain 14 papers. The special focus in this conference
 	is on Software Quality and Testing, Requirements Engineering, Programming,
@@ -43092,7 +43088,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
 	Code:96247},
-  __markedentry = {},
   abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
   abstract = {The proceedings contain 18 papers. The topics discussed include: the
 	user information-based mobile application recommender system; towards
@@ -43236,7 +43231,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@24e30538
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@346bb273; Conference
 	Code:92888},
-  __markedentry = {},
   abbrev_source_title = {Proc. IASTED Int. Conf. Comput. Adv. Technol. Educ., CATE},
   abstract = {The proceedings contain 41 papers. The topics discussed include: from
 	traditional lecture to video-podcast based lecture, case studies;
@@ -43274,7 +43268,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4f6a5bc1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4fae04a2; Conference
 	Code:92923},
-  __markedentry = {},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {The proceedings contain 35 papers. The topics discussed include: elements
 	for a Cloud-based development environment: online collaboration,
@@ -43308,7 +43301,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4980d23a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@286a0389; Conference
 	Code:91536},
-  __markedentry = {},
   abbrev_source_title = {Int. Conf. Softw. Syst. Process, ICSSP - Proc.},
   abstract = {The proceedings contain 34 papers. The topics discussed include: process
 	analysis and optimization in emergency medicine; system processes
@@ -43381,7 +43373,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3048b699
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@75cc0f92; Conference
 	Code:94283},
-  __markedentry = {},
   abbrev_source_title = {CSI Int. Conf. Softw. Eng., CONSEG},
   abstract = {The proceedings contain 61 papers. The topics discussed include: techno-management
 	view of secured software development; enforcing the security within
@@ -43419,7 +43410,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@63776133
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@328e8e49; Conference
 	Code:92010},
-  __markedentry = {},
   abbrev_source_title = {ICSE Workshop Princ. Eng. Serv. Oriented Syst.},
   abstract = {The proceedings contain 15 papers. The topics discussed include: simulating
 	awareness in global software engineering: a comparative analysis
@@ -43489,7 +43479,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@365967c8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@27ac9758; Conference
 	Code:91880},
-  __markedentry = {},
   abbrev_source_title = {ENASE - Proc. Int. Conf. Eval. Novel Approaches Softw. Eng.},
   abstract = {The proceedings contain 28 papers. The topics discussed include: on
 	the predictability of software efforts using machine learning techniques;
@@ -43525,7 +43514,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@441de41a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66a89e6; Conference
 	Code:92985},
-  __markedentry = {},
   abbrev_source_title = {Amer. Conf. Inf. Sys., AMCIS},
   abstract = {The proceedings contain 481 papers. The special focus in this conference
 	is on Developments, Technologies, Knowledge, Benefits and Services
@@ -44059,7 +44047,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@609ecde0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59de5eae; Conference
 	Code:87009},
-  __markedentry = {},
   abbrev_source_title = {Proc. - IEEE Int. Symp. Netw. Comput. Appl., NCA},
   abstract = {The proceedings contain 57 papers. The topics discussed include: B-Neck:
 	a distributed and quiescent max-min fair algorithm; probabilistic
@@ -44097,7 +44084,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@28f23a67
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@36d85531; Conference
 	Code:86376},
-  __markedentry = {},
   abbrev_source_title = {Int. Conf. Distrib. Comput. Sens. Syst. Workshops, DCOSS},
   abstract = {The proceedings contain 87 papers. The topics discussed include: self-triggered
 	control over wireless sensor and actuator networks; STARS: static
@@ -44134,7 +44120,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@823b69b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@60a97e49; Conference
 	Code:98392},
-  __markedentry = {},
   abbrev_source_title = {Inf. Syst. Dev.: Asian Exp.},
   abstract = {The proceedings contain 47 papers. The topics discussed include: enterprise
 	systems in a service science context; a Petri net-based software
@@ -44171,7 +44156,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@59cc44ad
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@71b0e7e9; Conference
 	Code:84782},
-  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Chilean Comput. Sci. Soc. SCCC},
   abstract = {The proceedings contain 43 papers. The topics discussed include: a
 	software testing process for the reference model of Competisoft;
@@ -44210,7 +44194,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@14e99174
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@724c6165; Conference
 	Code:91877},
-  __markedentry = {},
   abbrev_source_title = {Proc. Int. Workshop Evidential Assess. Softw. Technol., EAST, Conjunction
 	ENASE},
   abstract = {The proceedings contain 9 papers. The topics discussed include: validating
@@ -44244,7 +44227,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@426f7c72
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@25534271; Conference
 	Code:92379},
-  __markedentry = {},
   abbrev_source_title = {ACM Int. Conf. Proc. Ser.},
   abstract = {The proceedings contain 27 papers. The topics discussed include: a
 	model based integration approach for reference models; measuring
@@ -44317,7 +44299,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@36334f00
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6287a4cc; Conference
 	Code:85242},
-  __markedentry = {},
   abbrev_source_title = {Commun. Comput. Info. Sci.},
   abstract = {The proceedings contain 30 papers. The topics discussed include: using
 	composition trees to model and compare software process; a modeling
@@ -44353,7 +44334,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@64e6cf24
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6d29783c; Conference
 	Code:89412},
-  __markedentry = {},
   abbrev_source_title = {Proc., IEEE Int. Conf. Cybern. Intelligent Syst., CIS},
   abstract = {The proceedings contain 23 papers. The topics discussed include: hybrid
 	particle swarm optimization with parameter selection approaches to
@@ -44426,7 +44406,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@117a1d8d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@682a1cf1; Conference
 	Code:94918},
-  __markedentry = {},
   abbrev_source_title = {CEUR Workshop Proc.},
   abstract = {The proceedings contain 9 papers. The topics discussed include: the
 	relevance of UX models and measures; divergence of user experience:
@@ -44495,7 +44474,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5f8d557e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@37e7f434; Conference
 	Code:83358},
-  __markedentry = {},
   abbrev_source_title = {Proc. - Int. Conf. Qual. Inf. Commun. Technol., QUATIC},
   abstract = {The proceedings contain 73 papers. The topics discussed include: teaching
 	software quality in an interdisciplinary course of engineering; abstract
@@ -44533,7 +44511,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3c180b5b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4e91a22f; Conference
 	Code:83299},
-  __markedentry = {},
   abbrev_source_title = {Commun. Comput. Info. Sci.},
   abstract = {The proceedings contain 22 papers. The topics discussed include: bin-packing-based
 	planning of agile releases; a method to measure productivity trends
@@ -44571,7 +44548,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7ed296f8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@33b5b4d4; Conference
 	Code:81370},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The proceedings contain 28 papers. The topics discussed include: a
 	qualitative survey of regression testing practices; investigating
@@ -44645,7 +44621,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@90cd543
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@29852659; Conference
 	Code:83281},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The proceedings contain 35 papers. The topics discussed include: a
 	frame manipulation algebra for ER logical stage modelling; data auditor:
@@ -44684,7 +44659,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2cde16e2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@28b06671; Conference
 	Code:80600},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {The proceedings contain 28 papers. The topics discussed include: continuous
 	coordination within the context of cooperative and human aspects
@@ -44723,7 +44697,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@10d460c0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@671be5e1; Conference
 	Code:74215},
-  __markedentry = {},
   abbrev_source_title = {Proc. - IEEE Int. Conf. Global Softw. Eng., ICGSE},
   abstract = {The proceedings contain 33 papers. The topics discussed include: on
 	the suitability of particular software development roles to global
@@ -44761,7 +44734,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@37993666
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2bc27f0e; Conference
 	Code:92616},
-  __markedentry = {},
   abbrev_source_title = {ACIS Proc. - Aus. Conf. Inf. Sys.},
   abstract = {The proceedings contain 104 papers. The special focus in this conference
 	is on information systems. The topics include: electronic commerce
@@ -44806,7 +44778,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@690b20ff
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59a37b39; Conference
 	Code:92973},
-  __markedentry = {},
   abbrev_source_title = {Amer. Conf. Inf. Sys., AMCIS},
   abstract = {The proceedings contain 67 papers. The special focus in this conference
 	is on information systems, mobile technologies and the latest advancements.
@@ -44987,7 +44958,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2466af3c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@517a9ecf; Conference
 	Code:97029},
-  __markedentry = {},
   abbrev_source_title = {Int. Conf. Softw. Eng. Theory Pract., SETP},
   abstract = {The proceedings contain 25 papers. The topics discussed include: extension
 	to the basic data types for better data representation; empirical
@@ -45026,7 +44996,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5bcab17d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@584ab49f; Conference
 	Code:72799},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The proceedings contain 31 papers. The topics discussed include: supporting
 	experience and information flow in software projects; goal-oriented
@@ -45061,7 +45030,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5ab7d49a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5ae6f8fd; Conference
 	Code:73996},
-  __markedentry = {},
   abbrev_source_title = {ENASE - Proc. Int. Conf. Eval. Novel Approaches Software Eng.},
   abstract = {The proceedings contain 25 papers. The topics discussed include: serving
 	ontologies across the web - challenges and approaches; building quality
@@ -45097,7 +45065,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@16b96bc9
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@675364c6; Conference
 	Code:75651},
-  __markedentry = {},
   abbrev_source_title = {ESEM: Proc. ACM-IEEE Int. Symp. Empir. Softw. Eng. Meas.},
   abstract = {The proceedings contain 60 papers. The topics discussed include: using
 	empirical methods to improve industrial technology transfer; socio-technical
@@ -45132,7 +45099,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5ebb7cf0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6707a126; Conference
 	Code:72520},
-  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Intell. Syst. Des. Appl., ISDA},
   abstract = {The proceedings contain 154 papers. The topics discussed include:
 	toward a theory of problem solving based on resource bounded computation
@@ -45171,7 +45137,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@19777d04
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@73b09eab; Conference
 	Code:97028},
-  __markedentry = {},
   abbrev_source_title = {Int. Conf. Softw. Eng. Theory Pract., SETP},
   abstract = {The proceedings contain 35 papers. The topics discussed include: explanation
 	of software entropy by golden ratio and logarithmic spiral; GUI path
@@ -45373,7 +45338,6 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@20b1ebe6
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@f659cf Through
 	org.apache.xalan.xsltc.dom.DOMAdapter@2d822587; Conference Code:68337},
-  __markedentry = {},
   abbrev_source_title = {Proc Aust Software Eng Conf ASWEC},
   abstract = {The proceedings contain 44 papers. The topics discussed include: an
 	agile approach to support incremental development of requirements
@@ -45415,7 +45379,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@36529451
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@67876db3; Conference
 	Code:68723},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The proceedings contain 19 papers. The topics discussed include: software
 	process improvement - EuroSPI 2006 Conference; developing software
@@ -45454,7 +45417,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@54d99a4f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1a21e40e; Conference
 	Code:80594},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {The proceedings contain 12 papers. The topics discussed include: investigating
 	the applicability of the evidence-based paradigm to software engineering;
@@ -45561,7 +45523,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6fe33b16
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2f3c5abd; Conference
 	Code:67381},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The proceedings contain 19 papers. The topics discussed include: framework
 	of agile patterns; deploying agile practices in organizations: a
