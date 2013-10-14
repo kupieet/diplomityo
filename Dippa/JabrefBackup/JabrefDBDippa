@@ -14733,7 +14733,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4eff340c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54b22858; Conference
 	Code:72135},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software process improvement has been a focus of industry for many
 	years. To assist with the implementation of process improvement,
@@ -14813,6 +14813,7 @@
 	of Sciences, Institute of Software (ISCAS); ISCAS Laboratory for
 	Internet Software Technologies (iTechs)},
   stage2status = {Include},
+  stage3reason = {NotAgile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-44649094734&partnerID=40&md5=469ee9f8cf16749d7d4821f755419f53}
 }
 
@@ -16130,7 +16131,7 @@
   pages = {2045-2058},
   number = {11},
   note = {cited By (since 1996)4},
-  __markedentry = {[ekupiain:]},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {J Syst Software},
   abstract = {Integrating human-computer interaction (HCI) activities in software
 	engineering (SE) processes is an often-expressed desire. Two metrics
@@ -16585,6 +16586,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17a10fac
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f0bf152; Conference
 	Code:82351},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc. - IEEE/ACIS Int. Conf. Comput. Inf. Sci., ICIS},
   abstract = {In this paper, we present a software cost estimation model for agile
 	development which can help estimate concrete development costs for
@@ -16650,6 +16652,7 @@
   sponsors = {IEEE Computer Society; Int. Assoc. Comput. Inf. Sci. (ACIS); Yamagata
 	University},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78649290563&partnerID=40&md5=3deafae36c88256ee52d12b7c47c1cd0}
 }
 
@@ -17967,6 +17970,7 @@
   pages = {81-89},
   number = {2},
   note = {cited By (since 1996)3},
+  __markedentry = {[ekupiain:4]},
   abbrev_source_title = {IEEE Software},
   abstract = {Recent studies have repeatedly found that smaller modules are proportionally
 	more defect-prone. In this article, the authors formulate and test

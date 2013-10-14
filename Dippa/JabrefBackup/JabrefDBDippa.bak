@@ -15157,6 +15157,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77e967a8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7c948418; Conference
 	Code:64179},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Conf. Proc. EUROMICRO},
   abstract = {In the last few years Agile methodologies appeared as a reaction to
 	traditional ways of developing software and acknowledge the need
@@ -15347,7 +15348,7 @@
 }
 
 @CONFERENCE{Jakobsen2011168,
-  author = {Jakobsen, C.R.a and Poppendieck, T.b },
+  author = {Jakobsen, C.R.a and Poppendieck, T.b},
   title = {Lean as a Scrum troubleshooter},
   year = {2011},
   pages = {168-174},
