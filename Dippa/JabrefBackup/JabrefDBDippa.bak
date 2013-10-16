@@ -150,7 +150,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2179316f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1b9c7f94; Conference
 	Code:81931},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. - Agile Conf., AGILE},
   abstract = {In this paper we present a statistically tested evidence about how
 	quality and success rate are correlated with variables reflecting
@@ -217,6 +217,7 @@
   source = {Scopus},
   sponsors = {Rally Software; VersionOne; ATSC; qaSignature; Fabasoft},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957976502&partnerID=40&md5=0f4bb84712afffb26c21012776be6a01}
 }
 
@@ -1136,6 +1137,7 @@
 	17-25},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-8344262370&partnerID=40&md5=b36f6d598de5cbb75cb9ce277e5bd1a8}
 }
 
@@ -1705,7 +1707,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@b54b51c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@663e4713; Conference
 	Code:67905},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {This paper analyzes the development of a project initiated by a co-located
 	agile team that subsequently evolved into a distributed context.
@@ -1774,6 +1776,7 @@
   source = {Scopus},
   sponsors = {Exoftware; Philips},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746340282&partnerID=40&md5=ed35f048179dd91e42c732aeadc56150}
 }
 
@@ -3010,7 +3013,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@64add8f5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@517ef076; Conference
 	Code:78413},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc Int Comput Software Appl Conf},
   abstract = {Software reliability growth modeling aims to use data on experienced
 	failures for prediction of future quality levels. We analyze the
@@ -3033,6 +3036,7 @@
 	email: arne.beckhaus@sap.com},
   document_type = {Conference Paper},
   doi = {10.1109/COMPSAC.2009.196},
+  file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\KGFNU8BG\\Beckhaus et al. - 2009 - Applicability of Software Reliability Growth Model.pdf:PDF},
   isbn = {9780769537269},
   issn = {07303157},
   journal = {Proceedings - International Computer Software and Applications Conference},
@@ -3095,6 +3099,7 @@
   source = {Scopus},
   sponsors = {IEEE; IEEE Computer Society},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449637972&partnerID=40&md5=65d8b062fd96f630017eab57b489f315}
 }
 
@@ -12900,6 +12905,7 @@
 	, submitted to ISESE 2006},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247603633&partnerID=40&md5=10cdb2d1f8080233fe0d603ef1cd9d0b}
 }
 
@@ -12912,7 +12918,7 @@
   pages = {297-323},
   number = {5},
   note = {cited By (since 1996)7},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J. Software Maint. Evol.},
   abstract = {We introduce the observe-mine-adopt (OMA) paradigm that assists organizations
 	in making improvements to their software development processes without
@@ -13085,7 +13091,8 @@
 	to Perot Systems, , http://www.perotsystems.com/, [3 July 2003]},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Unclear},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0142165066&partnerID=40&md5=99027f9dd70545eb6c324eae142e2e39}
 }
 
@@ -13155,7 +13162,7 @@
   pages = {124-137},
   number = {1},
   note = {cited By (since 1996)16},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {IEEE Trans Software Eng},
   abstract = {Bayesian networks, which can combine sparse data, prior assumptions
 	and expert judgment into a single causal model, have already been
@@ -13273,6 +13280,7 @@
 	Information and Software Technology, 45 (3), pp. 123-136},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-60449107898&partnerID=40&md5=a551836e27340b4b91bb00f6cde594d7}
 }
 
@@ -13623,6 +13631,7 @@
   sponsors = {IEEE Computer Society},
   stage2status = {Include},
   stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67650177534&partnerID=40&md5=3e9d3c9a5b27017e133f42d542e99f67}
 }
 
@@ -13713,7 +13722,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@fc55f71
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66fcfbcd; Conference
 	Code:72507},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. - AGILE},
   abstract = {This report examines how the VeriSign Managed Security Services team
 	(MSS) has successfully extended agile software development practices
@@ -13752,6 +13761,7 @@
 	Winning Solutions, , Addison-Wesley},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-46449114133&partnerID=40&md5=6313911bd0067f25ef9f2b0e98b5185c}
 }
 
@@ -14264,6 +14274,7 @@
 	(2006) Agile Estimating and Planning},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79951740828&partnerID=40&md5=0b1a7d7477277fb6bee94f99d1d2cdb3}
 }
 
@@ -14814,6 +14825,7 @@
 	Internet Software Technologies (iTechs)},
   stage2status = {Include},
   stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-44649094734&partnerID=40&md5=469ee9f8cf16749d7d4821f755419f53}
 }
 
@@ -14830,7 +14842,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e8f796a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4d6c3607; Conference
 	Code:81373},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Measurement of software size from user requirements is crucial for
 	the estimation of the developmental time and effort. COSMIC, an ISO/IEC
@@ -14941,6 +14953,8 @@
   source = {Scopus},
   sponsors = {Welsh Assembly Government (WAG)},
   stage2status = {Include},
+  stage3reason = {CannotSeparateResultsBySetting},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77955459519&partnerID=40&md5=7eda048e63900e4dd233fcc6c301a949}
 }
 
@@ -15196,6 +15210,7 @@
 	NC TR-2004-11},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-11844252039&partnerID=40&md5=80d5feee6bd15a57c35cc189d04a1f53}
 }
 
@@ -16131,7 +16146,7 @@
   pages = {2045-2058},
   number = {11},
   note = {cited By (since 1996)4},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J Syst Software},
   abstract = {Integrating human-computer interaction (HCI) activities in software
 	engineering (SE) processes is an often-expressed desire. Two metrics
@@ -16255,6 +16270,8 @@
 	with Computers, 13, pp. 127-145},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoApplication},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957342324&partnerID=40&md5=6222215fd55c7b6b3441714c14798b11}
 }
 
@@ -16653,6 +16670,7 @@
 	University},
   stage2status = {Include},
   stage3reason = {NotIndustrial},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78649290563&partnerID=40&md5=3deafae36c88256ee52d12b7c47c1cd0}
 }
 
@@ -17970,7 +17988,7 @@
   pages = {81-89},
   number = {2},
   note = {cited By (since 1996)3},
-  __markedentry = {[ekupiain:4]},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Software},
   abstract = {Recent studies have repeatedly found that smaller modules are proportionally
 	more defect-prone. In this article, the authors formulate and test
@@ -18052,6 +18070,8 @@
 	Embrace Change, , Addison-Wesley},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649261822&partnerID=40&md5=8b8a35ad55cb724046f239350c8aeb79}
 }
 
