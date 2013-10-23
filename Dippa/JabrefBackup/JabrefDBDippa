@@ -217,6 +217,7 @@
   source = {Scopus},
   sponsors = {Rally Software; VersionOne; ATSC; qaSignature; Fabasoft},
   stage2status = {Include},
+  stage3reason = {HUOM: 0 citations},
   stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77957976502&partnerID=40&md5=0f4bb84712afffb26c21012776be6a01}
 }
