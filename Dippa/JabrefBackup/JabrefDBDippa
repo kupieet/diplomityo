@@ -1774,6 +1774,7 @@
   source = {Scopus},
   sponsors = {Exoftware; Philips},
   stage2status = {Include},
+  stage3reason = {!?Onko valid paperi?!},
   stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746340282&partnerID=40&md5=ed35f048179dd91e42c732aeadc56150}
 }
@@ -2797,7 +2798,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3d460a2f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4146b316; Conference
 	Code:44661},
-  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {One of the major concerns of any maintenance organization is to understand
 	and estimate the cost of maintenance releases of software systems.
@@ -2843,7 +2843,6 @@
   pages = {83-87},
   number = {6},
   note = {cited By (since 1996)24},
-  __markedentry = {},
   abbrev_source_title = {IEEE Software},
   abstract = {For nearly two decades, the Software Engineering Laboratory (SEL)
 	has worked to understand, assess, and improve software and the software-development
@@ -3211,7 +3210,6 @@
   pages = {87-101},
   number = {3},
   note = {cited By (since 1996)8},
-  __markedentry = {},
   abbrev_source_title = {IEE Proc Software},
   abstract = {A variety of life cycle models for software development are generally
 	available. Many of the variations were composed to overcome problems
@@ -3719,7 +3717,6 @@
   publisher = {IEEE, New York, NY, USA},
   note = {cited By (since 1996)2; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@14b52a81
 	; Conference Code:10046},
-  __markedentry = {},
   abbrev_source_title = {Proceedings - International Conference on Software Engineering 9th.},
   abstract = {The Session Chairman reviews three papers on large-scale software
 	development written in different periods in the past. These papers
@@ -4218,7 +4215,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1af92020
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59ac22b5; Conference
 	Code:76926},
-  __markedentry = {},
   abbrev_source_title = {Proc SPIE Int Soc Opt Eng},
   abstract = {AGILE is an ASI (Italian Space Agency) Small Scientific Mission dedicated
 	to high-energy astrophysics which was launched on April 23 2007 from
@@ -12913,7 +12909,6 @@
   pages = {297-323},
   number = {5},
   note = {cited By (since 1996)7},
-  __markedentry = {},
   abbrev_source_title = {J. Software Maint. Evol.},
   abstract = {We introduce the observe-mine-adopt (OMA) paradigm that assists organizations
 	in making improvements to their software development processes without
@@ -13521,7 +13516,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3072737
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4a9f8d6e; Conference
 	Code:76415},
-  __markedentry = {},
   abbrev_source_title = {Proc. - Int. Conf. Softw. Test., Verif., Validation, ICST},
   abstract = {Unit testing component-based distributed systems traditionally involves
 	testing functional concerns of the application logic throughout the
@@ -14739,7 +14733,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4eff340c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@54b22858; Conference
 	Code:72135},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Software process improvement has been a focus of industry for many
 	years. To assist with the implementation of process improvement,
@@ -14837,7 +14830,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e8f796a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4d6c3607; Conference
 	Code:81373},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Measurement of software size from user requirements is crucial for
 	the estimation of the developmental time and effort. COSMIC, an ISO/IEC
@@ -16139,7 +16131,6 @@
   pages = {2045-2058},
   number = {11},
   note = {cited By (since 1996)4},
-  __markedentry = {},
   abbrev_source_title = {J Syst Software},
   abstract = {Integrating human-computer interaction (HCI) activities in software
 	engineering (SE) processes is an often-expressed desire. Two metrics
@@ -16595,7 +16586,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17a10fac
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f0bf152; Conference
 	Code:82351},
-  __markedentry = {},
   abbrev_source_title = {Proc. - IEEE/ACIS Int. Conf. Comput. Inf. Sci., ICIS},
   abstract = {In this paper, we present a software cost estimation model for agile
 	development which can help estimate concrete development costs for
@@ -17979,7 +17969,6 @@
   pages = {81-89},
   number = {2},
   note = {cited By (since 1996)3},
-  __markedentry = {},
   abbrev_source_title = {IEEE Software},
   abstract = {Recent studies have repeatedly found that smaller modules are proportionally
 	more defect-prone. In this article, the authors formulate and test
