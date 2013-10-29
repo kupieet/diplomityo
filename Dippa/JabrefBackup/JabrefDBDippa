@@ -1774,7 +1774,7 @@
   source = {Scopus},
   sponsors = {Exoftware; Philips},
   stage2status = {Include},
-  stage3reason = {!?Onko valid paperi?!},
+  stage3reason = {NoMetrics},
   stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746340282&partnerID=40&md5=ed35f048179dd91e42c732aeadc56150}
 }
