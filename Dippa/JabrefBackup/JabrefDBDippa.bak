@@ -1782,7 +1782,7 @@
 @ARTICLE{Anderson2010501,
   author = {Anderson, L.a and Jegadeesan, B.b and Johns, K.b and Lichtsinn, M.b
 	and Mullan, P.b and Rhodes, J.b and Sharma, A.b and Strong, R.b and
-	Zhou, R.b },
+	Zhou, R.b},
   title = {Enhancing collaboration with IBM's rational Jazztm},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
 	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
@@ -5324,6 +5324,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2a8efa2b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@10ca32e1; Conference
 	Code:77501},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. ICSE Workshop Softw. Dev. Governance, SDG},
   abstract = {Agile software development governance depends on successful monitoring
 	and control mechanisms. Software development managers generally are
@@ -8911,7 +8912,7 @@
 
 @CONFERENCE{Dong2011397,
   author = {Dong, X.a and Yang, Q.-S.a and Wang, Q.a and Zhai, J.a and Ruhe,
-	G.b },
+	G.b},
   title = {Value-risk trade-off analysis for iteration planning in eXtreme Programming},
   year = {2011},
   pages = {397-404},
@@ -9323,7 +9324,7 @@
 }
 
 @CONFERENCE{Dubinsky200611,
-  author = {Dubinsky, Y.a and Hazzan, O.b and Talby, D.c and Keren, A.c },
+  author = {Dubinsky, Y.a and Hazzan, O.b and Talby, D.c and Keren, A.c},
   title = {System analysis and design in a large-scale software project: The
 	case of transition to agile development},
   year = {2006},
