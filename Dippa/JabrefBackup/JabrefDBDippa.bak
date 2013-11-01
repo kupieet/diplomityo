@@ -19127,6 +19127,7 @@
   pages = {654-667},
   number = {11},
   note = {cited By (since 1996)12},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {J Syst Archit},
   abstract = {With the recent emergence of agile software development technologies,
 	the software community is awaiting sound, empirical investigation
@@ -19509,6 +19510,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3729cecd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@19c81106; Conference
 	Code:77501},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Proc. ICSE Workshop Softw. Dev. Governance, SDG},
   abstract = {We studied how a middle-sized Finnish company employing agile methods
 	governs its software product development. Through observations and
@@ -21909,6 +21911,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@21e247bf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@ed45dfa; Conference
 	Code:63590},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Proc Int Conf Software Eng},
   abstract = {A software engineering department in a Daimler-Chrysler business unit
 	was highly professional at developing embedded software for busses
@@ -21977,6 +21980,7 @@
 	for Computing Machinery, ACM SIGPLAN; IEEE Computer Society Technical
 	Council on Software Engineering},
   stage2status = {Include},
+  stage3reason = {NotAgile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-4544343290&partnerID=40&md5=87ab7f0d7ff28de8665fc128f7dc6875}
 }
 
@@ -22226,6 +22230,7 @@
   pages = {377-399},
   number = {3},
   note = {cited By (since 1996)37},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Inf. Syst. Res.},
   abstract = {In this paper, we draw on control theory to understand the conditions
 	under which the use of agile practices Iis most effective in improving
@@ -22440,6 +22445,7 @@
 	J. Amer. Statist. Assoc., 57, pp. 348-368},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70149092236&partnerID=40&md5=bb63e9ca694273d819fc6a31a0ab7fb1}
 }
 
@@ -22932,6 +22938,7 @@
   pages = {24-31},
   number = {1},
   note = {cited By (since 1996)22},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Software},
   abstract = {Software process assessments are typically the first step to commencing
 	software process improvement. Small software companies find that
@@ -23011,6 +23018,7 @@
 	2005, pp. 90-102. , IEEE CS Press},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33846899261&partnerID=40&md5=b008d5106da7328af5b126a300c38b39}
 }
 
@@ -24151,6 +24159,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7f5a7339
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@b42e481; Conference
 	Code:73478},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Refactoring is a hot and controversial issue. Supporters claim that
 	it helps increasing the quality of the code, making it easier to
@@ -24274,6 +24283,7 @@
 	pp. 7-11 (2003)},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-50949085401&partnerID=40&md5=1ce08d8c882229bff017b5332c4d5d09}
 }
 
@@ -24290,6 +24300,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@20a9d78a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6e85b5c6; Conference
 	Code:72799},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The use of refactoring as a way to continuously improve the design
 	and quality of software and prevent its aging is mostly limited to
@@ -24380,6 +24391,7 @@
 	Heidelberg},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-48249091200&partnerID=40&md5=3e2076431a491605933b70444a933841}
 }
 
@@ -24490,6 +24502,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@509dfc61
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@34246da0; Conference
 	Code:67901},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The improvement of the software development process through the development
 	and utilization of high quality and reusable software components
@@ -24590,6 +24603,7 @@
   sponsors = {Compagnia di San Paolo; Fondazione CRT; ICTeam; ISASE; Politecnico
 	di Torino},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746255420&partnerID=40&md5=accee5bfc9e3b3ec348e769914d0bfdf}
 }
 
