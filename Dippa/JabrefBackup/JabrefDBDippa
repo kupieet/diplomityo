@@ -26144,6 +26144,7 @@
   pages = {402-419},
   number = {6},
   note = {cited By (since 1996)66},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {IEEE Trans Software Eng},
   abstract = {Empirical validation of software metrics suites to predict fault proneness
 	in object-oriented (OO) components is essential to ensure their practical
@@ -26248,6 +26249,7 @@
 	Statistical Software, Resampling Stats, Oct},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34248659137&partnerID=40&md5=61fe7da676f4aa3e11c721d167a78e46}
 }
 
@@ -26372,6 +26374,7 @@
   pages = {171-197},
   number = {3},
   note = {cited By (since 1996)9},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {J. Software Maint. Evol.},
   abstract = {Empirical studies have shown complexity metrics to be good predictors
 	of testing effort and maintainability in traditional, imperative
@@ -26511,6 +26514,7 @@
 	on Software Engineering, 29 (4), pp. 297-310},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-46749124239&partnerID=40&md5=8840ae0772dd382e49972399d6426c48}
 }
 
@@ -28284,6 +28288,7 @@
   pages = {975-996},
   number = {9},
   note = {cited By (since 1996)7},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Software Pract Exper},
   abstract = {Responsiveness to customer needs is an important goal in agile and
 	lean software development. One major aspect is to have a continuous

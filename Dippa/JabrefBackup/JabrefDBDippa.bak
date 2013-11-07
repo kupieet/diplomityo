@@ -28043,6 +28043,7 @@
   pages = {411-433},
   number = {6},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Inf. Syst. J.},
   abstract = {While face-to-face interaction is fundamental in agile software development,
 	distributed environments must rely extensively on mediated interactions.
