@@ -1136,7 +1136,8 @@
 	17-25},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-8344262370&partnerID=40&md5=b36f6d598de5cbb75cb9ce277e5bd1a8}
 }
 
@@ -18076,7 +18077,7 @@
 	Embrace Change, , Addison-Wesley},
   source = {Scopus},
   stage2status = {Include},
-  stage3reason = {NoMetrics},
+  stage3reason = {NotAgile},
   stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649261822&partnerID=40&md5=8b8a35ad55cb724046f239350c8aeb79}
 }
@@ -24704,6 +24705,7 @@
 	A Guide for the Perplexed, , Boston: Addison-Wesley},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77954327651&partnerID=40&md5=648de188b59efb55bdce00c55d488a97}
 }
 
@@ -28458,7 +28460,7 @@
   pages = {654-693},
   number = {6},
   note = {cited By (since 1996)8},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Empir Software Eng},
   abstract = {So far, only few in-depth studies focused on the direct comparison
 	of process models in general, and between plan-driven and incremental/agile
@@ -28635,6 +28637,7 @@
 	Englewood Cliffs},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77956778252&partnerID=40&md5=fb9aac88b1f734fe33c4ef4c23cf4bdf}
 }
 
@@ -28766,6 +28769,8 @@
 	1193-1198},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {DuplicateInfo},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77953325355&partnerID=40&md5=030b8b7e2cbfc35b4d1066ecafcea690}
 }
 
@@ -31054,6 +31059,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@54cbeb46
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@17c36c28; Conference
 	Code:78441},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - Agile Conf., AGILE},
   abstract = {This paper is an experience report describing Abbott's adoption of
 	agile software development practices in its molecular diagnostics
@@ -31080,6 +31086,7 @@
   references = {(2006) Abbott 2006 Annual Report; (2009), http://www.agiletek.com/approach/methodology},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449650690&partnerID=40&md5=0403c5604c5fbf3cbf0b2438bf93e6c4}
 }
 
@@ -31210,6 +31217,8 @@
 	of Sciences, Institute of Software (ISCAS); ISCAS Laboratory for
 	Internet Software Technologies (iTechs)},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-44649097736&partnerID=40&md5=1513291c15ffea5d4d173d60873cbe66}
 }
 
@@ -32174,6 +32183,8 @@
 	Polytechnique (France); Software Improvement Group; CREST, King's
 	College London},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-47749108633&partnerID=40&md5=7a51256dca522cdf371aea2115f8d35d}
 }
 
@@ -32225,6 +32236,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3dc4e26c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@48ed4022; Conference
 	Code:73739},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - Agile Conf.},
   abstract = {This article discuss the experience of the software development group
 	working in Cochlearâ„¢ with introducing Scrum as an Agile methodology.
@@ -32261,6 +32273,7 @@
   source = {Scopus},
   sponsors = {VersionOne; Rally Software},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-52949122942&partnerID=40&md5=1837fc8eb49ef4b489e145d2eca4026d}
 }
 
@@ -32615,6 +32628,8 @@
 	Reading, MA},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-58449100198&partnerID=40&md5=a72d0add2ddc8a6201c27afe3e992196}
 }
 
@@ -33219,6 +33234,8 @@
 	on Software Reliability Engineering, pp. 34-45. , Denver, CO},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-46449114737&partnerID=40&md5=56007749ac3a677dfd551843c9d7fa94}
 }
 
@@ -33375,6 +33392,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@69714b78
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@d11e95d; Conference
 	Code:70864},
+  __markedentry = {},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {The automated collection of source code metrics can help agile teams
 	to understand the software they are producing, allowing them to adapt
@@ -33450,6 +33468,8 @@
 	Science 2004},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-38149020059&partnerID=40&md5=4211c1671a2edd080b61db7f56cf837f}
 }
 
@@ -33677,6 +33697,8 @@
 	, Wang and Wulf 1997},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84866244993&partnerID=40&md5=60dea46959a4dc9950fc0cfa829f0f98}
 }
 
@@ -34096,6 +34118,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3cc12929
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2d7561e8; Conference
 	Code:87477},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. - EUROMICRO Conf. Softw. Eng. Adv. Appl., SEAA},
   abstract = {Telecom Product Maintenance at two Ericsson R&D Centers implemented
 	Kanban. The third level maintenance is performed by the Customer
@@ -34146,6 +34169,7 @@
 	Cloud Softw. Program (www.cloudsoftwareprogram.org) Tivit Oy; Univ.
 	Oulu Dep. Inf. Process. Sci.},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-82955234100&partnerID=40&md5=b9c11760d8c68fdf34fa2ac9f474d46e}
 }
 
@@ -34611,6 +34635,8 @@
 	(ECOOP'06)},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {SingleTechnique},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84859865326&partnerID=40&md5=68ac6a2d0a242045f778a6e2247b76b1}
 }
 
@@ -34716,6 +34742,8 @@
   source = {Scopus},
   sponsors = {Int. Ass. Comput. Sci. Inf. Technol. (IACSIT)},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78650586833&partnerID=40&md5=019c328e6706b523999750d40a9069ad}
 }
 
@@ -34731,6 +34759,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@afbbd3b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1544721f; Conference
 	Code:70748},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
   abstract = {Agile software process may become one of the most rational development
 	patterns in global economic environment to assist software enterprise
@@ -36313,7 +36342,7 @@
 }
 
 @ARTICLE{Staron20113,
-  author = {Staron, M.a and Meding, W.b },
+  author = {Staron, M.a and Meding, W.b},
   title = {Monitoring bottlenecks in agile and lean software development projects
 	- A method and its industrial use},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
@@ -36412,7 +36441,7 @@
 }
 
 @ARTICLE{Staron20101069,
-  author = {Staron, M.a and Meding, W.b and SÃ¶derqvist, B.b },
+  author = {Staron, M.a and Meding, W.b and SÃ¶derqvist, B.b},
   title = {A method for forecasting defect backlog in large streamline software
 	development projects and its industrial evaluation},
   journal = {Information and Software Technology},
@@ -36888,6 +36917,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@15b8cbec
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1753fe18; Conference
 	Code:98835},
+  __markedentry = {[ekupiain:2]},
   abbrev_source_title = {Commun. Comput. Info. Sci.},
   abstract = {In this paper a tool is proposed to foster reflection in agile software
 	development teams. Based upon the qualitative model of Moe et al.
@@ -36984,6 +37014,7 @@
   note = {cited By (since 1996)2; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@36e7243a
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@fb77ff Through
 	org.apache.xalan.xsltc.dom.DOMAdapter@7d8306d9; Conference Code:86991},
+  __markedentry = {},
   abbrev_source_title = {SIGDOC - Proc. ACM Int. Conf. Des. Commun.},
   abstract = {When compared to traditional development methods, agile development
 	practices are associated with more direct communication and less
@@ -37068,6 +37099,8 @@
   source = {Scopus},
   sponsors = {ACM SIGDOC},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80054785040&partnerID=40&md5=1fc1717d708742e051345a1fb8999751}
 }
 
@@ -37883,6 +37916,7 @@
   pages = {14-17},
   number = {1},
   note = {cited By (since 1996)1},
+  __markedentry = {[ekupiain:1]},
   abbrev_source_title = {Dr. Dobb's J.},
   abstract = {The Informative Workspaces are used in building effective feedback
 	mechanisms, such as manually updating nonelectronic visual displays,
@@ -37905,6 +37939,7 @@
   language = {English},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-38049115059&partnerID=40&md5=4b0355b7825dd988169eac38d4564fbb}
 }
 
@@ -43099,7 +43134,7 @@
   source = {Scopus},
   sponsors = {INSTICC},
   stage2reason = {Brodie L},
-  stage2status = {Include},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84882344246&partnerID=40&md5=af1fcd5ebcfb22c8beac61172a81bbb4}
 }
 
