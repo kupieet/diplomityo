@@ -12,7 +12,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2267b55c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@46b3bca9; Conference
 	Code:72980},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. IEEE Int. Workshop Robot Human Interact. Commun.},
   abstract = {In this paper, we describe BuildBot, a robotic interface developed
 	to assist with the continuous integration process utilized by co-located
@@ -92,7 +92,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3ece8a5f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@69de832f; Conference
 	Code:64150},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Int Symp Person Indoor Mobile Radio Commun PIMRC},
   abstract = {This paper proposes an adaptive antenna tilting approach in an overlay
 	UMTS FDD network. The purpose is to introduce and investigate an
@@ -160,7 +160,7 @@
   number = {4-5},
   note = {cited By (since 1996)6; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@350002bd
 	; Conference Code:64651},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Rob Comput Integr Manuf},
   abstract = {The work in this paper introduces a model that focuses on three issues
 	at the shop floor of specialty chemicals manufacturing. The three
@@ -238,7 +238,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@36ebce04
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@332284c7; Conference
 	Code:69309},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {Agile practitioners pride themselves on highly productive, responsive,
 	low ceremony, lightweight, tacit knowledge processes with little
@@ -323,7 +323,7 @@
   volume = {88},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Railw Track Struct},
   abstract = {The Bangor & Aroostook Railroad (BAR) is one regional carrier that
 	has embraced computer technology. Lean in size and number, with 320
@@ -371,7 +371,7 @@
   pages = {485-495},
   number = {3},
   note = {cited By (since 1996)6},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ISA Trans},
   abstract = {Reliable, automated detection and diagnosis of abnormal behavior within
 	vapor compression refrigeration cycle (VCRC) equipment is extremely
@@ -471,7 +471,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@175a97b0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3c9cafca; Conference
 	Code:56939},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Instrum Aerosp Ind Proc Int Symp},
   abstract = {Automated detection and diagnosis of abnormal behavior within vapor
 	compression cycle equipment is extremely desirable for equipment
@@ -514,7 +514,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17405b19
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@21cd23c; Conference
 	Code:56530},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Pressure Vessels Piping Div Publ PVP},
   abstract = {Measuring the benefits of in-service inspection (ISI) is not easy.
 	There appears to be two basic stand points. The first sees ISI as
@@ -569,7 +569,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@776b445
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@23521d7; Conference
 	Code:95052},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Appl. Mech. Mater.},
   abstract = {The Software Engineering can be considered a new area. During its
 	recent history, many techniques applied for managing and producing
@@ -647,7 +647,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7d79391
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5a19189c; Conference
 	Code:98552},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Spring Tech. Conf. ASME Intern. Combust. Engine Div.},
   abstract = {An experimental investigation and a burning-rate analysis have been
 	performed on a production 1.4 liter CNG (compressed natural gas)
@@ -793,7 +793,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@67fa9cc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@27649369; Conference
 	Code:63875},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Seventeenth Int. Fla. Artif. Intell. Res. Soc. Conf. FLAIRS},
   abstract = {We introduce an agile process model for the development of diagnostic
 	knowledge systems. As key practices of this evolutionary process
@@ -867,7 +867,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1071b240
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@186d902f; Conference
 	Code:63502},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Intell Veh Symp Proc},
   abstract = {The DARPA Grand Challenge (DGC) was an opportunity to test autonomous
 	vehicles in a competitive situation. In addition to intelligent behaviour,
@@ -926,7 +926,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@344e4fb1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@152084b; Conference
 	Code:49139},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Workshop Enabling Technol Infrastruct Collab Enterp WET},
   abstract = {This paper describes the architecture and concept of operation of
 	a Framework for Adaptive Process Modeling and Execution (FAME). The
@@ -968,7 +968,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a76a08f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@722711a6; Conference
 	Code:49917},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Pressure Vessels Piping Div Publ PVP},
   abstract = {The presence of solids flow maldistributions is a common occurrence
 	in lean phase pneumatic conveying. As the gas and particles change
@@ -1050,7 +1050,7 @@
   pages = {20-22},
   number = {7},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Aerosp Am},
   abstract = {Digital Enterprise Lean Manufacturing Interactive Application (DELMIA),
 	which is used for engineering lean manufacturing processes is discussed.
@@ -1085,7 +1085,7 @@
   number = {394 PART 1},
   pages = {328-335},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Eur Space Agency Spec Publ ESA SP},
   abstract = {As part of its effort to develop the Flight Dynamics Distributed System
 	(FDDS), the National Aeronautics and Space Administration (NASA)
@@ -1136,7 +1136,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@70bab208
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@70fe6509; Conference
 	Code:89650},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Conf. Proc. Soc. Exp. Mech. Ser.},
   abstract = {The Frequency Domain Decomposition (FDD) technique is known as one
 	of the most user friendly and powerful techniques for operational
@@ -1202,7 +1202,7 @@
   pages = {316-331},
   number = {6},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Weld World Soudage Monde},
   abstract = {Hot straightening tests were performed on high strength structural
 	steels: TMCP steels produced by SSAB Tunnplat AB (Domex 390 YP and
@@ -1250,7 +1250,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3b904936
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7db696c6; Conference
 	Code:76659},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {BIODEVICES - Proc. Int. Conf. Biomed. Electron. Dev.},
   abstract = {A high-resolution Positron Emission Tomography (PET) scanner prototype,
 	named Clear-PEM, was developed by the Portuguese PET Consortium in
@@ -1367,7 +1367,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@778d2694
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@53dffbdd; Conference
 	Code:63503},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Int Symp Semicond Manuf Conf Proc},
   abstract = {Fully automated, touchless fab production would not be possible without
 	the new generation of factory control software designed to run factories
@@ -1433,7 +1433,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6ed91e05
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7042131d; Conference
 	Code:62073},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Int Gas Turbine Inst Publ IGTI},
   abstract = {An axial-swirl, lean premixed fuel injector typical of stationary
 	gas turbine combustors has been analyzed using Large Eddy Simulation
@@ -1518,7 +1518,7 @@
   publisher = {IEEE, New York, NY, USA},
   note = {cited By (since 1996)3; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@1db7c9ba
 	; Conference Code:10697},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abstract = {The authors describe how measurements, estimation, and management
 	interact to control software cost and quality in a large, long-lived
 	maintenance project. Measures of effort expended and work performed
@@ -1561,7 +1561,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6a42731c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@309369c4; Conference
 	Code:62588},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASHRAE Winter Meeting CD, Techn. Symp. Papers},
   abstract = {Automatic fault detection and diagnosis (FDD) in HVAC systems has
 	the potential to ensure the comfort of building occupants, decrease
@@ -1627,7 +1627,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a4aa9a6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2bc7d691; Conference
 	Code:72670},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Annu. Int. Symp. Microarchitecture MICRO},
   abstract = {This paper describes FAST, a novel simulation methodology that can
 	produce simulators that (i) are orders of magnitude faster than comparable
@@ -1777,7 +1777,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5f214a5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@58295faf; Conference
 	Code:49471},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc Int Conf Parallel Distrib Syst ICPADS},
   abstract = {This paper describes the design, implementation, and evaluation of
 	a parallel indexer called PAMIS for a polygonal 2D shape image database.
@@ -1829,7 +1829,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@670046d1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4329782b; Conference
 	Code:76399},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Adv. Commun. Technol. ICACT},
   abstract = {A time-to-market of mobile application software is usually very short
 	and it causes unstructured mobile application software. In this paper,
@@ -1884,7 +1884,7 @@
   pages = {40-42},
   number = {7737},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Engineer},
   abstract = {A survey, conducted by the Aberdeen Group, on the interaction between
 	lean and IT revealed that the choosing correct IT solutions is crucial
@@ -1922,7 +1922,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@33927ee6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@56c9487d; Conference
 	Code:70738},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ASEE Annu. Conf. Expos. Conf. Proc.},
   abstract = {Software engineering practices have been integrated into many computing
 	curricula in a variety of ways. Authors have written about integrating
@@ -1992,7 +1992,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@26ad9f7c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@50c199ba; Conference
 	Code:62067},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Heat Transfer Div Publ HTD},
   abstract = {Validation of computational fluid dynamics (CFD) predictions for spray
 	combustion application has been a challenging task due to difficulties
@@ -2102,7 +2102,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2c2ae3b4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@33cb5513; Conference
 	Code:66097},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Eng. Comput. Based Syst.},
   abstract = {A variety of life cycle models for software systems development are
 	generally available. However, it is generally difficult to compare
@@ -2222,7 +2222,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@20e33efe
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@273ca690; Conference
 	Code:69603},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc Annu Southeast Conf},
   abstract = {Software engineering's journey to maturity has been marked by the
 	advent of different development methodologies. While each paradigm
@@ -2279,7 +2279,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@56473e41
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5f4849a7; Conference
 	Code:64522},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Int. Symp. Softw. Reliab. Eng.},
   abstract = {Software testing is an integral part of the software development process.
 	Some software developers, particularly those who use the Extreme
@@ -2354,7 +2354,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@492c8008
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@889b2c0; Conference
 	Code:62403},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ASQ Annu. Qual. Congr. Proc.},
   abstract = {The past 20 years have been rife with changes to the information technology
 	industry ranging from code and fix, to structured methodologies,
@@ -2435,7 +2435,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@13def863
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@138535c6; Conference
 	Code:97715},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. ASME Turbo Expo},
   abstract = {Kerosene-type fuels are the most common aviation fuel, and an understanding
 	of their combustion properties is essential for achieving optimized
@@ -2590,7 +2590,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5314cf4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@67b329d5; Conference
 	Code:85096},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Conf. Proc. Soc. Exp. Mech. Ser.},
   abstract = {In this paper, the latest identification techniques both in the time
 	and in the frequency domains, are applied to the data obtained from
@@ -2675,7 +2675,7 @@
   pages = {104-111},
   number = {3},
   note = {cited By (since 1996)16},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Biomed. Tech.},
   abstract = {Background: Left cervical vagus nerve stimulation (VNS) using the
 	implanted NeuroCybernetic Prosthesis (NCP®) can reduce epileptic
@@ -2869,7 +2869,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2e0b1ef2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5c1cb97b; Conference
 	Code:99260},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {49th AIAA/ASME/SAE/ASEE Joint Propulsion Conf.},
   abstract = {The biofuel R-8 (a 50/50 mix of biofuel and Jet A) was tested in a
 	low NOX combustor concept developed by United Technologies Aerospace
@@ -2969,7 +2969,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4afd522c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3d1ded2a; Conference
 	Code:66729},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Int. Conf. Softw. Eng.},
   abstract = {A project-based capstone course aims at using software development
 	skills while performing a project in the course domain. One of our
@@ -3024,7 +3024,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@569e5536
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@34ec78a7; Conference
 	Code:69309},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {It is a significant challenge to implement and research agile software
 	development methods in organizations such as the army. Since it differs
@@ -3091,7 +3091,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5cf97f57
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@175871; Conference
 	Code:69216},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. 7th IASTED Int. Conf. Adv. Comp. Science Technol.},
   abstract = {This paper presents the results of measuring the completeness of software
 	requirements implementation and of comparing multiple software products
@@ -3157,7 +3157,7 @@
   pages = {32-35},
   number = {1},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Automot Eng (London)},
   abstract = {Meeting the challenge of forthcoming emissions legislation in Europe
 	must focus the attention of combustion systems engineers on the need
@@ -3198,7 +3198,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@599a5720
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@23ce23d5; Conference
 	Code:82092},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {AIAA Aerosp. Sci. Meet. Exhib.},
   abstract = {The effects of hydrogen addition on a lean-premixed swirl-stabilized
 	combustor operating on natural gas and air were studied. Measurements
@@ -3308,7 +3308,7 @@
   pages = {70-75},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ThyssenKrupp techforum},
   abstract = {ThyssenKrupp System Engineering has developed a Machine Diagnostic
 	Interface (MDI) for condition monitoring to protect high-grade investments
@@ -3350,7 +3350,7 @@
   pages = {85-102},
   number = {2},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Period Polytech Mech Eng},
   abstract = {Combustion noise is one of the main problems encountered in most of
 	practical combustion systems. An experimental investigation has been
@@ -3462,7 +3462,7 @@
   volume = {73},
   pages = {504-508},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {World Acad. Sci. Eng. Technol.},
   abstract = {Software development is moving towards agility with use cases and
 	scenarios being used for requirements stories. Estimates of software
@@ -3528,7 +3528,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4fb91181
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7f2c550a; Conference
 	Code:61296},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. of the 2nd Internet Meas. Workshop (IMW 2002)},
   abstract = {The state of the art in general purpose software systems for large-scale
 	traffic measurement has not progressed much past the venerable libpcap.
@@ -3613,7 +3613,7 @@
   pages = {70-72},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron. Des.},
   abstract = {The test and measurement (T&M) sector of the electronics industry
 	manages to maintain the electronic processes and standards which
@@ -3650,7 +3650,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@32d34430
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4c21c561; Conference
 	Code:92561},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Lean Constr.: New Paradigm Managing Cap. Proj. - IGLC Conf.},
   abstract = {Lean games can be a successful way to introduce Lean thinking but
 	identifying and removing learning barriers in the games are important
@@ -3734,7 +3734,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6b741928
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@131fc835; Conference
 	Code:58643},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Int Symp Assem Task Plan},
   abstract = {Next generation manufacturing system is strongly required to realize
 	flexible and agile production. For the purpose HMS Project of IMS
@@ -3796,7 +3796,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@63bcbaee
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7b949269; Conference
 	Code:64051},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Seventh IASTED Int. Conf. Comput. Graph. Imag.},
   abstract = {To provide health care and medical practice remotely over the network,
 	colour plays a very important part in producing reality situations.
@@ -3845,7 +3845,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2357be26
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5584c2ea; Conference
 	Code:81438},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {ASEE Annu. Conf. Expos. Conf. Proc.},
   abstract = {This paper describes the impact of an agile process support environment
 	in helping faculty manage software engineering capstone projects
@@ -3942,7 +3942,7 @@
   volume = {11},
   pages = {156-159},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Antennas Wirel. Propag. Lett.},
   abstract = {A low-profile microstrip patch antenna has been designed for tuning
 	on a discrete set of instant frequencies. The frequency reconfigurability
@@ -4041,7 +4041,7 @@
   volume = {63},
   pages = {76-80},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {World Acad. Sci. Eng. Technol.},
   abstract = {The aim of every software product is to achieve an appropriate level
 	of software quality. Developers and designers are trying to produce
@@ -4110,7 +4110,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@12c66fda
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@21d95ad7; Conference
 	Code:76723},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Int Mech Eng Congress Expos Proc},
   abstract = {Accurate modeling of engine knock onset is needed for control of SI
 	engine combustion and increase of thermal efficiency. This contribution
@@ -4214,7 +4214,7 @@
   pages = {32-37},
   number = {13},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Qual},
   abstract = {Multisensors metrology systems use two or more sensors to measure
 	a part in a single setup enabling more measurements on a single machine.
@@ -4254,7 +4254,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@20057271
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@459c6923; Conference
 	Code:89975},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IET Semin Dig},
   abstract = {Modern Enterprise Software Systems entail many challenges such as
 	availability, scalability, complexity and providing business agility.
@@ -4304,7 +4304,7 @@
   volume = {28},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Eng syst},
   abstract = {The predictive algorithms could be embedded within BAS to help operators
 	proactively detect when an alarm event may be triggered in the future.
@@ -4349,7 +4349,7 @@
   pages = {1808-1820},
   number = {11},
   note = {cited By (since 1996)88},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE J Solid State Circuits},
   abstract = {The ever-increasing demand for security in portable energy-constrained
 	environments that lack a coherent security architecture has resulted
@@ -4452,7 +4452,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@76aa4ea1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@271068e4; Conference
 	Code:98907},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Dig. Pap. IEEE Radio Freq. Integr. Circuits Symp.},
   abstract = {A tunable and highly digital RF frontend for multi-band TDD radios
 	is integrated in 45nm SOI CMOS. The PA absorbs the TX branch of the
@@ -4512,7 +4512,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3c1be3bc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4b046a78; Conference
 	Code:84270},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {Over the past several years scrum has grown to become the most commonly
 	used product development method at Adobe Systems. Large desktop software
@@ -4568,7 +4568,7 @@
   volume = {61},
   pages = {322-328},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {World Acad. Sci. Eng. Technol.},
   abstract = {Through inward perceptions, we intuitively expect distributed software
 	development to increase the risks associated with achieving cost,
@@ -4669,7 +4669,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@454c1ae6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@77a1595; Conference
 	Code:80065},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {Our company manages 25 software engineering teams across 6 products
 	using a single top-down Enterprise Scrum. We know of no other company
@@ -4735,7 +4735,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1a24ce08
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66527ca0; Conference
 	Code:72624},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. IEEE Int. Freq. Control Symp. Expos.},
   abstract = {We propose a novel dynamic voltage scaling (DVS) scheme that is specifically
 	directed towards 3D graphics-intensive interactive game applications
@@ -4828,7 +4828,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1a45d522
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5eabb8a7; Conference
 	Code:69270},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Symp Emerging Technol Fact Autom ETFA},
   abstract = {Intelligent software agent technology has been widely used in manufacturing
 	to make plants more agile and dynamic to satisfy frequently changed
@@ -4917,7 +4917,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@bcd6569
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59bcd68c; Conference
 	Code:95842},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IGLC - Conf. Int. Group Lean Constr.},
   abstract = {Building Information Modeling (BIM) and Lean Thinking have been used
 	separately as key approaches to overall construction projects' improvement.
@@ -4991,7 +4991,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@50743555
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7d5988b6; Conference
 	Code:80065},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {As agile software development principles and methods are being adopted
 	by large software product organizations it is important to understand
@@ -5188,7 +5188,7 @@
   pages = {263-269},
   number = {4},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {World Min. Surf. Undergr.},
   abstract = {The use of lignite as a secure and low-cost energy source is discussed.
 	Lignite being environmentally compatible, the ecological and social
@@ -5243,7 +5243,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6b83e776
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@20d12b1f; Conference
 	Code:42353},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Prod Eng Div Publ PED},
   abstract = {This paper presents a new abrasive-waterjet nozzle system with several
 	new features for automated and intelligent machining towards agile
@@ -5290,7 +5290,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@67aa15df
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f8218a4; Conference
 	Code:92642},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {More attention has been paid to the long-distance video monitoring
 	systems with the development of the Internet of things recently,
@@ -5354,7 +5354,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1ff09987
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6cef7e72; Conference
 	Code:68705},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Coll. Tech. Pap. AIAA Int. Com. Satelite Syst. Conf.},
   abstract = {A wireless revolution is quietly taking place in global communications
 	bought about by a new synergy of wireless technologies. The initial
@@ -5438,7 +5438,7 @@
   pages = {44-46},
   number = {4},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {MSI},
   abstract = {The deployment of wireless factory networks by manufacturers, despite
 	lingering concerns about security and reliability is discussed. Ford
@@ -5474,7 +5474,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6a7a45da
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@18021d3; Conference
 	Code:66729},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Int. Conf. Softw. Eng.},
   abstract = {Plan driven cultures are characterized by a strong belief in the plannability
 	and predictability of software development projects. The SEI-CMM,
@@ -5521,7 +5521,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4f412172
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3cfaec04; Conference
 	Code:64498},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Agile Dev. Conf. ADC},
   abstract = {The goal of many current process improvement efforts is to become
 	more agile by adopting an agile process. However, the results of
@@ -5568,7 +5568,7 @@
   pages = {30-34},
   number = {9},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Supply Chain Syst. Mag.},
   abstract = {Fiorucci Foods, a global supplier of processed meats, has implemented
 	a powerful new software for quality and achieving lean manufacturing.
@@ -5608,7 +5608,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17025600
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1a5c25cd; Conference
 	Code:55135},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Part Accel Conf},
   abstract = {In the X-band accelerator system for the Next Linear Collider Test
 	Accelerator (NLCTA), the Low Level RF (LLRF) drive system must be
@@ -5655,7 +5655,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@71191c11
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2781da19; Conference
 	Code:61338},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. of the 2nd Internat. Symp. on Instrument. Sc. and Technol.},
   abstract = {For agile manufacturing, the agile measurement and inspection system
 	(AMIS) must be researched and developed to satisfy the requirements
@@ -5710,7 +5710,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@11a0aab5
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4b275a1d; Conference
 	Code:70074},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Annu. Meet. Inst. Navig.},
   abstract = {In 2006, Taiwan joins the Asia Pacific Economic Cooperation (APEC)
 	regional GNSS test bed demonstration project, the goal is to facilitate
@@ -5805,7 +5805,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3c165828
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5ef5c8e9; Conference
 	Code:69445},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. World Congr. Intelligent Control Autom. WCICA},
   abstract = {A software-based system was developed for fault detection and diagnosis
 	(FDD) of control systems in typical thermal power plants. For the
@@ -5888,7 +5888,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3712349e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@c3c8d51; Conference
 	Code:66887},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Offshore Eur Conf Proc},
   abstract = {Historically, gas production to the Bacton gas terminal from the southern
 	UK sector of the North Sea has been predominately lean gas. In the
@@ -5931,7 +5931,7 @@
   pages = {113-122},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Int. J. Agile Manuf.},
   abstract = {In the last few years, agile methodologies appeared as an alternative
 	to the traditional ways of developing software. Moreover, they acknowledge
@@ -5985,7 +5985,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5d9e49a0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@42f3d764; Conference
 	Code:46582},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Ind Eng Res Conf Proc},
   abstract = {This paper addresses the problem of identifying existing parts that
 	are similar, in one or many characteristics, to a new part at the
@@ -6028,7 +6028,7 @@
   pages = {4-8},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {CrossTalk},
   abstract = {The application of Software Engineering Institute's (SEI SM) Capability
 	Maturity Model (CMM®), including CMM for Software (SW-CMM) and the
@@ -6069,7 +6069,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@43ae5d55
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6c719a29; Conference
 	Code:98327},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Int Mech Eng Congress Expos Proc},
   abstract = {Empirical investigations were carried out to explore the influence
 	of parameters such as exhaust flow temperature, exhaust flow rate,
@@ -6158,7 +6158,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7b4771a0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@f74fe9b; Conference
 	Code:84265},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {It studies the balance problems of cycle time of a flywheel production
 	line in this paper. Based on the working time measured using lean
@@ -6216,7 +6216,7 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@756beccb
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@873fa7 Through
 	org.apache.xalan.xsltc.dom.DOMAdapter@2f63ed36; Conference Code:86642},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IFAC Proc. Vol. (IFAC-PapersOnline)},
   abstract = {In this paper, an integrated computer simulator tool of rotary crane
 	with ship behavior in consideration of ship sway and load sway is
@@ -6305,7 +6305,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@b23b12e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@544548b8; Conference
 	Code:66321},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Annu. Conf. Exhibition},
   abstract = {Any healthcare organization embarking on a process improvement program
 	must first answer some tough questions: How and where do we start?
@@ -6377,7 +6377,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@138a3f6f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@594a9a6e; Conference
 	Code:60773},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Mil Commun Conf MILCOM},
   abstract = {The advent of "technically agile" communication devices, such as software-defined
 	radio (SDR), presents the military services with both a regulatory
@@ -6426,7 +6426,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@920e840
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4f6fc66e; Conference
 	Code:59101},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Mil Commun Conf MILCOM},
   abstract = {Advanced RF systems such as software-defined radio (SDR), given a
 	high degree of agility in spectrum access, modulation and routing
@@ -6474,7 +6474,7 @@
   pages = {14-16},
   number = {10},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Engineering},
   abstract = {The evolution of Microsoft Windows XP based machine vision control
 	system has allowed the transformation of 2D images into 3D calibrations.
@@ -6516,7 +6516,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@269ffa5d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@50ee037a; Conference
 	Code:73025},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Electr. Electron. Eng., ICEEE},
   abstract = {In this work we present the design and construction of a system for
 	electrocardiography of twelve derivations, low power, suministred
@@ -6609,7 +6609,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@566dbb0c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3e133d28; Conference
 	Code:72785},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Int. Symp. Precis. Clock Synchronization Meas., Control Commun.,
 	ISPCS Proc.},
   abstract = {In the literature, one can find many recommendations for clock designs
@@ -6669,7 +6669,7 @@
   volume = {33 LNEE},
   pages = {281-294},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Electr. Eng.},
   abstract = {On the surface, agile and risk management process models seem to constitute
 	two contrasting approaches. Risk management follows a heavyweight
@@ -6799,7 +6799,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@699bc7bd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@72567f75; Conference
 	Code:68265},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {Research on knowledge management (KM) readiness has matured. However,
 	recent organizational structures have emerged which prevent traditional
@@ -6905,7 +6905,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@11358d21
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@52c47a5a; Conference
 	Code:68559},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. IEEE Symp. Secur. Privacy},
   abstract = {Attackers and defenders of computer systems both strive to gain complete
 	control over the system. To maximize their control, both attackers
@@ -7070,7 +7070,7 @@
   pages = {277-282},
   number = {4},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Russ. Microelectr.},
   abstract = {An instrument is presented for measuring major MOSFET parameters.
 	It implements the method of charge pumping as well as providing static
@@ -7123,7 +7123,7 @@
   pages = {18},
   number = {8},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Concrete Prod},
   abstract = {Binmaster's latest version of the SmartBob software uses features
 	that are standard within Microsoft Windows XP to allow the local
@@ -7156,7 +7156,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7d21257f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@b24f507; Conference
 	Code:44277},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Mil Commun Conf MILCOM},
   abstract = {The Milstar system has capabilities that are not available in other
 	military-owned or commercial satellite communications systems. The
@@ -7204,7 +7204,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@75a21804
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@64d6eaf1; Conference
 	Code:65044},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE AFRICON Conf},
   abstract = {Friction Stir Welding (FSW) is a relatively new process developed
 	in the early 90's by The Welding Institute (TWI) of the United Kingdom.
@@ -7294,7 +7294,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@294b008a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7b107933; Conference
 	Code:68162},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Adv. Int. Conf. Telecom. Int. Conf. Internet Web Applic. Serv.},
   abstract = {DDoS flooding attacks are quite popular with hackers and they can
 	cause devastating impact on computer systems. Smurf attack is a type
@@ -7377,7 +7377,7 @@
   pages = {157-166},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Int. J. Agile Manuf.},
   abstract = {In today's competitive world, it is imperative for software industries
 	to use agility in the software development process. A recently published
@@ -7451,7 +7451,7 @@
   pages = {35},
   number = {10},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Cadalyst},
   abstract = {The features of ViewSonic VP231wb LCD display are discussed. This
 	23 inch monitor, with a native resolution of 1920 × 1200, is housed
@@ -7486,7 +7486,7 @@
   pages = {38},
   number = {12},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Cadalyst},
   abstract = {Various features of a Eizo FlexScan L885, a 20.1″ LCD monitor with
 	a 1600×1200 native resolution, are discussed. Display characteristics
@@ -7524,7 +7524,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@11f1f76f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@24aba19d; Conference
 	Code:64047},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. ASME Turbo Expo},
   abstract = {Recently, Honeywell has developed an unique industry capability of
 	a high-pressure spray diagnostics facility to characterize 3D spray
@@ -7612,7 +7612,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@41ffad72
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@78d43937; Conference
 	Code:92587},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IFAC Proc. Vol. (IFAC-PapersOnline)},
   abstract = {Global and lean supply chains subject manufacturers to sudden disruptions
 	of different severity that affect shops floors and performance. Due
@@ -7736,7 +7736,7 @@
   pages = {315-322},
   number = {SPEC. ISS.},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {VDI Ber.},
   abstract = {The use of electronics is relatively new to the off-road machine business.
 	As a result many product ideas are being valuated through a trial
@@ -7783,7 +7783,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3a7c95b1
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4947b576; Conference
 	Code:93924},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Lect. Notes Electr. Eng.},
   abstract = {An integrated method for rapid software development and effective
 	process management is presented in this chapter. The method follows
@@ -7856,7 +7856,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@74b8079c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5dfbcea1; Conference
 	Code:66322},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Annu. Int. Meet.},
   abstract = {Magnetic resonance imaging (MRI) has been widely applied in biological
 	research and diagnostics. The chemical shift magnetic resonance imaging
@@ -7947,7 +7947,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@76a1f7cb
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3936d46; Conference
 	Code:66321},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Annu. Conf. Exhibition},
   abstract = {Nonconformance tracking and recovery remains a major issue in large
 	complex manufacturing systems due to the complexity of manufacturing
@@ -8006,7 +8006,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5fa3da0b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7e40393a; Conference
 	Code:68529},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Conf Proc IEEE SOUTHEASTCON},
   abstract = {This research focused on the factors that impact implementing agile
 	software development methodologies. Extreme Programming is the most
@@ -8082,7 +8082,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@50368ca2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2d4b08d2; Conference
 	Code:82092},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {AIAA Aerosp. Sci. Meet. Exhib.},
   abstract = {A novel flame holder that makes use of a carbureted fuel injection
 	system (CFIS) has recently been developed. Initial testing of the
@@ -8157,7 +8157,7 @@
   pages = {147-160},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {J Ship Prod},
   abstract = {Manual visual inspection is by far the most widely used weld inspection
 	method. A given weld may be visually examined multiple times as parts
@@ -8208,7 +8208,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3cadc8ab
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@355171ac; Conference
 	Code:64331},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Third IEEE Int. Conf. Cogn. Inf. ICCI},
   abstract = {As eXtreme Programming (XP) has grown in popularity in both academia
 	and industry, pair programming, two programmers collaborating on
@@ -8294,7 +8294,7 @@
   pages = {123-128},
   number = {5},
   note = {cited By (since 1996)4},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Elektron. Elektrotech.},
   abstract = {We describe a case study that was conducted at the University of Ljubljana
 	with the aim of studying the behavior of development teams using
@@ -8395,7 +8395,7 @@
   pages = {73-76},
   number = {8},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Elektron. Elektrotech.},
   abstract = {Possible loss of management control is one of the greatest concerns
 	when adopting agile software development methods in industrial practice.
@@ -8487,7 +8487,7 @@
   pages = {1-111},
   number = {2601},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {VTT Tied Valt Tek Tutkimuskeskus},
   abstract = {This report presents some important factors related to safety-critical
 	software in machinery. The following subjects are considered in the
@@ -8606,7 +8606,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@21f2b4a6
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@45320fb3; Conference
 	Code:70739},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASEE Annu. Conf. Expos. Conf. Proc.},
   abstract = {As information technology continues to evolve, analysis of material
 	presented in a curriculum requires constant monitoring. Courses in
@@ -8677,7 +8677,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@43f7f4bd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4be4c727; Conference
 	Code:96307},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {In an increasingly complex technical environment, failure is accepted
 	as a way of maximizing potential, a way of growing up. Experience
@@ -8760,7 +8760,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@d5e175b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1c4f5e38; Conference
 	Code:98552},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Spring Tech. Conf. ASME Intern. Combust. Engine Div.},
   abstract = {Recent developments in numerical techniques and computational processing
 	power now permit time-dependent, multi-dimensional computational
@@ -8917,7 +8917,7 @@
   pages = {24-25},
   number = {JULY},
   note = {cited By (since 1996)6},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {J Inst Eng India Mech Eng Div},
   abstract = {Hydrogen is considered to be the fuel of future as it's use does not
 	lead to CO, CO 2 hydrocarbon (HC) emission. It can he used in existing
@@ -8987,7 +8987,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@66f7d412
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@18841e8e; Conference
 	Code:64159},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Conf. Rob. Autom. Mechatron.},
   abstract = {This paper presents a novel approach for the configuration and runtime
 	usage of user interfaces or Human Machine Interface (HMI) systems
@@ -9083,7 +9083,7 @@
   pages = {138-145},
   number = {2-3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int J Contin Eng Educ Life Long Learn},
   abstract = {Online learners utilise sophisticated electronic communication systems
 	and methods to engage in current distance learning environments.
@@ -9180,7 +9180,7 @@
   pages = {45-47},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Mod Mater Handl},
   abstract = {The importance of integrated systems, real-time performance management
 	(RPM), interoperability, and material handling control systems (MHCS),
@@ -9216,7 +9216,7 @@
   pages = {45},
   number = {10},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {MSI},
   abstract = {The use of software in analyzing the process variations and negative
 	trends in overall equipment effectiveness (OEE) for lean manufacturing
@@ -9247,7 +9247,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@26894230
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7d587113; Conference
 	Code:87997},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Concr. Pavement Des., Constr. Rehabil.},
   abstract = {Four concrete pavement sections in the Netherlands showed extensive
 	premature cracking and were in need of major maintenance. Since these
@@ -9313,7 +9313,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@33b39079
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@51d21273; Conference
 	Code:67269},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Eur Space Agency Spec Publ ESA SP},
   abstract = {To reduce development risks of next generation of Agile Earth Observation
 	Spacecraft, ESA funded the 2 years Technical Research Program named
@@ -9364,7 +9364,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@41d24a7b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5517f2ff; Conference
 	Code:69448},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv Astronaut Sci},
   abstract = {To reduce development risks of next generation of Agile Earth Observation
 	Spacecraft, ESA funded the 2 years Technical Research Program named
@@ -9414,7 +9414,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1bbdf32d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@53a81d95; Conference
 	Code:44452},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEE Colloq Dig},
   abstract = {This work deals with some of the principles upon which RAD projects
 	are managed, based on recent case studies and published methods.
@@ -9451,7 +9451,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@71024e9f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4e77e2af; Conference
 	Code:63435},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Veh Technol Conf},
   abstract = {In this paper we discuss a software oriented modem LSI. At first,
 	the target system is focused on 3GPP DS-FDD mode and signal processing
@@ -9516,7 +9516,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@39a55b15
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@16fedd44; Conference
 	Code:70041},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Symp. Softw. Reliab. Eng.},
   abstract = {The benefits that a software organization obtains from estimates of
 	product quality are dependent upon how early in the product cycle
@@ -9634,7 +9634,7 @@
   pages = {20-24},
   number = {3},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {EE Eval Engin},
   abstract = {Agilent offers hardware and software to address multistandard and
 	radio (MSR) challenges. The company provides System Vue electronic
@@ -9675,7 +9675,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3a53585a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@35cd9aa0; Conference
 	Code:66591},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Joint Eur. Software Eng. Conf. Symp. Found. Software Eng.},
   abstract = {MOOSE is a language-independent environment for reverse- and re-engineering
 	complex software systems, MOOSE provides a set of services including
@@ -9867,7 +9867,7 @@
   pages = {32},
   number = {17},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron Des},
   abstract = {The two slot TLA7012 portable mainframe and the six slot TLA7016 benchtop
 	mainframe from Tektronix which uses Windows XP Professional are discussed.
@@ -9903,7 +9903,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@60228237
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@79931a2f; Conference
 	Code:68240},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Int. Symp. New Front. Dynamic Spect. Netw. DySPAN},
   abstract = {In future applications, next generation spectrally agile software
 	defined radios (SASDR) will be equipped with advanced radio frequency
@@ -9982,7 +9982,7 @@
   volume = {43},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {AIAA Stud. J.},
   abstract = {The Aerospace Systems Design Laboratory (ASDL) at Georgia Tech has
 	launched its own facility 'Collaborative Design Environment' (CoDE),
@@ -10024,7 +10024,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@765f4a45
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6a0534b9; Conference
 	Code:76267},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IET Conf Publ},
   abstract = {With leanness finding its birthplace in the post war automobile industry
 	and with complex functional shop-floor configurations posing strong
@@ -10106,7 +10106,7 @@
   pages = {36},
   number = {4},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {MSI},
   abstract = {The growth in lean projects by US manufacturers, for which the manufacturers
 	themselves are responsible, as a way to reduce lead times, increase
@@ -10140,7 +10140,7 @@
   pages = {22-25},
   number = {1},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Manuf Engin},
   abstract = {The problems associated with Enterprise Resource Planning (ERP) implementations
 	are discussed. ERP implementations cost twice as much as planned
@@ -10178,7 +10178,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7a582c69
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@32cbe03f; Conference
 	Code:73326},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. IEEE Symp. Secur. Privacy},
   abstract = {Host-based security tools such as anti-virus and intrusion detection
 	systems are not adequately protected on today's computers. Malware
@@ -10326,7 +10326,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@77a3f854
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2e049029; Conference
 	Code:62445},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv Astronaut Sci},
   abstract = {The next generation of agile, precisely pointed space systems will
 	demand novel approaches to attitude control and dynamics. The paradigm
@@ -10397,7 +10397,7 @@
   pages = {31},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {CrossTalk},
   abstract = {The interview with Col. Nathan R. Jessep, former commanding officer,
 	Marine Ground Forces, Cuba, regarding his new career as a Team Software
@@ -10429,7 +10429,7 @@
   volume = {64},
   pages = {237-240},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {World Acad. Sci. Eng. Technol.},
   abstract = {One of the common problems encountered in software engineering is
 	addressing and responding to the changing nature of requirements.
@@ -10482,7 +10482,7 @@
   pages = {26-28},
   number = {5},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Supply Chain Syst. Mag.},
   abstract = {AM General's lean manufacturing program gains traction with FID-enabled
 	parts replenishment. The company's state-of-the-art plant in Mishawaka
@@ -10516,7 +10516,7 @@
   pages = {32-36},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Supply Chain Syst. Mag.},
   abstract = {The integration of OPW, with an enterprise resource planning (ERP)
 	system kanban is discussed. OPW expects that an ERP system can help
@@ -10553,7 +10553,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@44a9acab
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5f8731c4; Conference
 	Code:65252},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Eur Space Agency Spec Publ ESA SP},
   abstract = {In the frame of the Spectra preparatory activities, a real-time testbench
 	allowing the main functional and implementation performances of an
@@ -10598,7 +10598,7 @@
   pages = {393-407},
   number = {2},
   note = {cited By (since 1996)23},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Trans. Microwave Theory Tech.},
   abstract = {In-depth investigation of the phase-noise behavior of injection-locked
 	oscillators and analog frequency dividers is presented. An analytical
@@ -10724,7 +10724,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@29ed352
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@943add6; Conference
 	Code:69284},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Mil Commun Conf MILCOM},
   abstract = {This work examines the blocking performance of narrowband (NB) and
 	wideband (WB) sources that access a shared pool of wireless channels.
@@ -10804,7 +10804,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@659519fa
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1fdca030; Conference
 	Code:82092},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {AIAA Aerosp. Sci. Meet. Exhib.},
   abstract = {High-altitude relight inside a lean, direct-injection, gas turbine
 	combustor is investigated experimentally by high-speed imaging. Ignition
@@ -10871,7 +10871,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@212d4ae8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2490d65c; Conference
 	Code:73224},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {The purpose of this paper is to study the relationships between the
 	use of agile methods to develop Internet websites their quality.
@@ -10965,7 +10965,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2d4de124
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@53f819b8; Conference
 	Code:42901},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {SPE EPA Explor Prod Environ Conf},
   abstract = {The Clean Air Act Amendments of 1990 and activities by several states
 	have resulted in increasing regulatory pressure on emissions of benzene,
@@ -11008,7 +11008,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6abf54e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@375d74e; Conference
 	Code:42542},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc Supercomputing Conf},
   abstract = {On Paragon, two operating systems are available: (a) OSF/1 AD, and
 	(b) SUNMOS. The chief drawbacks of OSF/1 AD are (a) OSF/1 AD takes
@@ -11055,7 +11055,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@e060239
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2c7bf360; Conference
 	Code:45075},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Nat Radar Conf Proc},
   abstract = {Honeywell's Embedded Touchstone and Rugged Touchstone systems are
 	COTS-based, hardware equivalent and software compatible manifestations
@@ -11101,7 +11101,7 @@
   pages = {124-133},
   number = {2261},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Transp Res Rec},
   abstract = {Railcar condition directly affects the safety, the efficiency, and
 	the reliability of freight railroad operations. Current railcar inspection
@@ -11234,7 +11234,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@531e945
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@fc9b3ad; Conference
 	Code:17315},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc IEEE Mil Commun Conf},
   abstract = {The authors investigated the measurement and analysis of low-level
 	spread-spectrum signals without prior knowledge of the spreading
@@ -11274,7 +11274,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@47e0a925
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6e80e100; Conference
 	Code:64491},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. IEEE Int. Workshop Haptic Audio Vis. Env. Appl. HAVE},
   abstract = {We implemented the idea of haptic imprints for security applications
 	Using the tools available at our disposal, our first priority was
@@ -11343,7 +11343,7 @@
   pages = {291-318},
   number = {4-5},
   note = {cited By (since 1996)61},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Veh Syst Dyn},
   abstract = {Following on from the author's reviews of the stability and control
 	of motorcycles in 1978 and 1985, the paper treats the earlier material
@@ -11484,7 +11484,7 @@
   pages = {39},
   number = {9},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Eureka},
   abstract = {Kent Business Link has organized a seminar on designing lean at Greenwich
 	University in Chatham. David Lanckmans, sample manufacturing manager
@@ -11523,7 +11523,7 @@
   pages = {27-41},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. J. Agile Manuf.},
   abstract = {During the past decade, the Internet, Web and intelligent agents have
 	been used in attempts to implement distributed intelligent manufacturing
@@ -11629,7 +11629,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4732fbca
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6430af4a; Conference
 	Code:62716},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. ASME Des. Eng. Tech. Conf.},
   abstract = {This paper presents some results of our research on distributed management,
 	monitoring and control of manufacturing shop floors using the Internet,
@@ -11748,7 +11748,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@30945414
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5a1c05f6; Conference
 	Code:87201},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Fluid Power Mechatronics, FPM},
   abstract = {Addressing on the requests to measure the working characteristics
 	of helicopter manipulate booster under high frequency aerodynamic
@@ -11827,7 +11827,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@95b8b11
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59070de3; Conference
 	Code:69421},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IET Conf Publ},
   abstract = {Stroke is a major killer across the world; with staggering financial
 	implications. Magnetic resonance dynamic susceptibility contrast
@@ -11898,7 +11898,7 @@
   pages = {22},
   number = {2},
   note = {cited By (since 1996)3},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Ind. Eng.},
   abstract = {The benefits of implementing lean programs for a company's production
 	system are discussed. It is stated that companies fail to implement
@@ -11931,7 +11931,7 @@
   pages = {15-16},
   number = {5},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron Prod Des},
   abstract = {The Department of Defence's Agile Rapid Global Combat Support (ARGCS)
 	predicts the future of high-performance analog and microwave test
@@ -11967,7 +11967,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6fa82d4c
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@a3611d9; Conference
 	Code:68667},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEEE Aerosp. Conf. Proc.},
   abstract = {There exists a growing need in the DOD for a tactical or responsive
 	space asset to support real-time battlefield intelligence, surveillance,
@@ -12067,7 +12067,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@456f71cd
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@17986d58; Conference
 	Code:72435},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {BEC - Int. Baltic Electron. Conf.; Proc. Bienn. Baltic Electron. Conf.},
   abstract = {A portable FTIR spectrometer system has been developed to provide
 	rapid on-site spectroscopic information. Rather than taking the samples
@@ -12118,7 +12118,7 @@
   pages = {34-36},
   number = {4},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Qual},
   abstract = {The MudCats Calibration Process Manager, developed by Edison ESI,
 	is a software tool that tackles the challenges of the calibration
@@ -12153,7 +12153,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@23162f26
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@57179c9; Conference
 	Code:96307},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Annu. Hawaii Int. Conf. Syst. Sci.},
   abstract = {In 2008, our team at NASA Ames Research Center launched a five-year
 	project to deliver a usercentric software platform for mission control.
@@ -12215,7 +12215,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3df072ab
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@74f85851; Conference
 	Code:97715},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. ASME Turbo Expo},
   abstract = {Numerical simulation using Computational Fluid Dynamics (CFD) has
 	become increasingly important as a tool to predict the potential
@@ -12298,7 +12298,7 @@
   pages = {29-37},
   number = {1},
   note = {cited By (since 1996)2},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Assem. Autom.},
   abstract = {Purpose - Petri net (PN) and queuing theory are used in performance
 	analysis of a flexible manufacturing system (FMS). They are used
@@ -12453,7 +12453,7 @@
   pages = {28-29},
   number = {2},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Turbomach. Int.},
   abstract = {The introduction of lean premix combustion in gas turbines has made
 	the flames more susceptible to instabilities. This can result in
@@ -12486,7 +12486,7 @@
   pages = {22-25},
   number = {5},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {CrossTalk},
   abstract = {Continuous integration (CI) is an important Lean software development
 	practice. Measuring the capability of your CI environment provides
@@ -12528,7 +12528,7 @@
   pages = {14-17},
   number = {1915},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron World},
   abstract = {Embedded instrumentation can be defined as the logic designed into
 	semiconductors, used for design validation, test, debug, yield analysis
@@ -12568,7 +12568,7 @@
   pages = {995-1005},
   number = {9-10},
   note = {cited By (since 1996)3},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int J Adv Manuf Technol},
   abstract = {A Kanban system facilitates lean principles in a simple and effective
 	way. While reportedly successful in many manufacturing firms, the
@@ -12659,7 +12659,7 @@
   address = {Colchester},
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@5cb1501f
 	; Conference Code:66193},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {IEE Conf Publ},
   abstract = {This paper discusses a Multi-Agent System (MAS) core developed for
 	an Intelligent Environment (IE) application. MAS poses features like
@@ -12737,7 +12737,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@498ac51a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@359253ae; Conference
 	Code:92761},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Appl. Mech. Mater.},
   abstract = {The stator core is an important part of large turbo-generator.The
 	its natural frequency must be to avoid the operating frequency and
@@ -12800,7 +12800,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@17b1c689
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@18615886; Conference
 	Code:93896},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Ind. Control Electron. Eng., ICICEE},
   abstract = {Graph depth-first traverse algorithm is based on the premise of establishing
 	an adjacency table. According to the demand of graphic component
@@ -12868,7 +12868,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4ca749d3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7adfe2f5; Conference
 	Code:98377},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {SysCon - Annu. IEEE Int. Syst. Conf., Proc.},
   abstract = {System test development, automation and execution process are key
 	stages of the overall product development to both the New Product
@@ -12946,7 +12946,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6df8f318
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@731fe50f; Conference
 	Code:69331},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Front. Educ. Conf. FIE},
   abstract = {Shippensburg University offers an upper division project course in
 	which the students use a variant of Extreme Programming (XP) including:
@@ -13019,7 +13019,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4873a3e7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@200db7da; Conference
 	Code:65110},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Front. Educ. Conf. FIE},
   abstract = {Shippensburg University offers a B.S. in Computer Science degree with
 	a concentration in Software Engineering. In addition to a core of
@@ -13084,7 +13084,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5882ca8d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@72c01c60; Conference
 	Code:69331},
-  __markedentry = {[ekupiain:3]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {Proc. Front. Educ. Conf. FIE},
   abstract = {In Fall of 2004, we offered two software engineering courses: one
 	in plan-driven methodologies and one in agile methodologies. In these
@@ -13163,7 +13163,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7a707f2e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6fade3ce; Conference
 	Code:98907},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Dig. Pap. IEEE Radio Freq. Integr. Circuits Symp.},
   abstract = {A two-path digital power amplifier (DPA) in 1.2V 65nm CMOS is presented.
 	This highly reconfigurable and frequency agile block is designed
@@ -13233,7 +13233,7 @@
   pages = {78-80},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASHRAE J},
   abstract = {Automated fault detection and diagnostics (FDD) systems identify faults
 	when they occur and, if they are of sufficient severity, communicate
@@ -13295,7 +13295,7 @@
   pages = {16-19},
   number = {4},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {CrossTalk},
   abstract = {An effective approach to support software development for an Army
 	is proposed. The Army's Maneuver Control System (MCS) program, a
@@ -13343,7 +13343,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@324bb239
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7a1d5fb; Conference
 	Code:69405},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Annu. Lean Manage. Solut. Conf. Proc.},
   abstract = {Have you decided to "Lean" your organization but are not sure where
 	to start? Eliminating waste from your organization's processes can
@@ -13437,7 +13437,7 @@
   pages = {14-17},
   number = {7},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Cadalyst},
   abstract = {Jean-Pierre Houdin has presented Khufu pyramid construction theory.
 	Houdin's theory is based on an internal ramp spiraling to the top
@@ -13472,7 +13472,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@36b1b028
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4ba42e25; Conference
 	Code:66316},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Int. Conf. Internet Multimedia Syst. Appl.},
   abstract = {As hackers can easily abuse Keyloggers to gather information about
 	a person or an organization; Keyloggers are a serious threat to the
@@ -13524,7 +13524,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1972edcf
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@485abe16; Conference
 	Code:88627},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Asia-Pac. Workshop Syst., APSys},
   abstract = {This paper presents ShadowReboot, a virtual machine monitor (VMM)-based
 	approach that shortens the downtime for software updates during an
@@ -13599,7 +13599,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6695c04e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7184757f; Conference
 	Code:64440},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Conf. Proc. IEEE Int. Conf. Syst. Man Cybern.},
   abstract = {Agile Supply Chain Management(ASCM) increasingly becomes an effective
 	and significant measure to enhance competitive advantage of modern
@@ -13658,7 +13658,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2d21bec7
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@27411f7; Conference
 	Code:84009},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. - Int. Conf. Electr. Control Eng., ICECE},
   abstract = {One semi-automatic system is developed for testing the dielectric
 	properties and grounding resistance of low-voltage busbar, one type
@@ -13722,7 +13722,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7446128b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@246b9f50; Conference
 	Code:83186},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Appl. Mech. Mater.},
   abstract = {Providing web service interface in the function layer is becoming
 	a technology trend. Recent research in computer integrated manufacturing
@@ -13785,7 +13785,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@37d7ca59
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@3825b5b3; Conference
 	Code:87557},
-  __markedentry = {[ekupiain:2]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {IET Semin Dig},
   abstract = {Background: The number of studies that quantitatively reveal the effect
 	of using Agile models on development performance is scarce. Aim:
@@ -13856,7 +13856,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a32147e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5ddf616c; Conference
 	Code:60267},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. 2002 Int. jt. Power Gener. Conf.},
   abstract = {New designs of gas turbine combustors for power generation applications
 	have to meet ever-tightening emission standards (mainly NOx, CO and
@@ -13931,7 +13931,7 @@
   pages = {48-49},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:5]},
+  __markedentry = {[ekupiain:]},
   abbrev_source_title = {SMT Surf Mount Technol Mag},
   abstract = {No one questions that SPC is a useful tool that can bring improvements
 	to any process. The reason it is not used more extensively or effectively
@@ -13988,7 +13988,7 @@
   pages = {69-72},
   number = {8 SUPPL},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {J. Electr. Eng.},
   abstract = {PC controlled single strip tester (SST) for amorphous magnetic materials
 	laboratory testing based on MMF Czech compensation method was developed.
@@ -14030,7 +14030,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2ad52ed3
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@11f5349d; Conference
 	Code:61294},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {2nd Internat. Conf. on Aspect-Oriented Softw. Develop.},
   abstract = {Middleware technologies such as Web Services, CORBA and DCOM have
 	been very successful in solving distributed computing problems for
@@ -14115,7 +14115,7 @@
   author = {Zhang, H.-Y.},
   volume = {1-2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Fault Detect., Superv. and Safety of Tech. Proces. 2006},
   abstract = {The safe and reliable operation of technical systems is of great significance
 	for the protection of human life and health, the environment, and
@@ -14167,7 +14167,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@316129ab
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@61f6b2e0; Conference
 	Code:94269},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {According to the three-motor synchronous system, S7-300PLC is as the
 	controller.The three-motors synchronization control platform is constructed
@@ -14228,7 +14228,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@66e40dd0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6470776; Conference
 	Code:71347},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. Symp. Comput. Archit. High Perform. Comput.},
   abstract = {In this paper we present a storage-based intrusion detection system
 	(IDS) that makes use of advantages of virtual machine (VM) and smart
@@ -14327,7 +14327,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@15f06f57
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5c1dc401; Conference
 	Code:46899},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ASME Fluids Eng Div Publ FED},
   abstract = {The proceedings contains 34 papers on cavitation and multiphase flow
 	from the 1997 ASME Fluids Engineering Division Summer Meeting. Topics
@@ -14367,7 +14367,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4078f407
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@44dd18a2; Conference
 	Code:45793},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {AIAA IEEE Dig Avionics Syst Conf Proc},
   abstract = {The proceedings contains 71 papers from the 1996 AIAA/IEEE 15th Digital
 	Avionics Systems Conference. Topics discussed include: system method
@@ -14411,7 +14411,7 @@
   publisher = {Elsevier Science Publ BV, Amsterdam, Neth},
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@7a788aa3
 	; Conference Code:8312},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abstract = {This conference proceedings contains 40 papers. The main topics discussed
 	are: state of the art on the advances in production management systems;
 	strategy oriented production management; standard software package
@@ -14456,7 +14456,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@bd3f80a
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@9415e97; Conference
 	Code:96646},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Appl. Mech. Mater.},
   abstract = {The proceedings contain 196 papers. The special focus in this conference
 	is on Mechanical and Manufacturing Engineering. The topics include:
@@ -14568,7 +14568,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1a3dbb1d
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4ac77a60; Conference
 	Code:99781},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {The proceedings contain 660 papers. The special focus in this conference
 	is on surface engineering/coatings, materials machining, Industrial
@@ -14695,7 +14695,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5f8146c2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@204c9b8a; Conference
 	Code:99913},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {The proceedings contain 716 papers. The special focus in this conference
 	is on Manufacturing Technology, Mechatronics, Measurement, Instruments,
@@ -14859,7 +14859,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@21a78216
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7c4d839c; Conference
 	Code:99783},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Appl. Mech. Mater.},
   abstract = {The proceedings contain 1094 papers. The special focus in this conference
 	is on Material Science, Manufacturing and Machining Technologies,
@@ -14986,7 +14986,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@e247176
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7a95013a; Conference
 	Code:99775},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Adv. Mater. Res.},
   abstract = {The proceedings contain 128 papers. The special focus in this conference
 	is on Machinery, Materials Science and Engineering Applications.
@@ -15088,7 +15088,7 @@
   pages = {69-73},
   number = {12},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron. Des.},
   abstract = {The Korean company Celluon has developed CL800BT, which uses a red
 	laser diode, to display functioning QWERTY keyboard image of 240
@@ -15120,7 +15120,7 @@
   pages = {35-36},
   number = {9},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Cadalyst},
   abstract = {Adobe Photoshop CS3 Extended software offers 3D and motion-based content
 	editing features and performance image analysis, to film, video,
@@ -15153,7 +15153,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@26700dfc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6a62f1b; Conference
 	Code:71844},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {VTT Symp},
   abstract = {The proceedings contain 42 papers. The topics discussed include; agile
 	software development in the large; effective measurement of the software
@@ -15196,7 +15196,7 @@
   note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@7848ffbe
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@8e50a4 Through
 	org.apache.xalan.xsltc.dom.DOMAdapter@7f503f44; Conference Code:87415},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. - Test.: Acad. Ind. Conf. - Pract. Res. Tech., TAIC PART},
   abstract = {The proceedings contain 25 papers. The topics discussed include: generating
 	a test strategy with bayesian networks, and common sense; on the
@@ -15235,7 +15235,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@40ed48e8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1a4d98a5; Conference
 	Code:69309},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. AGILE Conf.},
   abstract = {The proceedings contain 41 papers. The topics discussed include: agile
 	metrics at the Israeli Air Force; are we ready to be unleashed? a
@@ -15273,7 +15273,7 @@
   volume = {185},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Automot Ind},
   abstract = {Some of the technologies that have made an impact on the automotive
 	industry are discussed. The car radio systems is one of them with
@@ -15314,7 +15314,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6e96a6ba
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@649c360e; Conference
 	Code:69308},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Int. Conf. Info. Com. Technol. Enabling Technol. New Knowledge Soc.},
   abstract = {The proceedings contain 62 papers. The topics discussed include: framework-based
 	IT service engineering; organizing UML class diagram in layers; the
@@ -15356,7 +15356,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5158d6c4
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1f7c0795; Conference
 	Code:69310},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Second Int. conf. Embedded Softw. Syst.},
   abstract = {The proceedings contain 91 papers. The topics discussed include: the
 	design and analysis of a high performance embedded external memory
@@ -15398,7 +15398,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4b8376ad
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@23e47e96; Conference
 	Code:68051},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Softw. Eng. Adv. Applic. Conf.},
   abstract = {The proceedings contain 56 papers. The topics discussed include: towards
 	a components grouping technique within a domain engineering process,
@@ -15437,7 +15437,7 @@
   pages = {56},
   number = {7},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Manuf. Bus. Technol.},
   abstract = {The implementation of product life cycle management (PLM) software
 	for achieving time and cost savings as well as product quality is
@@ -15468,7 +15468,7 @@
   pages = {94-96},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Electron Des},
   abstract = {Various aspects of the wireless communication technologies are discussed.
 	The two upcoming wireless technologies with the greatest promises
@@ -15501,7 +15501,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2853f33f
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@1f86c1c8; Conference
 	Code:65959},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {ACM Workshop Interdiscip. Softw. Eng. Res.},
   abstract = {The proceedings contain 12 papers from the WISER 2004 - ACM Workshop
 	on Interdisciplinary Software Engineering Research. The topics discussed
@@ -15536,7 +15536,7 @@
   pages = {48-49},
   number = {10},
   note = {cited By (since 1996)1},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Qual},
   abstract = {Mitsubishi has installed Production IQ system for complete production
 	monitoring and down-time tracking of all eight of its coil assembly
@@ -15571,7 +15571,7 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@715cb3a8
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7d1714bc; Conference
 	Code:60886},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Proc. ASME Des. Eng. Tech. Conf.},
   abstract = {The proceedings contains 42 papers from the 14th International Conference
 	on Design Theory and Methodology Integrated Systems Design Theme:
@@ -15604,7 +15604,7 @@
   volume = {129},
   number = {2},
   note = {cited By (since 1996)0},
-  __markedentry = {[ekupiain:1]},
+  __markedentry = {},
   abbrev_source_title = {Manuf Eng},
   abstract = {Manufacturers are increasingly using CAD/CAM, controls and factory
 	automation, including advanced software and automation solutions,
