@@ -1823,6 +1823,8 @@
   source = {Scopus},
   sponsors = {Knowledge Systems Institute Graduate School},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79952413669&partnerID=40&md5=5c80b238a8579877880d878b5d9d53ad}
 }
 
@@ -2790,6 +2792,8 @@
   source = {Scopus},
   sponsors = {Critical; Agile21; Sinfic; Microsoft; StrongStep},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84878883099&partnerID=40&md5=19cdb0db5d761f2c070f6557e073ab1b}
 }
 
@@ -4005,6 +4009,8 @@
   source = {Scopus},
   sponsors = {IBM Toronto Software Lab; IBM Centers for Advanced Studies (CAS)},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77951611920&partnerID=40&md5=7e65f0f73bac58e7b98c631ef0d0275a}
 }
 
@@ -5065,6 +5071,8 @@
 	Free Press, New York},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84870330590&partnerID=40&md5=5ed339f10fc94ffc6ce2b0dbd29346f5}
 }
 
@@ -5872,6 +5880,8 @@
 	on Software Engineering, 23 (9)},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-67650133011&partnerID=40&md5=5cc4f9eeb3391308b9c09858ccee3275}
 }
 
@@ -6009,6 +6019,8 @@
   source = {Scopus},
   sponsors = {Exoftware; Philips},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746192646&partnerID=40&md5=99f77566c41d8acb21ea7fe752f98930}
 }
 
@@ -6088,6 +6100,8 @@
 	504-515. , ACM New York, NY, USA},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875169679&partnerID=40&md5=1e9c521b7e6c6f65bcf872d182004e25}
 }
 
@@ -9120,6 +9134,9 @@
 	(2010) Control and Automation, 121, pp. 167-176},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3stataus = {IdeaPile},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869046762&partnerID=40&md5=b8016d14957d5d4578203e069745c465}
 }
 
@@ -12480,6 +12497,8 @@
   source = {Scopus},
   sponsors = {Cyprus Computer Society},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77953879921&partnerID=40&md5=52e098ee5fdddcd00c89cf5f0a317b73}
 }
 
