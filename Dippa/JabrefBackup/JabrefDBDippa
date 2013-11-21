@@ -2200,6 +2200,8 @@
 	doi:10.1145/1370720.1370724},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78650774648&partnerID=40&md5=8b9f4b7527be769f93abe9943b26bbe5}
 }
 
@@ -7489,6 +7491,7 @@
 	Pfahl, D., Raffo, D. M. eds., Springer, Heidelberg},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78049327920&partnerID=40&md5=35ec52b12ceec73a782155a3f39b01e7}
 }
 
@@ -13263,6 +13266,8 @@
 	in Organizational Behavior, (21), pp. 81-123},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84870367228&partnerID=40&md5=b8d1e6e85889864d4ee5a7ad044a9d16}
 }
 
@@ -13796,6 +13801,8 @@
   source = {Scopus},
   sponsors = {International Software Process Association (ISPA)},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79960616089&partnerID=40&md5=337405badf5141d0471ab21dd3c308d5}
 }
 
@@ -14158,6 +14165,8 @@
 	Technology, Cengage Learning},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84883244714&partnerID=40&md5=670d912eb57d268afbfac0b2fb28ad0f}
 }
 
@@ -14992,6 +15001,8 @@
   sponsors = {ACM Special Interest Group on Software Engineering (SIGSOFT); IEEE
 	CS},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78149248995&partnerID=40&md5=e529143c94fbc78c8d684899bb7381fa}
 }
 
@@ -15592,6 +15603,8 @@
   source = {Scopus},
   sponsors = {ACM SIGSOFT; IEEE CS},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79960594813&partnerID=40&md5=6ec8398e4b49d3760dc3cb846ba53ff2}
 }
 
