@@ -20501,6 +20501,7 @@
   source = {Scopus},
   sponsors = {International Software Process Association (ISPA)},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84878440468&partnerID=40&md5=7a394e1ade43c2e9899261abc519da74}
 }
 
