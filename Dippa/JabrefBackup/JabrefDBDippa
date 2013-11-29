@@ -21889,6 +21889,7 @@
 	Aachen},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84864130560&partnerID=40&md5=d04923f05282ba13878391c855af1ec3}
 }
 
@@ -23012,6 +23013,8 @@
   source = {Scopus},
   sponsors = {IBM; Infosys; intel; Microsoft Research; SIEMENS},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84858315125&partnerID=40&md5=0533cada589c9c778d76e41218e230ec}
 }
 
@@ -23412,6 +23415,8 @@
 	Development Methods Inc., 2003},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78650760509&partnerID=40&md5=fe021def9811ae226ac5783db33a5d4c}
 }
 
@@ -23982,6 +23987,7 @@
 	Inc},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84870639499&partnerID=40&md5=416504817d69e7e81e0762eabeaa4aa6}
 }
 
@@ -25198,6 +25204,8 @@
 	Design and methods, , Sage Publishing},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84883463661&partnerID=40&md5=3af2d3719519ca910721e2868a719aa0}
 }
 
@@ -25285,6 +25293,8 @@
 	Springer, Heidelberg (2003)},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-38049173495&partnerID=40&md5=38764944e39fe2b4dc61d1528de3b759}
 }
 
@@ -25942,6 +25952,8 @@
   source = {Scopus},
   sponsors = {ACM; BytePress; Concordia University},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77956256144&partnerID=40&md5=28a35c4f72f662f87c16fbba5b85cf77}
 }
 
@@ -26004,6 +26016,8 @@
   source = {Scopus},
   sponsors = {Computer Society of India; IBM; Infosys; Microsoft Research; SIEMENS},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77951473263&partnerID=40&md5=5e6dec7f34b5f5139e166776e46da342}
 }
 
@@ -26546,6 +26560,8 @@
 	Devices, Educ., Signal Process.,; Power Energy Syst. Soc. - Indonesia
 	Jt. Chapter},
   stage2status = {Include},
+  stage3reason = {BadGrammar},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80054032257&partnerID=40&md5=38d4598c414ea6bac113814070384a8a}
 }
 
@@ -35721,6 +35737,8 @@
   sponsors = {Lero; Assoc. Comput. Mach. Spec. Interest Group; Softw. Eng. (ACM
 	SIGSOFT)},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80053217148&partnerID=40&md5=ec33cb2d49abf5a3108a556db900adfe}
 }
 
@@ -36124,6 +36142,8 @@
 	study (2008) 7th AOSD, , ACM Press New York, NY},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84855300509&partnerID=40&md5=ec219ad014b5b3bfb1525acee7c9e553}
 }
 
@@ -36468,6 +36488,8 @@
 	http://www.robertnz.net/ol_doc.htm, [23 April]},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33747755138&partnerID=40&md5=73211205bb1e26501783d457d2ccef4a}
 }
 
@@ -38648,6 +38670,8 @@
 	Available from: Accessed 11 April 2011},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84872061366&partnerID=40&md5=127f2e164c57a0d742b7a3732571c6e7}
 }
 
@@ -39909,6 +39933,8 @@
 	2.0 is discussed on Wikipedia under Web2.0},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-71249138416&partnerID=40&md5=5d44464a57f0d787b4aa05ed1d7f4a21}
 }
 
@@ -39986,6 +40012,8 @@
 	2 (4), pp. 115-122},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84870586198&partnerID=40&md5=248d903290229c30c5b199eed19f0cbc}
 }
 
@@ -40086,6 +40114,7 @@
 	engineering-apr-242.pdf},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80053045690&partnerID=40&md5=caa9f30fff3c2c69c50d2dd1f79d58f7}
 }
 
@@ -40542,6 +40571,8 @@
   sponsors = {tieto; Aalto University School of Science and Technology; Schlumberger;
 	metso; ERICSSON; iittala},
   stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-81255129423&partnerID=40&md5=2f2cc76785f915bac17e67927bab9db6}
 }
 
@@ -43148,6 +43179,8 @@
 	code-review, white paper, Smart Bear},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869171540&partnerID=40&md5=1ae285fab8a7583dd550eb71731a8094}
 }
 
@@ -43527,6 +43560,8 @@
 	, New York, NY, USA: ACM},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-74549149503&partnerID=40&md5=c6fc8ffc83b1735e67c2a8777b5cdb44}
 }
 
@@ -44612,6 +44647,8 @@
 	Dreger, B., (1989) Function Point Analysis, , Prentice Hall},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {ACTAPress},
+  stage3status = {NotFound},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77954199690&partnerID=40&md5=eb8940651ba29b93254fc587668adcea}
 }
 
@@ -45219,6 +45256,8 @@
   sponsors = {Eur. Res. Consort. Informatics Math. (ERCIM); Belgian Policy of the
 	Belgian State; F.R.S.-FNRS/FRFC Research Center on Software Adaptability},
   stage2status = {Include},
+  stage3reason = {SingleTechnique},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78649997406&partnerID=40&md5=9b9cf6f3973492296e28b8c9881862c7}
 }
 
@@ -45532,6 +45571,8 @@
   sponsors = {ACM Special Interest Group on Software Engineering (SIGSOFT); IEEE
 	CS},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78149252929&partnerID=40&md5=9baa76cc1642690ea4c187d3cc1aab78}
 }
 
