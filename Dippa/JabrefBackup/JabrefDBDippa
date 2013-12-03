@@ -3977,7 +3977,8 @@
   source = {Scopus},
   sponsors = {IEEE; IEEE Computer Society},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449637972&partnerID=40&md5=65d8b062fd96f630017eab57b489f315}
 }
 
@@ -21282,7 +21283,8 @@
 	NC TR-2004-11},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {ComparisonOfMethods},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-11844252039&partnerID=40&md5=80d5feee6bd15a57c35cc189d04a1f53}
 }
 
@@ -26989,7 +26991,8 @@
 	31, pp. 23-31},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33749642083&partnerID=40&md5=f85ed15e1a0a4c77a9ea27740c487803}
 }
 
@@ -38914,7 +38917,8 @@
 	, Sage Publications Inc, Thousand Oaks, CA, USA},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84867747968&partnerID=40&md5=be29d38be402dc4884bac02ef7b18ad9}
 }
 
@@ -42036,7 +42040,8 @@
   references = {(2006) Abbott 2006 Annual Report; (2009), http://www.agiletek.com/approach/methodology},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449650690&partnerID=40&md5=0403c5604c5fbf3cbf0b2438bf93e6c4}
 }
 
@@ -43468,7 +43473,8 @@
   source = {Scopus},
   sponsors = {VersionOne; Rally Software},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-52949122942&partnerID=40&md5=1837fc8eb49ef4b489e145d2eca4026d}
 }
 
@@ -47643,6 +47649,8 @@
 	Software Project Dynamics: An Integrated Approach, , Prentice Hall},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {ComparisonOfMethods},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84865517147&partnerID=40&md5=ef267957bae50ae59de9f4a254d804a4}
 }
 
@@ -47864,6 +47872,8 @@
 	ISBN 9781935401001 278},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-80053006033&partnerID=40&md5=7194fd2b490c7a35916319c98f42d3f5}
 }
 
@@ -50397,6 +50407,7 @@
   sponsors = {Association for Computing Machinery, ACM; IEEE; IEEE Computer Society;
 	SIGSOFT},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70349841395&partnerID=40&md5=469cbf1ce62e6c3aaa31a382265aa19c}
 }
 
@@ -50980,6 +50991,8 @@
   source = {Scopus},
   sponsors = {ACM SIGSOFT; IEEE CS},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79959814493&partnerID=40&md5=611384db516c4b2c60eb949a080973e8}
 }
 
@@ -51019,6 +51032,7 @@
 	Elements of Reusable Object-Oriented Software, , Addison-Wesley},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247575379&partnerID=40&md5=93bea222ecba10182786964cf2789418}
 }
 
@@ -51437,6 +51451,8 @@
   source = {Scopus},
   sponsors = {SafeWorld; TrialX; iConnect; Applied Informatics; Remunity; Homework},
   stage2status = {Include},
+  stage3reason = {CannotSeparateResultsBySetting},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869074698&partnerID=40&md5=28841efe10dc50940370f4adc77fe57f}
 }
 
@@ -52090,6 +52106,7 @@
   language = {English},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247627032&partnerID=40&md5=788a1eb9f9b8f93cb574f0858ccdc42f}
 }
 
@@ -52850,6 +52867,8 @@
 	Conference on Electrical and Computer Engineering, 4, pp. 1845-1848},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-50949086817&partnerID=40&md5=3986ac0b58dadd638e38011d97119127}
 }
 
@@ -54572,6 +54591,8 @@
   language = {English},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-36348943932&partnerID=40&md5=a20b9ec93c2a99d1c4afd09fddf0931d}
 }
 
@@ -55123,6 +55144,8 @@
 	River, NJ},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875225900&partnerID=40&md5=d8eae79ae29331baf861e25fd6cb8c3a}
 }
 
