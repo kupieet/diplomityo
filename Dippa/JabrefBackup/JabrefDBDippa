@@ -16765,6 +16765,7 @@
   source = {Scopus},
   sponsors = {Shidler College of Business; University of Hawai'i},
   stage2status = {Include},
+  stage3status = {Include},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77951759606&partnerID=40&md5=b3f5353a115c0231a1778d8e8b5802ad}
 }
@@ -19414,6 +19415,7 @@
   sponsors = {ThoughtWorks, UK; Software Development Magazine; ACM SIGSOFT; IEEE
 	Computer Society},
   stage2status = {Include},
+  stage3status = {Include},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-15944377694&partnerID=40&md5=66e6e702b6eb2a1c82715526f1a22f33}
 }
