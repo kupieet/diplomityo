@@ -19320,7 +19320,9 @@
   owner = {ekupiain},
   source = {Scopus},
   sponsors = {ACM SIGSOFT; IEEE Computer Society},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33244490287&partnerID=40&md5=218d5667dc67d1e4817f1cee413b4944}
 }
@@ -28848,6 +28850,8 @@
   sponsors = {IEEE Memphis Section; IEEE Region 3; The University of Memphis; Christian
 	Brothers University},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33751092565&partnerID=40&md5=a67b9d5f16689edd9fb611e97847cbb3}
 }
@@ -30130,6 +30134,7 @@
 	(2012) Journal of Systems and Software, 85 (9), pp. 2086-2095},
   source = {Scopus},
   stage2status = {Include},
+  stage3status = {Include},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84872719205&partnerID=40&md5=b4ac1639f4181f985f9a40b5c67ac3cd}
 }
@@ -42603,6 +42608,8 @@
 	software development (2004) Electronic Markets, 14 (2), pp. 89-103},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-51449118228&partnerID=40&md5=9ec618eb4428ac4f47ca0da46b6a634d}
 }
@@ -51098,6 +51105,7 @@
   source = {Scopus},
   sponsors = {University of Hawai'i at Manoa, Shidler College of Business},
   stage2status = {Include},
+  stage3status = {Include},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875535793&partnerID=40&md5=0f736f97528ec434aa2c938b455ab13d}
 }
@@ -55939,6 +55947,8 @@
 	of Software Engineering, , online vers.@Wiley Interscience},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-82955219701&partnerID=40&md5=68c6bffa97394d94c305668ee5834e57}
 }
