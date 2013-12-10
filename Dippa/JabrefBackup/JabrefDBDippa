@@ -2799,6 +2799,24 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84878883099&partnerID=40&md5=19cdb0db5d761f2c070f6557e073ab1b}
 }
 
+@INPROCEEDINGS{LNBIP01490001,
+  author = {Jeffry S. Babb and Rashina Hoda and Jacob N{\o}rbjerg},
+  title = {Barriers to Learning in Agile Software Development Projects},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {1--15},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{Back2005414,
   author = {Back, R.-J. and Milovanov, L. and Porres, I.},
   title = {Software development and experimentation in an academic environment:
@@ -2908,6 +2926,25 @@
   source = {Scopus},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-26444495534&partnerID=40&md5=09366a7570f059885dcddd7b06de3964}
+}
+
+@INPROCEEDINGS{LNBIP01490180,
+  author = {Deepika Badampudi and Samuel A. Fricker and Ana M. Moreno},
+  title = {Perspectives on Productivity and Delays in Large-Scale Agile Projects},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {180--194},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @ARTICLE{Bailey2003485,
@@ -6599,6 +6636,25 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79959859896&partnerID=40&md5=d103413dbddf35f7c2de4e7a004b0748}
 }
 
+@INPROCEEDINGS{LNBIP01490091,
+  author = {Adnan Causevic and Rakesh Shukla and Sasikumar Punnekkat and Daniel
+	Sundmark},
+  title = {Effects of Negative Testing on TDD: An Industrial Experiment},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {91--105},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{Chai2008857,
   author = {Chai, Y. and Zhou, Y. and Wang, Y.},
   title = {Collaborative manufacturing execution systems: Using real-time information
@@ -8058,6 +8114,26 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-70449633673&partnerID=40&md5=08f907a1fa6a54d9775cbdf057a8a8c0}
 }
 
+@INPROCEEDINGS{LNBIP01490210,
+  author = {Giulio Concas and Giuseppe Destefanis and Michele Marchesi and Marco
+	Ortu and Roberto Tonelli},
+  title = {Micro Patterns in Agile Software},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {210--222},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
+  timestamp = {2013.12.10}
+}
+
 @ARTICLE{Concas2012525,
   author = {Concas, G. and Marchesi, M. and Destefanis, G. and Tonelli, R.},
   title = {An empirical study of software metrics for assessing the phases of
@@ -9053,6 +9129,24 @@
   sponsors = {IEEE},
   stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-43549095297&partnerID=40&md5=dbb080e500e8d7e733e8edc008e8ee2d}
+}
+
+@INPROCEEDINGS{LNBIP01490061,
+  author = {Denniz D\"{o}nmez and Gudela Grote},
+  title = {The Practice of Not Knowing for Sure: How Agile Teams Manage Uncertainties},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {61--75},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @CONFERENCE{DaÌ§browski2012208,
@@ -11684,6 +11778,25 @@
   sponsors = {The Society of Photo-Optical Instrumentation Engineers (SPIE)},
   stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84864346828&partnerID=40&md5=99fb300ba687d55c0fd1edea4e7ef4e5}
+}
+
+@INPROCEEDINGS{LNBIP01490046,
+  author = {Torgeir Dings{\o}yr and Yngve Lindsj{\o}rn},
+  title = {Team Performance in Agile Development Teams: Findings from 18 Focus
+	Groups},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {46--60},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @CONFERENCE{Dolan2013,
@@ -18860,6 +18973,47 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77953228667&partnerID=40&md5=bbc4c69b471668f18c6f95ded5e0976b}
 }
 
+@INPROCEEDINGS{LNBIP01490165,
+  author = {Jeanette Heidenberg and Max Weijola and Kirsi Mikkonen and Ivan Porres},
+  title = {A Metrics Model to Measure the Impact of an Agile Transformation
+	in Large Software Development Organizations},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {165--179},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
+  timestamp = {2013.12.10}
+}
+
+@INPROCEEDINGS{LNBIP01490195,
+  author = {Ville T. Heikkil\"{a} and Maria Paasivaara and Casper Lassenius and
+	Christian Engblom},
+  title = {Continuous Release Planning in a Large-Scale Scrum Development Organization
+	at Ericsson},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {195--209},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @ARTICLE{Heindl2008267,
   author = {Heindl, M.a and Biffl, S.b },
   title = {Modeling of requirements tracing},
@@ -25403,6 +25557,27 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649261822&partnerID=40&md5=8b8a35ad55cb724046f239350c8aeb79}
 }
 
+@INPROCEEDINGS{LNBIP01490135,
+  author = {Jussi Koutonen and Mauri Lepp\"{a}nen},
+  title = {How Are Agile Methods and Practices Deployed in Video Game Development?
+	A Survey into Finnish Game Studios},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {135--149},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{Kraus1995699,
   author = {Kraus, Evan and Welles, Scott and Jezek, Brian},
   title = {Using simulation and modeling for advanced SATCOM design verification
@@ -30808,6 +30983,25 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-4544343290&partnerID=40&md5=87ab7f0d7ff28de8665fc128f7dc6875}
 }
 
+@INPROCEEDINGS{LNBIP01490223,
+  author = {Sarunas Marciuska and Cigdem Gencel and Xiaofeng Wang and Pekka Abrahamsson},
+  title = {Feature Usage Diagram for Feature Reduction},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {223--237},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{Mariga2007,
   author = {Mariga, J.a b c d },
   title = {Utilizing virtual software to provide hands-on experience with systems
@@ -33553,6 +33747,24 @@
   source = {Scopus},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84859348165&partnerID=40&md5=87a982b66925d4e37186d2646cfbd2d0}
+}
+
+@INPROCEEDINGS{LNBIP01490076,
+  author = {Nils Brede Moe},
+  title = {Key Challenges of Improving Agile Teamwork},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {76--90},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @CONFERENCE{Molenaar20118,
@@ -43940,6 +44152,24 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0028750246&partnerID=40&md5=bd56c703252a78d0e40ba16063eed4a2}
 }
 
+@INPROCEEDINGS{LNBIP01490031,
+  author = {A.S.M. Sajeev and Subhajit Datta},
+  title = {Introducing Programmers to Pair Programming: A Controlled Experiment},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {31--45},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @ARTICLE{Salah20103299,
   author = {Salah, K.a and Hamawi, M.b },
   title = {Impact of CPU-bound processes on IP forwarding of linux and windows
@@ -44737,6 +44967,26 @@
   source = {Scopus},
   stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649289044&partnerID=40&md5=14d65489637811dd9834c7841b45e841}
+}
+
+@INPROCEEDINGS{LNBIP01490121,
+  author = {Paulo S\'{e}rgio Medeiros dos Santos and Amanda Varella and Cristine
+	Ribeiro Dantas and Daniel Beltr\~{a}o Borges},
+  title = {Visualizing and Managing Technical Debt in Agile Development: An
+	Experience Report},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {121--134},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3status = {Include},
+  timestamp = {2013.12.10}
 }
 
 @ARTICLE{Sato200784,
@@ -51827,6 +52077,26 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84865401190&partnerID=40&md5=eeb19d7324dec3824ff864be21ba64bd}
 }
 
+@INPROCEEDINGS{LNBIP01490150,
+  author = {Raoul Vallon and Stefan Strobl and Mario Bernhart and Thomas Grechenig},
+  title = {Inter-organizational Co-development with Scrum: Experiences and Lessons
+	Learned from a Distributed Corporate Development Environment},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {150--164},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @ARTICLE{Vanhanen2003279,
   author = {Vanhanen, J.a and Jartti, J.b and KÃ¤hkÃ¶nen, T.b },
   title = {Practical experiences of agility in the Telecom industry},
@@ -52407,6 +52677,25 @@
   source = {Scopus},
   stage2status = {NotFound},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84867457873&partnerID=40&md5=0788c46c97018d8964602ee604e19f66}
+}
+
+@INPROCEEDINGS{LNBIP01490016,
+  author = {Thomas Vikberg and Arto Vihavainen and Matti Luukkainen and Jaakko
+	Kurhila},
+  title = {Early Start in Software Coaching},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {16--30},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @ARTICLE{Vimal2013274,
@@ -53735,6 +54024,24 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34248598415&partnerID=40&md5=728bc3705660ea5171dab6acaa58938d}
 }
 
+@INPROCEEDINGS{LNBIP01490238,
+  author = {Michael Waterman and James Noble and George Allan},
+  title = {The Effect of Complexity and Value on Architecture Planning in Agile
+	Software Development},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {238--252},
+  publisher = {Springer},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{Watson2009313,
   author = {Watson, P.G.a and Duquenoy, P.a and Brennan, M.b and Jones, M.c and
 	Walkerdine, J.d },
@@ -54872,6 +55179,26 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34047147154&partnerID=40&md5=9471c08fb05e859296f53f3e4d7eb651}
+}
+
+@INPROCEEDINGS{LNBIP01490106,
+  author = {Dietmar Winkler and Martin Kitzler and Christoph Steindl and Stefan
+	Biffl},
+  title = {Investigating the Impact of Experience and Solo/Pair Programming
+	on Coding Efficiency: Results and Experiences from Coding Contests},
+  booktitle = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  pages = {106--120},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
 }
 
 @CONFERENCE{Wolniansky2009319,
@@ -57774,6 +58101,22 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0030408846&partnerID=40&md5=5b9dafae90b5b1eadbfe345270d47cfb}
 }
 
+@PROCEEDINGS{LNBIP0149,
+  title = {Agile Processes in Software Engineering and Extreme Programming},
+  year = {2013},
+  editor = {Hubert Baumeister and Barbara Weber},
+  volume = {149},
+  series = {Lecture Notes in Business Information Processing},
+  publisher = {Springer},
+  __markedentry = {},
+  isbn = {978-3-642-38313-7},
+  location = {Heidelberg},
+  owner = {ekupiain},
+  shorttitle = {XP 2013},
+  stage2status = {Exclude},
+  timestamp = {2013.12.10}
+}
+
 @CONFERENCE{NoAuthor1984,
   title = {ADVANCES IN PRODUCTION MANAGEMENT SYSTEMS: PRODUCTION MANAGEMENT
 	SYSTEMS IN THE EIGHTIES, PROCEEDINGS OF THE IFIP WG 5. 7 WORKING
@@ -57983,40 +58326,6 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84880487658&partnerID=40&md5=9c8070a86709b591839255bb9c032996}
 }
 
-@CONFERENCE{2013,
-  title = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  year = {2013},
-  address = {Innsbruck},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
-	Code:96247},
-  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
-  abstract = {The proceedings contain 18 papers. The topics discussed include: the
-	user information-based mobile application recommender system; towards
-	r&d as innovation experiment systems: a framework for moving beyond
-	agile software development; software requirement acquisition method
-	based on probabilistic action-model algorithm; investigating the
-	candidate pair generation of the VF2 algorithm; evaluating and improving
-	design patterns applicability with metrics; experienced benefits
-	of continuous integration in industry software product development:
-	a case study; interview guidelines for analyzing software architectural
-	practices in agile projects; integration of functional and interface
-	requirements of an web based software: a VDM based formal approach;
-	using AHP to compare and evaluate software security testing techniques;
-	and influence of code completion methods on the usability of APIS.},
-  document_type = {Conference Review},
-  isbn = {9780889869431},
-  journal = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  language = {English},
-  page_count = {135},
-  source = {Scopus},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
-}
-
 @ARTICLE{2013,
   title = {3rd International Conference on Mechanical and Manufacturing Engineering,
 	ICME 2012},
@@ -58128,6 +58437,40 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84876355993&partnerID=40&md5=4a4b482984c052d9224dbd227299dab3}
+}
+
+@CONFERENCE{2013,
+  title = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  year = {2013},
+  address = {Innsbruck},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
+	Code:96247},
+  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
+  abstract = {The proceedings contain 18 papers. The topics discussed include: the
+	user information-based mobile application recommender system; towards
+	r&d as innovation experiment systems: a framework for moving beyond
+	agile software development; software requirement acquisition method
+	based on probabilistic action-model algorithm; investigating the
+	candidate pair generation of the VF2 algorithm; evaluating and improving
+	design patterns applicability with metrics; experienced benefits
+	of continuous integration in industry software product development:
+	a case study; interview guidelines for analyzing software architectural
+	practices in agile projects; integration of functional and interface
+	requirements of an web based software: a VDM based formal approach;
+	using AHP to compare and evaluate software security testing techniques;
+	and influence of code completion methods on the usability of APIS.},
+  document_type = {Conference Review},
+  isbn = {9780889869431},
+  journal = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  language = {English},
+  page_count = {135},
+  source = {Scopus},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
 }
 
 @ARTICLE{2013a,
@@ -60855,45 +61198,6 @@
 }
 
 @ARTICLE{2006,
-  title = {Extreme Programming and Agile Processes in Software Engineering -
-	7th International Conference, XP 2006, Proceedings},
-  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
-	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
-  year = {2006},
-  volume = {4044 LNCS},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
-	Code:67905},
-  abbrev_source_title = {Lect. Notes Comput. Sci.},
-  abstract = {The proceedings contain 30 papers. The topics discussed include: a
-	distributed cognition account of mature XP teams; foundations of
-	agile decision making from agile mentors and developers; software
-	development as a collaborative writing project; comparative analysis
-	of job satisfaction in agile and non-agile software development teams;
-	the collaborative nature of pair programming; leveraging code smell
-	detection with inter-smell relations; studying the evolution of quality
-	metrics in an agile/distributed project; the effect of test-driven
-	development on program code; configuring hybrid agile-tradition software
-	processes; agility in the avionics software world; security planning
-	and refactoring in extreme programming; augmenting the agile planning
-	toolbox; and storytelling in interaction: agility in practice.},
-  address = {Oulu},
-  document_type = {Conference Review},
-  isbn = {3540350942; 9783540350941},
-  issn = {03029743},
-  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
-	Computer programming; Project management, Distributed cognition;
-	Pair programming; Quality metrics; Software processes, Software engineering},
-  language = {English},
-  page_count = {238},
-  source = {Scopus},
-  sponsors = {Exoftware; Philips},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
-}
-
-@ARTICLE{2006,
   title = {The 7th International Conference on eXtreme Programming and Agile
 	Processes in Software Engineering},
   journal = {VTT Symposium (Valtion Teknillinen Tutkimuskeskus)},
@@ -60939,45 +61243,43 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-42149124552&partnerID=40&md5=49feb70ce1b552ec391cd463f8b732e3}
 }
 
-@ARTICLE{2006a,
-  title = {Product-Focused Software Process Improvement - 7th International
-	Conference, PROFES 2006, Proceedings},
+@ARTICLE{2006,
+  title = {Extreme Programming and Agile Processes in Software Engineering -
+	7th International Conference, XP 2006, Proceedings},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
 	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
   year = {2006},
-  volume = {4034 LNCS},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@a5a69e5
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@35de3eb2
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@11e633bf; Conference
-	Code:67894},
+  volume = {4044 LNCS},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
+	Code:67905},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
-  abstract = {The proceedings contain 48 papers. The topics discussed include: processes
-	and the software business; controlling the chaos of the CMMI continuous
-	representation; defining the process for making software system modernization
-	decisions; introducing tool support for retrospective analysis of
-	release planning decisions; a qualitative evaluation method for business
-	process tools; an effective source code review process for embedded
-	software; troubleshooting large-scale new product development embedded
-	software projects; software process improvement with agile practices
-	in a large telecom company; assessing software product maintainability
-	based on class-level structural measures; integrating reuse measurement
-	practices into the ERP requirements engineering process; process
-	definition and project tracking in model driven engineering; and
-	a case study on the success of introducing general non-construction
-	activities for project management and planning improvement.},
-  address = {Amsterdam},
+  abstract = {The proceedings contain 30 papers. The topics discussed include: a
+	distributed cognition account of mature XP teams; foundations of
+	agile decision making from agile mentors and developers; software
+	development as a collaborative writing project; comparative analysis
+	of job satisfaction in agile and non-agile software development teams;
+	the collaborative nature of pair programming; leveraging code smell
+	detection with inter-smell relations; studying the evolution of quality
+	metrics in an agile/distributed project; the effect of test-driven
+	development on program code; configuring hybrid agile-tradition software
+	processes; agility in the avionics software world; security planning
+	and refactoring in extreme programming; augmenting the agile planning
+	toolbox; and storytelling in interaction: agility in practice.},
+  address = {Oulu},
   document_type = {Conference Review},
-  isbn = {3540346821; 9783540346821},
+  isbn = {3540350942; 9783540350941},
   issn = {03029743},
-  keywords = {Decision making; Embedded systems; Maintainability; Planning; Process
-	engineering; Product development; Project management; Software engineering,
-	Embedded software projects; Process definition; Project tracking;
-	Software system modernization, Technical presentations},
+  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
+	Computer programming; Project management, Distributed cognition;
+	Pair programming; Quality metrics; Software processes, Software engineering},
   language = {English},
-  page_count = {485},
+  page_count = {238},
   source = {Scopus},
+  sponsors = {Exoftware; Philips},
   stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746217393&partnerID=40&md5=eaadd80b565502215f94e2f24c06504c}
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
 }
 
 @CONFERENCE{2006a,
@@ -61017,6 +61319,47 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-81455136874&partnerID=40&md5=4a0d953942825b4d468afe22e881dc87}
+}
+
+@ARTICLE{2006a,
+  title = {Product-Focused Software Process Improvement - 7th International
+	Conference, PROFES 2006, Proceedings},
+  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
+	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+  year = {2006},
+  volume = {4034 LNCS},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@a5a69e5
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@35de3eb2
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@11e633bf; Conference
+	Code:67894},
+  abbrev_source_title = {Lect. Notes Comput. Sci.},
+  abstract = {The proceedings contain 48 papers. The topics discussed include: processes
+	and the software business; controlling the chaos of the CMMI continuous
+	representation; defining the process for making software system modernization
+	decisions; introducing tool support for retrospective analysis of
+	release planning decisions; a qualitative evaluation method for business
+	process tools; an effective source code review process for embedded
+	software; troubleshooting large-scale new product development embedded
+	software projects; software process improvement with agile practices
+	in a large telecom company; assessing software product maintainability
+	based on class-level structural measures; integrating reuse measurement
+	practices into the ERP requirements engineering process; process
+	definition and project tracking in model driven engineering; and
+	a case study on the success of introducing general non-construction
+	activities for project management and planning improvement.},
+  address = {Amsterdam},
+  document_type = {Conference Review},
+  isbn = {3540346821; 9783540346821},
+  issn = {03029743},
+  keywords = {Decision making; Embedded systems; Maintainability; Planning; Process
+	engineering; Product development; Project management; Software engineering,
+	Embedded software projects; Process definition; Project tracking;
+	Software system modernization, Technical presentations},
+  language = {English},
+  page_count = {485},
+  source = {Scopus},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746217393&partnerID=40&md5=eaadd80b565502215f94e2f24c06504c}
 }
 
 @CONFERENCE{2006b,
