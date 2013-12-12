@@ -3453,7 +3453,7 @@
 	e de software-Processo de medicao, , ABNT},
   source = {Scopus},
   sponsors = {Information Science School of Guangdong; University of Business Studies},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84872456756&partnerID=40&md5=492885f593e87b5c201b17ca6873e86d}
 }
@@ -5259,7 +5259,7 @@
 	, Liu, K, Clarke, R, Andersen, P.B, Stamper, R.K, eds, Kluwer Academic
 	Publishers, Dordrecht; http://www.w3.org, accessed February 12, 2008},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-65949112956&partnerID=40&md5=de3ecdfbf6cf13fc1ea0f079832557c0}
 }
@@ -26925,7 +26925,9 @@
 	R., Mangalaraj, G., Challenges of migrating to agile methodologies
 	(2005) Communications of the ACM, 48 (5)},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-66749123492&partnerID=40&md5=7e8eb74f8e20af64e8c4f9d96da309c7}
 }
@@ -31247,7 +31249,7 @@
 
 @ARTICLE{Losavio200427,
   author = {Losavio, F.a and Chirinos, L.b and Matteo, A.a and LÃ©vy, N.c and
-	Ramdane-Cherif, A.d },
+	Ramdane-Cherif, A.d},
   title = {Designing quality architecture: Incorporating ISO standards into
 	the unified process},
   journal = {Information Systems Management},
@@ -31329,7 +31331,7 @@
 	Architecture. Perspectives on an Emerging Discipline, , Prentice
 	Hall, Englewood Cliffs, NJ},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0346896610&partnerID=40&md5=2529788e9cc1b169f0d2b81c3254cc7a}
 }
 
@@ -37748,7 +37750,9 @@
   owner = {ekupiain},
   references = {Agile Manifesto, , http://www.agilemanifesto.org},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-66749098885&partnerID=40&md5=4d5773ab290468548294dac2fb4c702a}
 }
@@ -41586,7 +41590,9 @@
   language = {English},
   owner = {ekupiain},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-18444373271&partnerID=40&md5=98998a23e134721ab0c0f30cb15b84fc}
 }
@@ -60336,7 +60342,9 @@
 	Inc; Charette, C., The Economics of AOI and AXI for EMS Providers
 	(2001) Circuits Assembly, p. 44. , November},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NoMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77949685741&partnerID=40&md5=80703b48823042bbeb5064191bfc47cd}
 }
@@ -62026,7 +62034,7 @@
   language = {English},
   source = {Scopus},
   sponsors = {Shanghai University of Electric Power; Springer; APNNA; NSFC},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84882289957&partnerID=40&md5=6f75900f71385386f1c7e16387f60173}
 }
 
