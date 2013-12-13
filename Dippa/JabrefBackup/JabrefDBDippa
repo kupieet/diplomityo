@@ -2028,7 +2028,6 @@
   pages = {691-714},
   number = {5-6},
   note = {cited By (since 1996)8},
-  __markedentry = {},
   abbrev_source_title = {Int. J. Prod. Qual. Manage.},
   abstract = {Many organisations are implementing 'lean manufacturing' (LM) with
 	the objective of achieving a superior competitive advantage over
@@ -4711,7 +4710,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2ff07dae
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@55cb4318; Conference
 	Code:89960},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {In several relevant applicative domains, handling a high-level business
 	process requires coordinating a variety of fragmented software systems,
@@ -10279,7 +10277,6 @@
   pages = {194-207},
   number = {1},
   note = {cited By (since 1996)5},
-  __markedentry = {},
   abbrev_source_title = {Manage Sci},
   abstract = {Recently, an agile software development technique called extreme programming
 	has caught the attention of practitioners and researchers in the
@@ -12411,7 +12408,6 @@
   pages = {24-26},
   number = {1},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {Pap. Packag.},
   abstract = {Bob Murray,chairman, REM Associates, New Jersey, discusses several
 	technologies that are storming the industry, especially through the
@@ -13083,7 +13079,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@7d3d98ed
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@57032fd7; Conference
 	Code:80774},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {Agile software development methods mainly aim at increasing software
 	quality by fostering customer collaboration and performing exhaustive
@@ -13473,7 +13468,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@54a9db75
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5b8709bf; Conference
 	Code:87752},
-  __markedentry = {},
   abbrev_source_title = {Proc. World Multiconference Appl. Econ. Bus. Dev.},
   abstract = {The necessity of finding right skilled people and limiting costs has
 	leaded to wide adoption of global development in software industry.
@@ -15607,7 +15601,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@73e94ee2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@5a3a12e1; Conference
 	Code:80209},
-  __markedentry = {},
   abbrev_source_title = {IC4E - Int. Conf. e-Educ., e-Business, e-Manage. e-Learn.},
   abstract = {This paper conducts a research of the supply chain management theories
 	and applications based on the Lean supply chain management environment.
@@ -17011,7 +17004,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@25861d6b
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@7f56f0c; Conference
 	Code:96627},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {The adoption of agile methods of software development has gained momentum
 	within the software industry. NW Soft Solutions Ltd. (a pseudonym)
@@ -21286,7 +21278,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@63ab4c01
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@30b08c6; Conference
 	Code:79435},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {This paper presents "ActiveStory Enhanced" as a tool that enables
 	prototyping user interfaces and conducting usability tests in a way
@@ -22661,7 +22652,9 @@
 	Programming Projects, , http://www.agilealliance.org/articles/articles/QuantitativeSurvey.pdf;
 	Articles on Agile Methodologies and Case Studies, , http://www.agilealliance.org/articles},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-29844440828&partnerID=40&md5=9ca61c45f028dedd5c666bc8ca72a104}
 }
@@ -23918,7 +23911,6 @@
   pages = {971-995},
   number = {9},
   note = {cited By (since 1996)8},
-  __markedentry = {},
   abbrev_source_title = {Int. J. Oper. Prod. Manage.},
   abstract = {Purpose - The paper seeks to describe the state-of-the-art, reasons
 	for selecting various material planning methods, and modes of applying
@@ -25537,7 +25529,6 @@
   pages = {21-34},
   number = {1},
   note = {cited By (since 1996)16},
-  __markedentry = {},
   abbrev_source_title = {J Prod Innovation Manage},
   abstract = {Manufacturers focus on becoming more agile, software firms deploy
 	rapid application development tools - everyone is in a hurry. Although
@@ -25824,7 +25815,6 @@
   pages = {223-238},
   number = {3},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {Int. J. Qual. Reliab. Manage.},
   abstract = {Purpose: The purpose of this paper is to propose a contemporary reliability
 	model for lean systems through the development of an innovative lean
@@ -27565,7 +27555,6 @@
   pages = {107-126},
   number = {1},
   note = {cited By (since 1996)1},
-  __markedentry = {},
   abbrev_source_title = {Bus. Process Manage. J.},
   abstract = {Purpose: The general purpose of the paper is to improve supply chain
 	(SC) responsiveness and agility by developing advanced planning and
@@ -29000,7 +28989,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@87ba241
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6cd95dc0; Conference
 	Code:98643},
-  __markedentry = {},
   abbrev_source_title = {ISSE - Secur. Electron. Bus. Process.: Highlights Inf. Secur. Solutions
 	Europe Conf.},
   abstract = {This paper introduces the concept of moving security and compliance
@@ -29105,7 +29093,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@6301e78e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@12094e6a; Conference
 	Code:96627},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {Open Source Software development often resembles Agile models. In
 	this paper, we report about our experience in using SCRUM for the
@@ -35204,7 +35191,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2bd1fbe2
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@66efc8e7; Conference
 	Code:82600},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {Distributed software development teams are common-place today. One
 	good reason for distribution is the need to combine special skills
@@ -40287,7 +40273,7 @@
 	Improvement: Ractical Guidelines for Business Success (1998), 1st.,
 	USA, Addision-Wesley},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78651570264&partnerID=40&md5=cb93cf0a913382d5d9a4a4afa2fdec69}
 }
 
@@ -40419,7 +40405,7 @@
   sponsors = {Harvard University; University of California; University of Minnesota;
 	University of Illinois at Urbana-Champaign; Georgia Institute of
 	Technology and Emory University},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-62749102628&partnerID=40&md5=893ad52ca047815588aad23033d03946}
 }
 
@@ -40712,7 +40698,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@66d57a7e
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@495d1af0; Conference
 	Code:96627},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {Scientific studies about the impact of Test-Driven Development (TDD)
 	start to appear since 2002, resulting in approximately 30 papers
@@ -44421,7 +44406,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3aca09b0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@26421ff7; Conference
 	Code:82433},
-  __markedentry = {},
   abbrev_source_title = {PICMET - Portland Int. Cent. Manage. Eng. Technol., Proc. - Technol.
 	Manage. Global Econ. Growth},
   abstract = {Lean Six-sigma principles and methods have been successfully applied
@@ -45209,7 +45193,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@3fae8042
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@59668db7; Conference
 	Code:79435},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {This paper presents a metric visualization and sharing tool that supports
 	management and control of Agile-related practices, such as test-driven
@@ -46322,7 +46305,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@76b9aec0
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@187ffc25; Conference
 	Code:97598},
-  __markedentry = {},
   abbrev_source_title = {Annu. Natl. Conf. Am. Soc. Eng. Manage., ASEM},
   abstract = {Agile project management, first applied to software development projects,
 	has potential advantages for any fast-paced research and/or development
@@ -47856,7 +47838,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5f60ba28
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@475dc903; Conference
 	Code:73139},
-  __markedentry = {},
   abbrev_source_title = {Portland Int. Conf. Manage. Eng. Technol.},
   abstract = {There has been considerable activity regarding the current computer-aided
 	design, computer aided manufacturing, computer aided engineering,
@@ -52100,7 +52081,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@4a8feb27
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@2e9773af; Conference
 	Code:96627},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {Pair Programming has often been reported to be beneficial in software
 	projects. To better understand where these benefits come from we
@@ -53021,7 +53001,6 @@
   pages = {55-56},
   number = {5},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {JPT J Pet Technol},
   abstract = {One problem related to the operation of gas lift wells is the ability
 	to identify underperforming wells and to address the underlying issues
@@ -57285,7 +57264,6 @@
   pages = {66-83},
   number = {1-2},
   note = {cited By (since 1996)0},
-  __markedentry = {},
   abbrev_source_title = {Int. J. Manuf. Technol. Manage.},
   abstract = {The design of distant and distributed monitoring and controlling the
 	progress of tasks in a shop-floor level of a manufacturing system
@@ -62133,7 +62111,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@10322713
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@4ca358b3; Conference
 	Code:79425},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {The proceedings contain 53 papers. The topics discussed include: robust
 	web service provisioning through on-demand replication; modelling
@@ -62161,40 +62138,6 @@
   stage2status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649339032&partnerID=40&md5=a4938cb19952e369244da38fb54ddd3c}
-}
-
-@CONFERENCE{2013,
-  title = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  year = {2013},
-  address = {Innsbruck},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
-	Code:96247},
-  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
-  abstract = {The proceedings contain 18 papers. The topics discussed include: the
-	user information-based mobile application recommender system; towards
-	r&d as innovation experiment systems: a framework for moving beyond
-	agile software development; software requirement acquisition method
-	based on probabilistic action-model algorithm; investigating the
-	candidate pair generation of the VF2 algorithm; evaluating and improving
-	design patterns applicability with metrics; experienced benefits
-	of continuous integration in industry software product development:
-	a case study; interview guidelines for analyzing software architectural
-	practices in agile projects; integration of functional and interface
-	requirements of an web based software: a VDM based formal approach;
-	using AHP to compare and evaluate software security testing techniques;
-	and influence of code completion methods on the usability of APIS.},
-  document_type = {Conference Review},
-  isbn = {9780889869431},
-  journal = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  language = {English},
-  page_count = {135},
-  source = {Scopus},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
 }
 
 @ARTICLE{2013,
@@ -62308,6 +62251,40 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84876355993&partnerID=40&md5=4a4b482984c052d9224dbd227299dab3}
+}
+
+@CONFERENCE{2013,
+  title = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  year = {2013},
+  address = {Innsbruck},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
+	Code:96247},
+  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
+  abstract = {The proceedings contain 18 papers. The topics discussed include: the
+	user information-based mobile application recommender system; towards
+	r&d as innovation experiment systems: a framework for moving beyond
+	agile software development; software requirement acquisition method
+	based on probabilistic action-model algorithm; investigating the
+	candidate pair generation of the VF2 algorithm; evaluating and improving
+	design patterns applicability with metrics; experienced benefits
+	of continuous integration in industry software product development:
+	a case study; interview guidelines for analyzing software architectural
+	practices in agile projects; integration of functional and interface
+	requirements of an web based software: a VDM based formal approach;
+	using AHP to compare and evaluate software security testing techniques;
+	and influence of code completion methods on the usability of APIS.},
+  document_type = {Conference Review},
+  isbn = {9780889869431},
+  journal = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  language = {English},
+  page_count = {135},
+  source = {Scopus},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
 }
 
 @ARTICLE{2013a,
@@ -63194,45 +63171,6 @@
 }
 
 @ARTICLE{NoAuthor2012,
-  title = {Agile Processes in Software Engineering and Extreme Programming -
-	13th International Conference, XP 2012, Proceedings},
-  journal = {Lecture Notes in Business Information Processing},
-  year = {2012},
-  volume = {111 LNBIP},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@5abe6802
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a9e89d9
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@2e6c0b01; Conference
-	Code:89863},
-  __markedentry = {},
-  abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
-  abstract = {The proceedings contain 15 papers. The topics discussed include: agile
-	principles as software engineering principles: an analysis; agile
-	software development practice adoption survey; applying agile development
-	in mass-produced embedded systems; understanding team dynamics in
-	distributed agile software development; information flow within a
-	dispersed agile team: a distributed cognition perspective; sensing
-	high-performing software teams: proposal of an instrument for self-monitoring;
-	release readiness indicator for mature agile and lean software development
-	projects; a palette of lean indicators to detect waste in software
-	maintenance: a case study; a comparative study of scrum and Kanban
-	approaches on a real case study using simulation; impact of test
-	design technique knowledge on test driven development: a controlled
-	experiment; and escalation of commitment: a longitudinal case study
-	of daily meetings.},
-  address = {Malmo},
-  document_type = {Conference Review},
-  isbn = {9783642303494},
-  issn = {18651348},
-  language = {English},
-  owner = {ekupiain},
-  page_count = {209},
-  source = {Scopus},
-  stage2status = {Exclude},
-  timestamp = {2013.12.11},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862105997&partnerID=40&md5=49ea0828f7e4835e8127bd13f0d3b106}
-}
-
-@ARTICLE{NoAuthor2012,
   title = {The Dynamics of Global Sourcing, Perspectives and Practices - 6th
 	Global Sourcing Workshop 2012, Revised Selected Papers},
   journal = {Lecture Notes in Business Information Processing},
@@ -63242,7 +63180,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5d518fcc
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@15b7c9f1; Conference
 	Code:93404},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {The proceedings contain 13 papers. The topics discussed include: analyzing
 	client dependence in dyadic IS outsourcing relationships; measuring
@@ -63269,6 +63206,44 @@
   stage2status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84868228787&partnerID=40&md5=e79d7817d27975d4c8a681c388a7ed67}
+}
+
+@ARTICLE{NoAuthor2012,
+  title = {Agile Processes in Software Engineering and Extreme Programming -
+	13th International Conference, XP 2012, Proceedings},
+  journal = {Lecture Notes in Business Information Processing},
+  year = {2012},
+  volume = {111 LNBIP},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@5abe6802
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@a9e89d9
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@2e6c0b01; Conference
+	Code:89863},
+  abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
+  abstract = {The proceedings contain 15 papers. The topics discussed include: agile
+	principles as software engineering principles: an analysis; agile
+	software development practice adoption survey; applying agile development
+	in mass-produced embedded systems; understanding team dynamics in
+	distributed agile software development; information flow within a
+	dispersed agile team: a distributed cognition perspective; sensing
+	high-performing software teams: proposal of an instrument for self-monitoring;
+	release readiness indicator for mature agile and lean software development
+	projects; a palette of lean indicators to detect waste in software
+	maintenance: a case study; a comparative study of scrum and Kanban
+	approaches on a real case study using simulation; impact of test
+	design technique knowledge on test driven development: a controlled
+	experiment; and escalation of commitment: a longitudinal case study
+	of daily meetings.},
+  address = {Malmo},
+  document_type = {Conference Review},
+  isbn = {9783642303494},
+  issn = {18651348},
+  language = {English},
+  owner = {ekupiain},
+  page_count = {209},
+  source = {Scopus},
+  stage2status = {Exclude},
+  timestamp = {2013.12.11},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862105997&partnerID=40&md5=49ea0828f7e4835e8127bd13f0d3b106}
 }
 
 @CONFERENCE{2011,
@@ -64168,7 +64143,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@2608f394
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@38559d41; Conference
 	Code:96639},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {The proceedings contain 41 papers. The topics discussed include: enterprise
 	information system trends; non-Euclidean problems in pattern recognition
@@ -64938,7 +64912,6 @@
 	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@33dcd094
 	Through org.apache.xalan.xsltc.dom.DOMAdapter@6601bf25; Conference
 	Code:97293},
-  __markedentry = {},
   abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
   abstract = {The proceedings contain 41 papers. The topics discussed include: essence:
 	facilitating agile innovation; scrum and team effectiveness: theory
@@ -65194,45 +65167,6 @@
 }
 
 @ARTICLE{2006,
-  title = {Extreme Programming and Agile Processes in Software Engineering -
-	7th International Conference, XP 2006, Proceedings},
-  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
-	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
-  year = {2006},
-  volume = {4044 LNCS},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
-	Code:67905},
-  abbrev_source_title = {Lect. Notes Comput. Sci.},
-  abstract = {The proceedings contain 30 papers. The topics discussed include: a
-	distributed cognition account of mature XP teams; foundations of
-	agile decision making from agile mentors and developers; software
-	development as a collaborative writing project; comparative analysis
-	of job satisfaction in agile and non-agile software development teams;
-	the collaborative nature of pair programming; leveraging code smell
-	detection with inter-smell relations; studying the evolution of quality
-	metrics in an agile/distributed project; the effect of test-driven
-	development on program code; configuring hybrid agile-tradition software
-	processes; agility in the avionics software world; security planning
-	and refactoring in extreme programming; augmenting the agile planning
-	toolbox; and storytelling in interaction: agility in practice.},
-  address = {Oulu},
-  document_type = {Conference Review},
-  isbn = {3540350942; 9783540350941},
-  issn = {03029743},
-  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
-	Computer programming; Project management, Distributed cognition;
-	Pair programming; Quality metrics; Software processes, Software engineering},
-  language = {English},
-  page_count = {238},
-  source = {Scopus},
-  sponsors = {Exoftware; Philips},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
-}
-
-@ARTICLE{2006,
   title = {The 7th International Conference on eXtreme Programming and Agile
 	Processes in Software Engineering},
   journal = {VTT Symposium (Valtion Teknillinen Tutkimuskeskus)},
@@ -65278,45 +65212,43 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-42149124552&partnerID=40&md5=49feb70ce1b552ec391cd463f8b732e3}
 }
 
-@ARTICLE{2006a,
-  title = {Product-Focused Software Process Improvement - 7th International
-	Conference, PROFES 2006, Proceedings},
+@ARTICLE{2006,
+  title = {Extreme Programming and Agile Processes in Software Engineering -
+	7th International Conference, XP 2006, Proceedings},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
 	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
   year = {2006},
-  volume = {4034 LNCS},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@a5a69e5
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@35de3eb2
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@11e633bf; Conference
-	Code:67894},
+  volume = {4044 LNCS},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
+	Code:67905},
   abbrev_source_title = {Lect. Notes Comput. Sci.},
-  abstract = {The proceedings contain 48 papers. The topics discussed include: processes
-	and the software business; controlling the chaos of the CMMI continuous
-	representation; defining the process for making software system modernization
-	decisions; introducing tool support for retrospective analysis of
-	release planning decisions; a qualitative evaluation method for business
-	process tools; an effective source code review process for embedded
-	software; troubleshooting large-scale new product development embedded
-	software projects; software process improvement with agile practices
-	in a large telecom company; assessing software product maintainability
-	based on class-level structural measures; integrating reuse measurement
-	practices into the ERP requirements engineering process; process
-	definition and project tracking in model driven engineering; and
-	a case study on the success of introducing general non-construction
-	activities for project management and planning improvement.},
-  address = {Amsterdam},
+  abstract = {The proceedings contain 30 papers. The topics discussed include: a
+	distributed cognition account of mature XP teams; foundations of
+	agile decision making from agile mentors and developers; software
+	development as a collaborative writing project; comparative analysis
+	of job satisfaction in agile and non-agile software development teams;
+	the collaborative nature of pair programming; leveraging code smell
+	detection with inter-smell relations; studying the evolution of quality
+	metrics in an agile/distributed project; the effect of test-driven
+	development on program code; configuring hybrid agile-tradition software
+	processes; agility in the avionics software world; security planning
+	and refactoring in extreme programming; augmenting the agile planning
+	toolbox; and storytelling in interaction: agility in practice.},
+  address = {Oulu},
   document_type = {Conference Review},
-  isbn = {3540346821; 9783540346821},
+  isbn = {3540350942; 9783540350941},
   issn = {03029743},
-  keywords = {Decision making; Embedded systems; Maintainability; Planning; Process
-	engineering; Product development; Project management; Software engineering,
-	Embedded software projects; Process definition; Project tracking;
-	Software system modernization, Technical presentations},
+  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
+	Computer programming; Project management, Distributed cognition;
+	Pair programming; Quality metrics; Software processes, Software engineering},
   language = {English},
-  page_count = {485},
+  page_count = {238},
   source = {Scopus},
+  sponsors = {Exoftware; Philips},
   stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746217393&partnerID=40&md5=eaadd80b565502215f94e2f24c06504c}
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
 }
 
 @CONFERENCE{2006a,
@@ -65356,6 +65288,47 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-81455136874&partnerID=40&md5=4a0d953942825b4d468afe22e881dc87}
+}
+
+@ARTICLE{2006a,
+  title = {Product-Focused Software Process Improvement - 7th International
+	Conference, PROFES 2006, Proceedings},
+  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
+	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+  year = {2006},
+  volume = {4034 LNCS},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@a5a69e5
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@35de3eb2
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@11e633bf; Conference
+	Code:67894},
+  abbrev_source_title = {Lect. Notes Comput. Sci.},
+  abstract = {The proceedings contain 48 papers. The topics discussed include: processes
+	and the software business; controlling the chaos of the CMMI continuous
+	representation; defining the process for making software system modernization
+	decisions; introducing tool support for retrospective analysis of
+	release planning decisions; a qualitative evaluation method for business
+	process tools; an effective source code review process for embedded
+	software; troubleshooting large-scale new product development embedded
+	software projects; software process improvement with agile practices
+	in a large telecom company; assessing software product maintainability
+	based on class-level structural measures; integrating reuse measurement
+	practices into the ERP requirements engineering process; process
+	definition and project tracking in model driven engineering; and
+	a case study on the success of introducing general non-construction
+	activities for project management and planning improvement.},
+  address = {Amsterdam},
+  document_type = {Conference Review},
+  isbn = {3540346821; 9783540346821},
+  issn = {03029743},
+  keywords = {Decision making; Embedded systems; Maintainability; Planning; Process
+	engineering; Product development; Project management; Software engineering,
+	Embedded software projects; Process definition; Project tracking;
+	Software system modernization, Technical presentations},
+  language = {English},
+  page_count = {485},
+  source = {Scopus},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746217393&partnerID=40&md5=eaadd80b565502215f94e2f24c06504c}
 }
 
 @CONFERENCE{2006b,
