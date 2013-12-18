@@ -983,7 +983,7 @@
 	quality control (2006) Occupational Ergonomics, 6, pp. 107-120},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {NotFound},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84878686417&partnerID=40&md5=c3687d8ba0fc426fb77950c3d89c1a15}
 }
 
@@ -6790,7 +6790,9 @@
 	IL, USA; NBS, Gaithersburg, MD, USA; ACM, Special Interest Group
 	on Software Engineering, New York, NY; Assoc for Women in Computing,
 	Silver Spring, MD, USA},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NotAgile},
+  stage3status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0023531313&partnerID=40&md5=be095cee1b4ed4c0e96debc5f7716f8b}
 }
@@ -10762,7 +10764,8 @@
 	10, pp. 3-12},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {NotFound},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78049244598&partnerID=40&md5=4d908e04a39ddd04a1379bbc9aa4a5fa}
 }
 
@@ -11063,7 +11066,8 @@
 	Systems Journal, 7 (1), pp. 47-65},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {NotFound},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84860761616&partnerID=40&md5=c3c647d206f1802f51898826bff32a03}
 }
 
@@ -19860,7 +19864,8 @@
 	Information and Software Technology, 45 (3), pp. 123-136},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-60449107898&partnerID=40&md5=a551836e27340b4b91bb00f6cde594d7}
 }
 
@@ -27742,7 +27747,7 @@
 	(ODU), Department of Eng.; Management and Systems Engineering; Missouri
 	University of Science and Technology, Dep.; of Engineering Management
 	and Systems Engineering},
-  stage2status = {NotFound},
+  stage2status = {IdeaPile},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84883359988&partnerID=40&md5=754b07b1a1b6fe840f53f3ce4a951517}
 }
@@ -29812,7 +29817,7 @@
 	Report, , CMU/SEI-93-TR-024, ESC-TR-93-177, February; Customized
 	software for distributed control 2004 VDI Conference, , Dresden},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-28844490116&partnerID=40&md5=00be4cace1ba397573367fd11b8446e7}
 }
@@ -30819,7 +30824,7 @@
 	issue tracking system (2008) Proceedings of IEEE International Conference
 	on Software Maintenance, pp. 460-461. , Oct 2008},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869440444&partnerID=40&md5=ba13aea80d3ef0316528fb52073cf439}
 }
@@ -32121,7 +32126,9 @@
 	129, pp. 640-644; Zadeh, L., (1965) Fuzzy sets. Information and Control,
 	8, pp. 338-353},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Include},
+  stage3reason = {NotIndustrial},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-57349163213&partnerID=40&md5=f5703fba85510076106028d560aca17a}
 }
 
@@ -33982,7 +33989,7 @@
   sponsors = {Harvard University; University of California; University of Minnesota;
 	University of Illinois at Urbana-Champaign; Georgia Institute of
 	Technology and Emory University},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-62749089371&partnerID=40&md5=8bb84a2381adfa6d6019db2ec2293178}
 }
 
@@ -35800,7 +35807,7 @@
 	R.K., (2006) Effective Software Project Management, , Wiley; Yeh,
 	H.-T., (1993) Software Process Quality, , McGraw-Hill},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34548211776&partnerID=40&md5=04cb80ea02cdcc4da0206b04b1575230}
 }
@@ -37377,7 +37384,7 @@
 	dated 25/10/},
   source = {Scopus},
   sponsors = {IASTED, Technical Committee on Software Engineering},
-  stage2status = {NotFound},
+  stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-1542433701&partnerID=40&md5=85f25ff79f9fb7c40ae94ec58cbdf246}
 }
 
@@ -42008,7 +42015,8 @@
 	and methods, 3rd edn (2002) Applied Social Research Methods Series,
 	5. , Prentice Hall},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
+  stage3status = {Include},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862065346&partnerID=40&md5=320b45b44e49fefde74e744a46eac3cf}
 }
@@ -47643,8 +47651,8 @@
 	Dreger, B., (1989) Function Point Analysis, , Prentice Hall},
   source = {Scopus},
   stage2status = {Include},
-  stage3reason = {ACTAPress},
-  stage3status = {NotFound},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77954199690&partnerID=40&md5=eb8940651ba29b93254fc587668adcea}
 }
 
@@ -51826,7 +51834,7 @@
   source = {Scopus},
   sponsors = {BAE Systems; Eastman Kodak Company; General Dynamics Advanced Information
 	Systems; Lockheed Martin; Xerox},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84883307765&partnerID=40&md5=e87efbe59204ad158dd9d8575d4f16a9}
 }
 
@@ -54614,7 +54622,7 @@
 	control},
   language = {English},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0346342682&partnerID=40&md5=beddf523461f3f298905cd8281d059ae}
 }
 
@@ -55907,7 +55915,7 @@
 	and Knowledge Engineering (SEKE) 2007},
   source = {Scopus},
   sponsors = {Knowledge Systems Institute Graduate School},
-  stage2status = {NotFound},
+  stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78149328359&partnerID=40&md5=80adb961ecd3b838c77f905baf1d1054}
 }
 
@@ -56336,7 +56344,7 @@
 	of agile development research (2009) European Journal of Information
 	Systems, 18, pp. 281-284},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84867457873&partnerID=40&md5=0788c46c97018d8964602ee604e19f66}
 }
 
