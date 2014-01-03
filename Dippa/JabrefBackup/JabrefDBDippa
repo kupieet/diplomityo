@@ -14048,7 +14048,7 @@
 	engineering practices (2010) Proceedings of the Requirements Engineering
 	Conference, pp. 289-294. , IEEE},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862071996&partnerID=40&md5=6ae72c9e35bb69046e184b26731ee86f}
 }
@@ -25806,7 +25806,7 @@
 	C., Risk identification in software product transfers (2011) 1st
 	International Software Technology Exchange Workshop, Swedsoft},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862063313&partnerID=40&md5=a4dd1ef716b62e664de07172c5989d2a}
 }
@@ -52528,7 +52528,9 @@
 	Fenton, N.E., Neil, M., Software metrics: Successes, failures and
 	new directions (1999) Journal of Systems and Software, 47, pp. 149-157},
   source = {Scopus},
-  stage2status = {Maksaa},
+  stage2status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84872238632&partnerID=40&md5=fb4c3e53582aa67305b5725d002c004e}
 }
