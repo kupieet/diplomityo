@@ -507,31 +507,58 @@ review.
 High level reasons for using measurements are listed in !nearTable. 
 
 \subsubsection{Iteration planning}
+Many metrics center around iteration
+planning. Tasks for the next
+iteration are selected and prioritized
+with the help of metrics.
+
 Many metrics were focused to help in the prioritization of tasks for the next
 iteration !ADDVIITTEET. Effort estimation metrics were used scope out features
 that would not fit to the iteration. Consequently, velocity
 metrics are used to calculate how many features is the team able to complete in an iteration.
 Velocity metrics can be also used to improve next iterations estimates.
-(Estimates can also be used in contract negotiations. (ehk� huono iskee t�nne
-koska ei toisaalta selkeytt� miksi sit� k�ytettiin siell�, vaikkakin
-aika obvious)) Also, startAndEndDate metric was used to point out interdependent
-tasks in planning phase. Knowing the teams' available hours is also important
-when selecting tasks for a iteration. One paper also added one should use effective hours planning sprint as some time is used for work outside the work items such as reading emails and participating in meetings. Measuring the completion of tasks enables selecting incompleted tasks to the next iteration.
+Also, startAndEndDate metric was used to point out interdependent
+tasks in planning phase. Knowing the teams' available hours is also useful
+when selecting tasks for a iteration. One paper also added that one should 
+use effective hours planning sprint as some time is used for work outside 
+the work items such as reading emails and participating in meetings. 
+Measuring the completion of tasks enables selecting incomplete tasks
+ to the next iteration. Prioritization
+ of features can also be affected by a
+ metric that measures the amount of
+ revenue a customer is willing to pay
+ for a feature.
+ Higher valued customers get their features done first.
+ 
 
 \subsubsection{Iteration tracking} %completion} 
 Timely manner of completing iteration is one of the cornerstones of agile
-development !ISKEVIITE. This goal was seen from multiple aspects. Progress
+development !ISKEVIITE. Purpose of
+iteration tracking is to make sure that
+the tasks selected for the iteration are
+completed or that necessary
+modifications are done to the plan to
+end the iteration according to schedule.
+Metrics help in monitoring, 
+identifying problems and predicting end
+result.
+
+Progress
 metrics made it transparent to all stakeholders how the iteration is progressing
-and are there any major divergencies that would be needed to act upon.
-Especially, actual effort and effort remaining were important metrics. Almost
-anyone could walk into a team's room and with a quick glance understand what is the status of the iteration. When there were problems that needed to be
+and are there any major divergences that would be needed to act upon.
+Especially, actual effort and effort remaining were important metrics. However, using velocity can also have negative effects such as cutting corners in implementing features to maintain velocity with the cost of quality[Elssamadisy].
+ If it seemed that not all planned tasks could be completed, tasks were cut from the iteration or extra resources were added.
+
+ %Almost anyone could walk into a team's room and with a quick glance understand what is the status of the iteration. 
+ When there were problems that needed to be s
 fixed - metrics helped in making decisions to fix them - whether they were short
 or long term. It was possible to base decisions on data, not only use common
-sense and experience. Balance of workflow was mentioned in multiple papers -
-tasks should flow from one phase to another smoothly without any spikes that
-could cause bottlenecks. Also, metrics were used focus work to tasks that
+sense and experience. Balance of work
+flow was mentioned in multiple papers - tasks should flow from one phase to another smoothly without any spikes that
+could cause bottlenecks. Crosstraining people to work on multiple disciplines was used to balance the work flow.  Also, metrics were used focus work to tasks that
 matter the most - avoid partially done work, task switching\cite{Seikola2011321}
-and polishing of features\cite{Talby200940}.
+and polishing of features\cite{Talby200940}. Typically an iteration ends in a release but if too many defects are found the release must be delayed as happened in one case.
+
 
 %\subsubsection{Project progress}
 %While iteration completion is important - so is the whole project's completion.
@@ -539,31 +566,78 @@ and polishing of features\cite{Talby200940}.
 %completion and 
 
 \subsubsection{Motivate and enable team to improve}
-Agile methods emphasize self-empowerement - this was also visible in the used
-metrics. Metrics were used to communicate different data about the project or
-product to the team members. In some cases the team could come up with
-reasons for the data. Moreover, the data motivated team to act and
+Agile methods emphasize self-empowerment - this was also visible in the used
+metrics. This section describes metrics that are used to
+motivate people and make them improve on their own.
+
+Metrics were used to communicate different data about the project or
+product to the team members.  In some
+cases the team could come up with reasons for the data's behaviour. Moreover, the data motivated team to act and
 improve their performance. Some examples include fixing the build faster, seek
-help in reducing technical debt or creating unit tests for the feature before declaring
-it is completed.
+help within organization for technical issues or creating unit tests for the feature to declare the feature's completion.
+Metrics can be also used to prevent harmful behaviour such as cherry picking tasks that are most interesting. Measuring work in progress and setting WIP limits prevent cherry picking by enforcing only few work items at a time.
 
-\subsubsection{Identify problems}
+\subsubsection{Problem identification}
+Metrics are often used to identify or avoid problems in
+processes and work flows. This chapter describes how metrics
+can be used to spot problems.
+
 There were multiple cases highlighting how measures are used to identify or
-predict problems so that the problems could be solved or avoided. Some metrics
-are used continuosly while some are only checked in certain intervals. Sometimes
-deviations in metrics are not problems - instead they can be opportunities.
-Finding the cause for positive deviation can help the organization to improve.
+predict problems so that the problems
+could be solved or avoided. Sometimes there can be work phases where no value is added for example ``waiting for finalization''. This type of activity is called waste and can be identified by using lead time.  Creating awareness with defect trend indicator helped to take actions to avoid problems. Some metrics are used continuously while some are
+only checked in certain intervals. 
 In some cases there are defined limits in metrics that trigger improvement
-actions.
+actions. One observed solution to problems was to find the root cause.
 
-\subsubsection{Internal quality}
-Metrics in the internal quality category were used to prevent defects reaching
-customers. Integration fails were a common problem to avoid with metrics.
-Moreover, metrics were used to make sure that the product is sufficiently tested
-before the next step in the release path. Additionally, making sure that the
-product is ready for further development was mentioned. 
+\subsubsection{Pre-release quality}
+Metrics in the pre-release quality
+category were used to prevent defects reaching customers
+and to understand what is the current quality of the
+product.
 
+Integration fails were a common problem to avoid with
+metrics.[Cataldo] [Janus] Moreover, metrics were used to
+make sure that the product is sufficiently tested before the next step
+in the release path.[Janus][dubinsky2005] Additionally,
+making sure that the product is ready for further
+development was mentioned. Also, using metrics to improve
+pre-release quality was goal in one case.[Janus] Some
+metrics force the approach of writing tests before actual
+code.[Trapa]
 
+\subsubsection{Post-release quality}
+Metrics in post-release quality deal
+with evaluating the quality after it has been released. Customer satisfaction, customer responsiveness and quality
+indicators are seen as attributes of
+post-release quality. Some metrics
+include customer input to determine post-release quality while other metrics use pre-release data as predictors of external quality. Customer related metrics include for example defects sent by customers, change requests from customers and customer's willingness to recommend product to other potential customers.
+Quality prediction metrics include defect counts, maintenance effort and
+deferred defect counts.
+
+\subsubsection{Change in process or tools}
+This chapter lists what kind of changes some of the metrics
+did for processes and tools.
+
+The successful usage of sprint
+readiness metric and story flow metric changed company policy to have target values for
+both metrics as well as monthly reporting of both metrics by
+all projects.[Jacobsen] At Ericsson by monitoring the flow
+of requirements metric they decided to change their
+implementation flow from push to pull to help them deliver
+in a countinous manner. Also based on the metric they added
+intermediate release version to have release quality earlier
+in the development cycle.[Petersen2010] Changes to
+requirements managements were also done based on metrics in
+an other case at Ericsson[Mujtaba2010]. 
+
+The problem with broken build and the long times to fix it
+gave birth to measurements that monitor and visualize the
+state of the build and the time to fix it. Also, additional
+code style rules were added to code check-in and build
+tools so that builds would fail more often and defects would
+get caught before the release.[Jakobsen][Janus] Similarly,
+testing approaches were changed based on flow
+metrics.[Mujtaba2010][Staron2010]
 
 \section{Conclusions}
 This paragraph will end the body of this sample document.
