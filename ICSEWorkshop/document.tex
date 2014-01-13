@@ -332,18 +332,6 @@ $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
 \hline\end{tabular}
 \end{table}
 
-\begin{table}
-\centering
-\caption{Categories for measurement usage}
-\begin{tabular}{|c|c|l|} \hline
-Non-English or Math&Frequency&Comments\\ \hline
-\O & 1 in 1,000& For Swedish names\\ \hline
-$\pi$ & 1 in 5& Common in math\\ \hline
-\$ & 4 in 5 & Used in business\\ \hline
-$\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
-\hline\end{tabular}
-\end{table}
-
 To set a wider table, which takes up the whole width of
 the page's live area, use the environment
 \textbf{table*} to enclose the table's contents and
@@ -474,28 +462,22 @@ l=\lim_{x\rightarrow c} f(x)
 which contradicts our assumption that $l\neq 0$.
 \end{proof}
 
-Complete rules about using these environments and using the
-two different creation commands are in the
-\textit{Author's Guide}; please consult it for more
-detailed instructions.  If you need to use another construct,
-not listed therein, which you want to have the same
-formatting as the Theorem
-or the Definition\cite{salas:calculus} shown above,
-use the \texttt{{\char'134}newtheorem} or the
-\texttt{{\char'134}newdef} command,
+Complete rules about using these environments and using the two different
+creation commands are in the \textit{Author's Guide}; please consult it for more
+detailed instructions.  If you need to use another construct, not listed
+therein, which you want to have the same formatting as the Theorem or the
+Definition\cite{salas:calculus} shown above, use the
+\texttt{{\char'134}newtheorem} or the \texttt{{\char'134}newdef} command,
 respectively, to create it.
 
-\subsection*{A {\secit Caveat} for the \TeX\ Expert}
-Because you have just been given permission to
-use the \texttt{{\char'134}newdef} command to create a
-new form, you might think you can
-use \TeX's \texttt{{\char'134}def} to create a
-new command: \textit{Please refrain from doing this!}
-Remember that your \LaTeX\ source code is primarily intended
-to create camera-ready copy, but may be converted
-to other forms -- e.g. HTML. If you inadvertently omit
-some or all of the \texttt{{\char'134}def}s recompilation will
-be, to say the least, problematic.
+\subsection*{A {\secit Caveat} for the \TeX\ Expert} Because you have just been
+given permission to use the \texttt{{\char'134}newdef} command to create a new
+form, you might think you can use \TeX's \texttt{{\char'134}def} to create a new
+command: \textit{Please refrain from doing this!} Remember that your \LaTeX\
+source code is primarily intended to create camera-ready copy, but may be
+converted to other forms -- e.g. HTML. If you inadvertently omit some or all of
+the \texttt{{\char'134}def}s recompilation will be, to say the least,
+problematic.
 
 \section{Results}
 
@@ -506,34 +488,41 @@ review.
 
 High level reasons for using measurements are listed in !nearTable. 
 
+\begin{table}
+\centering
+\caption{Categories for why and how measurement usage}
+\begin{tabular}{|c|l|} \hline
+Categories&Sources\\ \hline
+Iteration planning & esim[1]\\ \hline
+Iteration tracking & [2]\\ \hline
+Motivate and enable team to improve & [4][8]\\ \hline
+\end{tabular}
+\end{table}
+
+
 \subsubsection{Iteration planning}
-Many metrics center around iteration
-planning. Tasks for the next
-iteration are selected and prioritized
-with the help of metrics.
+Many metrics center around iteration planning. Tasks for the next iteration are
+selected and prioritized with the help of metrics.
 
 Many metrics were focused to help in the prioritization of tasks for the next
-iteration !ADDVIITTEET. Effort estimation metrics were used scope out features
-that would not fit to the iteration. Consequently, velocity
-metrics are used to calculate how many features is the team able to complete in an iteration.
-Velocity metrics can be also used to improve next iterations estimates.
-Also, startAndEndDate metric was used to point out interdependent
-tasks in planning phase. Knowing the teams' available hours is also useful
-when selecting tasks for a iteration. One paper also added that one should 
-use effective hours planning sprint as some time is used for work outside 
-the work items such as reading emails and participating in meetings. 
-Measuring the completion of tasks enables selecting incomplete tasks
- to the next iteration. Prioritization
- of features can also be affected by a
- metric that measures the amount of
- revenue a customer is willing to pay
- for a feature.
- Higher valued customers get their features done first.
+iteration \cite{Greening2010}\cite{Haugen200623}\cite{Hodgkins2007194}. Effort estimation metrics were
+used scope out features that would not fit to the iteration\cite{Elssamadisy2002617}.
+Consequently, velocity metrics are used to calculate how many features is the
+team able to complete in an iteration\cite{Polk2011263}. Velocity metrics can be also used
+to improve next iterations estimates\cite{Mahnic201273}. Also, startAndEndDate metric was
+used to point out interdependent tasks in planning phase\cite{Hong2010310}. Knowing the
+teams' effective available hours is also useful when selecting tasks for a
+iteration\cite{Cheng200929}. Measuring the completion of tasks enables selecting incomplete
+tasks to the next iteration\cite{Hong2010310}. Prioritization of features can also be
+affected by a metric that measures the amount of revenue a customer is willing
+to pay for a feature\cite{Hodgkins2007194}. Higher valued customers get their features done
+first.
  
 
 \subsubsection{Iteration tracking} %completion} 
-Timely manner of completing iteration is one of the cornerstones of agile
-development !ISKEVIITE. Purpose of
+%Timely manner of completing iteration is one of the
+% cornerstones of agile development !ISKEVIITE.
+Purpose of
 iteration tracking is to make sure that
 the tasks selected for the iteration are
 completed or that necessary
@@ -543,21 +532,45 @@ Metrics help in monitoring,
 identifying problems and predicting end
 result.
 
-Progress
-metrics made it transparent to all stakeholders how the iteration is progressing
-and are there any major divergences that would be needed to act upon.
-Especially, actual effort and effort remaining were important metrics. However, using velocity can also have negative effects such as cutting corners in implementing features to maintain velocity with the cost of quality[Elssamadisy].
- If it seemed that not all planned tasks could be completed, tasks were cut from the iteration or extra resources were added.
+Progress metrics made it transparent to all stakeholders how
+the iteration is progressing (and are there any major
+divergences that would be needed to act
+upon)\cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}\cite{Dubinsky200512}\cite{Hong2010310}\cite{Green2011}\cite{Trapa2006243}\cite{Trimble20134826}.
+Especially, actual effort and effort remaining were important metrics !Rephrase\cite{Mahnic201273}. However, 
+using velocity can also have negative effects such as
+cutting corners in implementing features to maintain 
+velocity with the cost of quality\cite{Elssamadisy2002617}. Risk
+management was also mentioned often
+\cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
+If it seemed that not all planned tasks could be completed, tasks were cut from the iteration \cite{Mahnic201273}\cite{Dubinsky200512}\cite{Middleton2007387} or
+extra resources were added \cite{Dubinsky200512}\cite{Middleton2007387}.
 
  %Almost anyone could walk into a team's room and with a quick glance understand what is the status of the iteration. 
- When there were problems that needed to be s
+When there were problems that needed to be s
 fixed - metrics helped in making decisions to fix them - whether they were short
-or long term. It was possible to base decisions on data, not only use common
-sense and experience. Balance of work
-flow was mentioned in multiple papers - tasks should flow from one phase to another smoothly without any spikes that
-could cause bottlenecks. Crosstraining people to work on multiple disciplines was used to balance the work flow.  Also, metrics were used focus work to tasks that
-matter the most - avoid partially done work, task switching\cite{Seikola2011321}
-and polishing of features\cite{Talby200940}. Typically an iteration ends in a release but if too many defects are found the release must be delayed as happened in one case.
+or long term
+\cite{Staron20101069}\cite{Dubinsky200512}\cite{Petersen2011975}\cite{LNBIP01490121}.
+It was possible to base decisions on data, not only use
+common sense and experience \cite{Talby200940}. Balance of work
+flow was mentioned in multiple papers - tasks should flow from one phase to another
+smoothly without any spikes that could cause
+bottlenecks (sivulausetta
+ei
+mainittu
+tietenk‰‰n
+kaikissa,
+vaan
+flow
+jossain
+muodossa)\cite{Polk2011263}\cite{Petersen2010654}\cite{Greening2010}\cite{Petersen2011975}\cite{Dubinsky200512}\cite{Jakobsen2011168}.
+Crosstraining people to work on multiple disciplines was
+used to balance the work flow\cite{Middleton2007387}\cite{Talby200940}. Also,
+metrics were used focus work to tasks that matter the most - avoid partially
+done work, task switching\cite{Seikola2011321}
+and polishing of features\cite{Talby200940}. Typically an
+iteration ends in a release but if too many defects are
+found the release must be delayed as happened in one case
+\cite{Hodgetts2004106}.
 
 
 %\subsubsection{Project progress}
@@ -566,16 +579,23 @@ and polishing of features\cite{Talby200940}. Typically an iteration ends in a re
 %completion and 
 
 \subsubsection{Motivate and enable team to improve}
-Agile methods emphasize self-empowerment - this was also visible in the used
-metrics. This section describes metrics that are used to
-motivate people and make them improve on their own.
+(Agile methods emphasize self-empowerment - this was also
+ visible in the used metrics.) This section describes
+ metrics that are used to motivate people and make them improve on their own.
 
 Metrics were used to communicate different data about the project or
-product to the team members.  In some
-cases the team could come up with reasons for the data's behaviour. Moreover, the data motivated team to act and
-improve their performance. Some examples include fixing the build faster, seek
-help within organization for technical issues or creating unit tests for the feature to declare the feature's completion.
-Metrics can be also used to prevent harmful behaviour such as cherry picking tasks that are most interesting. Measuring work in progress and setting WIP limits prevent cherry picking by enforcing only few work items at a time.
+product to the team
+members\cite{Trapa2006243}\cite{Talby200940}\cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}.
+Measurement data motivated teams to act and
+improve their
+performance\cite{Talby200940}\cite{Polk2011263}\cite{Cheng200929}\cite{LNBIP01490121}\cite{Jakobsen2011168}.
+Some examples include fixing the build faster\cite{Jakobsen2011168}\cite{LNBIP01490121}, fix bugs
+faster\cite{Cheng200929} or creating unit tests for the feature to declare the
+feature's completion\cite{Talby200940}.
+
+Metrics can be also used to prevent harmful behaviour such as
+cherry picking tasks that are most interesting. Measuring work in progress and setting WIP
+limits prevent cherry picking by enforcing only few work items at a time.\cite{Middleton2007387}
 
 \subsubsection{Problem identification}
 Metrics are often used to identify or avoid problems in
@@ -584,10 +604,19 @@ can be used to spot problems.
 
 There were multiple cases highlighting how measures are used to identify or
 predict problems so that the problems
-could be solved or avoided. Sometimes there can be work phases where no value is added for example ``waiting for finalization''. This type of activity is called waste and can be identified by using lead time.  Creating awareness with defect trend indicator helped to take actions to avoid problems. Some metrics are used continuously while some are
-only checked in certain intervals. 
-In some cases there are defined limits in metrics that trigger improvement
-actions. One observed solution to problems was to find the root cause.
+could be solved or
+avoided\cite{Petersen2011975}\cite{Trapa2006243}\cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}[Tudor].
+
+Sometimes there can be work phases where no value is added for example ``waiting
+for finalization''. This type of activity is called waste and can be identified by using
+lead time.\cite{Petersen2012108}
+
+Creating awareness with defect trend indicator helped to take actions to avoid
+problems\cite{Staron20101069}.
+Some metrics are used continuously while some are only checked in certain intervals(ei
+oo muistissa viitett‰ t‰h‰n). In some cases there are defined limits in metrics that
+trigger improvement actions(en muista viitett‰ t‰h‰n). One observed solution to problems
+was to find the root cause\cite{Jakobsen2011168}\cite{Middleton2007387}.
 
 \subsubsection{Pre-release quality}
 Metrics in the pre-release quality
@@ -596,48 +625,58 @@ and to understand what is the current quality of the
 product.
 
 Integration fails were a common problem to avoid with
-metrics.[Cataldo] [Janus] Moreover, metrics were used to
+metrics\cite{Cataldo2011161}\cite{Janus20129}. Moreover, metrics were used to
 make sure that the product is sufficiently tested before the next step
-in the release path.[Janus][dubinsky2005] Additionally,
+in the release path\cite{Janus20129}\cite{Dubinsky200512}. Additionally,
 making sure that the product is ready for further
 development was mentioned. Also, using metrics to improve
-pre-release quality was goal in one case.[Janus] Some
+pre-release quality was goal in one case\cite{Janus20129}. Some
 metrics force the approach of writing tests before actual
-code.[Trapa]
+code\cite{Trapa2006243}.
 
 \subsubsection{Post-release quality}
 Metrics in post-release quality deal
-with evaluating the quality after it has been released. Customer satisfaction, customer responsiveness and quality
+with evaluating the quality after it has been released.
+Customer satisfaction, customer responsiveness and quality
 indicators are seen as attributes of
 post-release quality. Some metrics
-include customer input to determine post-release quality while other metrics use pre-release data as predictors of external quality. Customer related metrics include for example defects sent by customers, change requests from customers and customer's willingness to recommend product to other potential customers.
-Quality prediction metrics include defect counts, maintenance effort and
-deferred defect counts.
+include customer input to determine post-release quality\cite{Petersen2010654}\cite{Green2011}\cite{Cheng200929}[]
+while other metrics use pre-release data as predictors of external
+quality\cite{Staron20101069}\cite{Petersen2010654}\cite{Green2011}.
+Customer related metrics include for example defects sent by customers\cite{Cheng200929}, change
+requests from customers\cite{Petersen2010654} and customer's willingness to recommend product to
+other potential customers\cite{Green2011}.
+Quality prediction metrics include defect counts\cite{Petersen2010654}, maintenance
+effort\cite{Staron20101069} and deferred defect counts\cite{Green2011}.
 
-\subsubsection{Change in process or tools}
-This chapter lists what kind of changes some of the metrics
-did for processes and tools.
+\subsubsection{Changes in processes or tools}
+This chapter lists what kind of changes metrics
+had for processes and tools.
 
 The successful usage of sprint
 readiness metric and story flow metric changed company policy to have target values for
 both metrics as well as monthly reporting of both metrics by
-all projects.[Jacobsen] At Ericsson by monitoring the flow
+all projects\cite{Jakobsen2011168}.
+
+At Ericsson by monitoring the flow
 of requirements metric they decided to change their
 implementation flow from push to pull to help them deliver
-in a countinous manner. Also based on the metric they added
+in a more continuous manner. Also, based on the metric they added
 intermediate release version to have release quality earlier
-in the development cycle.[Petersen2010] Changes to
-requirements managements were also done based on metrics in
-an other case at Ericsson[Mujtaba2010]. 
+in the development cycle.\cite{Petersen2010654}
 
-The problem with broken build and the long times to fix it
+Changes to requirements managements were also done based on metrics in
+an other case at Ericsson\cite{Mujtaba2010139}. 
+
+The problem with broken build, and the long times to fix the build
 gave birth to measurements that monitor and visualize the
-state of the build and the time to fix it. Also, additional
-code style rules were added to code check-in and build
+state of the build and the time to fix
+it\cite{LNBIP01490121}\cite{Jakobsen2011168}\cite{Janus20129}(ei v‰lttis oikea kappale).
+Also, additional code style rules were added to code check-in and build
 tools so that builds would fail more often and defects would
-get caught before the release.[Jakobsen][Janus] Similarly,
+get caught before the release\cite{Jakobsen2011168}\cite{Janus20129}. Similarly,
 testing approaches were changed based on flow
-metrics.[Mujtaba2010][Staron2010]
+metrics\cite{Mujtaba2010139}\cite{Staron20101069}.
 
 \section{Conclusions}
 This paragraph will end the body of this sample document.
