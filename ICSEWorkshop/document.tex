@@ -479,12 +479,226 @@ converted to other forms -- e.g. HTML. If you inadvertently omit some or all of
 the \texttt{{\char'134}def}s recompilation will be, to say the least,
 problematic.
 
-\section{Results}
+\section{Aims and research questions}
+The aim of this paper is to provide preliminary results from a systematic
+review (SR) on agile metrics. Moreover, we are interested on the
+industrial use of metrics in agile context.
+
+The performed SR has more research questions but for this paper only
+the following are considered:
+
+\begin{enumerate}
+  \item Why are metrics used?
+  \item What actions do the use of metrics trigger?
+  \item Which metrics are used?
+\end{enumerate}
+
+\section{Search and selection process}
+
+The strategy for finding primary studies was following:
+
+\begin{enumerate}
+  \item Initial check that there are enough papers to conduct SR
+  \item Pilot
+  \item Stage 1: Automated search
+  \item Stage 2: Include and exclude based on title and abstract
+  \item Stage 3: Include and exclude based on full text. Conduct data
+  extraction
+\end{enumerate}
+
+Scopus was used to find the primary documents with automated search. The first
+search string was:
+
+TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
+clear" OR dsdm OR "dynamic systems development method" OR fdd OR "feature
+driven development" OR "agile unified process" OR "agile modeling" OR scrumban
+OR kanban OR scrum OR "extreme programming" OR xp) AND (measur* OR metric OR
+diagnostic OR monitor*)) AND (LIMIT-TO(SUBJAREA, "COMP")) AND
+(LIMIT-TO(LANGUAGE, "English"))
+
+It found 512 hits 19.9.2013.
+
+Then I noticed that some previously found key papers were missing from the
+hits because they were under sub area ``Engineering'', thus the second search
+string:
+
+TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
+clear" OR dsdm OR "dynamic systems development method" OR fdd OR "feature
+driven development" OR "agile unified process" OR "agile modeling" OR scrumban
+OR kanban OR scrum OR "extreme programming" OR xp) AND (measur* OR metric OR
+diagnosticOR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
+(LIMIT-TO(SUBJAREA, "ENGI")) AND (EXCLUDE(SUBJAREA, "COMP") OR
+EXCLUDE(SUBJAREA, "PHYS") OR EXCLUDE(SUBJAREA,"MATE") OR EXCLUDE(SUBJAREA,
+"BUSI") OR EXCLUDE(SUBJAREA, "MATH") OR EXCLUDE(SUBJAREA, "ENVI") OR
+EXCLUDE(SUBJAREA, "EART") OR EXCLUDE(SUBJAREA, "DECI") OREXCLUDE(SUBJAREA,
+"ENER"))
+
+It found 220 hits 7.11.2013.
+
+Then I found out that previous searches didn't include many XP conferences
+because they were under sub area ``Business'', thus the third search:
+
+TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
+clear" OR dsdm OR "dynamic systems development method" OR fdd OR "feature
+driven development" OR "agile unified process" OR "agile modeling" OR scrumban
+OR kanban OR scrum OR "extreme programming" OR xp) AND (measur* OR metric OR
+diagnosticOR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
+(LIMIT-TO(SUBJAREA, "BUSI")) AND (EXCLUDE(SUBJAREA, "ENGI") OR
+EXCLUDE(SUBJAREA, "COMP"))
+
+It found 42 hits 10.12.2013
+
+\subsection{Initial search process}
+(Tähän kai tyyliin et vähän etitty et löytykö mitään laajaa tutkimusta agile
+mittareista)
+
+\subsection{Search and selection process}
+
+\subsubsection{Pilot}
+A pilot study was conducted in order to refine the aim of the research and get
+familiar with the research method. Moreover, it was possible to modify the
+method and tools.
+
+The plan was to go through 15 papers from the automatic search:
+
+\begin{itemize}
+  \item 5 by top relevance
+  \item 5 by top citations
+  \item 5 by random
+\end{itemize}
+
+The pilot resulted in changing citation manager tool from Zotero to Jabref.
+Also, selection stage 2 and 3 were combined. Some codes were generated. The
+quality assessment checklist was decided on.
+
+\subsubsection{Stage 1 - Automatic search}
+
+Scopus was used as the only search engine as it contained the most relevant
+databases IEEE and ACM. Also, it was able to find Agile and XP conference
+papers. Only XP Conference 2013 was search manually because it couldn't be
+found through Scopus.
+
+\subsubsection{Stage 2 - Selection by title and abstract}
+
+In stage 2 papers were included and excluded based on their title and
+abstract. As the quality of abstracts can be poor in computer
+science\cite{kitchenham__2004}, full texts were also skimmed through in case
+of unclear abstracts - especially intro, case description and conclusions was
+checked briefly. Also, if there were any unclear cases - these were discussed
+in weekly meetings and a descriptive exclusion rule was created if necessary.
+
+Selection process was also done for a sample of 26 papers by one other
+researcher - the level of agreement was substantial with Kappa
+0.67\cite{landis_measurement_1977}.
+
+\subsubsection{Stage 3 - Selection by full text}
+
+Stage 3 included multiple activities in one work flow. Selection by full text
+was done, interesting data was coded and quality assessment was done. Once
+again, if there were unclear papers, they were discussed in meetings with
+other researchers. Sample set of 7 papers was also included/excluded by other
+researcher, with an almost perfect agreement, Kappa
+1.0\cite{landis_measurement_1977}.
+
+\subsubsection{Inclusion criteria}
+
+\begin{itemize}
+  \item Papers that present the use and experiences of metrics in an agile
+  industry setting.
+\end{itemize}
+
+\subsubsection{Exclusion criteria}
+
+\begin{itemize}
+  \item Papers that don't contain empirical data from industry cases.
+  \item Papers that are not in English.
+  \item Papers that don't have agile context. There is evidence of
+  clearly non-agile practices or there is no agile method named. For example,
+  paper mentions agile but case company has only three releases per year.
+  \item Paper is only about one agile practice, which is not related to
+  measuring.
+  \item Papers that don't seem to have any data about metric usage. Also, if
+  there is only a few descriptions of metrics but no other info regarding
+  reasons or usage.
+  \item Papers that have serious issues with grammar or vocabulary and
+  therefore it takes considerable effort understand sentences.
+  \item Papers that refer to another paper where the actual case is discussed.
+  \item Papers that are in academic or semi-academic setting - customer or
+  part of workers are from industry. The reason for this is that it doesn't
+  fully represent industry setting as software development methods are likely
+  enforced by academia.
+  \item Papers where results cannot be separated by setting, for example
+  surveys where there is data both from academia and industry. Similarly
+  exclusion if results cannot be separated by software development method. 
+  \item Papers where the setting is not clear. For example only mention of
+  context is ``100 junior developers''.
+  \item Papers that are full conference proceedings. Individual papers should
+  be already be separated individually.
+  \item Papers that where the measurements are only used for the research. For
+  example author measures which agile practices correlate with success.
+  \item Papers that don't even show measurement usage in a pilot setting. For
+  example method or metric is used to a static industrial data set.
+  \item Papers that are about the same case, from the same author and same
+  research focus, basically the paper format has just changed slightly.
+\end{itemize}
+
+\subsection{Data extraction}
+
+Integrated coding was selected for data extraction
+strategy\cite{6092576}. It provides focus to research questions but
+flexibility regarding findings. Deductive coding would have been too
+restraining and inductive coding might have caused too much bias. Integrated
+coding made it possible to create a sample list of code categories, namely:
+
+\begin{itemize}
+  \item Why is measurement used?
+  \item How is measurement used?
+  \item Metrics with metric name
+  \item Interesting results 
+\end{itemize}
+
+The coding started with reading the full text and marking interesting data
+with a temporary code. After, reading the full text I would check each data
+pieces and code again with an appropriate code based on the built
+understanding. Metric codes were named based on the similarity with the text
+it was collected from.
+
+We created a rule set for collecting metrics:
+
+\begin{itemize}
+  \item Collect metric only if team or company uses it.
+  \item Don't collect metrics that are only used for the comparison and
+  selection of development methods.
+  \item Don't collect metrics that are used to compare teams.
+  \item Collect metric only if something is said about why it is used or what
+  actions it causes. 
+\end{itemize}
+
+Atlas.ti was used to collect the qualitative data(viiteAtlasiin). 
+
+To evaluate if the same metrics would be found, another researcher coded
+metrics from two papers. Capture-recapture method\cite{seber2002estimation} was
+then used which showed that 90\% of metrics were found.
+
+\subsection{Quality assessment}
+Quality assessment form adopted from \cite{dyba_empirical_2008} was used to
+evaluate the quality of each primary document. Additionally, a relevancy
+factor was added to the same assessment to describe how useful was the paper
+for this study. The scale for the relevancy factor is:
+
+\begin{itemize}
+  \item 0 = should be already excluded
+  \item 1 = contains only descriptions of metrics with no additional info
+  \item 2 = some useful information related to metrics
+  \item 3 = A good amount of relevant information regarding metrics and metric
+  usage
+\end{itemize}
+
+
+\section{Results - Why and how are metrics used}
 
 This chapter presents the preliminary results from the systematic literature 
 review.
-
-\subsection{Why are measurements used}
 
 High level reasons for using measurements are listed in !nearTable. 
 
@@ -500,7 +714,7 @@ Motivate and enable team to improve & [4][8]\\ \hline
 \end{table}
 
 
-\subsubsection{Iteration planning}
+\subsection{Iteration planning}
 Many metrics center around iteration planning. Tasks for the next iteration are
 selected and prioritized with the help of metrics.
 
@@ -519,58 +733,44 @@ to pay for a feature\cite{Hodgkins2007194}. Higher valued customers get their fe
 first.
  
 
-\subsubsection{Iteration tracking} %completion} 
-%Timely manner of completing iteration is one of the
-% cornerstones of agile development !ISKEVIITE.
-Purpose of
-iteration tracking is to make sure that
-the tasks selected for the iteration are
-completed or that necessary
-modifications are done to the plan to
+\subsection{Iteration tracking} %completion} 
+% Timely manner of completing iteration is one of the cornerstones of agile
+% development !ISKEVIITE.
+Purpose of iteration tracking is to make sure that the tasks selected for the
+iteration are completed or that necessary modifications are done to the plan to
 end the iteration according to schedule.
-Metrics help in monitoring, 
-identifying problems and predicting end
-result.
+Metrics help in monitoring, identifying problems and predicting end result.
 
-Progress metrics made it transparent to all stakeholders how
-the iteration is progressing (and are there any major
-divergences that would be needed to act
-upon)\cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}\cite{Dubinsky200512}\cite{Hong2010310}\cite{Green2011}\cite{Trapa2006243}\cite{Trimble20134826}.
-Especially, actual effort and effort remaining were important metrics !Rephrase\cite{Mahnic201273}. However, 
-using velocity can also have negative effects such as
-cutting corners in implementing features to maintain 
-velocity with the cost of quality\cite{Elssamadisy2002617}. Risk
-management was also mentioned often
+Progress metrics made it transparent to stakeholders how the iteration is
+progressing.
+\cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
+\cite{Dubinsky200512}\cite{Hong2010310}\cite{Green2011}
+\cite{Trapa2006243}\cite{Trimble20134826}. Progress metrics included number of
+completed web pages\cite{Hong2010310}, story completion
+percentage\cite{Trapa2006243} and velocity metrics\cite{Dubinsky200512}.
+However, using velocity metrics can also have negative effects such as cutting
+corners in implementing features to maintain velocity with the cost of
+quality\cite{Elssamadisy2002617}. Risk management was also mentioned often
 \cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
-If it seemed that not all planned tasks could be completed, tasks were cut from the iteration \cite{Mahnic201273}\cite{Dubinsky200512}\cite{Middleton2007387} or
+If it seemed that not all planned tasks could be completed, tasks were cut from
+the iteration \cite{Mahnic201273}\cite{Dubinsky200512}\cite{Middleton2007387} or
 extra resources were added \cite{Dubinsky200512}\cite{Middleton2007387}.
 
- %Almost anyone could walk into a team's room and with a quick glance understand what is the status of the iteration. 
-When there were problems that needed to be s
-fixed - metrics helped in making decisions to fix them - whether they were short
-or long term
+ % Almost anyone could walk into a team's room and with a quick glance
+ % understand what is the status of the iteration.
+When there were problems that needed to be fixed - metrics helped in making
+decisions to fix them - whether they were short or long term
 \cite{Staron20101069}\cite{Dubinsky200512}\cite{Petersen2011975}\cite{LNBIP01490121}.
-It was possible to base decisions on data, not only use
-common sense and experience \cite{Talby200940}. Balance of work
-flow was mentioned in multiple papers - tasks should flow from one phase to another
-smoothly without any spikes that could cause
-bottlenecks (sivulausetta
-ei
-mainittu
-tietenkään
-kaikissa,
-vaan
-flow
-jossain
-muodossa)\cite{Polk2011263}\cite{Petersen2010654}\cite{Greening2010}\cite{Petersen2011975}\cite{Dubinsky200512}\cite{Jakobsen2011168}.
-Crosstraining people to work on multiple disciplines was
-used to balance the work flow\cite{Middleton2007387}\cite{Talby200940}. Also,
-metrics were used focus work to tasks that matter the most - avoid partially
-done work, task switching\cite{Seikola2011321}
-and polishing of features\cite{Talby200940}. Typically an
-iteration ends in a release but if too many defects are
-found the release must be delayed as happened in one case
-\cite{Hodgetts2004106}.
+It was possible to base decisions on data, not only use common sense and
+experience \cite{Talby200940}. Balance of work flow was mentioned as a goal
+for using metrics in multiple papers
+\cite{Polk2011263}\cite{Petersen2010654}\cite{Greening2010}\cite{Petersen2011975}\cite{Dubinsky200512}\cite{Jakobsen2011168}.
+Crosstraining people to work on multiple disciplines was used to balance the
+work flow\cite{Middleton2007387}\cite{Talby200940}. Also, metrics were used
+focus work on tasks that matter the most, avoid partially done work, task
+switching\cite{Seikola2011321} and polishing of features\cite{Talby200940}.
+Typically an iteration ends in a release but if too many defects are found the
+release must be delayed as happened in one case \cite{Hodgetts2004106}.
 
 
 %\subsubsection{Project progress}
@@ -578,26 +778,27 @@ found the release must be delayed as happened in one case
 %Metrics were also used to monitor the whole project: assess risks, follow work
 %completion and 
 
-\subsubsection{Motivate and enable team to improve}
+\subsection{Motivate and enable team to improve}
 (Agile methods emphasize self-empowerment - this was also
- visible in the used metrics.) This section describes
- metrics that are used to motivate people and make them improve on their own.
+ visible in the used metrics.) This section describes metrics that are used to
+ motivate people and make them improve on their own.
 
-Metrics were used to communicate different data about the project or
-product to the team
-members\cite{Trapa2006243}\cite{Talby200940}\cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}.
-Measurement data motivated teams to act and
-improve their
+Metrics were used to communicate different data about the project or product to
+the team members
+\cite{Trapa2006243}\cite{Talby200940}\cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}.
+Measurement data motivated teams to act and improve their
 performance\cite{Talby200940}\cite{Polk2011263}\cite{Cheng200929}\cite{LNBIP01490121}\cite{Jakobsen2011168}.
-Some examples include fixing the build faster\cite{Jakobsen2011168}\cite{LNBIP01490121}, fix bugs
-faster\cite{Cheng200929} or creating unit tests for the feature to declare the
-feature's completion\cite{Talby200940}.
+Some examples include fixing the build
+faster\cite{Jakobsen2011168}\cite{LNBIP01490121}, fix bugs
+faster\cite{Cheng200929} or creating unit tests to declare the completion
+of a feature\cite{Talby200940}.
 
-Metrics can be also used to prevent harmful behaviour such as
-cherry picking tasks that are most interesting. Measuring work in progress and setting WIP
-limits prevent cherry picking by enforcing only few work items at a time.\cite{Middleton2007387}
+Metrics can be also used to prevent harmful behaviour such as cherry picking
+tasks that are most interesting. Measuring work in progress and setting WIP
+limits prevent cherry picking by enforcing only few work items at a
+time.\cite{Middleton2007387}
 
-\subsubsection{Problem identification}
+\subsection{Problem identification}
 Metrics are often used to identify or avoid problems in
 processes and work flows. This chapter describes how metrics
 can be used to spot problems.
@@ -618,7 +819,7 @@ oo muistissa viitettä tähän). In some cases there are defined limits in metrics 
 trigger improvement actions(en muista viitettä tähän). One observed solution to problems
 was to find the root cause\cite{Jakobsen2011168}\cite{Middleton2007387}.
 
-\subsubsection{Pre-release quality}
+\subsection{Pre-release quality}
 Metrics in the pre-release quality
 category were used to prevent defects reaching customers
 and to understand what is the current quality of the
@@ -634,7 +835,7 @@ pre-release quality was goal in one case\cite{Janus20129}. Some
 metrics force the approach of writing tests before actual
 code\cite{Trapa2006243}.
 
-\subsubsection{Post-release quality}
+\subsection{Post-release quality}
 Metrics in post-release quality deal
 with evaluating the quality after it has been released.
 Customer satisfaction, customer responsiveness and quality
@@ -649,7 +850,7 @@ other potential customers\cite{Green2011}.
 Quality prediction metrics include defect counts\cite{Petersen2010654}, maintenance
 effort\cite{Staron20101069} and deferred defect counts\cite{Green2011}.
 
-\subsubsection{Changes in processes or tools}
+\subsection{Changes in processes or tools}
 This chapter lists what kind of changes metrics
 had for processes and tools.
 
@@ -668,15 +869,14 @@ in the development cycle.\cite{Petersen2010654}
 Changes to requirements managements were also done based on metrics in
 an other case at Ericsson\cite{Mujtaba2010139}. 
 
-The problem with broken build, and the long times to fix the build
-gave birth to measurements that monitor and visualize the
-state of the build and the time to fix
-it\cite{LNBIP01490121}\cite{Jakobsen2011168}\cite{Janus20129}(ei välttis oikea kappale).
-Also, additional code style rules were added to code check-in and build
-tools so that builds would fail more often and defects would
-get caught before the release\cite{Jakobsen2011168}\cite{Janus20129}. Similarly,
-testing approaches were changed based on flow
-metrics\cite{Mujtaba2010139}\cite{Staron20101069}.
+The problem with broken build, and the long times to fix the build gave birth
+to measurements that monitor and visualize the state of the build and the time
+to fix it\cite{LNBIP01490121}\cite{Jakobsen2011168}\cite{Janus20129}(ei
+välttis oikea kappale).
+Also, additional code style rules were added to code check-in and build tools
+so that builds would fail more often and defects would get caught before the
+release\cite{Jakobsen2011168}\cite{Janus20129}. Similarly, testing approaches
+were changed based on flow metrics\cite{Mujtaba2010139}\cite{Staron20101069}.
 
 \section{Conclusions}
 This paragraph will end the body of this sample document.
