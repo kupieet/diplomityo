@@ -26,11 +26,15 @@
 %
 % For tracking purposes - this is V3.1SP - APRIL 2009
 
-\documentclass{acm_proc_article-sp}
+\documentclass{sig-alternate}
+
+\usepackage{nameref}
+\usepackage{graphicx}
+
 
 \begin{document} 
 
-\title{Agile Metrics Why and How {\ttlit ACM} SIG Proceedings Paper in LaTeX
+\title{Agile Metrics: Why and How {\ttlit ACM} SIG Proceedings Paper in LaTeX
 Format\titlenote{(Does NOT produce the permission block, copyright information nor page numbering). For use with ACM\_PROC\_ARTICLE-SP.CLS. Supported by ACM.}}
 \subtitle{[Extended Abstract]
 \titlenote{A full version of this paper is available as
@@ -62,7 +66,7 @@ Format\titlenote{(Does NOT produce the permission block, copyright information n
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{8} %  in this sample file, there are a *total*
+\numberofauthors{6} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -119,13 +123,7 @@ one who did all the really hard work.}\\
        \affaddr{San Antonio, Texas 78229}\\
        \email{cpalmer@prl.com}
 }
-% There's nothing stopping you putting the seventh, eighth, etc.
-% author on the opening page (as the 'third row') but we ask,
-% for aesthetic reasons that you place these 'additional authors'
-% in the \additional authors block, viz.
-\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
-email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
-(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+
 \date{30 July 1999}
 % Just remember to make sure that the TOTAL number of authors
 % is the number that will appear on the first page PLUS the
@@ -133,353 +131,88 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \maketitle
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms to
-the formatting guidelines for ACM SIG Proceedings.
-It complements the document \textit{Author's Guide to Preparing
-ACM SIG Proceedings Using \LaTeX$2_\epsilon$\ and Bib\TeX}. This
-source file has been written with the intention of being
-compiled under \LaTeX$2_\epsilon$\ and BibTeX.
-
-The developers have tried to include every imaginable sort
-of ``bells and whistles", such as a subtitle, footnotes on
-title, subtitle and authors, as well as in the text, and
-every optional component (e.g. Acknowledgments, Additional
-Authors, Appendices), not to mention examples of
-equations, theorems, tables and figures.
-
-To make best use of this sample document, run it through \LaTeX\
-and BibTeX, and compare this source code with the printed
-output produced by the dvi file.
+blaa
 \end{abstract}
 
 % A category with the (minimum) three required fields
 \category{H.4}{Information Systems Applications}{Miscellaneous}
 %A category including the fourth, optional field follows...
-\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+\category{D.2.8}{Software Engineering}{Metrics}[agile metrics]
 
 \terms{Theory}
 
 \keywords{ACM proceedings, \LaTeX, text tagging} % NOT required for Proceedings
 
 \section{Introduction}
-The \textit{proceedings} are the records of a conference.
-ACM seeks to give these conference by-products a uniform,
-high-quality appearance.  To do this, ACM has some rigid
-requirements for the format of the proceedings documents: there
-is a specified format (balanced  double columns), a specified
-set of fonts (Arial or Helvetica and Times Roman) in
-certain specified sizes (for instance, 9 point for body copy),
-a specified live area (18 $\times$ 23.5 cm [7" $\times$ 9.25"]) centered on
-the page, specified size of margins (1.9 cm [0.75"]) top, (2.54 cm [1"]) bottom
-and (1.9 cm [.75"]) left and right; specified column width
-(8.45 cm [3.33"]) and gutter size (.83 cm [.33"]).
 
-The good news is, with only a handful of manual
-settings\footnote{Two of these, the {\texttt{\char'134 numberofauthors}}
-and {\texttt{\char'134 alignauthor}} commands, you have
-already used; another, {\texttt{\char'134 balancecolumns}}, will
-be used in your very last run of \LaTeX\ to ensure
-balanced column heights on the last page.}, the \LaTeX\ document
-class file handles all of this for you.
+Software engineering is at a crossroads as there are new leaner and more
+agile software development methods appearing next to the traditional
+software development methods. Software measurement has had it's history for
+decades but that history has been steered towards the needs of traditional
+software development methods. What is the role of metrics in agile
+development?
 
-The remainder of this document is concerned with showing, in
-the context of an ``actual'' document, the \LaTeX\ commands
-specifically available for denoting the structure of a
-proceedings paper, rather than with giving rigorous descriptions
-or explanations of such commands.
+Software measurement has been seen important for research and there are
+numerous studies and books regarding it. However, measurement research with
+agile methods remains scarce. The aim of this research is to fill part of that
+gap.
 
-\section{The {\secit Body} of The Paper}
-Typically, the body of a paper is organized
-into a hierarchical structure, with numbered or unnumbered
-headings for sections, subsections, sub-subsections, and even
-smaller sections.  The command \texttt{{\char'134}section} that
-precedes this paragraph is part of such a
-hierarchy.\footnote{This is the second footnote.  It
-starts a series of three footnotes that add nothing
-informational, but just give an idea of how footnotes work
-and look. It is a wordy one, just so you see
-how a longish one plays out.} \LaTeX\ handles the numbering
-and placement of these headings for you, when you use
-the appropriate heading commands around the titles
-of the headings.  If you want a sub-subsection or
-smaller part to be unnumbered in your output, simply append an
-asterisk to the command name.  Examples of both
-numbered and unnumbered headings will appear throughout the
-balance of this sample document.
+The angle for this study is industry focused. We want to understand the
+current state of agile measurement in industry. Thus, we are more interested
+in case studies and actual empirical findings than unproven theories or
+models.
 
-Because the entire article is contained in
-the \textbf{document} environment, you can indicate the
-start of a new paragraph with a blank line in your
-input file; that is why this sentence forms a separate paragraph.
+This study will lay out the current state of industrial agile metric papers.
+Moreover, the study uncovers the reasons for metrics usage as well as
+highlights actions that the use of metrics can trigger. Practitioners will
+hopefully benefit from metrics this study brings forth.
 
-\subsection{Type Changes and {\subsecit Special} Characters}
-We have already seen several typeface changes in this sample.  You
-can indicate italicized words or phrases in your text with
-the command \texttt{{\char'134}textit}; emboldening with the
-command \texttt{{\char'134}textbf}
-and typewriter-style (for instance, for computer code) with
-\texttt{{\char'134}texttt}.  But remember, you do not
-have to indicate typestyle changes when such changes are
-part of the \textit{structural} elements of your
-article; for instance, the heading of this subsection will
-be in a sans serif\footnote{A third footnote, here.
-Let's make this a rather short one to
-see how it looks.} typeface, but that is handled by the
-document class file. Take care with the use
-of\footnote{A fourth, and last, footnote.}
-the curly braces in typeface changes; they mark
-the beginning and end of
-the text that is to be in the different typeface.
-
-You can use whatever symbols, accented characters, or
-non-English characters you need anywhere in your document;
-you can find a complete list of what is
-available in the \textit{\LaTeX\
-User's Guide}\cite{Lamport:LaTeX}.
-
-\subsection{Math Equations}
-You may want to display math equations in three distinct styles:
-inline, numbered or non-numbered display.  Each of
-the three are discussed in the next sections.
-
-\subsubsection{Inline (In-text) Equations}
-A formula that appears in the running text is called an
-inline or in-text formula.  It is produced by the
-\textbf{math} environment, which can be
-invoked with the usual \texttt{{\char'134}begin. . .{\char'134}end}
-construction or with the short form \texttt{\$. . .\$}. You
-can use any of the symbols and structures,
-from $\alpha$ to $\omega$, available in
-\LaTeX\cite{Lamport:LaTeX}; this section will simply show a
-few examples of in-text equations in context. Notice how
-this equation: \begin{math}\lim_{n\rightarrow \infty}x=0\end{math},
-set here in in-line math style, looks slightly different when
-set in display style.  (See next section).
-
-\subsubsection{Display Equations}
-A numbered display equation -- one set off by vertical space
-from the text and centered horizontally -- is produced
-by the \textbf{equation} environment. An unnumbered display
-equation is produced by the \textbf{displaymath} environment.
-
-Again, in either environment, you can use any of the symbols
-and structures available in \LaTeX; this section will just
-give a couple of examples of display equations in context.
-First, consider the equation, shown as an inline equation above:
-\begin{equation}\lim_{n\rightarrow \infty}x=0\end{equation}
-Notice how it is formatted somewhat differently in
-the \textbf{displaymath}
-environment.  Now, we'll enter an unnumbered equation:
-\begin{displaymath}\sum_{i=0}^{\infty} x + 1\end{displaymath}
-and follow it with another numbered equation:
-\begin{equation}\sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f\end{equation}
-just to demonstrate \LaTeX's able handling of numbering.
-
-\subsection{Citations}
-Citations to articles \cite{bowman:reasoning, clark:pct, braams:babel, herlihy:methodology},
-conference
-proceedings \cite{clark:pct} or books \cite{salas:calculus, Lamport:LaTeX} listed
-in the Bibliography section of your
-article will occur throughout the text of your article.
-You should use BibTeX to automatically produce this bibliography;
-you simply need to insert one of several citation commands with
-a key of the item cited in the proper location in
-the \texttt{.tex} file \cite{Lamport:LaTeX}.
-The key is a short reference you invent to uniquely
-identify each work; in this sample document, the key is
-the first author's surname and a
-word from the title.  This identifying key is included
-with each item in the \texttt{.bib} file for your article.
- 
-The details of the construction of the \texttt{.bib} file
-are beyond the scope of this sample document, but more
-information can be found in the \textit{Author's Guide},
-and exhaustive details in the \textit{\LaTeX\ User's
-Guide}\cite{Lamport:LaTeX}.
-
-This article shows only the plainest form
-of the citation command, using \texttt{{\char'134}cite}.
-This is what is stipulated in the SIGS style specifications.
-No other citation format is endorsed.
-
-\subsection{Tables}
-Because tables cannot be split across pages, the best
-placement for them is typically the top of the page
-nearest their initial cite.  To
-ensure this proper ``floating'' placement of tables, use the
-environment \textbf{table} to enclose the table's contents and
-the table caption.  The contents of the table itself must go
-in the \textbf{tabular} environment, to
-be aligned properly in rows and columns, with the desired
-horizontal and vertical rules.  Again, detailed instructions
-on \textbf{tabular} material
-is found in the \textit{\LaTeX\ User's Guide}.
-
-Immediately following this sentence is the point at which
-Table 1 is included in the input file; compare the
-placement of the table here with the table in the printed
-dvi output of this document.
-
-\begin{table}
-\centering
-\caption{Frequency of Special Characters}
-\begin{tabular}{|c|c|l|} \hline
-Non-English or Math&Frequency&Comments\\ \hline
-\O & 1 in 1,000& For Swedish names\\ \hline
-$\pi$ & 1 in 5& Common in math\\ \hline
-\$ & 4 in 5 & Used in business\\ \hline
-$\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
-\hline\end{tabular}
-\end{table}
-
-To set a wider table, which takes up the whole width of
-the page's live area, use the environment
-\textbf{table*} to enclose the table's contents and
-the table caption.  As with a single-column table, this wide
-table will ``float" to a location deemed more desirable.
-Immediately following this sentence is the point at which
-Table 2 is included in the input file; again, it is
-instructive to compare the placement of the
-table here with the table in the printed dvi
-output of this document.
+This paper is organized as follows: (blaa blaa).
 
 
-\begin{table*}
-\centering
-\caption{Some Typical Commands}
-\begin{tabular}{|c|c|l|} \hline
-Command&A Number&Comments\\ \hline
-\texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
-\texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
-\texttt{{\char'134}table}& 300 & For tables\\ \hline
-\texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
-\end{table*}
-% end the environment with {table*}, NOTE not {table}!
+(-historialähestyminen(en ehkä ite oo tästä hirveen innokas)
+--lähti koodimittareista
+--jossain vaiheessa kiinnostuttiin prosessimittareista
+--agiilit menetelmät alkavat yleistyä, miten hoitaa mittaaminen siellä? Kun
+prosessi muuttuu miten mittaus, perinteiset mittarit raskaita(?).
+-- EBSE:n korostaminen 
 
-\subsection{Figures}
-Like tables, figures cannot be split across pages; the
-best placement for them
-is typically the top or the bottom of the page nearest
-their initial cite.  To ensure this proper ``floating'' placement
-of figures, use the environment
-\textbf{figure} to enclose the figure and its caption.
-
-This sample document contains examples of \textbf{.eps}
-and \textbf{.ps} files to be displayable with \LaTeX.  More
-details on each of these is found in the \textit{Author's Guide}.
-
-\begin{figure}
-\centering
-\epsfig{file=fly.eps}
-\caption{A sample black and white graphic (.eps format).}
-\end{figure}
-
-\begin{figure}
-\centering
-\epsfig{file=fly.eps, height=1in, width=1in}
-\caption{A sample black and white graphic (.eps format)
-that has been resized with the \texttt{epsfig} command.}
-\end{figure}
+-tore lähestyminen
+-- tavalliselle talliaiselle intro sceneen
+-- syyt miks me tehään tällainen tutkimus
+-- mitä hyötyjä tällä tutkimuksella on)
 
 
-As was the case with tables, you may want a figure
-that spans two columns.  To do this, and still to
-ensure proper ``floating'' placement of tables, use the environment
-\textbf{figure*} to enclose the figure and its caption.
 
-Note that either {\textbf{.ps}} or {\textbf{.eps}} formats are
-used; use
-the \texttt{{\char'134}epsfig} or \texttt{{\char'134}psfig}
-commands as appropriate for the different file types.
+\section{Background}
 
-\subsection{Theorem-like Constructs}
-Other common constructs that may occur in your article are
-the forms for logical constructs like theorems, axioms,
-corollaries and proofs.  There are
-two forms, one produced by the
-command \texttt{{\char'134}newtheorem} and the
-other by the command \texttt{{\char'134}newdef}; perhaps
-the clearest and easiest way to distinguish them is
-to compare the two in the output of this sample document:
+\subsection{Evidence based software engineering}
 
-This uses the \textbf{theorem} environment, created by
-the\linebreak\texttt{{\char'134}newtheorem} command:
-\newtheorem{theorem}{Theorem}
-\begin{theorem}
-Let $f$ be continuous on $[a,b]$.  If $G$ is
-an antiderivative for $f$ on $[a,b]$, then
-\begin{displaymath}\int^b_af(t)dt = G(b) - G(a).\end{displaymath}
-\end{theorem}
+\subsection{Previous research}
 
-The other uses the \textbf{definition} environment, created
-by the \texttt{{\char'134}newdef} command:
-\newdef{definition}{Definition}
-\begin{definition}
-If $z$ is irrational, then by $e^z$ we mean the
-unique number which has
-logarithm $z$: \begin{displaymath}{\log e^z = z}\end{displaymath}
-\end{definition}
+There are a few mapping studies on software metrics(tähän vois lisätä kitch
+whats 2010:ssä olevat muut mut en tiiä mitä lisäarvoa ne tois).
+\cite{kitchenham_whats_2010} says there is a large body of research related to
+software metrics. However, she highlights that all evidence should be
+critically appraised so that further studies can be based on good quality
+evidence. She also reminds researchers to understand the context where metrics
+are taken from - failure to understand context will probably not provide
+answers to industry-related questions. 
 
-\begin{figure}
-\centering
-\psfig{file=rosette.ps, height=1in, width=1in,}
-\caption{A sample black and white graphic (.ps format) that has
-been resized with the \texttt{psfig} command.}
-\end{figure}
 
-Two lists of constructs that use one of these
-forms is given in the
-\textit{Author's  Guidelines}.
 
-\begin{figure*}
-\centering
-\epsfig{file=flies.eps} 
-\caption{A sample black and white graphic (.eps format)
-that needs to span two columns of text.}
-\end{figure*}
-and don't forget to end the environment with
-{figure*}, not {figure}!
- 
-There is one other similar construct environment, which is
-already set up
-for you; i.e. you must \textit{not} use
-a \texttt{{\char'134}newdef} command to
-create it: the \textbf{proof} environment.  Here
-is a example of its use:
-\begin{proof}
-Suppose on the contrary there exists a real number $L$ such that
-\begin{displaymath}
-\lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
-\end{displaymath}
-Then
-\begin{displaymath}
-l=\lim_{x\rightarrow c} f(x)
-= \lim_{x\rightarrow c}
-\left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
-= \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
-\frac{f(x)}{g(x)} = 0\cdot L = 0,
-\end{displaymath}
-which contradicts our assumption that $l\neq 0$.
-\end{proof}
 
-Complete rules about using these environments and using the two different
-creation commands are in the \textit{Author's Guide}; please consult it for more
-detailed instructions.  If you need to use another construct, not listed
-therein, which you want to have the same formatting as the Theorem or the
-Definition\cite{salas:calculus} shown above, use the
-\texttt{{\char'134}newtheorem} or the \texttt{{\char'134}newdef} command,
-respectively, to create it.
 
-\subsection*{A {\secit Caveat} for the \TeX\ Expert} Because you have just been
-given permission to use the \texttt{{\char'134}newdef} command to create a new
-form, you might think you can use \TeX's \texttt{{\char'134}def} to create a new
-command: \textit{Please refrain from doing this!} Remember that your \LaTeX\
-source code is primarily intended to create camera-ready copy, but may be
-converted to other forms -- e.g. HTML. If you inadvertently omit some or all of
-the \texttt{{\char'134}def}s recompilation will be, to say the least,
-problematic.
 
-\section{Aims and research questions}
+--EBSE
+--Mittaamisen SR:t
+--Agile mittaamisen muut tutkimukset
+--Aims and research questions
+
+
+
+
+\subsection{Aims and research questions}
 The aim of this paper is to provide preliminary results from a systematic
 review (SR) on agile metrics. Moreover, we are interested on the
 industrial use of metrics in agile context.
@@ -493,19 +226,42 @@ the following are considered:
   \item Which metrics are used?
 \end{enumerate}
 
-\section{Search and selection process}
+\section{Review method}
+(Tähän ehkä kai tyyliin et vähän etitty et löytykö mitään laajaa tutkimusta
+agile mittareista) (Tässä voisi myös perustella vielä SR:n valitsemista
+menetelmäksi -Why SR was selected? This is more a “understanding of problem”
+research. Not trying to find solution to specific problem. There is already
+literature that can be synthesized.)
+
+
+\subsection{Protocol development}
+Kitchenham's guide for SRs\cite{kitchenham2004procedures} was used as a basis
+for developing the review protocol. Additionally, other
+guidelines\cite{webster2002analyzing}, a lessons learned from SRs
+\cite{brereton2007lessons}, a SR case\cite{dyba_empirical_2008} and a SR
+on SR\cite{kitchenham2013systematic} were used to further understand the
+challenges and opportunities of SRs. 
+
+The protocol was also iterated in weekly meetings with the researchers, as
+well as in a pilot described in \ref{pilot}.
+
+
+\subsection{Search and selection process}
 
 The strategy for finding primary studies was following:
 
 \begin{enumerate}
   \item Initial check that there are enough papers to conduct SR
-  \item Pilot
   \item Stage 1: Automated search
+  \item Pilot
   \item Stage 2: Include and exclude based on title and abstract
   \item Stage 3: Include and exclude based on full text. Conduct data
-  extraction
+  extraction and quality assessment.
 \end{enumerate}
 
+\includegraphics{SelectionFunnel.jpg}
+
+\subsubsection{Search strings}
 Scopus was used to find the primary documents with automated search. The first
 search string was:
 
@@ -535,7 +291,7 @@ EXCLUDE(SUBJAREA, "EART") OR EXCLUDE(SUBJAREA, "DECI") OREXCLUDE(SUBJAREA,
 
 It found 220 hits 7.11.2013.
 
-Then I found out that previous searches didn't include many XP conferences
+Then I found out that previous searches didn't include all XP conferences
 because they were under sub area ``Business'', thus the third search:
 
 TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
@@ -547,58 +303,6 @@ diagnosticOR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
 EXCLUDE(SUBJAREA, "COMP"))
 
 It found 42 hits 10.12.2013
-
-\subsection{Initial search process}
-(Tähän kai tyyliin et vähän etitty et löytykö mitään laajaa tutkimusta agile
-mittareista)
-
-\subsection{Search and selection process}
-
-\subsubsection{Pilot}
-A pilot study was conducted in order to refine the aim of the research and get
-familiar with the research method. Moreover, it was possible to modify the
-method and tools.
-
-The plan was to go through 15 papers from the automatic search:
-
-\begin{itemize}
-  \item 5 by top relevance
-  \item 5 by top citations
-  \item 5 by random
-\end{itemize}
-
-The pilot resulted in changing citation manager tool from Zotero to Jabref.
-Also, selection stage 2 and 3 were combined. Some codes were generated. The
-quality assessment checklist was decided on.
-
-\subsubsection{Stage 1 - Automatic search}
-
-Scopus was used as the only search engine as it contained the most relevant
-databases IEEE and ACM. Also, it was able to find Agile and XP conference
-papers. Only XP Conference 2013 was search manually because it couldn't be
-found through Scopus.
-
-\subsubsection{Stage 2 - Selection by title and abstract}
-
-In stage 2 papers were included and excluded based on their title and
-abstract. As the quality of abstracts can be poor in computer
-science\cite{kitchenham__2004}, full texts were also skimmed through in case
-of unclear abstracts - especially intro, case description and conclusions was
-checked briefly. Also, if there were any unclear cases - these were discussed
-in weekly meetings and a descriptive exclusion rule was created if necessary.
-
-Selection process was also done for a sample of 26 papers by one other
-researcher - the level of agreement was substantial with Kappa
-0.67\cite{landis_measurement_1977}.
-
-\subsubsection{Stage 3 - Selection by full text}
-
-Stage 3 included multiple activities in one work flow. Selection by full text
-was done, interesting data was coded and quality assessment was done. Once
-again, if there were unclear papers, they were discussed in meetings with
-other researchers. Sample set of 7 papers was also included/excluded by other
-researcher, with an almost perfect agreement, Kappa
-1.0\cite{landis_measurement_1977}.
 
 \subsubsection{Inclusion criteria}
 
@@ -641,6 +345,56 @@ researcher, with an almost perfect agreement, Kappa
   \item Papers that are about the same case, from the same author and same
   research focus, basically the paper format has just changed slightly.
 \end{itemize}
+
+
+\subsubsection{Stage 1 - Automatic search}
+
+Scopus was used as the only search engine as it contained the most relevant
+databases IEEE and ACM. Also, it was able to find Agile- and XP conference
+papers. Only XP Conference 2013 was search manually because it couldn't be
+found through Scopus.
+
+\subsubsection{Pilot}
+\label{pilot}
+A pilot study was conducted in order to refine the aim of the research and get
+familiar with the research method. Moreover, it was possible to modify the
+method and tools.
+
+The plan was to go through 15 papers from the automatic search:
+
+\begin{itemize}
+  \item 5 by top relevance
+  \item 5 by top citations
+  \item 5 by random
+\end{itemize}
+
+The pilot resulted in changing citation manager tool from Zotero to Jabref.
+Also, selection stage 2 and 3 were combined. Some codes were generated. The
+quality assessment checklist was decided on.
+
+
+\subsubsection{Stage 2 - Selection by title and abstract}
+
+In stage 2 papers were included and excluded based on their title and
+abstract. As the quality of abstracts can be poor in computer
+science\cite{kitchenham2004procedures}, full texts were also skimmed through in case
+of unclear abstracts - especially intro, case description and conclusions was
+checked briefly. Also, if there were any unclear cases - these were discussed
+in weekly meetings and a descriptive exclusion rule was created if necessary.
+
+Selection process was also done for a sample of 26 papers by one other
+researcher - the level of agreement was substantial with Kappa
+0.67\cite{landis_measurement_1977}.
+
+\subsubsection{Stage 3 - Selection by full text}
+
+Stage 3 included multiple activities in one work flow. Selection by full text
+was done, interesting data was coded and quality assessment was done. Once
+again, if there were unclear papers, they were discussed in meetings with
+other researchers. Sample set of 7 papers was also included/excluded by other
+researcher, with an almost perfect agreement, Kappa
+1.0\cite{landis_measurement_1977}.
+
 
 \subsection{Data extraction}
 
@@ -694,6 +448,8 @@ for this study. The scale for the relevancy factor is:
   usage
 \end{itemize}
 
+\subsubsection{Data synthesis}
+
 
 \section{Results - Why and how are metrics used}
 
@@ -705,35 +461,61 @@ High level reasons for using measurements are listed in !nearTable.
 \begin{table}
 \centering
 \caption{Categories for why and how measurement usage}
-\begin{tabular}{|c|l|} \hline
-Categories&Sources\\ \hline
-Iteration planning & esim[1]\\ \hline
-Iteration tracking & [2]\\ \hline
-Motivate and enable team to improve & [4][8]\\ \hline
+\begin{tabular}{|c|p{2,5cm}|} \hline
+\textbf{Categories}&\textbf{Sources}\\ \hline
+ \nameref{IterationPlanning}&
+ \cite{Elssamadisy2002617}\cite{Polk2011263}\cite{Cheng200929}\cite{Greening2010}\cite{Hong2010310}
+ \cite{Mahnic201273}\cite{Haugen200623}\cite{Hodgkins2007194}\\
+ \hline \nameref{IterationTracking} & \cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
+\cite{Dubinsky200512}\cite{Hong2010310}\cite{LNBIP01490121}\cite{Green2011}\cite{Elssamadisy2002617}\cite{Middleton2007387}
+\cite{Trapa2006243}\cite{Trimble20134826}
+\newline
+\cite{Hodgetts2004106}\cite{Staron20101069}\cite{Seikola2011321}\cite{Polk2011263}\cite{Greening2010}\\
+\hline \nameref{Motivate} &
+\cite{Trapa2006243}\cite{Talby200940}\cite{Jakobsen2011168}\cite{LNBIP01490121}\cite{Cheng200929}
+\cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}\\
+\hline \nameref{ProblemIdentification} &
+\cite{Petersen2011975}\cite{Trapa2006243}\cite{Middleton2007387}\cite{Jakobsen2011168}\cite{Staron20101069}
+\cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}\cite{Tudor2006367}\\
+\hline \nameref{PreQuality} &
+\cite{Cataldo2011161}\cite{Janus20129}\cite{Janus20129}\cite{Dubinsky200512}\cite{Trapa2006243}\\
+\hline \nameref{PostQuality} &
+\cite{Petersen2010654}\cite{Cheng200929}\cite{Green2011}\cite{Staron20101069}\\
+\hline \nameref{ChangesInProcesses} &
+\cite{Jakobsen2011168}\cite{Petersen2011975}\cite{Mujtaba2010139}\cite{LNBIP01490121}\cite{Staron20101069}
+\cite{Janus20129}\\
+\hline
+
+
 \end{tabular}
 \end{table}
 
 
+
 \subsection{Iteration planning}
+\label{IterationPlanning}
 Many metrics center around iteration planning. Tasks for the next iteration are
 selected and prioritized with the help of metrics.
 
 Many metrics were focused to help in the prioritization of tasks for the next
-iteration \cite{Greening2010}\cite{Haugen200623}\cite{Hodgkins2007194}. Effort estimation metrics were
-used scope out features that would not fit to the iteration\cite{Elssamadisy2002617}.
+iteration \cite{Greening2010}\cite{Haugen200623}\cite{Hodgkins2007194}. Effort
+estimation metrics were used scope out features that would not fit to the
+iteration\cite{Elssamadisy2002617}.
 Consequently, velocity metrics are used to calculate how many features is the
-team able to complete in an iteration\cite{Polk2011263}. Velocity metrics can be also used
-to improve next iterations estimates\cite{Mahnic201273}. Also, startAndEndDate metric was
-used to point out interdependent tasks in planning phase\cite{Hong2010310}. Knowing the
-teams' effective available hours is also useful when selecting tasks for a
-iteration\cite{Cheng200929}. Measuring the completion of tasks enables selecting incomplete
-tasks to the next iteration\cite{Hong2010310}. Prioritization of features can also be
-affected by a metric that measures the amount of revenue a customer is willing
-to pay for a feature\cite{Hodgkins2007194}. Higher valued customers get their features done
-first.
+team able to complete in an iteration\cite{Polk2011263}. Velocity metrics can
+be also used to improve next iterations estimates\cite{Mahnic201273}. Also,
+startAndEndDate metric was used to point out interdependent tasks in planning
+phase\cite{Hong2010310}. Knowing the teams' effective available hours is also
+useful when selecting tasks for a iteration\cite{Cheng200929}. Measuring the
+completion of tasks enables selecting incomplete tasks to the next
+iteration\cite{Hong2010310}. Prioritization of features can also be affected
+by a metric that measures the amount of revenue a customer is willing to pay
+for a feature\cite{Hodgkins2007194}. Higher valued customers get their
+features done first.
  
 
-\subsection{Iteration tracking} %completion} 
+\subsection{Iteration tracking} %completion}
+\label{IterationTracking} 
 % Timely manner of completing iteration is one of the cornerstones of agile
 % development !ISKEVIITE.
 Purpose of iteration tracking is to make sure that the tasks selected for the
@@ -779,19 +561,20 @@ release must be delayed as happened in one case \cite{Hodgetts2004106}.
 %completion and 
 
 \subsection{Motivate and enable team to improve}
+\label{Motivate}
 (Agile methods emphasize self-empowerment - this was also
  visible in the used metrics.) This section describes metrics that are used to
  motivate people and make them improve on their own.
 
-Metrics were used to communicate different data about the project or product to
-the team members
+Metrics were used to communicate different data about the project or product
+to the team members
 \cite{Trapa2006243}\cite{Talby200940}\cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}.
 Measurement data motivated teams to act and improve their
 performance\cite{Talby200940}\cite{Polk2011263}\cite{Cheng200929}\cite{LNBIP01490121}\cite{Jakobsen2011168}.
 Some examples include fixing the build
 faster\cite{Jakobsen2011168}\cite{LNBIP01490121}, fix bugs
-faster\cite{Cheng200929} or creating unit tests to declare the completion
-of a feature\cite{Talby200940}.
+faster\cite{Cheng200929} or creating unit tests to declare the completion of a
+feature\cite{Talby200940}.
 
 Metrics can be also used to prevent harmful behaviour such as cherry picking
 tasks that are most interesting. Measuring work in progress and setting WIP
@@ -799,27 +582,29 @@ limits prevent cherry picking by enforcing only few work items at a
 time.\cite{Middleton2007387}
 
 \subsection{Problem identification}
+\label{ProblemIdentification}
 Metrics are often used to identify or avoid problems in
 processes and work flows. This chapter describes how metrics
 can be used to spot problems.
 
 There were multiple cases highlighting how measures are used to identify or
-predict problems so that the problems
-could be solved or
-avoided\cite{Petersen2011975}\cite{Trapa2006243}\cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}[Tudor].
+predict problems so that the problems could be solved or
+avoided\cite{Petersen2011975}\cite{Trapa2006243}\cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}\cite{Tudor2006367}.
 
 Sometimes there can be work phases where no value is added for example ``waiting
 for finalization''. This type of activity is called waste and can be identified by using
 lead time.\cite{Petersen2012108}
 
 Creating awareness with defect trend indicator helped to take actions to avoid
-problems\cite{Staron20101069}.
-Some metrics are used continuously while some are only checked in certain intervals(ei
-oo muistissa viitettä tähän). In some cases there are defined limits in metrics that
-trigger improvement actions(en muista viitettä tähän). One observed solution to problems
-was to find the root cause\cite{Jakobsen2011168}\cite{Middleton2007387}.
+problems\cite{Staron20101069}. Some metrics are used continuously while some
+are only checked in certain intervals(ei oo muistissa viitettä tähän). In some
+cases there are defined limits in metrics that trigger improvement actions(en
+muista viitettä tähän).
+One observed solution to problems was to find the root
+cause\cite{Jakobsen2011168}\cite{Middleton2007387}.
 
 \subsection{Pre-release quality}
+\label{PreQuality}
 Metrics in the pre-release quality
 category were used to prevent defects reaching customers
 and to understand what is the current quality of the
@@ -836,35 +621,37 @@ metrics force the approach of writing tests before actual
 code\cite{Trapa2006243}.
 
 \subsection{Post-release quality}
-Metrics in post-release quality deal
-with evaluating the quality after it has been released.
-Customer satisfaction, customer responsiveness and quality
-indicators are seen as attributes of
-post-release quality. Some metrics
-include customer input to determine post-release quality\cite{Petersen2010654}\cite{Green2011}\cite{Cheng200929}[]
-while other metrics use pre-release data as predictors of external
-quality\cite{Staron20101069}\cite{Petersen2010654}\cite{Green2011}.
-Customer related metrics include for example defects sent by customers\cite{Cheng200929}, change
-requests from customers\cite{Petersen2010654} and customer's willingness to recommend product to
-other potential customers\cite{Green2011}.
-Quality prediction metrics include defect counts\cite{Petersen2010654}, maintenance
-effort\cite{Staron20101069} and deferred defect counts\cite{Green2011}.
+\label{PostQuality}
+Metrics in post-release quality deal with evaluating the quality after it has
+been released.
+
+Customer satisfaction, customer responsiveness and quality indicators are seen
+as attributes of post-release quality. Some metrics include customer input to
+determine post-release quality\cite{Petersen2010654}
+\cite{Green2011}\cite{Cheng200929}[] while other metrics use pre-release data
+as predictors of external quality\cite{Staron20101069}
+\cite{Petersen2010654}\cite{Green2011}. Customer related metrics include for
+example defects sent by customers\cite{Cheng200929}, change requests from
+customers\cite{Petersen2010654} and customer's willingness to recommend
+product to other potential customers\cite{Green2011}.
+Quality prediction metrics include defect counts\cite{Petersen2010654},
+maintenance effort\cite{Staron20101069} and deferred defect
+counts\cite{Green2011}.
 
 \subsection{Changes in processes or tools}
+\label{ChangesInProcesses}
 This chapter lists what kind of changes metrics
 had for processes and tools.
 
-The successful usage of sprint
-readiness metric and story flow metric changed company policy to have target values for
-both metrics as well as monthly reporting of both metrics by
-all projects\cite{Jakobsen2011168}.
+The successful usage of sprint readiness metric and story flow metric changed
+company policy to have target values for both metrics as well as monthly
+reporting of both metrics by all projects\cite{Jakobsen2011168}.
 
-At Ericsson by monitoring the flow
-of requirements metric they decided to change their
-implementation flow from push to pull to help them deliver
-in a more continuous manner. Also, based on the metric they added
-intermediate release version to have release quality earlier
-in the development cycle.\cite{Petersen2010654}
+At Ericsson by monitoring the flow of requirements metric they decided to
+change their implementation flow from push to pull to help them deliver in a
+more continuous manner. Also, based on the metric they added intermediate
+release version to have release quality earlier in the development
+cycle.\cite{Petersen2010654}
 
 Changes to requirements managements were also done based on metrics in
 an other case at Ericsson\cite{Mujtaba2010139}. 
@@ -877,27 +664,53 @@ Also, additional code style rules were added to code check-in and build tools
 so that builds would fail more often and defects would get caught before the
 release\cite{Jakobsen2011168}\cite{Janus20129}. Similarly, testing approaches
 were changed based on flow metrics\cite{Mujtaba2010139}\cite{Staron20101069}.
+¨
+
+\section{Discussion}
+
+I found it interesting that there were some metrics that reflected agile
+values, for example metrics that motivated team to act and improve. That could
+be seen as adhering to fifth principle of agile software: ``Build projects
+around motivated individuals. Give them the environment and support they need,
+and trust them to get the job done.''
+
+Also, there were hints leaning towards principle ``Working software is the
+primary measure of progress.'' with a team measuring progress through working
+code presented to the customer(viite, ja pitäis lisätä resultteihinkin ellei
+jo ole siellä).
+
+Moreover, there were metrics targeted to balance the flow of work. This has
+some similarities with principle 8 ``Agile processes promote sustainable
+development. The sponsors, developers, and users should be able to maintain a
+constant pace indefinitely.''
+
+Maybe not that strong evidence but the metrics, which purpose was to identify
+problems and thus change processes sounded a bit like the last principle ``At
+regular intervals, the team reflects on how to become more effective, then
+tunes and adjusts its behavior accordingly.''
+
+Finally, as many metrics focus on tracking and timely completion of the
+iteration it sounds a lot like principle 3 ``Deliver working software
+frequently, from a couple of weeks to a couple of months, with a preference to
+the shorter timescale.''
+
+In general, I think there were many metrics that were targeted for the team -
+instead of high focus on managerial or upper management reporting metrics.
+Making metrics visible for the team enables them to independently act and
+improve without the need of rapid supervision and telling people what to do.
+
+
+(toinen judu mitä täällä voisi olla niin vertailu perinteisiin tai
+agiilikirjallisuudessa suositeltuihin)
+
 
 \section{Conclusions}
-This paragraph will end the body of this sample document.
-Remember that you might still have Acknowledgments or
-Appendices; brief samples of these
-follow.  There is still the Bibliography to deal with; and
-we will make a disclaimer about that here: with the exception
-of the reference to the \LaTeX\ book, the citations in
-this paper are to articles which have nothing to
-do with the present subject and are used as
-examples only.
+
 %\end{document}  % This is where a 'short' article might terminate
 
 %ACKNOWLEDGMENTS are optional
 \section{Acknowledgments}
-This section is optional; it is a location for you
-to acknowledge grants, funding, editing assistance and
-what have you.  In the present case, for example, the
-authors would like to thank Gerald Murray of ACM for
-his help in codifying this \textit{Author's Guide}
-and the \textbf{.cls} and \textbf{.tex} files that it describes.
+(U-QASAR rahoitus?)
 
 %
 % The following two commands are all you need in the
@@ -916,49 +729,13 @@ and the \textbf{.cls} and \textbf{.tex} files that it describes.
 %\balancecolumns
 \appendix
 %Appendix A
-\section{Headings in Appendices}
-The rules about hierarchical headings discussed above for
-the body of the article are different in the appendices.
-In the \textbf{appendix} environment, the command
-\textbf{section} is used to
-indicate the start of each Appendix, with alphabetic order
-designation (i.e. the first is A, the second B, etc.) and
-a title (if you include one).  So, if you need
-hierarchical structure
-\textit{within} an Appendix, start with \textbf{subsection} as the
-highest level. Here is an outline of the body of this
-document in Appendix-appropriate form:
-\subsection{Introduction}
-\subsection{The Body of the Paper}
-\subsubsection{Type Changes and  Special Characters}
-\subsubsection{Math Equations}
-\paragraph{Inline (In-text) Equations}
-\paragraph{Display Equations}
-\subsubsection{Citations}
-\subsubsection{Tables}
-\subsubsection{Figures}
-\subsubsection{Theorem-like Constructs}
-\subsubsection*{A Caveat for the \TeX\ Expert}
-\subsection{Conclusions}
-\subsection{Acknowledgments}
-\subsection{Additional Authors}
-This section is inserted by \LaTeX; you do not insert it.
-You just add the names and information in the
-\texttt{{\char'134}additionalauthors} command at the start
-of the document.
-\subsection{References}
-Generated by bibtex from your ~.bib file.  Run latex,
-then bibtex, then latex twice (to resolve references)
-to create the ~.bbl file.  Insert that ~.bbl file into
-the .tex source file and comment out
-the command \texttt{{\char'134}thebibliography}.
+\section{Blaa}
+
+\subsection{Blaa 2}
+\subsubsection{Blaa 3}
+
 % This next section command marks the start of
 % Appendix B, and does not continue the present hierarchy
-\section{More Help for the Hardy}
-The acm\_proc\_article-sp document class file itself is chock-full of succinct
-and helpful comments.  If you consider yourself a moderately
-experienced to expert user of \LaTeX, you may find reading
-it useful but please remember not to change it.
 \balancecolumns
 % That's all folks!
 \end{document}
