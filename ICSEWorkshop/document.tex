@@ -64,7 +64,7 @@
 % --- End of Author Metadata ---
 
 
-\title{Agile metrics: How and  why ye e}
+\title{Agile metrics: How and why}
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
 %\textit{Author's Guide to Preparing ACM SIG Proceedings Using
@@ -96,7 +96,7 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{6} %  in this sample file, there are a *total*
+\numberofauthors{3} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -120,38 +120,17 @@ Eetu Kupiainen\\
        \email{eetu.kupiainen@aalto.fi}
 % 2nd. author
 \alignauthor
-G.K.M. Tobin\titlenote{The secretary disavows
-any knowledge of this author's actions.}\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{P.O. Box 1212}\\
-       \affaddr{Dublin, Ohio 43017-6221}\\
-       \email{webmaster@marysville-ohio.com}
+Mika Mäntylä\\
+       \affaddr{Aalto University}\\
+       \affaddr{Konemiehentie 2}\\
+       \affaddr{Espoo, Finland}\\
+       \email{mika.mantyla@aalto.fi}
 % 3rd. author
-\alignauthor Lars Th{\o}rv{\"a}ld\titlenote{This author is the
-one who did all the really hard work.}\\
-       \affaddr{The Th{\o}rv{\"a}ld Group}\\
-       \affaddr{1 Th{\o}rv{\"a}ld Circle}\\
-       \affaddr{Hekla, Iceland}\\
-       \email{larst@affiliation.org}
-\and  % use '\and' if you need 'another row' of author names
-% 4th. author
-\alignauthor Lawrence P. Leipuner\\
-       \affaddr{Brookhaven Laboratories}\\
-       \affaddr{Brookhaven National Lab}\\
-       \affaddr{P.O. Box 5000}\\
-       \email{lleipuner@researchlabs.org}
-% 5th. author
-\alignauthor Sean Fogarty\\
-       \affaddr{NASA Ames Research Center}\\
-       \affaddr{Moffett Field}\\
-       \affaddr{California 94035}\\
-       \email{fogartys@amesres.org}
-% 6th. author
-\alignauthor Charles Palmer\\
-       \affaddr{Palmer Research Laboratories}\\
-       \affaddr{8600 Datapoint Drive}\\
-       \affaddr{San Antonio, Texas 78229}\\
-       \email{cpalmer@prl.com}
+\alignauthor Juha Itkonen\\
+       \affaddr{Aalto University}\\
+       \affaddr{Konemiehentie 2}\\
+       \affaddr{Espoo, Finland}\\
+       \email{juha.itkonen@aalto.fi}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -181,35 +160,37 @@ one who did all the really hard work.}\\
 
 \section{Introduction}
 
-%Software engineering is at a crossroads as there are new leaner and more
-%agile software development methods appearing next to the traditional
-%software development methods. 
+% Software engineering is at a crossroads as there are new leaner and more
+% agile software development methods appearing next to the traditional
+% software development methods.
 \mika{Kappaleen pointti: No literature reviews of actual metric use}
-Software metrics have been studied for decades and several literature reviews have been published (CITE KITCHENHAM What’s up with software metrics? – A preliminary mapping study + 4 paperia johon toi viittaa). 
-Yet, the literature reviews have been written from an academic viewpoint that typically focuses on the effectiveness of a single metric. For example, Catal et al review fault prediction metrics, Purao et al review metrics for object oriented systems and Kitchenham performs a mapping of most cited software metrics papers. To our knowledge there are no systematic literature reviews on the actual use of software metrics in the industry.
+Software metrics have been studied for decades and several literature reviews
+have been published.
+Yet, the literature reviews have been written from an academic viewpoint that
+typically focuses on the effectiveness of a single metric. For example, Catal
+et al review fault prediction metrics \cite{catal2009systematic}, Purao et al
+review metrics for object oriented systems\cite{purao2003product} and
+Kitchenham performs a mapping of most cited software metrics
+papers\cite{kitchenham_whats_2010}. To our knowledge there are no systematic
+literature reviews on the actual use of software metrics in the industry.
 
 \mika{Kappaleen pointti: Agile on tärkeää eikä metriikkoja tutkittu}
-Agile software development is becoming increasing popular in the software industry. The agile approach seems to be contradicting with the traditional metrics approaches. However, at the same time agile software development highlights some measures that should be used, e.g. burndown graphs and 100\% automated unit testing coverage. However, measurement research with agile methods remains scarce.
+Agile software development is becoming increasing popular in the software
+industry. The agile approach seems to be contradicting with the traditional
+metrics approaches. However, at the same time agile software development
+highlights some measures that should be used, e.g. burndown graphs and 100\%
+automated unit testing coverage. However, measurement research with agile
+methods remains scarce.
 
-The goal of this paper is to review the literature of actual use of software metrics in the context of agile software development. This study will lay out the current state of industrial agile metric papers. Moreover, the study uncovers the reasons for metrics usage as well as highlights actions that the use of metrics can trigger. Due to our research goal, we are more interested
-in case studies and actual empirical findings than unproven theories or models.
+The goal of this paper is to review the literature of actual use of software
+metrics in the context of agile software development. This study will lay out
+the current state of industrial agile metric papers. Moreover, the study
+uncovers the reasons for metrics usage as well as highlights actions that the
+use of metrics can trigger. Due to our research goal, we are more interested
+in case studies and actual empirical findings than unproven theories or
+models.
 
 This paper is structured as follows. Section...
-
-
-(-historialï¿½hestyminen(en ehkï¿½ ite oo tï¿½stï¿½ hirveen innokas)
---lï¿½hti koodimittareista
---jossain vaiheessa kiinnostuttiin prosessimittareista
---agiilit menetelmï¿½t alkavat yleistyï¿½, miten hoitaa mittaaminen siellï¿½? Kun
-prosessi muuttuu miten mittaus, perinteiset mittarit raskaita(?).
--- EBSE:n korostaminen 
-
--tore lï¿½hestyminen
--- tavalliselle talliaiselle intro sceneen
--- syyt miks me tehï¿½ï¿½n tï¿½llainen tutkimus
--- mitï¿½ hyï¿½tyjï¿½ tï¿½llï¿½ tutkimuksella on)
-
-
 
 \section{Background}
 
@@ -398,7 +379,7 @@ It found 42 hits 10.12.2013
 
 Scopus was used as the only search engine as it contained the most relevant
 databases IEEE and ACM. Also, it was able to find Agile- and XP conference
-papers. Only XP Conference 2013 was search manually because it couldn't be
+papers. Only XP Conference 2013 was searched manually because it couldn't be
 found through Scopus.
 
 \subsubsection{Pilot}
