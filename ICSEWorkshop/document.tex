@@ -47,6 +47,13 @@
 
 \documentclass{sig-alternate}
 \usepackage{nameref}
+\usepackage[usenames]{color}
+
+\newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
+\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
+\newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
+%\newcommand{\mika}[1]{\ignorespaces}
+%\newcommand{\eetu}[1]{\ignorespaces}
 
 \begin{document}
 %
@@ -174,29 +181,20 @@ one who did all the really hard work.}\\
 
 \section{Introduction}
 
-Software engineering is at a crossroads as there are new leaner and more
-agile software development methods appearing next to the traditional
-software development methods. Software measurement has had it's history for
-decades but that history has been steered towards the needs of traditional
-software development methods. What is the role of metrics in agile
-development?
+%Software engineering is at a crossroads as there are new leaner and more
+%agile software development methods appearing next to the traditional
+%software development methods. 
+\mika{Kappaleen pointti: No literature reviews of actual metric use}
+Software metrics have been studied for decades and several literature reviews have been published (CITE KITCHENHAM What’s up with software metrics? – A preliminary mapping study + 4 paperia johon toi viittaa). 
+Yet, the literature reviews have been written from an academic viewpoint that typically focuses on the effectiveness of a single metric. For example, Catal et al review fault prediction metrics, Purao et al review metrics for object oriented systems and Kitchenham performs a mapping of most cited software metrics papers. To our knowledge there are no systematic literature reviews on the actual use of software metrics in the industry.
 
-Software measurement has been seen important for research and there are
-numerous studies and books regarding it. However, measurement research with
-agile methods remains scarce. The aim of this research is to fill part of that
-gap.
+\mika{Kappaleen pointti: Agile on tärkeää eikä metriikkoja tutkittu}
+Agile software development is becoming increasing popular in the software industry. The agile approach seems to be contradicting with the traditional metrics approaches. However, at the same time agile software development highlights some measures that should be used, e.g. burndown graphs and 100\% automated unit testing coverage. However, measurement research with agile methods remains scarce.
 
-The angle for this study is industry focused. We want to understand the
-current state of agile measurement in industry. Thus, we are more interested
-in case studies and actual empirical findings than unproven theories or
-models.
+The goal of this paper is to review the literature of actual use of software metrics in the context of agile software development. This study will lay out the current state of industrial agile metric papers. Moreover, the study uncovers the reasons for metrics usage as well as highlights actions that the use of metrics can trigger. Due to our research goal, we are more interested
+in case studies and actual empirical findings than unproven theories or models.
 
-This study will lay out the current state of industrial agile metric papers.
-Moreover, the study uncovers the reasons for metrics usage as well as
-highlights actions that the use of metrics can trigger. Practitioners will
-hopefully benefit from metrics this study brings forth.
-
-This paper is organized as follows: (blaa blaa).
+This paper is structured as follows. Section...
 
 
 (-historialï¿½hestyminen(en ehkï¿½ ite oo tï¿½stï¿½ hirveen innokas)
