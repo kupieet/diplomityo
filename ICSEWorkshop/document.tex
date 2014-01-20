@@ -48,12 +48,15 @@
 \documentclass{sig-alternate}
 \usepackage{nameref}
 \usepackage[usenames]{color}
+\usepackage{cleveref}
 
 \newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
 \newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
 \newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
+\newcommand{\juha}[1]{\basicalert{From Juha}{#1}}
 %\newcommand{\mika}[1]{\ignorespaces}
 %\newcommand{\eetu}[1]{\ignorespaces}
+%\newcommand{\juha}[1]{\ignorespaces}
 
 \begin{document}
 %
@@ -168,10 +171,10 @@ Software metrics have been studied for decades and several literature reviews
 have been published.
 Yet, the literature reviews have been written from an academic viewpoint that
 typically focuses on the effectiveness of a single metric. For example, Catal
-et al review fault prediction metrics \cite{catal2009systematic}, Purao et al
-review metrics for object oriented systems\cite{purao2003product} and
+et al. review fault prediction metrics \cite{catal2009systematic}, Purao et
+al. review metrics for object oriented systems \cite{purao2003product} and
 Kitchenham performs a mapping of most cited software metrics
-papers\cite{kitchenham_whats_2010}. To our knowledge there are no systematic
+papers \cite{kitchenham_whats_2010}. To our knowledge there are no systematic
 literature reviews on the actual use of software metrics in the industry.
 
 \mika{Kappaleen pointti: Agile on t‰rke‰‰ eik‰ metriikkoja tutkittu}
@@ -194,6 +197,22 @@ This paper is structured as follows. Section...
 
 \section{Background}
 
+\subsection{Agile software development}
+\eetu{t‰ss‰ voisi olla historian‰kˆkulma, voipi menn‰ pitk‰ks eik‰ niin
+mielenkiintoinen ehk‰ t‰ss‰ paperissa} 
+
+Agile development methods have emerged to the software world ruled by
+traditional heavyweight methods. In agile methods the focus is in lightweight
+working practices, constant deliveries and customer collaboration over long
+planning periods, heavy documentation and inflexible development phases.
+
+Agile manifesto created by agile enthusiasts \cite{beck2001agile} lists agile
+principles that give an idea what is agile development about. Popular agile
+development methods include Scrum \cite{schwaber2002agile}, Extreme
+Programming \cite{beck2004extreme} and Kanban \cite{anderson2010kanban}.
+
+
+
 \subsection{Evidence based software engineering}
 
 \subsection{Measurement}
@@ -213,8 +232,6 @@ critically appraised so that further studies can be based on good quality
 evidence. She also reminds researchers to understand the context where metrics
 are taken from - failure to understand context will probably not provide
 answers to industry-related questions. 
-
-
 
 --EBSE
 --Mittaamisen SR:t
@@ -577,25 +594,26 @@ High level reasons for using measurements are listed in Table
 \label{WhyHowCategories} 
 \begin{tabular}{c p{2,5cm}} \hline
 Categories & Sources\\ \hline
-\nameref{IterationPlanning}&
+\nameref{sec:IterationPlanning}&
 \cite{Elssamadisy2002617}\cite{Polk2011263}\cite{Cheng200929}\cite{Greening2010}\cite{Hong2010310}
 \cite{Mahnic201273}\cite{Haugen200623}\cite{Hodgkins2007194}\\
-\nameref{IterationTracking} & \cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
+\nameref{sec:IterationTracking} &
+\cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
 \cite{Dubinsky200512}\cite{Hong2010310}\cite{LNBIP01490121}\cite{Green2011}\cite{Elssamadisy2002617}\cite{Middleton2007387}
 \cite{Trapa2006243}\cite{Trimble20134826}
 \newline
 \cite{Hodgetts2004106}\cite{Staron20101069}\cite{Seikola2011321}\cite{Polk2011263}\cite{Greening2010}\\
-\nameref{Motivate} &
+\nameref{sec:Motivate} &
 \cite{Trapa2006243}\cite{Talby200940}\cite{Jakobsen2011168}\cite{LNBIP01490121}\cite{Cheng200929}
 \cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}\\
-\nameref{ProblemIdentification} &
+\nameref{sec:ProblemIdentification} &
 \cite{Petersen2011975}\cite{Trapa2006243}\cite{Middleton2007387}\cite{Jakobsen2011168}\cite{Staron20101069}
 \cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}\cite{Tudor2006367}\\
-\nameref{PreQuality} &
+\nameref{sec:PreQuality} &
 \cite{Cataldo2011161}\cite{Janus20129}\cite{Janus20129}\cite{Dubinsky200512}\cite{Trapa2006243}\\
-\nameref{PostQuality} &
+\nameref{sec:PostQuality} &
 \cite{Petersen2010654}\cite{Cheng200929}\cite{Green2011}\cite{Staron20101069}\\
-\nameref{ChangesInProcesses} &
+\nameref{sec:ChangesInProcesses} &
 \cite{Jakobsen2011168}\cite{Petersen2011975}\cite{Mujtaba2010139}\cite{LNBIP01490121}\cite{Staron20101069}
 \cite{Janus20129}\cite{Staron20113}\\
 \hline
@@ -607,7 +625,7 @@ Categories & Sources\\ \hline
 
 
 \subsection{Iteration planning}
-\label{IterationPlanning}
+\label{sec:IterationPlanning}
 Many metrics center around iteration planning. Tasks for the next iteration are
 selected and prioritized with the help of metrics.
 
@@ -629,7 +647,7 @@ features done first.
  
 
 \subsection{Iteration tracking} %completion}
-\label{IterationTracking} 
+\label{sec:IterationTracking}
 % Timely manner of completing iteration is one of the cornerstones of agile
 % development !ISKEVIITE.
 Purpose of iteration tracking is to make sure that the tasks selected for the
@@ -643,14 +661,16 @@ progressing.
 \cite{Dubinsky200512}\cite{Hong2010310}\cite{Green2011}
 \cite{Trapa2006243}\cite{Trimble20134826}. Progress metrics included number of
 completed web pages\cite{Hong2010310}, story completion
-percentage\cite{Trapa2006243} and velocity metrics\cite{Dubinsky200512}.
+percentage \cite{Trapa2006243} and velocity metrics \cite{Dubinsky200512}.
 However, using velocity metrics can also have negative effects such as cutting
 corners in implementing features to maintain velocity with the cost of
 quality\cite{Elssamadisy2002617}. One unorthodox progress metric was product
-demonstrations with customer\cite{Trimble20134826}.
+demonstrations with customer \cite{Trimble20134826}.
 
-Risk management was also mentioned often
-\cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
+%Risk management was also mentioned often, for example a metric was added
+%where it seemed valuable in decreasing a risk \cite{Dubinsky200512},  
+%\cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
+
 If it seemed that not all planned tasks could be completed, tasks were cut
 from the iteration
 \cite{Mahnic201273}\cite{Dubinsky200512}\cite{Middleton2007387} or extra
@@ -679,7 +699,7 @@ release must be delayed as happened in one case \cite{Hodgetts2004106}.
 %completion and 
 
 \subsection{Motivate and enable team to improve}
-\label{Motivate}
+\label{sec:Motivate}
 (Agile methods emphasize self-empowerment - this was also
  visible in the used metrics.) This section describes metrics that are used to
  motivate people and make them improve on their own.
@@ -700,7 +720,7 @@ limits prevent cherry picking by enforcing only few work items at a
 time.\cite{Middleton2007387}
 
 \subsection{Problem identification}
-\label{ProblemIdentification}
+\label{sec:ProblemIdentification}
 Metrics are often used to identify or avoid problems in
 processes and work flows. This chapter describes how metrics
 can be used to spot problems.
@@ -722,7 +742,7 @@ One observed solution to problems was to find the root
 cause\cite{Jakobsen2011168}\cite{Middleton2007387}.
 
 \subsection{Pre-release quality}
-\label{PreQuality}
+\label{sec:PreQuality}
 Metrics in the pre-release quality
 category were used to prevent defects reaching customers
 and to understand what is the current quality of the
@@ -736,10 +756,12 @@ making sure that the product is ready for further
 development was mentioned. Also, using metrics to improve
 pre-release quality was goal in one case\cite{Janus20129}. Some
 metrics force the approach of writing tests before actual
-code\cite{Trapa2006243}.
+code\cite{Trapa2006243}. Technical debt was measured with a technical debt
+board which was used to facilitate discussion on technical debt issues
+\cite{LNBIP01490121}.
 
 \subsection{Post-release quality}
-\label{PostQuality}
+\label{sec:PostQuality}
 Metrics in post-release quality deal with evaluating the quality after it has
 been released.
 
@@ -757,7 +779,7 @@ maintenance effort\cite{Staron20101069} and deferred defect
 counts\cite{Green2011}.
 
 \subsection{Changes in processes or tools}
-\label{ChangesInProcesses}
+\label{sec:ChangesInProcesses}
 This chapter lists what kind of changes metrics
 had for processes and tools.
 
@@ -785,42 +807,126 @@ were changed based on flow metrics\cite{Mujtaba2010139}\cite{Staron20113}.
 
 \section{Discussion}
 
-I found it interesting that there were some metrics that reflected agile
-values, for example metrics that motivated team to act and improve. That could
-be seen as adhering to fifth principle of agile software: ``Build projects
-around motivated individuals. Give them the environment and support they need,
-and trust them to get the job done.''
+\subsection{Implications for practice}
+To provide implications to practice we map our findings to the values of agile
+software development \cite{beck2001agile}.
 
-Also, there were hints leaning towards principle ``Working software is the
-primary measure of progress.'' with a team measuring progress through working
-code demonstrated to the customer.
+\mika{TODO: Pitaa selvasti tuoda esiin  mappaus. Principlet jarjestykseen.
+Viite mista principlet tulee. Joka principlen kohdalta ensin mika sita tukee.
+ Ja sitten jos loydettiin jotain ristiriittaista periaatteen kanssa. 
+ Lisaksi principlet jarjestykseen. Ja lopuksi mille principlelle ei ollut mittareita.
+  -> Future work Pitaisiko olla ja millaisia}
 
-Moreover, there were metrics targeted to balance the flow of work. This has
-some similarities with principle 8 ``Agile processes promote sustainable
-development. The sponsors, developers, and users should be able to maintain a
-constant pace indefinitely.''
+Agile principle \#1: ``Our highest priority is to satisfy the customer through
+early and continuous delivery of valuable software.'' was seen in the team
+measuring progress through demonstrating the product to the customer
+\cite{Trimble20134826}.
 
-Maybe not that strong evidence but the metrics, which purpose was to identify
-problems and thus change processes sounded a bit like the last principle ``At
-regular intervals, the team reflects on how to become more effective, then
-tunes and adjusts its behavior accordingly.''
+\eetu{Principle 2:een en keksi oikeen mit‰‰n. Ainoastaan Help decision
+making vaikuttais v‰h‰n osuvan mut ei ehk‰ tarpeeksi.}
 
-Finally, as many metrics focus on tracking and timely completion of the
-iteration it sounds a lot like principle 3 ``Deliver working software
-frequently, from a couple of weeks to a couple of months, with a preference to
-the shorter timescale.''
+Agile principle \#3: ``Deliver working software frequently, from a couple of
+weeks to a couple of months, with a preference to the shorter timescale''  was
+seen in many metrics focusing on tracking and timely completion of the
+iteration, see \cref{sec:IterationTracking}
 
-In general, I think there were many metrics that were targeted for the team -
+Agile principle \#4:``Business people and developers must work 
+together daily throughout the project.'' was seen how different metrics
+are used to share information to all stakeholders about the project, see
+\cref{sec:Motivate} and \cref{sec:IterationTracking}. \eetu{tasta olisi
+myos ehdotuksia Mujtabassa market unitin ja business unitin yhteistyo
+mutta ei nayttoa etta nain olisi tehty.}%Also, the use of waste identification
+% metrics in \cite{Mujtaba2010139} lead to
+
+Agile principle \#5:``Build projects around motivated individuals. Give them
+the environment and support they need, and trust them to get the job done''
+was reflected in metrics that motivated team to act and improve, see
+\cref{sec:Motivate}.
+
+Agile principle \#6:``The most efficient and effective method of 
+conveying information to and within a development 
+team is face-to-face conversation.'' was seen in \cite{LNBIP01490121} where
+a technical debt board measuring the level of technical debt was used to
+facilitate face-to-face discussion on technical debt issues, see
+\ref{sec:PreQuality}. \eetu{Tahan saattaisi loytya kaivamalla lisaa
+tarvittaessa.}
+
+
+Agile principle \#7:``Working software is the primary measure of progress'' 
+was directly identified in one paper, where the team measured progress by
+demonstrating the product to the customer. Additionally, there were cases
+where for example completed web-pages \cite{Hong2010310} were the primary
+progress measure. However, some other measures from Section 
+\cref{sec:IterationTracking} show that instead of working code agile teams
+followed completed tasks and velocity metrics. \mika{mita tarkoittaa risk
+management interation tracking kohdassa en tajua}
+\eetu{Kommentoin risk managementin pois. Se oli osittain paallekkaista kamaa
+Problem Identificationin kanssa. + melkein kaikki kama israelin casesta}
+
+
+Agile principle \#8:``Agile processes promote sustainable development. The
+sponsors, developers, and users should be able to maintain a
+constant pace indefinitely.'' was followed with metrics targeted to balance
+the flow of work, see \cref{sec:IterationTracking}.
+
+Agile principle \#9:``Continuous attention to technical excellence 
+and good design enhances agility.'' \eetu{Lisaan tahan build broken ja
+technical debt ainakin.}
+
+Agile principle \#12: ``At regular intervals, the team reflects on how to
+become more effective, then tunes and adjusts its behavior accordingly'' was
+visible in metrics that were used to identify problems and to change
+processes, see \cref{sec:ProblemIdentification} and 
+\cref{sec:ChangesInProcesses}.
+
+
+\mika{paljon vittauksia Iteration tracking kappaleeseen. Onkohan kaikki
+oikein?} \eetu{Naytti olevan ihan oikein. IterationTracking verkko taitaa
+sisaltaa eniten tavaraa.}
+
+TODO: Finally, we found that Agile principles x, y, z, were not reflected in
+any metric. TODO Some reasons for this.
+
+
+
+\subsection{Implications for research}
+No code metrics present....
+
+How to measure unmeasured agile principles...
+
+In general, we think there were many metrics that were targeted for the team -
 instead of high focus on managerial or upper management reporting metrics.
 Making metrics visible for the team enables them to independently act and
 improve without the need of rapid supervision and telling people what to do.
 
-
-(toinen juttu mit‰ t‰ss‰ voisi olla niin vertailu perinteisiin tai
+\eetu{
+(toinen judu mit? t??ll? voisi olla niin vertailu perinteisiin tai
 agiilikirjallisuudessa suositeltuihin)
-(kolmas juttuu: Koodimittarit oli aika heikosti edustettuna - vain muutama.
-Joka on sin‰ns‰ mielenkiintoista koska tutkimuksissa ne on hyvin
-edustettuna(kai). ))
+(kolmas judu: Koodimittarit oli aika heikosti edustettuna - vain muutama.
+Joka on sin?ns? mielenkiintoista koska tutkimuksissa ne on hyvin
+edustettuna(kai).}
+
+
+\subsection{Limitations}
+Telecommunications sector is widely represented in this study with eight
+papers from Ericsson. Also, Israeli Air Force was presented in three papers.
+
+Sometimes it was hard to understand which metrics an author was referring
+when a ``why'' was described. Moreover, I had to sometimes assume that when
+author describes the reasons for using a tool, he would be actually talking
+about the metrics the tool shows.
+
+Whenever a new coding rule was decided it was hard to make sure that all
+previous primary documents would get the same treatment.
+
+Coding ``sense'' improved over time so it is possible that some
+information was not spotted from the primary documents in the beginning of the
+study.
+
+It is possible that researcher bias could have had an effect on the results. I
+have positive mindset towards agile methods, as well as towards certain
+metrics over others.
+
 
 \subsection{Implications for research and practice}
 
