@@ -229,7 +229,7 @@ review (SR) on agile metrics. Moreover, we are interested on the
 industrial use of metrics in agile context.
 
 The performed SR has more research questions but for this paper only
-the following are considered:
+the following questions are considered:
 
 \begin{enumerate}
   \item Why are metrics used?
@@ -238,12 +238,9 @@ the following are considered:
 \end{enumerate}
 
 \section{Review method}
-(T�h�n ehk� kai tyyliin et v�h�n etitty et l�ytyk� mit��n laajaa tutkimusta
-agile mittareista) (T�ss� voisi my�s perustella viel� SR:n valitsemista
-menetelm�ksi -Why SR was selected? This is more a �understanding of problem�
-research. Not trying to find solution to specific problem. There is already
-literature that can be synthesized.)
-
+SR was chosen as research method because we are trying to understand a problem
+instead of trying to find a solution to it. Also, there was already
+existing literature that could be synthesized.
 
 \subsection{Protocol development}
 Kitchenham's guide for SRs\cite{kitchenham2004procedures} was used as a basis
@@ -255,7 +252,6 @@ challenges and opportunities of SRs.
 
 The protocol was also iterated in weekly meetings with the researchers, as
 well as in a pilot described in \ref{pilot}.
-
 
 \subsection{Search and selection process}
 
@@ -397,18 +393,18 @@ The plan was to go through 15 papers from the automatic search:
 \end{itemize}
 
 The pilot resulted in changing citation manager tool from Zotero to Jabref.
-Also, selection stage 2 and 3 were combined. Some codes were generated. The
-quality assessment checklist was decided on.
-
+Also, selection by title and selection by abstract steps were joined together.
+The quality assessment checklist was decided on.
 
 \subsubsection{Stage 2 - Selection by title and abstract}
 
 In stage 2 papers were included and excluded based on their title and
 abstract. As the quality of abstracts can be poor in computer
-science\cite{kitchenham2004procedures}, full texts were also skimmed through in case
-of unclear abstracts - especially intro, case description and conclusions was
-checked briefly. Also, if there were any unclear cases - these were discussed
-in weekly meetings and a descriptive exclusion rule was created if necessary.
+science\cite{kitchenham2004procedures}, full texts were also skimmed through
+in case of unclear abstracts - especially intro, case description and
+conclusions was checked briefly. Also, if there were any unclear cases - these
+were discussed in weekly meetings and a descriptive exclusion rule was created
+if necessary.
 
 Selection process was also done for a sample of 26 papers by one other
 researcher - the level of agreement was substantial with Kappa
@@ -465,8 +461,8 @@ then used which showed that 90\% of metrics were found.
 \subsection{Quality assessment}
 Quality assessment form adopted from \cite{dyba_empirical_2008} was used to
 evaluate the quality of each primary document. Additionally, a relevancy
-factor was added to the same assessment to describe how useful was the paper
-for this study. The scale for the relevancy factor is:
+factor was added to the same assessment to describe how useful the paper
+was for this study. The scale for the relevancy factor is:
 
 \begin{itemize}
   \item 0 = should be already excluded
@@ -486,15 +482,40 @@ then given a high level code to represent them.
 \section{Results - Why and how are metrics used}
 
 This chapter presents the preliminary results from the systematic literature 
-review.
+review. Table \ref{PublicationDistribution} shows the distribution of primary
+documents by publication channels. Table 
 
 \begin{table}
+\label{PublicationDistribution}
 \centering
 \caption{Publication distribution of primary documents}
-\begin{tabular}{|l|l|l|l|}
-\hline \textbf{Publication channel} & \textbf{Type} & \textbf{Number} &
-\textbf{Percent}\\
-\hline 
+\begin{tabular}{llll}
+\hline Publication channel & Type & Number &
+Percent\\
+\hline Agile Conference & Conference & 8 & 38\\
+ICSE & Conference & 2 & 10\\
+ICSE & Workshop & 2 & 10\\
+XP Conference & Conference & 2 & 10\\
+Agile Development Conference & Conference & 1 & 5\\
+APSEC & Conference & 1 & 5\\
+ASWEC & Conference & 1 & 5\\
+ECIS & Conference & 1 & 5\\
+ECSA & Conference & 1 & 5\\
+Elektronika ir Elektrotechnika & Journal & 1 & 5\\
+Empirical Software Engineering & Journal & 1 & 5\\
+EUROMICRO & Conference & 1 & 5\\
+HICCS & Conference & 1 & 5\\
+ICSP & Conference & 1 & 5\\
+ICSSP & Conference & 1 & 5\\
+Information and Software Technology & Journal & 1 & 5\\
+IJPQM & Journal
+& 1 & 5\\
+Journal of Systems and Software & Journal & 1 & 5\\
+PROFES & Conference & 1 & 5\\
+Software - Practice and Experience & Journal & 1 & 5\\
+WETSoM & Workshop & 1 & 5\\
+\hline
+
 \end{tabular}
 
 \end{table}
@@ -503,46 +524,46 @@ review.
 \centering
 \caption{Overview of primary studies}
 \label{OverviewOfPdocs} 
-\begin{tabular}{|l|l|l|l|} \hline
-\textbf{ID}&\textbf{Research method}&\textbf{Agile method}&\textbf{Domain}\\
+\begin{tabular}{llll} \hline
+ID & Research method & Agile method & Domain\\
 \hline \cite{Cataldo2011161} & Singlecase & FDDScrumMix & Navigation system
 for automobiles\\
-\hline \cite{Cheng200929} & Multicase &  NA / Scrum / Scrum & ERP / Graphic
+\cite{Cheng200929} & Multicase &  NA / Scrum / Scrum & ERP / Graphic
 design plug-in / Facility management\\
-\hline \cite{Elssamadisy2002617} & Single-experience & XP & Enterprise
+\cite{Elssamadisy2002617} & Single-experience & XP & Enterprise
 resource solution for the leasing industry \\
-\hline \cite{Mujtaba2010139} & Singlecase & ScrumXPMix & Telecom
+\cite{Mujtaba2010139} & Singlecase & ScrumXPMix & Telecom
 \\
-\hline \cite{Petersen2011975} & Singlecase & ScrumXPMix & Telecom \\
-\hline \cite{Petersen2010654} & Singlecase & AgileMix & Telecom \\
-\hline \cite{Seikola2011321} & Singlecase & ScrumBan & Telecom maintenance \\
-\hline \cite{Shen200725} & Singlecase & ScrumXPMix & Independent software
+\cite{Petersen2011975} & Singlecase & ScrumXPMix & Telecom \\
+\cite{Petersen2010654} & Singlecase & AgileMix & Telecom \\
+\cite{Seikola2011321} & Singlecase & ScrumBan & Telecom maintenance \\
+\cite{Shen200725} & Singlecase & ScrumXPMix & Independent software
 developer \\
-\hline \cite{Talby2006100} & Singlecase & XPMix & Enterprise information
+\cite{Talby2006100} & Singlecase & XPMix & Enterprise information
 system \\
-\hline \cite{Staron20101069} & Singlecase & LeanMix & Telecom \\
-\hline \cite{Staron20113} & Singlecase & LeanMix & Telecom \\
-\hline \cite{Petersen20101275} & Singlecase & LeanMix  & Telecom \\
-\hline \cite{Jakobsen2011168} & Singlecase & LeanScrumFDD & Information and
+\cite{Staron20101069} & Singlecase & LeanMix & Telecom \\
+\cite{Staron20113} & Singlecase & LeanMix & Telecom \\
+\cite{Petersen20101275} & Singlecase & LeanMix  & Telecom \\
+\cite{Jakobsen2011168} & Singlecase & LeanScrumFDD & Information and
 communication software development \\
-\hline \cite{Janus20129} & Single-experience & XPMix & Web application
+\cite{Janus20129} & Single-experience & XPMix & Web application
 development\\
-\hline \cite{Polk2011263} & Single-experience & ScrumXPLeanKanban & 
+\cite{Polk2011263} & Single-experience & ScrumXPLeanKanban & 
 Casino games\\
-\hline \cite{Talby200940} & Singlecase & XP & Enterprise information
+\cite{Talby200940} & Singlecase & XP & Enterprise information
 system\\
-\hline \cite{Trapa2006243} & Single-experience & ScrumXPMix & Telecom \\
-\hline \cite{Green2011} & Survey & Scrum & Desktop and SaaS products \\
-\hline \cite{Greening2010} & Single-experience & Scrum & NA \\
-\hline \cite{Hodgetts2004106} & Multicase & XP / Scrum & Criminal justice
+\cite{Trapa2006243} & Single-experience & ScrumXPMix & Telecom \\
+\cite{Green2011} & Survey & Scrum & Desktop and SaaS products \\
+\cite{Greening2010} & Single-experience & Scrum & NA \\
+\cite{Hodgetts2004106} & Multicase & XP / Scrum & Criminal justice
 system development / b-2-b e-commerce solutions \\
-\hline \cite{Mahnic201273} & Singlecase & Scrum & Web page development \\
-\hline \cite{Trimble20134826} & Singlecase & ScrumMix & Space mission control
+\cite{Mahnic201273} & Singlecase & Scrum & Web page development \\
+\cite{Trimble20134826} & Singlecase & ScrumMix & Space mission control
 software \\
-\hline \cite{LNBIP01490121} & Single-experience & Scrum & Software for oil and
+\cite{LNBIP01490121} & Single-experience & Scrum & Software for oil and
 gas industry \\
-\hline \cite{Petersen2012108} & Singlecase & LeanMix & Telecom \\
-\hline \cite{Middleton2007387} & Singlecase & Lean & Various \\ \hline
+\cite{Petersen2012108} & Singlecase & LeanMix & Telecom \\
+\cite{Middleton2007387} & Singlecase & Lean & Various \\ \hline
 \end{tabular}
 \end{table*}
 
@@ -554,29 +575,29 @@ High level reasons for using measurements are listed in Table
 \centering
 \caption{Categories for why and how measurement usage}
 \label{WhyHowCategories} 
-\begin{tabular}{|c|p{2,5cm}|} \hline
-\textbf{Categories}&\textbf{Sources}\\ \hline
- \nameref{IterationPlanning}&
- \cite{Elssamadisy2002617}\cite{Polk2011263}\cite{Cheng200929}\cite{Greening2010}\cite{Hong2010310}
- \cite{Mahnic201273}\cite{Haugen200623}\cite{Hodgkins2007194}\\
- \hline \nameref{IterationTracking} & \cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
+\begin{tabular}{c p{2,5cm}} \hline
+Categories & Sources\\ \hline
+\nameref{IterationPlanning}&
+\cite{Elssamadisy2002617}\cite{Polk2011263}\cite{Cheng200929}\cite{Greening2010}\cite{Hong2010310}
+\cite{Mahnic201273}\cite{Haugen200623}\cite{Hodgkins2007194}\\
+\nameref{IterationTracking} & \cite{Petersen2011975}\cite{Talby2006100}\cite{Mahnic201273}
 \cite{Dubinsky200512}\cite{Hong2010310}\cite{LNBIP01490121}\cite{Green2011}\cite{Elssamadisy2002617}\cite{Middleton2007387}
 \cite{Trapa2006243}\cite{Trimble20134826}
 \newline
 \cite{Hodgetts2004106}\cite{Staron20101069}\cite{Seikola2011321}\cite{Polk2011263}\cite{Greening2010}\\
-\hline \nameref{Motivate} &
+\nameref{Motivate} &
 \cite{Trapa2006243}\cite{Talby200940}\cite{Jakobsen2011168}\cite{LNBIP01490121}\cite{Cheng200929}
 \cite{Polk2011263}\cite{Staron20101069}\cite{Talby2006100}\\
-\hline \nameref{ProblemIdentification} &
+\nameref{ProblemIdentification} &
 \cite{Petersen2011975}\cite{Trapa2006243}\cite{Middleton2007387}\cite{Jakobsen2011168}\cite{Staron20101069}
 \cite{Mahnic201273}\cite{Petersen2010654}\cite{Shen200725}\cite{Mujtaba2010139}\cite{Tudor2006367}\\
-\hline \nameref{PreQuality} &
+\nameref{PreQuality} &
 \cite{Cataldo2011161}\cite{Janus20129}\cite{Janus20129}\cite{Dubinsky200512}\cite{Trapa2006243}\\
-\hline \nameref{PostQuality} &
+\nameref{PostQuality} &
 \cite{Petersen2010654}\cite{Cheng200929}\cite{Green2011}\cite{Staron20101069}\\
-\hline \nameref{ChangesInProcesses} &
+\nameref{ChangesInProcesses} &
 \cite{Jakobsen2011168}\cite{Petersen2011975}\cite{Mujtaba2010139}\cite{LNBIP01490121}\cite{Staron20101069}
-\cite{Janus20129}\\
+\cite{Janus20129}\cite{Staron20113}\\
 \hline
 
 
@@ -639,7 +660,7 @@ decisions to fix them - whether they were short or long term
 It was possible to base decisions on data, not only use common sense and
 experience \cite{Talby200940}. Balance of work flow was mentioned as a goal
 for using metrics in multiple papers
-\cite{Polk2011263}\cite{Petersen2010654}\cite{Greening2010}\cite{Petersen2011975}\cite{Dubinsky200512}\cite{Jakobsen2011168}.
+\cite{Polk2011263}\cite{Petersen2010654}\cite{Petersen20101275}\cite{Greening2010}\cite{Petersen2011975}\cite{Dubinsky200512}\cite{Jakobsen2011168}.
 Crosstraining people to work on multiple disciplines was used to balance the
 work flow\cite{Middleton2007387}\cite{Talby200940}. Also, metrics were used
 focus work on tasks that matter the most, avoid partially done work, task
@@ -744,7 +765,7 @@ At Ericsson by monitoring the flow of requirements metric they decided to
 change their implementation flow from push to pull to help them deliver in a
 more continuous manner. Also, based on the metric they added intermediate
 release version to have release quality earlier in the development
-cycle.\cite{Petersen2010654}
+cycle.\cite{Petersen20101275}
 
 Changes to requirements managements were also done based on metrics in
 an other case at Ericsson\cite{Mujtaba2010139}. 
@@ -756,7 +777,7 @@ v�lttis oikea kappale).
 Also, additional code style rules were added to code check-in and build tools
 so that builds would fail more often and defects would get caught before the
 release\cite{Jakobsen2011168}\cite{Janus20129}. Similarly, testing approaches
-were changed based on flow metrics\cite{Mujtaba2010139}\cite{Staron20101069}.
+were changed based on flow metrics\cite{Mujtaba2010139}\cite{Staron20113}.
 �
 
 \section{Discussion}
