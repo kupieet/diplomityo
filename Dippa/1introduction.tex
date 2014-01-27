@@ -1,35 +1,53 @@
 \chapter{Introduction}
 \label{chapter:intro}
 
-This is my Eetu's töh 2 master's thesis, and I am very proud of it.  Of course,
-when I write my \emph{real} master's thesis, I will not use the
-singular pronoun \emph{I}, but rather try to avoid referring to myself
-and speak of the research \emph{we} have conducted---I rarely work
-alone, after all.  Yet, both \emph{I} and \emph{we} are correct, and
-it depends on the instructor and the supervisor (of course from you,
-too), which one they would prefer. Anyway, the tense should be active,
-and passive sentenses should be avoided (especially, writing sentences
-where the subject is presented with by preposition), so often you
-cannot avoid choosing between the pronouns. Life is strange, but there
-you have it.
+% Software engineering is at a crossroads as there are new leaner and more
+% agile software development methods appearing next to the traditional
+% software development methods.
+\mika{Kappaleen pointti: No literature reviews of actual metric use}
+Software metrics have been studied for decades and several literature reviews
+have been published.
+Yet, the literature reviews have been written from an academic viewpoint that
+typically focuses on the effectiveness of a single metric. For example, Catal
+et al. review fault prediction metrics \citeppri{catal2009systematic}, Purao
+et al. review metrics for object oriented systems \cite{purao2003product} and
+Kitchenham performs a mapping of most cited software metrics
+papers \cite{kitchenham_whats_2010}. To our knowledge there are no systematic
+literature reviews on the actual use of software metrics in the industry.
 
-By the way, the preferred order of writing your master's thesis is
-about the same as the outline of the thesis: you first discover your
-problem and write about that, then you find out what methods you
-should use and write about that.  Then you do your implementation, and
-document that, and so on.  However, the abstract and introduction are
-often easiest to write last.  This is because these really cover the
-entire thesis, and there is no way you could know what to put in your
-abstract before you have actually done your implementation and
-evaluation. Rarely anyone write the thesis from the beginning to the
-end just one time, but the writing is more like process, where every
-piece of text is written at least twice. Be also prepared to delete
-your own text. In the first phase, you can hide it into comments that
-are started with \% but during the writing, the many comments should be
-visible for your helpers, the instructor and supervisor.
+\mika{Kappaleen pointti: Agile on tärkeää eikä metriikkoja tutkittu}
 
-The introduction in itself is rarely very long; two to five pages often
-suffice.
+\juha{Yritin konkretisoida trad vs. agile kontrastia}
+Agile software development is becoming increasing popular in the software
+industry. The agile approach seems to be contradicting with the traditional
+metrics approaches. For example, the agile emphasizes working software over measuring progress in terms of intermediate products or documentation, and embracing the change invalidates the traditional approach of tracking progress against pre-made plan.
+However, at the same time agile software development
+highlights some measures that should be used, e.g., burndown graphs and 100\%
+automated unit testing coverage. However, measurement research in the context of agile
+methods remains scarce.
+
+The goal of this paper is to review the literature of actual use of software
+metrics in the context of agile software development. This study will lay out
+the current state of metrics usage in industrial agile software development
+based on literature.
+Moreover, the study uncovers the reasons for metric usage as well as
+highlights actions that the use of metrics can trigger. Due to our research
+goal, we focus this paper on case studies and actual empirical findings
+excluding theoretical discussion and models lacking empirical validation.
+% The performed SR has more research questions but for this paper only
+In this paper we, cover the following research questions:
+
+\begin{enumerate}
+  \item Why are metrics used?
+  \item What actions do the use of metrics trigger?
+  \item Which metrics are used?
+\end{enumerate}
+
+This paper is structured as follows. \Cref{sec:Method} describes how
+the SR was conducted. \Cref{sec:Results} reports the results from the study.
+\Cref{sec:Discussion} discusses about the findings and how they map to agile
+principles. \Cref{sec:Conclusions} concludes the paper and suggests next
+steps.
 
 
 \section{Problem statement}

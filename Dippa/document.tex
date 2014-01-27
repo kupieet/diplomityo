@@ -92,7 +92,7 @@
 % going to use.
 % Examples of valid language codes: english (or USenglish), british, 
 % finnish, swedish; and so on.
-\usepackage[finnish,swedish,english]{babel}
+\usepackage[finnish,english]{babel}
 
 
 % Font selection
@@ -215,7 +215,7 @@
 %                     first page of the first chapter
 %   twoinstructors  - changes the title of instructors to plural form
 %   twosupervisors  - changes the title of supervisors to plural form
-\usepackage[mydraft,twosupervisors]{aalto-thesis}
+\usepackage[mydraft,twoinstructors]{aalto-thesis}
 %\usepackage[mydraft,doublenumbering]{aalto-thesis}
 %\usepackage{aalto-thesis}
 
@@ -239,6 +239,37 @@
 % Hyperref can also set up the PDF metadata fields. These are
 % set a bit later on, after the thesis setup.   
 
+%Custom packages added by me
+\usepackage{nameref}
+\usepackage{cleveref}
+\usepackage{booktabs}
+\usepackage{comment} 
+
+%\usepackage[usenames]{color} %tää on kai ladattu jo jossain
+\newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
+%\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
+%\newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
+%\newcommand{\juha}[1]{\basicalert{From Juha}{#1}}
+\newcommand{\mika}[1]{\ignorespaces}
+\newcommand{\eetu}[1]{\ignorespaces}
+\newcommand{\juha}[1]{\ignorespaces}
+
+\usepackage{supertabular,array}  % useampisivuinen taulukko
+
+% Monta lähdeluoetteloa
+\usepackage{multibib}
+\newcites{pri}{sources}
+
+% Lähteiden listaus ilman lähdeluoetteloa
+\usepackage{bibentry}
+
+% Tekstiviitteiden ulkoasu.
+% Pakettiin natbib.sty/aaltosci.bst liittyen katso esim. 
+% http://merkel.zoneo.net/Latex/natbib.php
+% jossa selitykset citep, citet, bibpunct, jne.
+%\bibpunct{(}{)}{;}{a}{,}{,}    % a = tekijä-vuosi (author-year)
+%\bibpunct{[}{]}{;}{n}{,}{,}    % n = numero [1],[2] (numerical style)
+
 
 % Thesis setup
 % ==================================================================
@@ -257,15 +288,15 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place). 
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{Software Processes for Dummies:}
-\newcommand{\FTITLE}{Ohjelmistoprosessit mänteille:}
-\newcommand{\STITLE}{Den stora stygga vargen:}
-\newcommand{\SUBTITLE}{Re-inventing the Wheel}
-\newcommand{\FSUBTITLE}{Uusi organisaatio, uudet pyörät}
-\newcommand{\SSUBTITLE}{Lilla Vargens universum}
+\newcommand{\TITLE}{Agile metrics:}
+\newcommand{\FTITLE}{Ketterät mittarit:}
+%\newcommand{\STITLE}{Den stora stygga vargen:}
+\newcommand{\SUBTITLE}{Why and how}
+\newcommand{\FSUBTITLE}{Miksi ja miten}
+%\newcommand{\SSUBTITLE}{Lilla Vargens universum}
 \newcommand{\DATE}{June 18, 2011}
 \newcommand{\FDATE}{18. kesäkuuta 2011}
-\newcommand{\SDATE}{Den 18 Juni 2011}
+%\newcommand{\SDATE}{Den 18 Juni 2011}
 
 % Supervisors and instructors
 % ------------------------------------------------------------------
@@ -279,17 +310,17 @@
 %\newcommand{\FSUPERVISOR}{Professori Antti Ylä-Jääski}
 %\newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski}
 % Example of twosupervisors:
-\newcommand{\SUPERVISOR}{Professor Antti Ylä-Jääski\\
-  Professor Pekka Perustieteilijä}
-\newcommand{\FSUPERVISOR}{Professori Antti Ylä-Jääski\\
-  Professori Pekka Perustieteilijä}
-\newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski\\
-  Professor Pekka Perustieteilijä}
+\newcommand{\SUPERVISOR}{Prof. Casper Lassenius}
+\newcommand{\FSUPERVISOR}{Prof. Casper Lassenius}
+%\newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski\\
+ % Professor Pekka Perustieteilijä}
 
 % If you have only one instructor, just write one name here
-\newcommand{\INSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.)}
-\newcommand{\FINSTRUCTOR}{Diplomi-insinööri Olli Ohjaaja}
-\newcommand{\SINSTRUCTOR}{Diplomingenjör Olli Ohjaaja}
+\newcommand{\INSTRUCTOR}{Juha Itkonen D.Sc. (Tech.)\\
+Mika Mäntylä D.Sc. (Tech.)}
+\newcommand{\FINSTRUCTOR}{Tkt Juha Itkonen\\
+Tkt Mika Mäntylä}
+%\newcommand{\SINSTRUCTOR}{Diplomingenjör Olli Ohjaaja}
 % If you have two instructors, separate them with \\ to create linefeeds
 % \newcommand{\INSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.)\\
 %  Elli Opas M.Sc. (Tech)}
@@ -302,8 +333,8 @@
 % of the supervisors in the cover page. If the following command is defined,
 % then the supervisor names shown here are printed in the cover page. Otherwise,
 % the supervisor names defined above are used.
-\newcommand{\COVERSUPERVISOR}{Professor Antti Ylä-Jääski, Aalto University\\
-  Professor Pekka Perustieteilijä, University of Helsinki}
+%\newcommand{\COVERSUPERVISOR}{Professor Antti Ylä-Jääski, Aalto University\\
+ % Professor Pekka Perustieteilijä, University of Helsinki}
 
 % The same option is for the instructors, if you have multiple instructors.
 % \newcommand{\COVERINSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.), Aalto University\\
@@ -312,23 +343,21 @@
 
 % Other stuff
 % ------------------------------------------------------------------
-\newcommand{\PROFESSORSHIP}{Data Communication Software}
-\newcommand{\FPROFESSORSHIP}{Tietoliikenneohjelmistot}
-\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
+\newcommand{\PROFESSORSHIP}{Software Engineering}
+\newcommand{\FPROFESSORSHIP}{Ohjelmistotuotanto ja -liiketoiminta}
+%\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
-\newcommand{\PROFCODE}{T-110}
-\newcommand{\KEYWORDS}{ocean, sea, marine, ocean mammal, marine mammal, whales,
-cetaceans, dolphins, porpoises}
-\newcommand{\FKEYWORDS}{AEL, aineistot, aitta, akustiikka, Alankomaat,
-aluerakentaminen, Anttolanhovi, Arcada, ArchiCad, arkki}
-\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
-yrkesutövare, intresseföretag, verifieringskedja}
+\newcommand{\PROFCODE}{T3003}
+\newcommand{\KEYWORDS}{agile, metrics}
+\newcommand{\FKEYWORDS}{ketterä, mittarit}
+%\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
+%yrkesutövare, intresseföretag, verifieringskedja}
 \newcommand{\LANGUAGE}{English}
 \newcommand{\FLANGUAGE}{Englanti}
-\newcommand{\SLANGUAGE}{Engelska}
+%\newcommand{\SLANGUAGE}{Engelska}
 
 % Author is the same for all languages
-\newcommand{\AUTHOR}{Stella Student}
+\newcommand{\AUTHOR}{Eetu Kupiainen}
 
 
 % Currently the English versions are used for the PDF file metadata
@@ -460,6 +489,7 @@ Kivi on materiaalina kalliimpaa mutta kestävämpää kuin esimerkiksi puu.}
 
 % Abstract in Swedish
 % ------------------------------------------------------------------
+\begin{comment}
 \thesisabstract{swedish}{
 Lilla Vargens universum är det tredje fiktiva universumet inom huvudfåran av de
 tecknade disneyserierna - de övriga två är Kalle Ankas och Musse Piggs
@@ -480,7 +510,7 @@ verkliga djurvärlden. Att vargen Zeke vill äta upp grisen Bror Duktig är till
 exempel ett ständigt återkommande tema, men om katten Svarte Petter skulle få
 för sig att äta upp musen Musse Pigg skulle detta antagligen höja ett och annat
 ögonbryn bland läsarna.}
-
+\end{comment}
 
 % Acknowledgements
 % ------------------------------------------------------------------
@@ -495,8 +525,8 @@ för sig att äta upp musen Musse Pigg skulle detta antagligen höja ett och annat
 % show up in the TOC
 \chapter*{Acknowledgements}
 
-I wish to thank all students who use \LaTeX\ for formatting their theses,
-because theses formatted with \LaTeX\ are just so nice.
+I wish to thank all students who use \LaTeX\ for formatting their
+theses, because theses formatted with \LaTeX\ are just so nice.
 
 Thank you, and keep up the good work!
 \vskip 10mm
@@ -554,6 +584,7 @@ Thank you, and keep up the good work!
 % The contents of the thesis are separated to their own files.
 % Edit the content in these files, rename them as necessary.
 % ------------------------------------------------------------------
+
 \input{1introduction.tex}
 
 \input{2background.tex}
@@ -570,13 +601,39 @@ Thank you, and keep up the good work!
  
 \input{8conclusions.tex}
 
+\clearpage
+%\input{PrimaryStudies.tex}
+
 
 % Load the bibliographic references
 % ------------------------------------------------------------------
 % You can use several .bib files:
 % \bibliography{thesis_sources,ietf_sources}
-\bibliography{sources}
+%\bibliography{sources}
 
+
+% -------------- Lähdeluettelo / reference list ----------------------
+
+% Viitetyylitiedosto aaltosci_t.bst; muokattu HY:n tktl-tyylistä.
+\bibliographystyle{aaltosci_t}
+\bibliographystylepri{aaltosci_t}
+
+% Muutetaan otsikko "Kirjallisuutta" -> "Lähteet"
+\renewcommand{\refname}{References}  % article-tyyppisen
+%\renewcommand{\bibname}{Lähteet}  % jos olisi book, report-tyyppinen
+
+\addcontentsline{toc}{section}{\refname}  % article
+%\addcontentsline{toc}{chapter}{\bibname}  % book, report
+
+\bibliographypri{sources}
+
+\nobibliography{sources_p}
+
+\clearpage
+\input{PrimaryStudies}
+
+\label{pages:refs}
+\clearpage         % erotetaan mahd. liitteet alkamaan uudelta sivulta
 
 % Appendices go here
 % ------------------------------------------------------------------
