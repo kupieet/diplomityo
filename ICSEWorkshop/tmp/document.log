@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  17 JAN 2014 10:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  28 JAN 2014 14:25
 entering extended mode
 **document.tex
 (C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.tex
@@ -230,274 +230,221 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
-) (C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen123
+\lightrulewidth=\dimen124
+\cmidrulewidth=\dimen125
+\belowrulesep=\dimen126
+\belowbottomsep=\dimen127
+\aboverulesep=\dimen128
+\abovetopsep=\dimen129
+\cmidrulesep=\dimen130
+\cmidrulekern=\dimen131
+\defaultaddspace=\dimen132
+\@cmidla=\count110
+\@cmidlb=\count111
+\@aboverulesep=\dimen133
+\@belowrulesep=\dimen134
+\@thisruleclass=\count112
+\@lastruleclass=\count113
+\@thisrulewidth=\dimen135
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+Excluding comment 'comment')
+(C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.aux
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel@cref' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel@cref' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen123
+\scratchcounter=\count114
+\scratchdimen=\dimen136
 \scratchbox=\box30
-\nofMPsegments=\count111
-\nofMParguments=\count112
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen124
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen137
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks37
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+LaTeX Font Info:    Try loading font information for U+msa on input line 155.
  (C:\miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 168.
+LaTeX Font Info:    Try loading font information for U+msb on input line 155.
  (C:\miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 168.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 155.
 (C:\miktex\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (10.71048pt too wide) in paragraph at lines 168--168
- []\eaddfnt lleipuner@researchlabs.org| 
+Overfull \hbox (4.67418pt too wide) in paragraph at lines 157--167
+\T1/aer/m/n/9 Iden-ti-fy-ing pro-cess problems[], Pre-release quality[], Post-r
+elease
  []
 
 
-Overfull \hbox (1.26794pt too wide) in paragraph at lines 176--177
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 171--172
 []\T1/aer/m/n/9 H.4 [\T1/aer/bx/n/9 Information Sys-tems Ap-pli-ca-tions\T1/aer
 /m/n/9 ]: Mis-cel-la-neous;
  []
 
-LaTeX Font Info:    Try loading font information for T1+aess on input line 187.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 183.
 
 (C:\miktex\tex\latex\ae\t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 187.
-
-Overfull \hbox (14.83957pt too wide) in paragraph at lines 227--235
-[][]\T1/aer/m/n/9 There are a few map-ping stud-ies on soft-ware met-rics(tï¿½h
-ï¿½n
- []
-
-
-Overfull \hbox (1.24014pt too wide) in paragraph at lines 227--235
-\T1/aer/m/n/9 con-text will prob-a-bly not pro-vide an-swers to industry-relate
-d
- []
-
-[1{C:/Users/ekupiain/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 183.
+ [1{C:/Users/ekupiain/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Overfull \hbox (20.33795pt too wide) in paragraph at lines 238--243
-[][]\T1/aer/m/n/9 --EBSE --Mittaamisen SR:t --Agile mit-taamisen muut tutkimuk-
-
+Overfull \hbox (28.82076pt too wide) in paragraph at lines 457--472
+\T1/aer/m/n/9 eval-u-ate the qual-ity of each pri-mary doc-u-ment. []$\U/msa/m/
+n/8 I$[]\T1/aess/m/sl/8 relevancy
  []
 
 
-Overfull \hbox (10.32185pt too wide) in paragraph at lines 260--265
-[][]\T1/aer/m/n/9 (Tï¿½hï¿½n ehkï¿½ kai tyyliin et vï¿½hï¿½n etitty et lï¿½ytyk
-ï¿½
+LaTeX Warning: Reference `OverviewOfPdocs' on page \thepage  undefined on input
+ line 486.
+
+[2] [3]
+Overfull \hbox (3.81126pt too wide) in paragraph at lines 785--803
+\T1/aess/m/sl/8 metri-ikan käyt-tämi-nen eten-e-misenseu-ran-taan on epäagiilia
+->ongelmia
  []
 
 
-Overfull \hbox (11.22151pt too wide) in paragraph at lines 260--265
-\T1/aer/m/n/9 voisi myï¿½s pe-rustella vielï¿½ SR:n val-it-semista menetelmï¿½k
-si
+Overfull \hbox (3.45264pt too wide) in paragraph at lines 814--827
+[][]\T1/aer/m/n/9 When there were prob-lems that needed to be fixed, whether
  []
 
 
-Overfull \hbox (2.24632pt too wide) in paragraph at lines 315--321
-[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
- []
-
-
-Overfull \hbox (2.24632pt too wide) in paragraph at lines 328--338
-[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
- []
-
-
-Overfull \hbox (6.1274pt too wide) in paragraph at lines 328--338
-\T1/aer/m/n/9 mon-i-tor*)) AND (LIMIT-TO(LANGUAGE, "En-glish")) AND
- []
-
-
-Overfull \hbox (35.40443pt too wide) in paragraph at lines 328--338
-\T1/aer/m/n/9 (LIMIT-TO(SUBJAREA, "ENGI")) AND (EX-CLUDE(SUBJAREA,
- []
-
-
-Overfull \hbox (7.65807pt too wide) in paragraph at lines 328--338
-\T1/aer/m/n/9 CLUDE(SUBJAREA,"MATE") OR EX-CLUDE(SUBJAREA,
- []
-
-
-Overfull \hbox (5.58786pt too wide) in paragraph at lines 328--338
-\T1/aer/m/n/9 CLUDE(SUBJAREA, "ENVI") OR EX-CLUDE(SUBJAREA,
- []
-
-
-Overfull \hbox (70.99927pt too wide) in paragraph at lines 328--338
-\T1/aer/m/n/9 "EART") OR EX-CLUDE(SUBJAREA, "DECI") OREX-CLUDE(SUBJAREA,
- []
-
-
-Overfull \hbox (2.24632pt too wide) in paragraph at lines 344--351
-[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
- []
-
-
-Overfull \hbox (6.1274pt too wide) in paragraph at lines 344--351
-\T1/aer/m/n/9 mon-i-tor*)) AND (LIMIT-TO(LANGUAGE, "En-glish")) AND
- []
-
-
-Overfull \hbox (33.53247pt too wide) in paragraph at lines 344--351
-\T1/aer/m/n/9 (LIMIT-TO(SUBJAREA, "BUSI")) AND (EX-CLUDE(SUBJAREA,
- []
-
-[2]
-Overfull \hbox (3.45978pt too wide) in paragraph at lines 438--444
-\T1/aer/m/n/9 by other re-searcher, with an al-most per-fect agree-ment, Kappa
- []
-
-
-Overfull \hbox (12.21127pt too wide) in paragraph at lines 478--479
-[][]\T1/aer/m/n/9 Atlas.ti was used to col-lect the qual-i-ta-tive data(viiteAt
-lasiin). 
- []
-
-
-Overfull \hbox (3.34592pt too wide) in paragraph at lines 480--483
-\T1/aer/m/n/9 re-searcher coded met-rics from two pa-pers. Capture-recapture
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 516--518
-[][]\T1/aer/m/n/9 [8][28][3][11][15]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 518--523
-[][]\T1/aer/m/n/9 [26][34][22]
- []
-
-
-Overfull \hbox (1.19958pt too wide) in paragraph at lines 518--523
-\T1/aer/m/n/9 [6][15][5][10][8][23]
- []
-
-
-Overfull \hbox (0.68666pt too wide) in paragraph at lines 518--523
-\T1/aer/m/n/9 [13][32][30][28][11]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--526
-[][]\T1/aer/m/n/9 [35][33][16][5][3]
- []
-
-
-Overfull \hbox (0.68666pt too wide) in paragraph at lines 527--529
-[][]\T1/aer/m/n/9 [26][35][23][16][32]
- []
-
-
-Overfull \hbox (0.68666pt too wide) in paragraph at lines 527--529
-\T1/aer/m/n/9 [22][25][31][24][37]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
-[][]\T1/aer/m/n/9 [16][26][24][5][32]
- []
-
-
-Overfull \hbox (4.94594pt too wide) in paragraph at lines 513--540
- [][][] 
- []
-
-
-Overfull \hbox (5.5332pt too wide) in paragraph at lines 575--589
-\T1/aer/m/n/9 Progress met-rics in-cluded num-ber of com-pleted web pages[15],
- []
-
-
-Overfull \hbox (4.65114pt too wide) in paragraph at lines 575--589
-\T1/aer/m/n/9 story com-ple-tion per-cent-age[35] and ve-loc-ity met-rics[6]. H
-ow-
- []
-
-
-Overfull \hbox (9.04314pt too wide) in paragraph at lines 618--627
-\T1/aer/m/n/9 the project or prod-uct to the team mem-bers [35][33][28][32][34]
-.
- []
-
-
-Overfull \hbox (2.57132pt too wide) in paragraph at lines 628--632
-\T1/aer/m/n/9 sur-ing work in progress and set-ting WIP lim-its pre-vent cherry
-
+Overfull \hbox (7.81578pt too wide) in paragraph at lines 848--856
+\T1/aess/m/sl/8 WIP limit estä poimasta sitä mieluis-inta tehtävää, vaikka tark
+eämpiäkin
  []
 
 [4]
-Overfull \hbox (12.39992pt too wide) in paragraph at lines 677--689
-\T1/aer/m/n/9 re-lated met-rics in-clude for ex-am-ple de-fects sent by cus-tom
-ers[3],
+Overfull \hbox (31.63667pt too wide) in paragraph at lines 932--938
+[][][]$\U/msa/m/n/8 I$[]\T1/aess/m/sl/8 ehkä hie-man en-em-män voisi pal-jas-ta
+a[]$\U/msa/m/n/8 J$  []$I$[]\T1/aess/m/sl/8 avattu[]$\U/msa/m/n/8 J$
  []
 
-
-Overfull \hbox (3.11165pt too wide) in paragraph at lines 752--758
-\T1/aer/m/n/9 in-teisiin tai agi-ilikir-jal-lisu-udessa su-ositel-tu-i-hin) (ko
-l-mas judu:
- []
-
-(C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.bbl [5]
+[5] (C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.bbl [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6])
-[7
+ [7])
+Overfull \hbox (2.24632pt too wide) in paragraph at lines 1254--1260
+[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
+ []
 
-] (C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.aux) ) 
+
+Overfull \hbox (2.24632pt too wide) in paragraph at lines 1267--1277
+[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
+ []
+
+
+Overfull \hbox (6.1274pt too wide) in paragraph at lines 1267--1277
+\T1/aer/m/n/9 mon-i-tor*)) AND (LIMIT-TO(LANGUAGE, "En-glish")) AND
+ []
+
+
+Overfull \hbox (6.26172pt too wide) in paragraph at lines 1267--1277
+\T1/aer/m/n/9 (LIMIT-TO(SUBJAREA, "ENGI")) AND (EX-CLUDE (SUB-
+ []
+
+
+Overfull \hbox (7.53004pt too wide) in paragraph at lines 1267--1277
+\T1/aer/m/n/9 OR EX-CLUDE(SUBJAREA,"MATE") OR EX-CLUDE (SUB-
+ []
+
+
+Overfull \hbox (5.45984pt too wide) in paragraph at lines 1267--1277
+\T1/aer/m/n/9 OR EX-CLUDE(SUBJAREA, "ENVI") OR EX-CLUDE (SUB-
+ []
+
+
+Overfull \hbox (2.24632pt too wide) in paragraph at lines 1282--1289
+[][]\T1/aer/m/n/9 TITLE-ABS-KEY(software AND (ag-ile OR lean OR "crys-
+ []
+
+
+Overfull \hbox (6.1274pt too wide) in paragraph at lines 1282--1289
+\T1/aer/m/n/9 mon-i-tor*)) AND (LIMIT-TO(LANGUAGE, "En-glish")) AND
+ []
+
+
+Overfull \hbox (4.38976pt too wide) in paragraph at lines 1282--1289
+\T1/aer/m/n/9 (LIMIT-TO(SUBJAREA, "BUSI")) AND (EX-CLUDE (SUB-
+ []
+
+[8] [9
+
+] (C:\Users\ekupiain\git\Diplomirepo\ICSEWorkshop\document.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2947 strings out of 493921
- 35760 string characters out of 3154491
- 99046 words of memory out of 3000000
- 6156 multiletter control sequences out of 15000+200000
- 63285 words of font info for 88 fonts, out of 3000000 for 9000
+ 4512 strings out of 493921
+ 70141 string characters out of 3154491
+ 169106 words of memory out of 3000000
+ 7710 multiletter control sequences out of 15000+200000
+ 62149 words of font info for 87 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,13n,28p,470b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/miktex/fon
-ts/enc/dvips/fontname/8r.enc}<C:/miktex/fonts/type1/public/amsfonts/cm/cmbx9.pf
-b><C:/miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/miktex/fonts/type1/pub
-lic/amsfonts/cm/cmr9.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
-><C:/miktex/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/miktex/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-<C:/miktex/fonts/type1/public/amsfonts/cm/cmu10.pfb><C:/miktex/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb><C:/miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><
-C:/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/miktex/fonts/type1/urw/times/
-utmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb><C:/miktex/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on document.pdf (7 pages, 216326 bytes).
+ 42i,11n,28p,470b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/miktex/fonts/enc/dvips/fontname/8r.enc}<C:/miktex/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/mikte
+x/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/miktex/fonts/type1/public/amsfont
+s/cm/cmr9.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/miktex
+/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/miktex/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/miktex/
+fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/miktex/fonts/type1/urw/helve
+tic/uhvb8a.pfb><C:/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/miktex/fonts/
+type1/urw/times/utmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb><C:/mikt
+ex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on document.pdf (9 pages, 225208 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -70,7 +70,8 @@
 % --- End of Author Metadata ---
 
 
-\title{Agile metrics: How and why }
+\title{Why are industrial agile teams using metrics and how do they use them?
+// Agile metrics in industry: systematic literature review }
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
 %\textit{Author's Guide to Preparing ACM SIG Proceedings Using
@@ -294,7 +295,7 @@ protocol was also iterated in weekly meetings with the authors, as well as in a 
 The strategy for finding primary studies was following:
 
 \begin{itemize}
-   \item Stage 1: Automated search
+  \item Stage 1: Automated search
   \item Stage 2: Selection based on title and abstract
   \item Stage 3: Selection based on full text. Conduct data
   extraction and quality assessment.
@@ -491,7 +492,7 @@ primary documents and context info.
 \label{PublicationDistribution}
 \begin{tabular}{llll}
 \hline Publication channel & Type & \# & \%\\
-\hline Agile Conference & Conference & 7 & 38\\
+\hline Agile Conference & Conference & 8 & 38\\
 HICCS & Conference & 3 & 14\\
 ICSE & Workshop & 2 & 10\\
 XP Conference & Conference & 2 & 10\\
@@ -953,15 +954,59 @@ to changing the test approach \cite{Staron20113}.
 \label{sec:Discussion}
 
 \subsection{Implications for practice}
-To provide implications to practice we map our findings to the values of agile
-software development \cite{beck2001agile}.
+To provide implications to practice we map our findings to the principles of
+agile software development \cite{beck2001agile} categorized by Patel \& al.
+\cite{1579312}.
 
 \mika{TODO: Pitaa selvasti tuoda esiin  mappaus. Principlet jarjestykseen.
 Viite mista principlet tulee. Joka principlen kohdalta ensin mika sita tukee.
  Ja sitten jos loydettiin jotain ristiriittaista periaatteen kanssa. 
  Lisaksi principlet jarjestykseen.  Ja lopuksi mille principlelle ei ollut
- mittareita.
-  -> Future work Pitaisiko olla ja millaisia} \eetu{Done.} 
+ mittareita.  
+  -> Future work Pitaisiko olla ja millaisia} \eetu{Done. paitsi Future work.} 
+
+Communication and Collaboration (4,6) was reflected in metrics that motivated
+team to act and improve, see \cref{sec:Motivate}. Also, progress metrics were
+used to communicate the status of the project to the stakeholders, see
+\cref{sec:IterationTracking}.
+
+Team involvement (5,8) was reflected in metrics that motivated team to act and
+improve, see \cref{sec:Motivate}. Also, to promote sustainable development
+metrics were targeted to balance the flow of work, see
+\cref{sec:IterationTracking}.
+
+Reflection (12) was visible in metrics that were used to identify problems and
+to change processes, see \cref{sec:ProblemIdentification} and
+\cref{sec:ChangesInProcesses}.
+
+Frequent delivery of working software (1,3,7) was directly identified in one
+paper, where the team measured progress by demonstrating the product to the
+customer \cite{Trimble20134826}. Additionally, there were cases where for
+example completed web-pages \cite{Hong2010310} were the primary progress
+measure. Also, many metrics focused on progress tracking and timely completion
+of the iteration, see \cref{sec:IterationTracking}. However, some other
+measures from \cref{sec:IterationTracking} show that instead of working code
+agile teams followed completed tasks and velocity metrics.
+
+Managing Changing Requirements (2) was seen in the metrics that support
+prioritization of features each iteration, see \cref{sec:IterationPlanning}.
+Additionally, different metrics helped keeping the internal quality of the
+product high throughout the development which then provided safe development
+of modifications from new ideas, see \cref{sec:PreQuality}.
+
+Design (9,10,11) was seen in focus to measuring technical debt and using
+metrics to enforce writing tests before actual code, see
+\cref{sec:PreQuality}. Additionally, the status of build was continuously
+monitored, see \cref{sec:ChangesInProcesses}. However, the use of velocity
+metric had a negative effect on technical quality, see
+\cref{sec:IterationTracking}.
+% was seen from different perspectives: on one hand metrics focused on
+% problem/waste identification, see \cref{sec:ProblemIdentification},
+Many metrics focused on making sure that the right features were selected for
+implementation, see \cref{sec:IterationPlanning}, thus avoiding unnecessary
+work.
+
+\begin{comment}
 
 Agile principle \#1: ``Our highest priority is to satisfy the customer through
 early and continuous delivery of valuable software.'' was seen in the team
@@ -1035,6 +1080,8 @@ become more effective, then tunes and adjusts its behavior accordingly'' was
 visible in metrics that were used to identify problems and to change
 processes, see \cref{sec:ProblemIdentification} and 
 \cref{sec:ChangesInProcesses}.
+
+\end{comment}
 
 \eetu{Mun mielestä seuraavat mittarit ei oo niin ketteriä, mut en osaa oikeen
 perustella miksi tai sanoa mitä periaatteita vastaan ne olisi: maintenance
@@ -1110,18 +1157,36 @@ certain metrics over others.
 \label{sec:Conclusions}
 
 This paper presents the preliminary results from a systematic literature
-review. Results indicate that the use and reasoning of metrics is focused on
-the following areas:
+review from 29 primary studies. Results indicate that the reasons and use of
+metrics is focused on the following areas:
+\nameref{sec:IterationPlanning}, \nameref{sec:IterationTracking},
+\nameref{sec:Motivate}, \nameref{sec:ProblemIdentification},
+\nameref{sec:PreQuality},
+\nameref{sec:PostQuality} and \nameref{sec:ChangesInProcesses}.
 
-\begin{itemize}
-  \item \nameref{sec:IterationPlanning}
-  \item \nameref{sec:IterationTracking}
-  \item \nameref{sec:Motivate}
-  \item \nameref{sec:ProblemIdentification}
-  \item \nameref{sec:PreQuality}
-  \item \nameref{sec:PostQuality}
-  \item \nameref{sec:ChangesInProcesses}
-\end{itemize}
+Researchers and practitioners can use this study to find relevant sources
+regarding their interests and contexts.
+
+\subsection{Comparison to other studies}
+Hartmann \& Dymond \cite{1667571} also highlight process improvement as one of
+the reasons for measurement in their agile metrics paper. Also, they emphasize
+that creation of value should be the primary measure of progress - which was
+also seen in our study. 
+
+Korhonen \cite{Korhonen2009} found in her study that traditional defect
+metrics could be reused in agile context - if modified. Defect metrics were also used in many of the
+primary studies.
+
+It is interesting to note how many code metrics are identified in Kitchenham's
+mapping study \cite{kitchenham_whats_2010} compared to the lack of code
+metrics in our study. The reasons for the lack of code metric usage in agile contexts should be studied to
+evaluate the necessity of code metric research - or how code metric research
+could be modified to support agile development better. The lone case in
+our study where code metrics were used, the code metric usage was abstracted
+to a build tool, which would just indicate an error or broken build \cite{Janus20129}. Maybe
+the use of code metrics should be heavily implemented through automated tools
+that handle the collection and analysing of code metric data?
+
 
 We also map the found metrics to the principles of Agile Manifesto
 \cite{beck2001agile}.
@@ -1135,6 +1200,29 @@ nähden? Onko jotain yhdistäviä konteksteja havaittavissa jolloin voisi
 yleistää havaintoja? Myös lista tärkeiksi koetuista mittareista olisi kiva
 (tämähän mulla on jo pienellä alulla). Voinko suositella tuloksissa esiteltyjä
 mittareita?}
+
+\eetu{Toinen yritys pohdiskeluun. Mitä voisi sanoa tuloksissa mainitusta
+jaottelusta - mitä se jaottelu yrittää sanoa? Mittareita käytetään tietyissä
+ohjelmistokehityksen vaiheissa, sekä tietynlaisissa tilanteissa, esim.
+motivoimiseen tai paremminkin tiimin itsenäisen toiminnan tukena. Vaiheet
+ovat siis, suunnittelu, implementaatio(sisältäen testauksen). Lisäksi laatuun
+kiinnitettiin huomiota ennen ja jälkeen releassin. Viimeisenä mittareiden
+tarkoituksena oli prosessiongelmien löytäminen ja ratkaiseminen prosesseja ja
+työkaluja muuttamalla. Eli jos haluat muutoksia prosessiin, kannattaa ehkä
+tunnistaa ongelmat mittaamalla. Mittaamalla saat mututuntuman lisäksi muutakin
+todistusaineistoa ongelman tunnistamiseen. }
+
+\eetu{Timon inspiroimana: Pitäis verrata aikaisempaa kirjallisuutta
+näihän tuloksiin: Dymond puolestaan listaa agiilien mittarien heuristiikkoja,
+voisi tutkia miten löydetyt mittarit noudattavat heuristiikkoja. Ja vielä tämä, että näin laajaa tutkimusta ei ole ennen tehty
+(tämä pitäisi olla jo itsessään mielekäs concludaus?). Jos nyt kuitenkin
+kattoo tuloksia - voisi ehkä sanoa että ei löytynyt mitenkään yhtä settiä
+mittareita - vaan eri mittareita oli melkein yhtä paljon kuin papereita.
+Toisaalta esim. effort estimate oli edustettuna monessa. Jostain paperista
+vois kaivaa ``miksi mitataan'' ja vertailla näitä tuloksia niihin - löytyykö
+samat yllä mainitut syy-alueet. Tukevatko tämän hetken agiilityökalut em.
+mittareiden käyttöä(aivan liian laaja, mut ilmeisesti tällaiset heitot vois
+olla further research topicseja?)}
 
 %\end{document}  % This is where a 'short' article might terminate
 %ACKNOWLEDGMENTS are optional
