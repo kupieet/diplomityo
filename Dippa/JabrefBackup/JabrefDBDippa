@@ -6941,7 +6941,8 @@
 	IEEE Computer Society; Technical Council on Software Engineering
 	(TCSE)},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NoUseOfMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-79959859896&partnerID=40&md5=d103413dbddf35f7c2de4e7a004b0748}
 }
 
@@ -25807,6 +25808,8 @@
 	International Software Technology Exchange Workshop, Swedsoft},
   source = {Scopus},
   stage2status = {Include},
+  stage3reason = {NoUseOfMetrics},
+  stage3status = {IdeaPile},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862063313&partnerID=40&md5=a4dd1ef716b62e664de07172c5989d2a}
 }
@@ -56061,7 +56064,8 @@
   language = {English},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NoAgileDevelopmentMetrics},
+  stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34247627032&partnerID=40&md5=788a1eb9f9b8f93cb574f0858ccdc42f}
 }
 
