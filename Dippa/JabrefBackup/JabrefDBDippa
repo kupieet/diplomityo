@@ -15592,7 +15592,8 @@
 	Thousand Oaks, CA},
   source = {Scopus},
   stage2status = {Include},
-  stage3status = {Include},
+  stage3reason = {NotEnoughMetrics},
+  stage3status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33745794661&partnerID=40&md5=217cdde6a358d024afdd831891006bce}
 }
 
@@ -24896,7 +24897,7 @@
 	Method Description (Version 2.0), , Technical Report CMU/SEI-99-TR-029,
 	SEI/CMU, Pittsburg, PA},
   source = {Scopus},
-  stage2status = {NotFound},
+  stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78651579404&partnerID=40&md5=192068b3cd1a286e543053383c25a673}
 }
@@ -53241,7 +53242,7 @@
 
 @ARTICLE{Stoitsev200884,
   author = {Stoitsev, T.a and Scheidl, S.a and Flentge, F.b and MÃ¼hlhÃ¤user,
-	M.b },
+	M.b},
   title = {From personal task management to end-user driven business process
 	modeling},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes

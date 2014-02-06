@@ -53,12 +53,12 @@
 \usepackage{comment} 
 
 \newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
-\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
-\newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
-\newcommand{\juha}[1]{\basicalert{From Juha}{#1}}
-%\newcommand{\mika}[1]{\ignorespaces}
-%\newcommand{\eetu}[1]{\ignorespaces}
-%\newcommand{\juha}[1]{\ignorespaces}
+%\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
+%\newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
+%\newcommand{\juha}[1]{\basicalert{From Juha}{#1}}
+\newcommand{\mika}[1]{\ignorespaces}
+\newcommand{\eetu}[1]{\ignorespaces}
+\newcommand{\juha}[1]{\ignorespaces}
 
 \begin{document}
 
@@ -70,8 +70,8 @@
 % --- End of Author Metadata ---
 
 
-\title{Why are industrial agile teams using metrics and how do they use them?
-// Agile metrics in industry: systematic literature review }
+\title{Why are industrial agile teams using metrics and how do they use
+them?}%// Agile metrics in industry: systematic literature review }
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
 %\textit{Author's Guide to Preparing ACM SIG Proceedings Using
@@ -156,13 +156,19 @@ Juha Itkonen\\
 \begin{abstract}
 Agile development methods are increasing in popularity, yet there are limited
 studies on the reasons and use of metrics in industrial agile development.
-This paper present preliminary results from a systematic literature review. Metrics and
-their use is focused to the following areas:
+This paper presents preliminary results from a systematic literature review.
+Based on our study, metrics and their use is focused to the following areas:
 \nameref{sec:IterationPlanning}, \nameref{sec:IterationTracking},
 \nameref{sec:Motivate}, \nameref{sec:ProblemIdentification},
 \nameref{sec:PreQuality}, \nameref{sec:PostQuality} and
 \nameref{sec:ChangesInProcesses}. The findings are mapped against agile
-principles and it seems that the use of metrics supports the principles. 
+principles and it seems that the use of metrics supports the principles with
+some deviations.
+Surprisingly, we find little evidence of the use of code metrics. Also, we
+note that there is a lot of evidence on the use of planning and tracking
+metrics. Finally, the use of metrics to motivate and enforce process
+improvements as well as applicable quality metrics can be
+interesting future research topics.
 \end{abstract}
 
 % A category with the (minimum) three required fields
@@ -172,15 +178,14 @@ principles and it seems that the use of metrics supports the principles.
 
 \terms{Measurement}
 
-\keywords{agile software development, metrics, measurement, systematic
-literature review}
+\keywords{agile software development, metrics, measurement}
 
 \section{Introduction}
 
 % Software engineering is at a crossroads as there are new leaner and more
 % agile software development methods appearing next to the traditional
 % software development methods.
-\mika{Kappaleen pointti: No literature reviews of actual metric use}
+%\mika{Kappaleen pointti: No literature reviews of actual metric use}
 Software metrics have been studied for decades and several literature reviews
 have been published.
 Yet, the literature reviews have been written from an academic viewpoint that
@@ -191,39 +196,37 @@ Kitchenham performs a mapping of most cited software metrics
 papers \cite{kitchenham_whats_2010}. To our knowledge there are no systematic
 literature reviews on the actual use of software metrics in the industry.
 
-\mika{Kappaleen pointti: Agile on tärkeää eikä metriikkoja tutkittu}
+%\mika{Kappaleen pointti: Agile on tärkeää eikä metriikkoja tutkittu}
 
-\juha{Yritin konkretisoida trad vs. agile kontrastia}
+% \juha{Yritin konkretisoida trad vs. agile kontrastia}
 Agile software development is becoming increasing popular in the software
 industry. The agile approach seems to be contradicting with the traditional
-metrics approaches. For example, the agile emphasizes working software over measuring progress in terms of intermediate products or documentation, and embracing the change invalidates the traditional approach of tracking progress against pre-made plan.
-However, at the same time agile software development
-highlights some measures that should be used, e.g., burndown graphs and 100\%
-automated unit testing coverage. However, measurement research in the context of agile
-methods remains scarce.
+metrics approaches. For example, the agile emphasizes working software over
+measuring progress in terms of intermediate products or documentation, and
+embracing the change invalidates the traditional approach of tracking progress
+against pre-made plan.
+However, at the same time agile software development highlights some measures
+that should be used, e.g., burndown graphs and 100\% automated unit testing
+coverage. However, measurement research in the context of agile methods
+remains scarce.
 
 The goal of this paper is to review the literature of actual use of software
 metrics in the context of agile software development. This study will lay out
 the current state of metrics usage in industrial agile software development
 based on literature.
 Moreover, the study uncovers the reasons for metric usage as well as
-highlights actions that the use of metrics can trigger. Due to our research
-goal, we focus this paper on case studies and actual empirical findings
-excluding theoretical discussion and models lacking empirical validation.
+highlights actions that the use of metrics can trigger.
+%Due to our research
+%goal, we focus this paper on case studies and actual empirical findings
+%excluding theoretical discussion and models lacking empirical validation.
 % The performed SR has more research questions but for this paper only
-In this paper we, cover the following research questions:
-
-\begin{enumerate}
-  \item Why are metrics used?
-  \item What actions do the use of metrics trigger?
-  \item Which metrics are used?
-\end{enumerate}
+In this paper, we cover the following research questions: Why are metrics
+used?, What actions do the use of metrics trigger? and Which metrics are used?
 
 This paper is structured as follows. \Cref{sec:Method} describes how
 the SR was conducted. \Cref{sec:Results} reports the results from the study.
 \Cref{sec:Discussion} discusses about the findings and how they map to agile
-principles. \Cref{sec:Conclusions} concludes the paper and suggests next
-steps.
+principles. \Cref{sec:Conclusions} concludes the paper.
 
 %\section{Background}
 
@@ -277,8 +280,8 @@ steps.
 
 \section{Review method}
 \label{sec:Method}
-Systematic Review (SR) was chosen as research method because we are trying to understand a problem
-instead of trying to find a solution to it. Also, there was already
+Systematic review (SR) was chosen as research method because we are trying to
+understand a problem instead of trying to find a solution to it. Also, there was already
 existing literature that could be synthesized.
 
 \subsection{Protocol development}
@@ -327,7 +330,8 @@ incrementally in three phases because we noticed some key papers and XP conferen
 found initially. The search strings, hits and dates can be found from
 \cref{app:Strings}.
 
-\juha{Laittaisin myös inclusion ja exclusion kriteerit appendixiin ja jättäisin vain tämänkaltaisen lyhyen kuvauksen tänne}
+%\juha{Laittaisin myös inclusion ja exclusion kriteerit appendixiin ja
+% jättäisin vain tämänkaltaisen lyhyen kuvauksen tänne} 
 The selection of the primary documents was based on an inclusion criteria:
 \emph{papers that present empirical findings on the industrial use and
 experiences of metrics in agile context.} The papers were excluded based on
@@ -335,7 +339,7 @@ multiple criteria, mainly due to not conforming our requirements regarding
 empirical findings, agile and industrial context, and the quality of the
 results. Full criteria are listed in \cref{app:Criteria}.
 
-\juha{Inclusion criteria ja exclusion criteria siirretty -> appendix}
+%\juha{Inclusion criteria ja exclusion criteria siirretty -> appendix}
 %\subsubsection{Inclusion criteria} \juha{->APPENDIX}
 %
 %\begin{itemize}
@@ -448,15 +452,14 @@ for collecting metrics:
 Atlas.ti Visual QDA(Qualitative Data Analysis), version 7.1.x was used to
 collect and synthesize the qualitative data.
 
-To evaluate the repeatability of finding the same metrics, another researcher
+To evaluate the repeatability of finding the same metrics, second author
 coded metrics from three papers. Capture-recapture method
 \cite{seber2002estimation} was then used which showed that 90\% of metrics
 were found.
 
-\subsection{Quality assessment}
-Quality assessment form adopted from \cite{dyba_empirical_2008} was used to
-evaluate the quality of each primary document. 
-\juha{relevancy factoria ei käytetä, eikä raportoida tämän paperin tuloksissa, joten poistaisin sen selityksen, kommentoitu pois nyt}
+A quality assessment form adopted from \cite{dyba_empirical_2008} was used to
+evaluate the quality of each primary study. 
+
 %Additionally, a relevancy
 %factor was added to the same assessment to describe how useful the paper
 %was for this study. The scale for the relevancy factor is:
@@ -483,12 +486,13 @@ then given a high level code which are seen as categories in
 
 This chapter presents the preliminary results from the systematic literature 
 review. \Cref{PublicationDistribution} shows the distribution of primary
-documents by publication channels. \Cref{OverviewOfPdocs} lists the
-primary documents and context info.
+documents by publication channels. \Cref{tab:AgileMethods} lists the
+distribution of agile methods and \cref{tab:Domains} lists the distribution of
+domains. %Distribution of metrics are listed in \cref{app:Metrics}.
 
 \begin{table}
 \centering
-\caption{Publication distribution of primary documents}
+\caption{Publication distribution of primary studies}
 \label{PublicationDistribution}
 \begin{tabular}{llll}
 \hline Publication channel & Type & \# & \%\\
@@ -518,10 +522,11 @@ WETSoM & Workshop & 1 & 5\\
 \end{tabular}
 \end{table}
 
+\begin{comment}
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
+  \caption{Distribution of research methods}
     \begin{tabular}{rr}
     \toprule
     Research method & Amount \\
@@ -532,13 +537,14 @@ WETSoM & Workshop & 1 & 5\\
     Survey & 1 \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:ResearchMethods}%
 \end{table}%
+\end{comment}
 
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
+  \caption{Distribution of agile methods}
     \begin{tabular}{rr}
     \toprule
     Agile method & Amount \\
@@ -549,84 +555,27 @@ WETSoM & Workshop & 1 & 5\\
     Other & 5 \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:AgileMethods}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
+  \caption{Distribution of domains}
     \begin{tabular}{rr}
     \toprule
     Domain & Amount \\
     \midrule
-    Telecom & 9 \\
-    Enterprise information system & 10 \\
+    Telecom & 10 \\
+    Enterprise information system & 7 \\
     Web application & 4 \\
-    Other & 7 \\
+    Other & 11 \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:Domains}%
 \end{table}%
 
-\begin{table}
-%\centering
-\caption{Metrics by pdoc}
-\label{Metrics} 
-\begin{tabular}{lp{7cm}} \hline
-ID & Metrics\\
-\hline 
-\cite{Cheng200929} & Team available hours, team
-effective hours, critical defects sent by customer, open defects, test
-failure rate\\
-\cite{LNBIP01490121} & Technical debt in categories, build status,
-technical debt in effort\\
-\cite{Dubinsky200512} & Burndown, check-ins per day, number of automated test steps, faults
-per iteration\\
-\cite{Elssamadisy2002617} & Velocity\\
-\cite{Green2011} & Burndown, story points, \# of open defects, defects found
-in system test, defects deferred, net promoter score\\
-\cite{Greening2010} & Story points, task effort, velocity\\
-\cite{Haugen200623} & Effort estimate, actual effort\\
-\cite{Hodgetts2004106} & \# of defects/velocity\\
-\cite{Hodgkins2007194} & Revenue per customer\\
-\cite{Hong2010310} & Task expected start and end date, effort estimate,
-completed web pages, task done\\
-\cite{Jakobsen2011168} & Fix time of failed build, story flow percentage,
-percentage of stories prepared for sprint, time to establish project foundation, velocity of elaborating features,
-velocity of implementing features\\
-\cite{Janus20129} & Broken build, test coverage, test growth ratio, violations
-of static code checks, \# of unit tests\\
-\cite{Mahnic201273} & Sprint velocity, release velocity, cost performance
-index, schedule performance index, planned velocity\\
-\cite{Middleton2007387} & Common tempo time, number of bounce backs, cycle
-time, work in progress\\
-\cite{Mujtaba2010139} & Lead time, processing time, queue time\\
-\cite{Petersen2010654} & Change request per requirement, fault slips,
-implemented vs wasted requirements, maintenance effort\\
-\cite{Petersen2011975} & Rate of requirements per phase, variance in handovers,
-requirement's cost types\\
-\cite{Petersen2012108} & Cumulative flow of maintenance requests, lead time\\
-\cite{Petersen20101275} & \# of faults, fault-slip-through, \# of requests
-from customer, \# of requirements per phase\\
-\cite{Polk2011263} & Work in progress, average velocity, cycle time\\
-\cite{Seikola2011321} & Lead time, work in progress, \# of days in maintenance,
-\# of days to overdue, reported hours on CSR\\
-\cite{Shen200725} & Adaptability, innovation, productivity,
-ROI\\
-\cite{Staron20113} & Throughput\\
-\cite{Staron20101069} & Defect trend indicator, \# of defects, predicted \# of
-defects\\
-\cite{Talby200940} & Burndown, check-ins per day, number of automated test steps\\
-\cite{Talby2006100} & Burndown, \# of new defects, number of written and passed tests,
-task estimated vs actual time, time reported for overhead activities,
-check-ins per day\\
-\cite{Trapa2006243} & Story estimate, story complete percentage\\
-\cite{Trimble20134826} & Progress as working code\\
-\cite{Tudor2006367} & Costs, schedule\\
-\hline
-\end{tabular}
-\end{table}
+
 
 \begin{comment}
 \begin{table*}
@@ -718,13 +667,13 @@ Costs, schedule\\
 \end{table*}
 \end{comment}
 
-Categories for reasons and use of measurements are listed in
+Categories for the reasons and the use of measurements are listed in
 \cref{WhyHowCategories}. The following chapters will describe each category in
 more detail.
 
 \begin{table}
 \centering 
-\caption{Categories for why and how measurement usage}
+\caption{Categories for measurement usage}
 \label{WhyHowCategories}
 \begin{tabular}{c p{2,5cm}} \hline
 Categories & Sources\\ \hline
@@ -755,11 +704,13 @@ Categories & Sources\\ \hline
 
 \subsection{Iteration planning}
 \label{sec:IterationPlanning}
-Many metrics were used to support iteration planning. The metrics were used for task prioritization, estimating the iteration size and team velocity. 
+Many metrics were used to support iteration planning. The metrics were used
+for task prioritization and scoping of the iteration.
 
-Many metrics were focused to help in the prioritization of the tasks for the next
-iteration \cite{Greening2010,Haugen200623,Hodgkins2007194}.
-Prioritization of features was affected by a metric that measured the amount of revenue a customer is willing to pay for a feature \cite{Hodgkins2007194}.
+Many metrics were focused to help in the prioritization of the tasks for the
+next iteration \cite{Greening2010,Haugen200623,Hodgkins2007194}.
+Prioritization of features was affected by a metric that measured the amount
+of revenue a customer is willing to pay for a feature \cite{Hodgkins2007194}.
 
 Effort estimation metrics were used to measure the size of the features
 \cite{Elssamadisy2002617}.
@@ -769,13 +720,8 @@ effective available hours was found useful when selecting tasks for an
 iteration \cite{Cheng200929}.
 Velocity metrics were also used to improve the next iteration estimates
 \cite{Mahnic201273}.
-\juha{Tämä task-riippuvuuden mallintaminen alku ja loppupäivineen on hyvin
-epäagiilia, tästä jotain discussioniin}\eetu{Ehkä ajattelit tyyliin jotain
-Gant charttihässäkkää, mutta mä en jotenkin näe tätä mitenkään epäagiilina -
-enemmänkin maalaisjärjen käyttönä. Täytyyhän joku keino olla hahmottaa sitä,
-jos taskeilla on riippuvuuksia. Vai oliko agiilissa tähän joku ajatusmalli
-mitä en nyt saa päähäni?} In one case, task's start and end date metric was
-used to point out interdependent tasks in the planning phase \cite{Hong2010310}.
+In one case, task's start and end date metric was used to point out
+interdependent tasks in the planning phase \cite{Hong2010310}.
 
 
 \subsection{Iteration tracking} %completion}
@@ -785,16 +731,18 @@ used to point out interdependent tasks in the planning phase \cite{Hong2010310}.
 Purpose of iteration tracking was to track how the tasks selected for the
 iteration were performed and that necessary modifications were done to the
 plan to complete the iteration according to schedule.
+
 Metrics helped in monitoring, identifying problems, and predicting the end
 result by making it transparent to the stakeholders how the iteration is
 progressing.
 \cite{Petersen2011975,Talby2006100,Mahnic201273,Dubinsky200512,Hong2010310,Green2011,Trapa2006243,Trimble20134826}.
+
 Progress metrics included number of completed web pages \cite{Hong2010310},
 story completion percentage \cite{Trapa2006243} and velocity metrics
 \cite{Dubinsky200512}.
-\juha{velocity metriikan käyttäminen etenemisenseurantaan on
-epäagiilia->ongelmia - tästä asiaa discussioniin} \eetu{lisätty}However, using
-velocity metrics had also negative effects such as cutting corners in
+%\juha{velocity metriikan käyttäminen etenemisenseurantaan on
+%epäagiilia->ongelmia - tästä asiaa discussioniin} \eetu{lisätty}
+However, using velocity metrics had also negative effects such as cutting corners in
 implementing features to maintain velocity with the cost of quality
 \cite{Elssamadisy2002617}. One qualitative progress metric was product
 demonstrations with customer \cite{Trimble20134826}. Measuring the completion
@@ -805,9 +753,10 @@ of tasks enabled selecting incomplete tasks to the next iteration
 %where it seemed valuable in decreasing a risk \cite{Dubinsky200512},  
 %\cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
 
-When the metrics indicated, during an iteration, that all planned tasks could not be completed, the iteration was rescoped by cutting tasks
-\cite{Mahnic201273,Dubinsky200512,Middleton2007387} or extra
-resources were added \cite{Dubinsky200512,Middleton2007387}.
+When the metrics indicated, during an iteration, that all planned tasks could
+not be completed, the iteration was rescoped by cutting tasks
+\cite{Mahnic201273,Dubinsky200512,Middleton2007387} or adding extra resources
+\cite{Dubinsky200512,Middleton2007387}.
 
  % Almost anyone could walk into a team's room and with a quick glance
  % understand what is the status of the iteration.
@@ -843,16 +792,16 @@ to the team members
 Measurement data motivated teams to act and improve their
 performance\cite{Talby200940,Polk2011263,Cheng200929,LNBIP01490121,Jakobsen2011168}.
 Some examples included fixing the build faster by visualizing build status
-\cite{Jakobsen2011168,LNBIP01490121}, fixing bugs faster by showing amount of defects in monitors \cite{Cheng200929} and increasing testing by measuring product size by automated tests that motivated team to write more tests \cite{Talby200940}.
+\cite{Jakobsen2011168,LNBIP01490121}, fixing bugs faster by showing amount of
+defects in monitors \cite{Cheng200929} and increasing testing by measuring
+product size by automated tests that motivated team to write more tests
+\cite{Talby200940}.
 
 Metrics were also used to prevent harmful behaviour such as cherry picking
-features that are most interesting to the team. \juha{WIP limit kaipaa
-paremman selityksen, eihän WIP limit estä poimasta sitä mieluisinta tehtävää,
-vaikka tarkeämpiäkin olisi listalla...} \eetu{Mä ymmärrän tän niin, että
-tiimi ei voi nappailla muita tehtäviä ennen kuin tämänhetkinen on valmis. Ei
-tuota ole tosin hirveen selkeästi kuvattu alkuperäisessä tekstissäkään:
-``Teams could only work on a maximum of two features or feature level integration  at  any  one  time.  This  also stopped  teams 'cherry picking' features they wanted to develop at expense of the whole product.''}
-Measuring work in progress (WIP) and setting WIP limits prevented cherry picking by enforcing only two features at a time. \cite{Middleton2007387}
+features that are most interesting to the team. Measuring
+work in progress (WIP) and setting WIP limits prevented cherry picking by
+enforcing only two features at a time and thus preventing them from working on
+lower priority but more interesting features.\cite{Middleton2007387}
 
 \subsection{Identifying process problems}
 \label{sec:ProblemIdentification}
@@ -863,14 +812,16 @@ There were multiple cases highlighting how metrics are used to identify or
 predict problems in order to solve or avoid them
 \cite{Petersen2011975,Trapa2006243,Mahnic201273,Petersen2010654,Shen200725,Mujtaba2010139,Tudor2006367}.
 
-Sometimes there were work phases where no value was added, for example,
+Sometimes there were work phases where no value was added, e.g.,
 ``waiting for finalization''. This type of activity was called waste and was
 identified by using lead time. \cite{Petersen2012108}
 
-\juha{Tämä mittari ei ole selkeä, täytyy avata hieman enemmän mikä se on}
-\eetu{Avattu nyt hieman lisää.} Story implementation flow metric describes how
-efficiently a developer has been able to complete a story compared to the estimate. This metric helped to
-identify a problem with receiving customer requirement clarifications \cite{Jakobsen2011168}.
+% \juha{Tämä mittari ei ole selkeä, täytyy avata hieman enemmän mikä se on}
+% \eetu{Avattu nyt hieman lisää.}
+Story implementation flow metric describes how efficiently a developer has
+been able to complete a story compared to the estimate. This metric helped to
+identify a problem with receiving customer requirement clarifications.
+\cite{Jakobsen2011168}
 
 Creating awareness with defect trend indicator helped to take actions to avoid
 problems \cite{Staron20101069}. One common solution to problems was to find
@@ -908,12 +859,12 @@ input to determine post-release quality
 \cite{Petersen2010654,Green2011,Cheng200929} while other metrics
 used pre-release data as predictors of post-release quality
 \cite{Staron20101069,Petersen2010654,Green2011}. Customer related
-metrics included, for example, defects sent by customers\cite{Cheng200929},
+metrics included, e.g., defects sent by customers\cite{Cheng200929},
 change requests from customers \cite{Petersen2010654} and customer's
 willingness to recommend product to other potential customers
 \cite{Green2011}.
 Quality prediction metrics included defect counts \cite{Petersen2010654},
-maintenance effort \cite{Staron20101069}, and deferred defect counts
+maintenance effort \cite{Staron20101069} and deferred defect counts
 \cite{Green2011}.
 
 \subsection{Changes in processes or tools}
@@ -926,14 +877,13 @@ reporting of both metrics by all projects \cite{Jakobsen2011168}.
 
 At Ericsson by monitoring the flow of requirements metric they decided to
 change their implementation flow from push to pull to help them deliver in a
-more continuous manner. Also, based on the metric they added intermediate
+more continuous manner. Also, based on the metric they added an intermediate
 release version to have release quality earlier in the development cycle.\cite{Petersen20101275}
 
-\juha{ehkä hieman enemmän voisi paljastaa} \eetu{avattu}Changes to
-requirements management were also made based on lead time in other case at
-Ericsson. Analysing lead time contributed to delaying technical design after
-purchase order was received, providing customer a rough estimate quickly and
-merging the step to create solution proposal and technical design.
+Changes to requirements management were also made based on lead time in other
+case at Ericsson. Analysing lead time contributed to delaying technical design
+after purchase order was received, providing customer a rough estimate quickly
+and merging the step to create solution proposal and technical design.
 \cite{Mujtaba2010139}
 
 Problem with broken build, and the long times to fix the build, led to
@@ -944,11 +894,11 @@ Also, additional code style rules were added to code check-in and build tools
 so that builds would fail more often and defects would get caught before
 release \cite{Jakobsen2011168,Janus20129}. 
 
-\juha{ei avaudu}\eetu{avattu}Similarly, testing approaches were changed based
-on flow metrics. Using lead time led to that integration testing could be
-started paraller to system testing \cite{Mujtaba2010139}. Also, throughput of
-a test process showed insufficient to handle the incoming features which led
-to changing the test approach \cite{Staron20113}.
+Similarly, testing approaches were changed based on flow metrics. Using lead
+time led to that integration testing could be started parallel to system
+testing \cite{Mujtaba2010139}. Also, throughput of a test process showed
+insufficient capability to handle the incoming features, which led to changing
+the test approach \cite{Staron20113}.
 
 \section{Discussion}
 \label{sec:Discussion}
@@ -956,19 +906,13 @@ to changing the test approach \cite{Staron20113}.
 \subsection{Implications for practice}
 To provide implications to practice we map our findings to the principles of
 agile software development \cite{beck2001agile} categorized by Patel \& al.
-\cite{1579312}.
+\cite{1579312}. For each paragraph we use the naming by Patel et al. and
+provide references to the agile practices by numbers.
 
-\mika{TODO: Pitaa selvasti tuoda esiin  mappaus. Principlet jarjestykseen.
-Viite mista principlet tulee. Joka principlen kohdalta ensin mika sita tukee.
- Ja sitten jos loydettiin jotain ristiriittaista periaatteen kanssa. 
- Lisaksi principlet jarjestykseen.  Ja lopuksi mille principlelle ei ollut
- mittareita.  
-  -> Future work Pitaisiko olla ja millaisia} \eetu{Done. paitsi Future work.} 
-
-Communication and Collaboration (4,6) was reflected in metrics that motivated
-team to act and improve, see \cref{sec:Motivate}. Also, progress metrics were
-used to communicate the status of the project to the stakeholders, see
-\cref{sec:IterationTracking}.
+Communication and Collaboration (principles 4 and 6) was reflected in metrics
+that motivated a team to act and improve, see \cref{sec:Motivate}. Also,
+progress metrics were used to communicate the status of the project to the
+stakeholders, see \cref{sec:IterationTracking}.
 
 Team involvement (5,8) was reflected in metrics that motivated team to act and
 improve, see \cref{sec:Motivate}. Also, to promote sustainable development
@@ -981,12 +925,22 @@ to change processes, see \cref{sec:ProblemIdentification} and
 
 Frequent delivery of working software (1,3,7) was directly identified in one
 paper, where the team measured progress by demonstrating the product to the
-customer \cite{Trimble20134826}. Additionally, there were cases where for
-example completed web-pages \cite{Hong2010310} were the primary progress
-measure. Also, many metrics focused on progress tracking and timely completion
+customer \cite{Trimble20134826}. Additionally, there were cases where e.g.
+completed web-pages \cite{Hong2010310} were the primary progress measure. Also, many metrics focused on progress tracking and timely completion
 of the iteration, see \cref{sec:IterationTracking}. However, some other
 measures from \cref{sec:IterationTracking} show that instead of working code
-agile teams followed completed tasks and velocity metrics.
+agile teams followed completed tasks and velocity metrics. 
+
+%\juha{haluaisin jotain tämänkaltaista keskustelua suorista laatumittareista,
+% mutta voiko näin sanoa tämän tutkimuksen perusteella. Eetu, etenkin tuo
+% viimeinen virke, onko linjassa sinun mielestäsi??}\eetu{Nyt muokattuna voi
+% sanoa.}
+An integral part of the concept of working software is measuring post-release
+quality, see  \cref{sec:PostQuality}. This was measured by customer
+satisfaction, feedback, and customer defect reports. It was also common to use
+pre-release data to predict post-release quality. Agile developers tend to
+measure the end product quality with customer based metrics instead of the
+traditional quality models, such as ISO/IEC 25010 \cite{10951538}.
 
 Managing Changing Requirements (2) was seen in the metrics that support
 prioritization of features each iteration, see \cref{sec:IterationPlanning}.
@@ -1083,151 +1037,163 @@ processes, see \cref{sec:ProblemIdentification} and
 
 \end{comment}
 
-\eetu{Mun mielestä seuraavat mittarit ei oo niin ketteriä, mut en osaa oikeen
-perustella miksi tai sanoa mitä periaatteita vastaan ne olisi: maintenance
-effort, cost types, defect amounts(?), defects deferred, revenue per
-customer(?), time to establish project foundation, test coverage, test growth
-ratio, cost performance index, schedule performance index. Näitä ei kaikkia
-ole myöskään kuvattu resultseissa, paitsi taulukossa mainittu.}
+%\eetu{Mun mielestä seuraavat mittarit ei oo niin ketteriä, mut en osaa oikeen
+%perustella miksi tai sanoa mitä periaatteita vastaan ne olisi: maintenance
+%effort, cost types, defect amounts(?), defects deferred, revenue per
+%customer(?), time to establish project foundation, test coverage, test growth
+%ratio, cost performance index, schedule performance index. Näitä ei kaikkia
+%ole myöskään kuvattu resultseissa, paitsi taulukossa mainittu.}
 
-There were also metrics or their usage which were not agile in nature. E.g
+There were also metrics, or their usage, which were not agile in nature. E.g.,
 maintaining velocity by cutting corners in quality instead of dropping
 features from that iteration \cite{Elssamadisy2002617}. Also, adding people to
 project to reach a certain date \cite{Dubinsky200512, Middleton2007387} doesn't seem that
 agile compared to removing tasks. Adding people can have a negative impact to
 progress, considering the lack of knowledge and training time required.
+Moreover, the use of dates to plan interdependent tasks is not agile in
+nature \cite{Hong2010310}. Instead, interdependencies should be visible in
+choosing the tasks to appropriate iterations. Also, the use of number of
+defects to delay a release \cite{Hodgetts2004106} is against agile thinking
+as one should rather decrease the scope to avoid such a situation.
 
-While the flow metrics Ericsson have a good target of balancing workflow, they
-seem  (or at least they are presented) complicated to use - meaning that one
-might need considerable effort generate and analyse the metrics, which
-doesn't fit to the light-weightness of agile. 
+%While the flow metrics Ericsson have a good target of balancing workflow,
+% they seem  (or at least they are presented) complicated to use---meaning that one
+%might need considerable effort to generate and analyse the metrics, which
+%doesn't fit to the light-weightness of agile.
 
-Contradictory to \#5, Talby et al [viite] enforce writing automated test
-cases as a measure of progress - so in a way they didn't trust the developers to write
-the test on their own? Similarly, [viite] measured the status of the build to
-make developers fix the build faster - again, not trusting them to do it on
-their own.
+%\juha{muotoilisin tämän hieman toisin}
+% Contradictory to fifth principle, Talby et al [viite] enforce writing
+% automated test cases as a measure of progress - so in a way they didn't
+% trust the developers to write the test on their own? Similarly, [viite]
+% measured the status of the build to make developers fix the build faster -
+% again, not trusting them to do it on their own.
+Some agile metrics that work well for an agile team, such as tracking progress
+by automated tests \cite{Talby200940}, or measuring the status of the build
+\cite{Janus20129} can turn against the agile principles if used as an external
+controlling mechanism. The fifth agile principle requires trust in the team,
+but if the metrics are enforced outside of the team, e.g., from upper
+management there is a risk that the metrics turn into control mechanisms and
+the benefits for the team itself suffer.
 
+%\subsection{Implications for research}
+%It was interesting to notice that there wasn't many code metrics, only the
+%ones mentioned in \cite{Janus20129} even though we feel there are many
+%% studies regarding the benefits of code metrics. Maybe there are some
+% practical
+%problems implementing and analysing the data from code metrics?
 
-\subsection{Implications for research}
-It was interesting to notice that there wasn't many code metrics, only the
-ones mentioned in \cite{Janus20129} even though we feel there are many studies
-regarding the benefits of code metrics. Maybe there are some practical
-problems implementing and analysing the data from code metrics?
+%How to measure unmeasured agile principles...
 
-How to measure unmeasured agile principles...
+%Effort estimates are prerequisite for velocity metrics, and since velocity
+%metrics were vastly identified in our study, e
 
-In general, we think there were many metrics that were targeted for the team -
-instead of high focus on managerial or upper management reporting metrics.
-Making metrics visible for the team enables them to independently act and
-improve without the need of rapid supervision and telling people what to do.
+%In general, we think there were many metrics that were targeted for the team
+% - instead of high focus on managerial or upper management reporting metrics.
+%Making metrics visible for the team enables them to independently act and
+%improve without the need of rapid supervision and telling people what to do.
 
-
-\eetu{(toinen judu mitä täällä voisi olla niin vertailu perinteisiin tai
-agiilikirjallisuudessa suositeltuihin)
-(kolmas judu: Koodimittarit oli aika heikosti edustettuna - vain muutama.
-Joka on sin?ns? mielenkiintoista koska tutkimuksissa ne on hyvin
-edustettuna(kai). Mut ilmeisesti tila tulee vastaan ni nää vois unohtaa
-toistaiseksi}
-
-
-\subsection{Limitations}
-Telecommunications sector is widely represented in this study with eight
-papers from Ericsson. Also, Israeli Air Force was presented in three
-papers.
-
-Sometimes it was hard to understand which metrics an author was referring
-when a ``why'' was described. Moreover, we had to sometimes assume that when
-author describes the reasons for using a tool, he would be actually talking
-about the metrics the tool shows.
-
-Whenever a new coding rule was decided it was hard to make sure that all
-previously coded primary documents would get the same treatment.
-
-Coding ``sense'' improved over time so it is possible that some
-information was not spotted from the primary documents in the beginning of the
-study.
-
-It is possible that researcher bias could have had an effect on the results.
-First author has positive mindset towards agile methods, as well as towards
-certain metrics over others.
-
-
-\section{Conclusions}
-\label{sec:Conclusions}
-
-This paper presents the preliminary results from a systematic literature
-review from 29 primary studies. Results indicate that the reasons and use of
-metrics is focused on the following areas:
-\nameref{sec:IterationPlanning}, \nameref{sec:IterationTracking},
-\nameref{sec:Motivate}, \nameref{sec:ProblemIdentification},
-\nameref{sec:PreQuality},
-\nameref{sec:PostQuality} and \nameref{sec:ChangesInProcesses}.
-
-Researchers and practitioners can use this study to find relevant sources
-regarding their interests and contexts.
-
-\subsection{Comparison to other studies}
-Hartmann \& Dymond \cite{1667571} also highlight process improvement as one of
-the reasons for measurement in their agile metrics paper. Also, they emphasize
-that creation of value should be the primary measure of progress - which was
-also seen in our study. 
+\subsection{Comparison to prior studies}%\juha{Istuu paremmin discussioniin}
+Only few papers have broadly studied the reasons for software metrics use in
+the context of agile software development. Hartmann \& Dymond \cite{1667571}
+also highlight process improvement as one of the reasons for measurement in
+their agile metrics paper. Also, they emphasize that creation of value should
+be the primary measure of progress - which was also seen in our study.
 
 Korhonen \cite{Korhonen2009} found in her study that traditional defect
-metrics could be reused in agile context - if modified. Defect metrics were also used in many of the
-primary studies.
+metrics could be reused in agile context - if modified. Defect metrics were
+also used in many of the primary studies.
 
-It is interesting to note how many code metrics are identified in Kitchenham's
-mapping study \cite{kitchenham_whats_2010} compared to the lack of code
-metrics in our study. The reasons for the lack of code metric usage in agile contexts should be studied to
-evaluate the necessity of code metric research - or how code metric research
-could be modified to support agile development better. The lone case in
-our study where code metrics were used, the code metric usage was abstracted
-to a build tool, which would just indicate an error or broken build \cite{Janus20129}. Maybe
-the use of code metrics should be heavily implemented through automated tools
-that handle the collection and analysing of code metric data?
+Kitchenham's mapping study \cite{kitchenham_whats_2010} identified several
+code metrics in academic literature. However, in our study we found almost no
+evidence of code metric use in the industrial context.   Maybe it is time to
+re-evaluate the need for code metrics research if industry doesn't seem to use
+them.
+
+%The reasons for the lack of code metric usage in agile
+%contexts should be studied to evaluate the necessity of code metric research
+% - or how code metric research could be modified to support agile development
+
+%The lone case in our study where code metrics were used, the code
+%metric usage was abstracted to a build tool, which would just indicate an
+%error or broken build \cite{Janus20129}. Maybe the use of code metrics should
+%be heavily implemented through automated tools that handle the collection and
+%analysing of code metric data?
 
 
-We also map the found metrics to the principles of Agile Manifesto
-\cite{beck2001agile}.
+\subsection{Limitations}\juha{muokkasin tätä, tuli ehkä vähän pitkä, Mika saatko tiivistettyä }
+The large shares of specific application domains in the primary documents is a
+threat to external validity. Seven out of 29 studies were from enterprise
+information systems domain and especially strong was also the share of ten
+telecom industry studies out of which eight were from the same company,
+Ericsson. Also, Israeli Air Force was the case organization in three studies.
 
-\eetu{So what now? What did we learn and what should be done now? Mitä nämä
-tulokset merkitsee?Ainakin voisin sanoa että ihan mukavasti löyty materiaalia.
-Jonkin verran löytyi samanlaisia asioita eri papereista. Tietyllä tapaa
-kiinnostaisi vertailu perinteisiä mittareita vastaan. Onko näillä mittareilla
-loppupeleissä mitään eroa jo vuosikausia käytössä ollleihin mittareihin
-nähden? Onko jotain yhdistäviä konteksteja havaittavissa jolloin voisi
-yleistää havaintoja? Myös lista tärkeiksi koetuista mittareista olisi kiva
-(tämähän mulla on jo pienellä alulla). Voinko suositella tuloksissa esiteltyjä
-mittareita?}
+The threats to reliability in this research include mainly issues related to
+the reliability of primary study selection and data extraction. The main
+threat to reliability was having a single researcher performing the study
+selection and data extraction. It is possible that researcher bias could have
+had an effect on the results. This threat was mitigated by analysing the
+reliability of both study selection and data extraction as described in
+\cref{sec:Method}.
 
-\eetu{Toinen yritys pohdiskeluun. Mitä voisi sanoa tuloksissa mainitusta
-jaottelusta - mitä se jaottelu yrittää sanoa? Mittareita käytetään tietyissä
-ohjelmistokehityksen vaiheissa, sekä tietynlaisissa tilanteissa, esim.
-motivoimiseen tai paremminkin tiimin itsenäisen toiminnan tukena. Vaiheet
-ovat siis, suunnittelu, implementaatio(sisältäen testauksen). Lisäksi laatuun
-kiinnitettiin huomiota ennen ja jälkeen releassin. Viimeisenä mittareiden
-tarkoituksena oli prosessiongelmien löytäminen ja ratkaiseminen prosesseja ja
-työkaluja muuttamalla. Eli jos haluat muutoksia prosessiin, kannattaa ehkä
-tunnistaa ongelmat mittaamalla. Mittaamalla saat mututuntuman lisäksi muutakin
-todistusaineistoa ongelman tunnistamiseen. }
+%Sometimes it was hard to understand which metrics an author was referring
+%when a ``why'' was described. Moreover, we had to sometimes assume that when
+%author describes the reasons for using a tool, he would be actually talking
+%about the metrics the tool shows.
 
-\eetu{Timon inspiroimana: Pitäis verrata aikaisempaa kirjallisuutta
-näihän tuloksiin: Dymond puolestaan listaa agiilien mittarien heuristiikkoja,
-voisi tutkia miten löydetyt mittarit noudattavat heuristiikkoja. Ja vielä tämä, että näin laajaa tutkimusta ei ole ennen tehty
-(tämä pitäisi olla jo itsessään mielekäs concludaus?). Jos nyt kuitenkin
-kattoo tuloksia - voisi ehkä sanoa että ei löytynyt mitenkään yhtä settiä
-mittareita - vaan eri mittareita oli melkein yhtä paljon kuin papereita.
-Toisaalta esim. effort estimate oli edustettuna monessa. Jostain paperista
-vois kaivaa ``miksi mitataan'' ja vertailla näitä tuloksia niihin - löytyykö
-samat yllä mainitut syy-alueet. Tukevatko tämän hetken agiilityökalut em.
-mittareiden käyttöä(aivan liian laaja, mut ilmeisesti tällaiset heitot vois
-olla further research topicseja?)}
+Due to iterative nature of the coding process, it was challenging to make sure
+that all previously coded primary documents would get the same treatment,
+whenever new codes were discovered. In addition, the first author's coding
+``sense'' developed over time, so it is possible that data extraction accuracy
+improved during the analysis. In order to mitigate these risks we conducted a
+pilot study in order to improve the coding scheme, get familiar with the
+research method, refine the method and tools.
+
+%First author has positive mindset towards agile methods, as well as towards
+%certain metrics over others.
+
+
+\section{Conclusions}%\juha{Kirjoitin tänne hieman lisää...} 
+\label{sec:Conclusions}
+
+This paper we present the preliminary results from a systematic literature
+review from 29 primary studies. To our knowledge there is no previous
+systematic reviews of  measurement use in the context of industrial agile
+software development. In this paper we classify and describe the main
+measurement types and areas that are reported in empirical  studies. We
+provide descriptions of how and why metrics are used to support agile software
+development. We also analyzed how the presented metrics support the twelve
+principles of Agile Manifesto \cite{beck2001agile}.
+
+The results indicate that the reasons and use of metrics is focused on the
+following areas:
+\nameref{sec:IterationPlanning}, \nameref{sec:IterationTracking},
+\nameref{sec:Motivate}, \nameref{sec:ProblemIdentification},
+\nameref{sec:PreQuality}, \nameref{sec:PostQuality} and
+\nameref{sec:ChangesInProcesses}.
+
+This paper provides researchers and practitioners with an useful overview of
+the measurements use in agile context and documented reasonings behind the
+proposed metrics. This study can be used as a source of relevant sources
+regarding researchers' interests and contexts.
+
+Finally, we identified few propositions for future research on measuring in
+agile software development. First,  in the academia lot of emphasis has been
+given to code metrics yet we found a little evidence of their use. Second,
+the applicable quality metrics for agile development and the relationship of
+pre-release quality metrics and post-release quality are important directions
+of future research. Third, we found that planning and tracking metrics for
+iteration were often used indicating a need to focus future research efforts
+on these areas. Fourth, use of metrics for motivating and enforcing process
+improvements can be an interesting future research topic. 
+
+\juha{muita?} 
+
 
 %\end{document}  % This is where a 'short' article might terminate
 %ACKNOWLEDGMENTS are optional
-\section{Acknowledgments}
-U-QASAR rahoitus?
+%\section{Acknowledgments}
+%\juha{Koska tila on kortilla, voinemme jättää acknowledgementsit pois}
+%U-QASAR rahoitus?
 
 %
 % The following two commands are all you need in the
@@ -1330,6 +1296,68 @@ Exclusion criteria\juha{Tiivistin exclusion kriteerejä}
   %%example method or metric is used against static industrial data set. \juha{tämä sisältyy tai vain tarkentaa ensimmäistä}
 \end{itemize}
 
+\begin{comment}
+\section{Metric distribution by primary studies}
+\label{app:Metrics}
+\begin{table}
+%\centering
+\caption{Metrics by primary studies}
+\label{Metrics} 
+\begin{tabular}{lp{7cm}} \hline
+ID & Metrics\\
+\hline 
+\cite{Cheng200929} & Team available hours, team
+effective hours, critical defects sent by customer, open defects, test
+failure rate\\
+\cite{LNBIP01490121} & Technical debt in categories, build status,
+technical debt in effort\\
+\cite{Dubinsky200512} & Burndown, check-ins per day, number of automated test steps, faults
+per iteration\\
+\cite{Elssamadisy2002617} & Velocity\\
+\cite{Green2011} & Burndown, story points, \# of open defects, defects found
+in system test, defects deferred, net promoter score\\
+\cite{Greening2010} & Story points, task effort, velocity\\
+\cite{Haugen200623} & Effort estimate, actual effort\\
+\cite{Hodgetts2004106} & \# of defects/velocity\\
+\cite{Hodgkins2007194} & Revenue per customer\\
+\cite{Hong2010310} & Task expected start and end date, effort estimate,
+completed web pages, task done\\
+\cite{Jakobsen2011168} & Fix time of failed build, story flow percentage,
+percentage of stories prepared for sprint, time to establish project foundation, velocity of elaborating features,
+velocity of implementing features\\
+\cite{Janus20129} & Broken build, test coverage, test growth ratio, violations
+of static code checks, \# of unit tests\\
+\cite{Mahnic201273} & Sprint velocity, release velocity, cost performance
+index, schedule performance index, planned velocity\\
+\cite{Middleton2007387} & Common tempo time, number of bounce backs, cycle
+time, work in progress\\
+\cite{Mujtaba2010139} & Lead time, processing time, queue time\\
+\cite{Petersen2010654} & Change request per requirement, fault slips,
+implemented vs wasted requirements, maintenance effort\\
+\cite{Petersen2011975} & Rate of requirements per phase, variance in handovers,
+requirement's cost types\\
+\cite{Petersen2012108} & Cumulative flow of maintenance requests, lead time\\
+\cite{Petersen20101275} & \# of faults, fault-slip-through, \# of requests
+from customer, \# of requirements per phase\\
+\cite{Polk2011263} & Work in progress, average velocity, cycle time\\
+\cite{Seikola2011321} & Lead time, work in progress, \# of days in maintenance,
+\# of days to overdue, reported hours on CSR\\
+\cite{Shen200725} & Adaptability, innovation, productivity,
+ROI\\
+\cite{Staron20113} & Throughput\\
+\cite{Staron20101069} & Defect trend indicator, \# of defects, predicted \# of
+defects\\
+\cite{Talby200940} & Burndown, check-ins per day, number of automated test steps\\
+\cite{Talby2006100} & Burndown, \# of new defects, number of written and passed tests,
+task estimated vs actual time, time reported for overhead activities,
+check-ins per day\\
+\cite{Trapa2006243} & Story estimate, story complete percentage\\
+\cite{Trimble20134826} & Progress as working code\\
+\cite{Tudor2006367} & Costs, schedule\\
+\hline
+\end{tabular}
+\end{table}
+\end{comment}
 % This next section command marks the start of
 % Appendix B, and does not continue the present hierarchy
 %\balancecolumns % GM June 2007
