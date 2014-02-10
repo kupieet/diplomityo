@@ -261,16 +261,20 @@
 \usepackage{cleveref}
 \usepackage{booktabs}
 \usepackage{comment} 
-\usepackage{url}       % \url{...}
+%\usepackage{url}       % \url{...}
 
 %\usepackage[usenames]{color} %t‰‰ on kai ladattu jo jossain
-\newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
+
+%\newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue}
+% #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
 %\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
 %\newcommand{\eetu}[1]{\basicalert{From Eetu}{#1}}
 %\newcommand{\juha}[1]{\basicalert{From Juha}{#1}}
 \newcommand{\mika}[1]{\ignorespaces}
 \newcommand{\eetu}[1]{\ignorespaces}
 \newcommand{\juha}[1]{\ignorespaces}
+
+
 
 % Thesis setup
 % ==================================================================
@@ -455,10 +459,9 @@ findings. In some countries/universities, the word thesis or a cognate is used
 as part of a bachelor's or master's course, while dissertation is normally
 applied to a doctorate, whilst, in others, the reverse is true.
 
-\citetsrc{Korhonen2009}
-%\bibentry{S1}
+%\citetsrc{1579312}
 } 
-%\citepri{Korhonen} }
+
 %\end{comment}
 
 % Abstract in Finnish
@@ -537,8 +540,7 @@ I wish to thank all students who use \LaTeX\ for formatting their theses,
 % The contents of the thesis are separated to their own files.
 % Edit the content in these files, rename them as necessary.
 % ------------------------------------------------------------------
-%\input{contents.tex}
-\input{PrimaryStudyTable.tex}
+\input{contents.tex}
 
 
 
@@ -549,7 +551,11 @@ I wish to thank all students who use \LaTeX\ for formatting their theses,
 %\bibliography{sources}
 %\bibliographystylesrc{plain}
 
+%\addcontentsline{toc}{chapter}{\refname}  % article
+
 \bibliographysrc{sources}
+
+\input{PrimaryStudyTable.tex}
 
 
 
