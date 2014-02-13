@@ -4,3 +4,7 @@
 /thesis-example.pdf
 /thesis-example.synctex.gz
 /tempLatex
+/tex
+/*.aux
+/*.bbl
+/*.blg
