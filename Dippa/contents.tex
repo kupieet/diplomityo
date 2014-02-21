@@ -3,7 +3,7 @@
  % Software engineering is at a crossroads as there are new leaner and more
 % agile software development methods appearing next to the traditional
 % software development methods.
-%\mika{Kappaleen pointti: No literature reviews of actual metric use}
+% \mika{Kappaleen pointti: No literature reviews of actual metric use}
 Software metrics have been studied for decades and several literature reviews
 have been published.
 Yet, the literature reviews have been written from an academic viewpoint that
@@ -11,12 +11,14 @@ typically focuses on the effectiveness of a single metric. For example, Catal
 et al. review fault prediction metrics \citepsrc{catal2009systematic},
 \citetsrc{purao2003product} review metrics for object oriented systems and
 \citetsrc{kitchenham_whats_2010} performs a mapping of most cited software
-metrics papers. To our knowledge there are no systematic literature reviews on the actual use of software metrics in the industry.
+metrics papers. According to the researcher's knowledge there are no
+systematic literature reviews on the actual use of software metrics in the
+industry.
 
 %\mika{Kappaleen pointti: Agile on t‰rke‰‰ eik‰ metriikkoja tutkittu}
 
 % \juha{Yritin konkretisoida trad vs. agile kontrastia}
-Agile software development is becoming increasing popular in the software
+Agile software development is becoming increasingly popular in the software
 industry. The agile approach seems to be contradicting with the traditional
 metrics approaches. For example, the agile emphasizes working software over
 measuring progress in terms of intermediate products or documentation, and
@@ -37,7 +39,7 @@ highlights actions that the use of metrics can trigger.
 %goal, we focus this paper on case studies and actual empirical findings
 %excluding theoretical discussion and models lacking empirical validation.
 
-In this paper, the cover following research questions are covered: 
+This study covers the following research questions: 
 
 \begin{itemize}
   \item RQ1: Why are metrics used?
@@ -46,9 +48,7 @@ In this paper, the cover following research questions are covered:
   \item RQ4: What metrics are important?
 \end{itemize} 
 
-\section{Problem statement}
-
- 
+%\section{Problem statement}
 
 \section{Structure of the Thesis}
 \label{section:structure} 
@@ -60,19 +60,35 @@ principles. \Cref{sec:Conclusions} concludes the paper. \fixme{LALA}
 
 \chapter{Background}
 
-%\subsection{Agile software development}
+\section{Agile software development}
 %\eetu{t‰ss‰ voisi olla historian‰kˆkulma, voipi menn‰ pitk‰ks eik‰ niin
 %mielenkiintoinen ehk‰ t‰ss‰ paperissa} 
 
-%Agile development methods have emerged to the software world ruled by
-%traditional heavyweight methods. In agile methods the focus is in lightweight
-%working practices, constant deliveries and customer collaboration over long
-%planning periods, heavy documentation and inflexible development phases.
+Agile development methods have emerged to the software world ruled by
+traditional heavyweight methods. In agile methods the focus is in lightweight
+working practices, constant deliveries and customer collaboration over long
+planning periods, heavy documentation and inflexible development phases.
 
-%Agile manifesto created by agile enthusiasts \cite{beck2001agile} lists agile
-%principles that give an idea what is agile development about. Popular agile
-%development methods include Scrum \cite{schwaber2002agile}, Extreme
-%Programming \cite{beck2004extreme} and Kanban \cite{anderson2010kanban}.
+Agile manifesto created by agile enthusiasts \citepsrc{beck2001agile} lists
+agile principles that give an idea what is agile development about. Popular agile
+development methods include Scrum \citepsrc{schwaber2002agile}, Extreme
+Programming \citepsrc{beck2004extreme} and Kanban
+\citepsrc{anderson2010kanban}.
+
+\section{Related work}
+
+\citetsrc{1667571} don't provide any specific agile metrics but rather
+describes how agile metrics should be chosen and how they should be introduced
+to the organization. Also, they provide a set of heuristics for agile metrics.
+\fixme{t‰‰ j‰i v‰h‰n laihaks}
+
+\section{Systematic literature review}
+
+Systematic literature review is a research method originated from the field of
+medicine \fixme{viite}. The overarching idea is to aggregate and synthetisize
+existing knowledge regarding a research topic. This rigorous and audible
+evaluation method can facilitate theory development and point out gaps in
+research \citepsrc{webster2002analyzing}.
 
 \section{Causes for software project failures}
 
@@ -102,16 +118,17 @@ principles. \Cref{sec:Conclusions} concludes the paper. \fixme{LALA}
 %termien ja k‰sitteiden selitt‰minen
 
 
-\section{Aims and research questions} The aim of this paper is to provide
+%\section{Aims and research questions} 
+%The aim of this paper is to provide
 % preliminary results from a systematic review (SR) on agile metrics.
 %Moreover, we are interested on the industrial use of metrics in agile
 % context.
 
 \chapter{Review method}
 \label{sec:Method}
-Systematic review (SR) was chosen as research method because we are trying to
-understand a problem instead of trying to find a solution to it. Also, there was already
-existing literature that could be synthesized.
+Systematic review (SR) was chosen as research method because the study is more
+about trying to understand a problem instead of trying to find a solution to
+it. Also, there was already existing literature that could be synthesized.
 
 \section{Protocol development}
 Kitchenham's guide for SRs \citepsrc{kitchenham2004procedures} was used as a
@@ -144,10 +161,10 @@ of papers after each stage.
 \caption{Paper selection funnel}
 \begin{tabular}{|l|c|r} \hline
 \label{SelectionFunnel}
-\textbf{Phase} & \textbf{Amount of papers} \\ \hline
-Phase 1 & 774 \\ \hline 
-Phase 2 & 163 \\ \hline
-Phase 3 & 29\\
+Stage & Amount of papers \\ \hline
+Stage 1 & 774 \\  
+Stage 2 & 163 \\ 
+Stage 3 & 29\\
 \hline
 \end{tabular}
 \end{table}
@@ -156,18 +173,18 @@ Phase 3 & 29\\
 Scopus database \footnote{http://www.scopus.com} was used to find the primary
 documents with automated search. Keywords include popular agile development
 methods and synonyms for the word metric. The search was improved
-incrementally in three phases because we noticed some key papers and XP conferences were not
-found initially. The search strings, hits and dates can be found from
-\cref{app:Strings}.
+incrementally in three phases because some key papers and XP
+conferences were not found initially. The search strings, hits and dates can
+be found from \cref{app:Strings}.
 
 %\juha{Laittaisin myˆs inclusion ja exclusion kriteerit appendixiin ja
 % j‰tt‰isin vain t‰m‰nkaltaisen lyhyen kuvauksen t‰nne} 
 The selection of the primary documents was based on an inclusion criteria:
 \emph{papers that present empirical findings on the industrial use and
 experiences of metrics in agile context.} The papers were excluded based on
-multiple criteria, mainly due to not conforming our requirements regarding
-empirical findings, agile and industrial context, and the quality of the
-results. Full criteria are listed in \cref{app:Criteria}.
+multiple criteria, mainly due to not conforming to requirements regarding
+empirical findings and agile and industrial context. Full criteria are listed
+in \cref{app:Criteria}.
 
 %\juha{Inclusion criteria ja exclusion criteria siirretty -> appendix}
 %\subsubsection{Inclusion criteria} \juha{->APPENDIX}
@@ -240,8 +257,8 @@ found through Scopus.
 
 In stage 2, papers were included and excluded by the researcher based on their
 title and abstract. As the quality of abstracts can be poor in computer
-science \cite{kitchenham2004procedures}, full texts were also skimmed through
-in case of unclear abstracts.
+science \citepsrc{kitchenham2004procedures}, full texts were also skimmed
+through in case of unclear abstracts.
 % - especially introduction, case description and conclusions were checked
 % briefly.
 Unclear cases were discussed with the instructors in weekly meetings and an
@@ -249,7 +266,7 @@ exclusion rule was documented if necessary.
 
 The validity of the selection process was analysed by performing the selection
 for a sample of 26 papers also by the second instructor. The level of
-agreement was substantial with Kappa 0.67 \cite{landis_measurement_1977}.
+agreement was substantial with Kappa 0.67 \citepsrc{landis_measurement_1977}.
 
 %\subsubsection{Stage 3 - Selection by full text}
 
@@ -257,63 +274,75 @@ Stage 3 included multiple activities in one work flow. Selection by full text
 was done, data was coded and quality assessment was done. Once again, if there
 were unclear papers, they were discussed in meetings. Also, selection of 7
 papers was conducted by the second instructor with an almost perfect
-agreement, Kappa 1.0 \cite{landis_measurement_1977}.
+agreement, Kappa 1.0 \citepsrc{landis_measurement_1977}.
 
 \section{Data extraction}
 
-Integrated coding was selected for data extraction strategy \cite{6092576}. It
-provided focus to research questions but flexibility regarding findings.
+Integrated coding was selected for data extraction strategy
+\citepsrc{6092576}.
+It provided focus to research questions but flexibility regarding findings.
 Deductive coding would have been too restraining and inductive coding might
 have caused too much bias. Integrated coding made it possible to create a
-sample list of code categories: Why is measurement used?, How is measurement
-used? and Metrics.
+sample list of code categories:
+
+\begin{itemize}
+  \item Why is measurement used?
+  \item How is measurement used?
+  \item Metric
+  \item Importance related to metric
+  \item Context
+\end{itemize}
 
 The coding started with the researcher reading the full text and marking
 interesting quotes with a temporary code. After, reading the full text the
 researcher checked each quote and coded again with an appropriate code based
-on the built understanding. In weekly meetings, we slowly built a rule set for
-collecting metrics:
+on the built understanding. In weekly meetings with the instructors, a rule
+set for collecting metrics was slowly built:
 
 \begin{itemize}
   \item Collect metric if team or company uses it.
+  \item Collect metric only if something is said about why it is used, what
+  actions it causes or if it is described as important.
   \item Don't collect metrics that are only used for the comparison and
   selection of development methods. 
-  \item Don't collect metrics that are primarily used to compare teams.
-  \item Collect metric only if something is said about why it is used or what
-  actions it causes.
-  \item Collect metric if it is described as important. 
+  \item Don't collect metrics that are primarily used to compare teams. 
 \end{itemize}
 
 Atlas.ti Visual QDA(Qualitative Data Analysis), version 7.1.x was used to
-collect and synthesize the qualitative data.
+collect and synthesize the qualitative data. Amount of found quotes per code
+can be seen in \cref{tab:quotes}.
 
 To evaluate the repeatability of finding the same metrics, second instructor
 coded metrics from three papers. Capture-recapture method
-\cite{seber2002estimation} was then used which showed that 90\% of metrics
+\citepsrc{seber2002estimation} was then used which showed that 90\% of metrics
 were found.
 
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
+  \label{tab:quotes}
+  \caption{Amount of found quotes}
     \begin{tabular}{rr}
     \toprule
     Code  & Amount of quotations \\
     \midrule
-    ImportanceRelatedToMetric & 45 \\
-    How is measurement used? & 61 \\
     Why use this metric? & 151 \\
+    How is measurement used? & 61 \\
     Metrics & 108 \\
+    Importance related to metric & 45 \\
+    Context & 158 \\
     \bottomrule
     \end{tabular}%
   \label{tab:addlabel}%
 \end{table}%
 
 
-A quality assessment form adopted from \cite{dyba_empirical_2008} was used to
-evaluate the quality of each primary study. Detailed list of quality
+
+A quality assessment form adopted from \citepsrc{dyba_empirical_2008} was used
+to evaluate the quality of each primary study. Detailed list of quality
 assessment questions can be found in \cref{app:quality}. Additionally, a
-relevancy factor was added to the same assessment to describe how useful the paper was for this study. The scale for the relevancy factor is:
+relevancy factor was added to the same assessment to describe how useful the
+paper was for this study. The scale for the relevancy factor is:
 
 \begin{itemize}
   \item 0 = doesn't contain any information regarding metrics and should be
@@ -325,7 +354,7 @@ relevancy factor was added to the same assessment to describe how useful the pap
 \end{itemize}
 
 \section{Data synthesis}
-Data synthesis followed the steps recommended by Cruzes et al. \cite{6092576}.
+Data synthesis followed the steps recommended by \citetsrc{6092576}.
 Process started by going through all quotes within one code and giving each quote a
 more descriptive code describing the quote in high level. Then the descriptive
 codes were organized in groups based on their similarity. These groups were
@@ -336,11 +365,13 @@ then given a high level code which are seen as categories in
 \chapter{Results} % - Why and how are metrics used
 \label{sec:Results}
 
-This chapter presents the preliminary results from the systematic literature 
+This chapter presents the results from the systematic literature 
 review. \Cref{PublicationDistribution} shows the distribution of primary
-documents by publication channels. \Cref{tab:AgileMethods} lists the
+studies by publication channels. \Cref{tab:AgileMethods} lists the
 distribution of agile methods and \cref{tab:Domains} lists the distribution of
 domains. %Distribution of metrics are listed in \cref{app:Metrics}.
+
+\section{Overview of studies}
 
 \begin{table}
 \centering
@@ -437,133 +468,135 @@ WETSoM & Workshop & 1 & 5\\
 \begin{tabular}{lllllp{3cm}p{8cm}} \hline
 ID & Year & Resear. meth. & Agile method & Team size & Domain & Metrics\\
 \hline 
-\cite{Cheng200929} & 2009 & Multicase &  NA/Scrum/Scrum & 2-10/2-7/4-8
+\cite{S3} & 2009 & Multicase &  NA/Scrum/Scrum & 2-10/2-7/4-8
 & ERP/Graphic design plug-in/Facility management & Team available hours, team
 effective hours, critical defects sent by customer, open defects, test
 failure rate\\
-\cite{LNBIP01490121} & 2013 & Experience r. & Scrum & 25 teams & Software
+\cite{S4} & 2013 & Experience r. & Scrum & 25 teams & Software
 for oil and gas industry & Technical debt in categories, build status,
 technical debt in effort\\
-\cite{Dubinsky200512} & 2005 & Singlecase & XP & 15 & Enterprise information
+\cite{S5} & 2005 & Singlecase & XP & 15 & Enterprise information
 system & Burndown, check-ins per day, number of automated test steps, faults
 per iteration\\
-\cite{Elssamadisy2002617} & 2002 & Experience r. & XP & 50 & Enterprise
+[S6] & 2002 & Experience r. & XP & 50 & Enterprise
 resource solution for the leasing industry & Velocity\\
-\cite{Green2011} & 2011 & Survey & Scrum & 26 teams & Desktop and SaaS
+\cite{S7} & 2011 & Survey & Scrum & 26 teams & Desktop and SaaS
 products & Burndown, story points, \# of open defects, defects found in
 system test, defects deferred, net promoter score\\
-\cite{Greening2010} & 2010 & Experience r. & Scrum & 5-9 & NA & Story
+\cite{S8} & 2010 & Experience r. & Scrum & 5-9 & NA & Story
 points, task effort, velocity\\
-\cite{Haugen200623} & 2006 & Singlecase & XPMix & 15-20 & Broadband order
+\cite{S9} & 2006 & Singlecase & XPMix & 15-20 & Broadband order
 system & Effort estimate, actual effort\\
-\cite{Hodgetts2004106} & 2004 & Multicase & XP/Scrum & 4-18/6-9 &
+\cite{S10} & 2004 & Multicase & XP/Scrum & 4-18/6-9 &
 b-2-b e-commerce solutions/Criminal justice system development & \# of
 defects/velocity\\
-\cite{Hodgkins2007194} & 2007 & Singlecase & ScrumMix & 500 & Security
+\cite{S11} & 2007 & Singlecase & ScrumMix & 500 & Security
 services & Revenue per customer\\
-\cite{Hong2010310} & 2010 & Singlecase & ScrumMix & NA & E-commerce & Task
+\cite{S12} & 2010 & Singlecase & ScrumMix & NA & E-commerce & Task
 expected start and end date, effort estimate, completed web pages, task done\\
-\cite{Jakobsen2011168} & 2011 & Singlecase &
+\cite{S13} & 2011 & Singlecase &
 LeanScrumFDD & 5$\pm$2 & Information and communication software development & Fix time of failed
 build, story flow percentage, percentage of stories prepared for sprint,
 time to establish project foundation, velocity of elaborating features,
 velocity of implementing features\\
-\cite{Janus20129} & 2012 & Experience r. & XPMix & NA & Web application
+\cite{S14} & 2012 & Experience r. & XPMix & NA & Web application
 development & Broken build, test coverage, test growth ratio, violations of
 static code checks, \# of unit tests\\
-\cite{Mahnic201273} & 2012 & Singlecase & Scrum & 6-8 &Web page development
+\cite{S16} & 2012 & Singlecase & Scrum & 6-8 &Web page development
 & Sprint velocity, release velocity, cost performance index, schedule
 performance index, planned velocity\\
-\cite{Middleton2007387} & 2007 & Singlecase & Lean & Comp. 160 devs& Various
+\cite{S17} & 2007 & Singlecase & Lean & Comp. 160 devs& Various
 & Common tempo time, number of bounce backs, cycle time, work in progress\\
-\cite{Mujtaba2010139} & 2010 & Singlecase & ScrumXPMix & Dev site 600 &
+\cite{S18} & 2010 & Singlecase & ScrumXPMix & Dev site 600 &
 Telecom & Lead time, processing time, queue time\\
-\cite{Petersen2010654} & 2010 & Singlecase & AgileMix & 6-7 & Telecom &
+\cite{S19} & 2010 & Singlecase & AgileMix & 6-7 & Telecom &
 Change request per requirement, fault slips, implemented vs wasted
 requirements, maintenance effort\\
-\cite{Petersen2011975} & 2011 & Singlecase & ScrumXPMix & Dev site 500 &
+\cite{S21} & 2011 & Singlecase & ScrumXPMix & Dev site 500 &
 Telecom & Rate of requirements per phase, variance in handovers,
 requirement's cost types\\
-\cite{Petersen2012108} & 2012 & Singlecase & LeanMix & NA & Telecom &
+\cite{S22} & 2012 & Singlecase & LeanMix & NA & Telecom &
 Cumulative flow of maintenance requests, lead time\\
-\cite{Petersen20101275} & 2010 &  Singlecase & LeanMix & NA & Telecom &
+\cite{S20} & 2010 &  Singlecase & LeanMix & NA & Telecom &
 \# of faults, fault-slip-through, \# of requests from customer,
 \# of requirements per phase\\
-\cite{Polk2011263} & 2011 & Experience r. & AgileMix & 9 and 6 & 
+[S23] & 2011 & Experience r. & AgileMix & 9 and 6 & 
 Casino games & Work in progress, average velocity, cycle time\\
-\cite{Seikola2011321} & 2011 & Singlecase & ScrumBan & 6-8 & Telecom
+\cite{S24} & 2011 & Singlecase & ScrumBan & 6-8 & Telecom
 maintenance & Lead time, work in progress, \# of days in maintenance,
 \# of days to overdue, reported hours on CSR\\
 %\cite{Shen200725} & 2007 & Singlecase & ScrumXPMix & 4 & Independent software
 % developer & Adaptability, innovation, productivity, ROI\\
-\cite{Staron20113} & 2011 & Singlecase & LeanMix & project size 200 & Telecom
+\cite{S26} & 2011 & Singlecase & LeanMix & project size 200 & Telecom
 & Throughput\\
-\cite{Staron20101069} & 2010 & Singlecase & LeanMix & project size 100 &
+\cite{S25} & 2010 & Singlecase & LeanMix & project size 100 &
 Telecom & Defect trend indicator, \# of defects, predicted \# of
 defects\\
-\cite{Talby200940} & 2009 & Singlecase & XP & 15 & Enterprise information
+\cite{S28} & 2009 & Singlecase & XP & 15 & Enterprise information
 system & Burndown, check-ins per day, number of automated test steps\\
-\cite{Talby2006100} & 2006 & Singlecase & XPMix & 15 & Enterprise information
+\cite{S27} & 2006 & Singlecase & XPMix & 15 & Enterprise information
 system & Burndown, \# of new defects, number of written and passed tests,
 task estimated vs actual time, time reported for overhead activities,
 check-ins per day\\
-\cite{Trapa2006243} & 2006 &  Experience r. & ScrumXPMix & NA & Telecom
+\cite{S29} & 2006 &  Experience r. & ScrumXPMix & NA & Telecom
 & Story estimate, story complete percentage\\
-\cite{Trimble20134826} & 2013 & Singlecase & ScrumMix & 5 & Space mission
+\cite{S30} & 2013 & Singlecase & ScrumMix & 5 & Space mission
 control software & Progress as working code\\
-\cite{Tudor2006367} & 2006 & Experience r. & DSDM & NA & Library software &
+\cite{S31} & 2006 & Experience r. & DSDM & NA & Library software &
 Costs, schedule\\
 \hline
 \end{tabular}
 \end{table*}
 \end{comment}
 
-\section{Quality of studies}
+\subsection{Quality of studies}
 
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
-    \begin{tabular}{rrrrrrrrrrrrrr}
+  \caption{Quality assessment fo primary studies}
+    \begin{tabular}{rp{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}p{0,5cm}}
     \toprule
-    Study & Research & Aim   & Context & R.design & Sampling & Ctrl. Grp & Data coll. & Data anal & Reflexivity & Findings & Value & Total & Relevancy \\
+    Study & Rese arch & Aim   & Con text & R.de sign & Samp ling & Ctrl. Grp & Data coll. & Data anal & Reflex ivity & Find ings & Value & Total & Rele vancy \\
     \midrule
-    \multicolumn{1}{l}{Abb} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{And} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 2     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Che} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 3     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{dos} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 2     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Dub2005} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Elss} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Green} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 5     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Greening} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Haugen} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & 8     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Hodgetts} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 5     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Hodgkins} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Hong} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 1     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Jakobsen} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Janus} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 0     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Keaveney} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Mahnic} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 3     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Middleton} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 8     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Mujtaba} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Pet2010SPI} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & 4     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Pet2010eff} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Pet2011} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Pet2012} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Polk} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 4     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Seikola} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 4     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Staron2010} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Staron2011} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Talby 2006} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Talby 2009} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Trapa} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 1     & \multicolumn{1}{l}{3} \\
-    \multicolumn{1}{l}{Trimble} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{2} \\
-    \multicolumn{1}{l}{Tudor} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 2     & \multicolumn{1}{l}{2} \\
+     {[}S1{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
+     {[}S2{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 2     & \multicolumn{1}{l}{2} \\
+     {[}S3{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 3     & \multicolumn{1}{l}{2} \\
+     {[}S4{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 2     & \multicolumn{1}{l}{3} \\
+     {[}S5{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
+     {[}S6{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{2} \\
+     {[}S7{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 5     & \multicolumn{1}{l}{2} \\
+     {[}S8{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
+     {[}S9{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & 8     & \multicolumn{1}{l}{2} \\
+     {[}S10{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 5     & \multicolumn{1}{l}{2} \\
+     {[}S11{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
+     {[}S12{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 1     & \multicolumn{1}{l}{3} \\
+     {[}S13{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{3} \\
+     {[}S14{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 0     & \multicolumn{1}{l}{2} \\
+     {[}S15{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
+     {[}S16{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 3     & \multicolumn{1}{l}{2} \\
+     {[}S17{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 8     & \multicolumn{1}{l}{3} \\
+     {[}S18{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
+     {[}S19{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & 4     & \multicolumn{1}{l}{2} \\
+     {[}S20{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
+     {[}S21{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
+     {[}S22{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{2} \\
+     {[}S23{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 4     & \multicolumn{1}{l}{2} \\
+     {[}S24{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 4     & \multicolumn{1}{l}{2} \\
+     {[}S25{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 10    & \multicolumn{1}{l}{3} \\
+     {[}S26{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
+     {[}S27{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{2} \\
+     {[}S28{]} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & 9     & \multicolumn{1}{l}{3} \\
+     {[}S29{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 1     & \multicolumn{1}{l}{3} \\
+     {[}S30{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & 3     & \multicolumn{1}{l}{2} \\
+     {[}S31{]} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{1} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{0} & 2     & \multicolumn{1}{l}{2} \\
     \multicolumn{1}{l}{Total} & \multicolumn{1}{l}{16} & \multicolumn{1}{l}{15} & \multicolumn{1}{l}{20} & \multicolumn{1}{l}{15} & \multicolumn{1}{l}{19} & \multicolumn{1}{l}{7} & \multicolumn{1}{l}{14} & \multicolumn{1}{l}{13} & \multicolumn{1}{l}{7} & \multicolumn{1}{l}{21} & \multicolumn{1}{l}{24} &       &  \\
     \bottomrule
     \end{tabular}%
   \label{tab:addlabel}%
 \end{table}%
+
+
 
 The perceived quality of the studies varied a lot (from 0 to 10). Even with
 many low quality studies they were included since they still provided valuable
@@ -574,9 +607,7 @@ According to the assessment control group and reflexivity had lowest total
 scores while value for research, context and findings scored the highest.
 
 
-
-
-\section{How and Why}
+\section{Why were metrics used and how were they used?}
 
 Categories for the reasons and the use of measurements are listed in
 \cref{WhyHowCategories}. The following chapters will describe each category in
@@ -589,25 +620,25 @@ more detail.
 \begin{tabular}{c p{2,5cm}} \hline
 Categories & Sources\\ \hline
 \nameref{sec:IterationPlanning}&
-\cite{Elssamadisy2002617,Polk2011263,Cheng200929,Greening2010,Hong2010310}
-\cite{Mahnic201273,Haugen200623,Hodgkins2007194,Hodgkins2007194}\\
+ {[}S6,S23,S3,S8,S12{]}
+{[}S16,S9,S11{]}\\
 \nameref{sec:IterationTracking} &
-\cite{Petersen2011975,Talby2006100,Mahnic201273,Dubinsky200512,Hong2010310}
-\cite{LNBIP01490121,Green2011,Elssamadisy2002617,Middleton2007387,Trapa2006243}
-\cite{Trimble20134826,Hodgetts2004106,Staron20101069,Seikola2011321,Polk2011263}
-\cite{Greening2010,Petersen20101275}\\
+{[}S21,S27,S16,S5,S12{]}
+{[}S4,S7,S6,S17,S29{]}
+{[}S30,S10,S25,S24,S23{]}
+[S8,S20]\\
 \nameref{sec:Motivate} &
-\cite{Trapa2006243,Talby200940,Jakobsen2011168,LNBIP01490121,Cheng200929}
-\cite{Polk2011263,Staron20101069,Talby2006100}\\
+[S29,S28,S13,S4,S3]
+[S23,S25,S27]\\
 \nameref{sec:ProblemIdentification} &
-\cite{Petersen2011975,Trapa2006243,Middleton2007387,Jakobsen2011168,Staron20101069}
-\cite{Mahnic201273,Petersen2010654,Mujtaba2010139,Tudor2006367,Petersen2012108}\\
+[S21,S29,S17,S13,S25]
+[S16,S19,S18,S31,S22]\\
 \nameref{sec:PreQuality} &
-\cite{Janus20129,Janus20129,Dubinsky200512,Trapa2006243}\\
+[S14,S5,S29]\\
 \nameref{sec:PostQuality} &
-\cite{Petersen2010654,Cheng200929,Green2011,Staron20101069}\\
+[S19,S3,S7,S25]\\
 \nameref{sec:ChangesInProcesses} &
-\cite{Jakobsen2011168,Petersen2011975,Mujtaba2010139,LNBIP01490121,Staron20101069,Janus20129,Staron20113,Petersen20101275}\\
+[S13,S21,S18,S4,S25,S14,S26,S20]\\
 \hline
 \end{tabular}
 \end{table}
@@ -619,20 +650,20 @@ Many metrics were used to support iteration planning. The metrics were used
 for task prioritization and scoping of the iteration.
 
 Many metrics were focused to help in the prioritization of the tasks for the
-next iteration \cite{Greening2010,Haugen200623,Hodgkins2007194}.
+next iteration [S8,S9,S11].
 Prioritization of features was affected by a metric that measured the amount
-of revenue a customer is willing to pay for a feature \cite{Hodgkins2007194}.
+of revenue a customer is willing to pay for a feature [S11].
 
 Effort estimation metrics were used to measure the size of the features
-\cite{Elssamadisy2002617}.
+[S6].
 Furthermore, velocity metrics were used to calculate how many features is the
-team able to complete in an iteration \cite{Polk2011263}. Knowing the teams'
+team able to complete in an iteration [S23]. Knowing the teams'
 effective available hours was found useful when selecting tasks for an
-iteration \cite{Cheng200929}.
+iteration [S3].
 Velocity metrics were also used to improve the next iteration estimates
-\cite{Mahnic201273}.
+[S16].
 In one case, task's start and end date metric was used to point out
-interdependent tasks in the planning phase \cite{Hong2010310}.
+interdependent tasks in the planning phase [S12].
 
 
 \subsection{Iteration tracking} %completion}
@@ -646,44 +677,46 @@ plan to complete the iteration according to schedule.
 Metrics helped in monitoring, identifying problems, and predicting the end
 result by making it transparent to the stakeholders how the iteration is
 progressing.
-\cite{Petersen2011975,Talby2006100,Mahnic201273,Dubinsky200512,Hong2010310,Green2011,Trapa2006243,Trimble20134826}.
+[S21,S27,S16,S5,S12,S7,S29,S30].
 
-Progress metrics included number of completed web pages \cite{Hong2010310},
-story completion percentage \cite{Trapa2006243} and velocity metrics
-\cite{Dubinsky200512}.
+Progress metrics included number of completed web pages [S12],
+story completion percentage [S29] and velocity metrics
+[S5].
 %\juha{velocity metriikan k‰ytt‰minen etenemisenseurantaan on
 %ep‰agiilia->ongelmia - t‰st‰ asiaa discussioniin} \eetu{lis‰tty}
 However, using velocity metrics had also negative effects such as cutting corners in
 implementing features to maintain velocity with the cost of quality
-\cite{Elssamadisy2002617}. One qualitative progress metric was product
-demonstrations with customer \cite{Trimble20134826}. Measuring the completion
+[S6]. One qualitative progress metric was product
+demonstrations with customer [S30]. Measuring the completion
 of tasks enabled selecting incomplete tasks to the next iteration
-\cite{Hong2010310}.
+[S12].
 
 %Risk management was also mentioned often, for example a metric was added
-%where it seemed valuable in decreasing a risk \cite{Dubinsky200512},  
-%\cite{Talby2006100}\cite{Trapa2006243}\cite{Dubinsky200512}\cite{Talby200940}.
+%where it seemed valuable in decreasing a risk \cite{S5},  
+%\cite{S27}\cite{S29}\cite{S5}\cite{S28}.
 
 When the metrics indicated, during an iteration, that all planned tasks could
 not be completed, the iteration was rescoped by cutting tasks
-\cite{Mahnic201273,Dubinsky200512,Middleton2007387} or adding extra resources
-\cite{Dubinsky200512,Middleton2007387}.
+[S16,S5,S17] or adding extra resources
+[S5,S17].
 
  % Almost anyone could walk into a team's room and with a quick glance
  % understand what is the status of the iteration.
-When there were problems that needed to be fixed, whether they were short or long term, the metrics helped in making decisions to fix them
-\cite{Staron20101069,Dubinsky200512,Petersen2011975,LNBIP01490121}.
+When there were problems that needed to be fixed, whether they were short or
+long term, the metrics helped in making decisions to fix them
+[S25,S5,S21,S4].
 It was possible to base decisions on data, not only use common sense and
-experience \cite{Talby200940}. Balance of work flow was mentioned as a reason
+experience [S28]. Balance of work flow was mentioned as a reason
 for using metrics in multiple papers
-\cite{Polk2011263,Petersen2010654,Petersen20101275,Greening2010,Petersen2011975,Dubinsky200512,Jakobsen2011168}.
-%Crosstraining people to work on multiple disciplines was used to balance the
-%work flow\cite{Middleton2007387}\cite{Talby200940}.  - T‰m‰ j‰i aika irralliseksi
-Progress metrics were used to focus work on tasks that matter the most \cite{Talby200940}, avoid partially done work \cite{Seikola2011321}, avoid task switching \cite{Seikola2011321}
-and polishing of features \cite{Talby200940}. 
-\juha{ep‰agiili k‰yt‰ntˆ, kerro lis‰‰} \eetu{En n‰e mit‰‰n ep‰agiilia
-t‰ss‰.} Finally, open defects metric was used to delay a release
-\cite{Hodgetts2004106}.
+[S23,S19,S20,S8,S21,S5,S13].
+% Crosstraining people to work on multiple disciplines was used to balance the
+% work flow\cite{S17}\cite{S28}.  - T‰m‰ j‰i aika
+% irralliseksi
+Progress metrics were used to focus work on tasks that matter the most
+[S28], avoid partially done work [S24], avoid
+task switching [S24] and polishing of features
+[S28].Finally, open defects metric was used to delay a release
+[S10].
 
 %\subsubsection{Project progress}
 %While iteration completion is important - so is the whole project's completion.
@@ -699,20 +732,20 @@ improvement of working practices and performance.
 
 Metrics were used to communicate different data about the project or product
 to the team members
-\cite{Trapa2006243,Talby200940,Polk2011263,Staron20101069,Talby2006100}.
+[S29,S28,S23,S25,S27].
 Measurement data motivated teams to act and improve their
-performance\cite{Talby200940,Polk2011263,Cheng200929,LNBIP01490121,Jakobsen2011168}.
+performance [S28,S23,S3,S4,S13].
 Some examples included fixing the build faster by visualizing build status
-\cite{Jakobsen2011168,LNBIP01490121}, fixing bugs faster by showing amount of
-defects in monitors \cite{Cheng200929} and increasing testing by measuring
+[S13,S4], fixing bugs faster by showing amount of
+defects in monitors [S3] and increasing testing by measuring
 product size by automated tests that motivated team to write more tests
-\cite{Talby200940}.
+[S28].
 
 Metrics were also used to prevent harmful behaviour such as cherry picking
 features that are most interesting to the team. Measuring
 work in progress (WIP) and setting WIP limits prevented cherry picking by
 enforcing only two features at a time and thus preventing them from working on
-lower priority but more interesting features.\cite{Middleton2007387}
+lower priority but more interesting features.[S17]
 
 \subsection{Identifying process problems}
 \label{sec:ProblemIdentification}
@@ -721,22 +754,22 @@ flows. This chapter describes how metrics were used to spot problems.
 
 There were multiple cases highlighting how metrics are used to identify or
 predict problems in order to solve or avoid them
-\cite{Petersen2011975,Trapa2006243,Mahnic201273,Petersen2010654,Mujtaba2010139,Tudor2006367}.
+[S21,S29,S16,S19,S18,S31].
 
 Sometimes there were work phases where no value was added, e.g.,
 ``waiting for finalization''. This type of activity was called waste and was
-identified by using lead time. \cite{Petersen2012108}
+identified by using lead time. [S22]
 
 % \juha{T‰m‰ mittari ei ole selke‰, t‰ytyy avata hieman enemm‰n mik‰ se on}
 % \eetu{Avattu nyt hieman lis‰‰.}
 Story implementation flow metric describes how efficiently a developer has
 been able to complete a story compared to the estimate. This metric helped to
 identify a problem with receiving customer requirement clarifications.
-\cite{Jakobsen2011168}
+[S13]
 
 Creating awareness with defect trend indicator helped to take actions to avoid
-problems \cite{Staron20101069}. One common solution to problems was to find
-the root cause \cite{Jakobsen2011168,Middleton2007387}.
+problems [S25]. One common solution to problems was to find
+the root cause [S13,S17].
 
 \subsection{Pre-release quality}
 \label{sec:PreQuality}
@@ -745,19 +778,20 @@ reaching customers and to understand what was the current quality of the
 product.
 
 Integration fails was a problem to avoid with static code check metrics
-\cite{Janus20129}. Moreover, metrics were used to make sure that the product
+[S14]. Moreover, metrics were used to make sure that the product
 is sufficiently tested before the next step in the release path
-\cite{Janus20129}\cite{Dubinsky200512}. Additionally, making sure that the
-product is ready for further development was mentioned \cite{Green2011}.
+[S14,S5]. Additionally, making sure that the
+product is ready for further development was mentioned [S7].
 
 %\juha{T‰m‰ ei oikeastaan sano mit‰‰n, oliko tuossa joku selke‰mpi ajatus,
 %jotain muuta kuin nuo mainitut staattiset mittarit ja testikattavuus?}Also,
 %using metrics to improve pre-release quality was a goal in one case
-%\cite{Janus20129}.
+%\cite{S14}.
 
-Some metrics forced writing tests before the actual code \cite{Trapa2006243}.
+Some metrics forced writing tests before the actual code [S29].
 Technical debt was measured with a technical debt board that was used to
-facilitate discussion on technical debt issues \cite{LNBIP01490121}.
+facilitate discussion on technical debt issues, see \cref{fig:debtBoard}
+[S4].
 
 \begin{figure}
 	\includegraphics{images/DebtBoard}
@@ -775,16 +809,16 @@ product after it has been released.
 Customer satisfaction, customer responsiveness, and quality indicators were
 seen as attributes of post-release quality. Some metrics included customer
 input to determine post-release quality
-\cite{Petersen2010654,Green2011,Cheng200929} while other metrics
+[S19,S7,S3] while other metrics
 used pre-release data as predictors of post-release quality
-\cite{Staron20101069,Petersen2010654,Green2011}. Customer related
-metrics included, e.g., defects sent by customers\cite{Cheng200929},
-change requests from customers \cite{Petersen2010654} and customer's
+[S25,S19,S7]. Customer related
+metrics included, e.g., defects sent by customers [S3],
+change requests from customers [S19] and customer's
 willingness to recommend product to other potential customers
-\cite{Green2011}.
-Quality prediction metrics included defect counts \cite{Petersen2010654},
-maintenance effort \cite{Staron20101069} and deferred defect counts
-\cite{Green2011}.
+[S7].
+Quality prediction metrics included defect counts [S19],
+maintenance effort [S25] and deferred defect counts
+[S7].
 
 \subsection{Changes in processes or tools}
 \label{sec:ChangesInProcesses}
@@ -792,37 +826,38 @@ This chapter describes the reported changes that applying metrics had for proces
 
 The successful usage of sprint readiness metric and story flow metric changed
 company policy to have target values for both metrics as well as monthly
-reporting of both metrics by all projects \cite{Jakobsen2011168}.
+reporting of both metrics by all projects [S13].
 
 At Ericsson by monitoring the flow of requirements metric they decided to
 change their implementation flow from push to pull to help them deliver in a
 more continuous manner. Also, based on the metric they added an intermediate
-release version to have release quality earlier in the development cycle.\cite{Petersen20101275}
+release version to have release quality earlier in the development cycle.
+[S20]
 
 Changes to requirements management were also made based on lead time in other
 case at Ericsson. Analysing lead time contributed to delaying technical design
 after purchase order was received, providing customer a rough estimate quickly
 and merging the step to create solution proposal and technical design.
-\cite{Mujtaba2010139}
+[S18]
 
 Problem with broken build, and the long times to fix the build, led to
 measurements that monitor and visualize the state of the build and the time it
-takes to fix it \cite{LNBIP01490121,Jakobsen2011168,Janus20129}.
+takes to fix it [S4,S13,S14].
 
 Also, additional code style rules were added to code check-in and build tools
 so that builds would fail more often and defects would get caught before
-release \cite{Jakobsen2011168,Janus20129}. 
+release [S13,S14]. 
 
 Similarly, testing approaches were changed based on flow metrics. Using lead
 time led to that integration testing could be started parallel to system
-testing \cite{Mujtaba2010139}. Also, throughput of a test process showed
+testing [S18]. Also, throughput of a test process showed
 insufficient capability to handle the incoming features, which led to changing
-the test approach \cite{Staron20113}.
+the test approach [S26].
 
 \begin{figure}
 	\includegraphics{images/HandoverPet2011}
 	\centering
-	\caption{Handovers}
+	\caption{Handovers [21]}
 	\label{fig:handOvers}
 \end{figure}
 
@@ -833,45 +868,40 @@ Metrics are listed by primary study in appendix, see \cref{tab:Metrics}.
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Add caption}
-    \begin{tabular}{p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}rrr}
+  \caption{Metrics categorized by causes for failures}
+    \begin{tabular}{p{2cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}}
     \toprule
-          & \textbf{My categories} &       &       &       &       &       &       &       &  \\
+    \textbf{Causes for failures} & \textbf{My categories} &       &       &       &       &       &       &  \\
     \midrule
-          & Iteration planning & Iteration tracking & Motivating and improving & Identifying process problems & Pre-release quality & Post-release quality & Changes in processes or tools & CannotSayMyCategory & Total \\
-    \textbf{Causes for failures} &       &       &       &       &       &       &       &       &  \\
-          &       &       &       &       &       &       &       &       &  \\
-    People  &       &       &       &       &       &       &       &       &  \\
-    Instructions \& Experience & 1     & 0     & 0     & 1     & 0     & 0     &       & 0     & 2 \\
-    Values \& responsibilities & 0     & 0     & 2     & 2     & 3     & 0     &       & 0     & 7 \\
-    Cooperation & 1     & 0     & 0     & 0     & 0     & 0     &       & 0     & 1 \\
-    Company Policies & 0     & 0     & 3     & 0     & 0     & 0     &       & 0     & 3 \\
-          &       &       &       &       &       &       &       &       &  \\
-    Tasks &       &       &       &       &       &       &       &       &  \\
-    Task Output & 1     & 0     & 0     & 2     & 4     & 0     &       & 0     & 7 \\
-    Task Difficulty & 0     & 0     & 0     & 1     & 0     & 0     &       & 0     & 1 \\
-    Task Priority & 5     & 1     & 0     & 0     & 0     & 0     &       & 0     & 6 \\
-          &       &       &       &       &       &       &       &       &  \\
-    Methods &       &       &       &       &       &       &       &       &  \\
-    Work Practices & 0     & 0     & 0     & 7     & 2     & 0     &       & 0     & 9 \\
-    Process & 0     & 1     & 1     & 9     & 0     & 0     &       & 0     & 11 \\
-    Monitoring & 0     & 10    & 0     & 1     & 4     & 0     &       & 0     & 15 \\
-          &       &       &       &       &       &       &       &       &  \\
-    Environment &       &       &       &       &       &       &       &       &  \\
-    Existing Product & 0     & 0     & 0     & 0     & 6     & 0     &       & 0     & 6 \\
-    Resources \& Schedules & 11    & 3     & 0     & 0     & 0     & 0     &       & 0     & 14 \\
-    Tools & 0     & 0     & 0     & 0     & 0     & 0     &       & 0     & 0 \\
-    Customers \& Users & 0     & 1     & 0     & 0     & 0     & 8     &       & 0     & 9 \\
-          &       &       &       &       &       &       &       &       &  \\
-    CannotSayCauseCategory & 0     & 2     & 0     & 0     & 0     & 0     &       & 15    & 17 \\
-          &       &       &       &       &       &       &       &       &  \\
-    Total & 19    & 18    & 6     & 23    & 19    & 8     &       & 15    & 108 \\
-          &       &       &       &       &       &       &       &       &  \\
-    \textbf{Type of metric} &       &       &       &       &       &       &       &       &  \\
-    Reactive & 19    & 15    & 4     & 2     & 12    & 1     &       & 0     & 53 \\
-    Proactive & 0     & 3     & 2     & 18    & 3     & 6     &       & 1     & 33 \\
-    CannotSay & 0     & 0     & 0     & 3     & 4     & 1     &       & 14    & 22 \\
-    Total & 19    & 18    & 6     & 23    & 19    & 8     &       & 15    & 108 \\
+          & Iteration planning & Iteration tracking & Motivating and improving & Identifying process problems & Pre-release quality & Post-release quality & CannotSayMyCategory & Total \\
+    People  &       &       &       &       &       &       &       &  \\
+    Instructions \& Experience & 1     & 0     & 0     & 1     & 0     & 0     & 0     & 2 \\
+    Values \& responsibilities & 0     & 0     & 2     & 2     & 3     & 0     & 0     & 7 \\
+    Cooperation & 1     & 0     & 0     & 0     & 0     & 0     & 0     & 1 \\
+    Company Policies & 0     & 0     & 3     & 0     & 0     & 0     & 0     & 3 \\
+    Tasks &       &       &       &       &       &       &       &  \\
+    Task Output & 1     & 0     & 0     & 2     & 4     & 0     & 0     & 7 \\
+    Task Difficulty & 0     & 0     & 0     & 1     & 0     & 0     & 0     & 1 \\
+    Task Priority & 5     & 1     & 0     & 0     & 0     & 0     & 0     & 6 \\
+          &       &       &       &       &       &       &       &  \\
+    Methods &       &       &       &       &       &       &       &  \\
+    Work Practices & 0     & 0     & 0     & 7     & 2     & 0     & 0     & 9 \\
+    Process & 0     & 1     & 1     & 8     & 0     & 0     & 0     & 10 \\
+    Monitoring & 0     & 10    & 0     & 1     & 4     & 0     & 0     & 15 \\
+    Environment &       &       &       &       &       &       &       &  \\
+    Existing Product & 0     & 0     & 0     & 0     & 6     & 0     & 0     & 6 \\
+    Resources \& Schedules & 11    & 3     & 0     & 0     & 0     & 0     & 0     & 14 \\
+    Tools & 0     & 0     & 0     & 0     & 0     & 0     & 0     & 0 \\
+    Customers \& Users & 0     & 1     & 0     & 0     & 0     & 7     & 0     & 8 \\
+    Cannot Say Cause Category & 0     & 2     & 0     & 0     & 0     & 0     & 15    & 17 \\
+          &       &       &       &       &       &       &       &  \\
+    Total & 19    & 18    & 6     & 22    & 19    & 7     & 15    & 106 \\
+          &       &       &       &       &       &       &       &  \\
+    \textbf{Type of metric} &       &       &       &       &       &       &       &  \\
+    Reactive & 19    & 15    & 4     & 2     & 12    & 1     & 0     & 53 \\
+    Proactive & 0     & 3     & 2     & 17    & 3     & 5     & 1     & 31 \\
+    CannotSay & 0     & 0     & 0     & 3     & 4     & 1     & 14    & 22 \\
+    Total & 19    & 18    & 6     & 22    & 19    & 7     & 15    & 106 \\
     \bottomrule
     \end{tabular}%
   \label{tab:addlabel}%
@@ -912,7 +942,7 @@ People or Tasks.
 This section describes metrics that were considered important.
 
 Progress as working code was considered as one of the cornerstones of agile
-[Trimble20134826].
+[S30].
 
 \begin{comment}
 Capacity as number of features developed in release was considered better than
@@ -925,66 +955,65 @@ key metrics for monitoring projects. Also, a minimum 60\% value for flow was
 identified. Similarly, velocity for elaborating features should be as fast as
 velocity of implementing features. Also, they said using both metrics
 \emph{``drive behaviors to let teams go twice as fast as they could before''}.
-[Jakobsen2011168]
+[S13]
 
 Net Promoter Score was said to be \emph{``one of the purest measures of
-success''} [Green2011].
+success''} [S7].
 
-According to a survey projects that were said to be definitely successful
+According to a survey, projects that were said to be definitely successful
 77\% measured customer satisfaction often or always. Also, the more often
 customer satisfaction would be measured the more likely it would be that the
-project would have good code quality and the project would succeed. [Abbas]
+project would have good code quality and the project would succeed. [S1]
 
 Story percent complete metric was considered valuable since it embraces test
 driven development - no progress is made before test is written. Also, percent
-complete metric is considered more accurate than previous metric. Moreover, it
-gives normalized measure of progress compared to developer comments about
-progress. Additionally, story percent complete metric leverages existing unit
-testing framework and thus requires only minimal overhead to track progress.
-Team members seemed to be extremely happy about using the metric.
-[Trapa2006243]
+complete metric is considered more accurate than previously used metric.
+Moreover, it gives normalized measure of progress compared to developer
+comments about progress. Additionally, story percent complete metric leverages
+existing unit testing framework and thus requires only minimal overhead to
+track progress. Team members seemed to be extremely happy about using the
+metric. [S29]
 
-Pseudo-velocity was considered essential for release planning [Polk2011263].
+Pseudo-velocity was considered essential for release planning [S23].
 
-In an agile survey [Abbas] project success had significant positive
-relationship with team velocity, business value delivered, running testing
-features, defect count after testing and number of test cases. \fixme{T‰ss‰
-nyt puhutaan kuitenkin mittareista mist‰ ei juurikaan muuta sanota kuin nimi}
-
+In an agile survey [S1], project success had significant positive
+relationship with the following metrics: team velocity, business value
+delivered, running testing features, defect count after testing and number of test cases.
+However, there were no detailed descriptions of these metrics. 
 
 Effort estimates were consider important in release planning especially in
-terms of prioritization [Haugen].
+terms of prioritization [S9].
 
-Burndown was valuable in meeting sprint commitments [Green2011].
+Burndown was valuable in meeting sprint commitments [S7].
 Similary, managers said burndown was important in making decisions and
-managing multiple teams [Dubinsky200512]. However, developers didn't
-consider burndown important [Dubinsky200512].
+managing multiple teams [S5]. However, developers didn't
+consider burndown important [S5].
 
-Top teams at Adobe estimated backlog items with relative effort estimates
-[Green2011].
+Top performing teams at Adobe estimated backlog items with relative effort
+estimates [S7].
 
 Practitioners at Ericsson valued transparency and overview of progress that
 the metrics were able to provide to the complex product development with
 parallel activities, namely cost types, rate of requirements over phases and
-variance in handovers [Petersen2011975].
+variance in handovers [S21].
 
 At another case at Ericsson Value Stream Maps (VSM) were used to visualize
 problem areas and possible improvements. Practitioners valued how the maps
 were easy to understand. Metrics that were used to build VSM were lead time,
-processing time and queue time. [Mujtaba2010139]
+processing time and queue time. [S18]
 
 Defects deferred was seen as a good predictor of post-release quality because
-it correlated with issues found by the customers [Green2011].
+it correlated with issues found by the customers [S7].
 
 Defect prediction metrics predicted number of defects in backlog and defect
 trend indicator were seen important to decision making, and their use
 continued after the pilot period. Key attributes of the metrics were
-sufficient accuracy and ease of use. [Staron20113]
+sufficient accuracy and ease of use. [S26]
 
 Technical debt board that visualized the status of technical debt in
 categories was considered important because it gave a high level understanding
-of the problems and it was used to plan actions to remove technical debt. It
-was proven to be useful in their context. [LNBIP01490121]
+of the problems and it was then used to plan actions to remove technical debt.
+It was proven to be useful in their context. [S4]
 
 The following metrics were consider very useful in agile context: number of
 unit tests, test coverage, test-growth ratio and broken builds. The benefit
@@ -992,7 +1021,13 @@ for the number of unit tests is not well described except that it provides
 \emph{``first insights''}. Test coverage provides info on how well the code is
 tested. Test-growth ratio is useful in projects where old codebase is used as
 basis for new features. Fixing broken builds prevents defects reaching
-customers. [Janus20129]
+customers. [S14]
+
+\subsection{Important metrics based on NOT importanceToMetric data}
+
+Effort estimation metrics were used in many cases, so it could be perhaps said
+they are important since they provide scoping and prioritization.
+
 
 
 
@@ -1000,10 +1035,10 @@ customers. [Janus20129]
 \label{sec:Discussion}
 
 \section{Implications for practice}
-To provide implications to practice we map our findings to the principles of
-agile software development \cite{beck2001agile} categorized by Patel \& al.
-\cite{1579312}. For each paragraph we use the naming by Patel et al. and
-provide references to the agile practices by numbers.
+To provide implications to practice the findings are mapped to the principles
+of agile software development \citetsrc{beck2001agile} categorized by Patel \&
+al. \citetsrc{1579312}. For each paragraph the naming by Patel et al. is used
+and references to the agile practices is provided by numbers.
 
 Communication and Collaboration (principles 4 and 6) was reflected in metrics
 that motivated a team to act and improve, see \cref{sec:Motivate}. Also,
@@ -1021,9 +1056,9 @@ to change processes, see \cref{sec:ProblemIdentification} and
 
 Frequent delivery of working software (1,3,7) was directly identified in one
 paper, where the team measured progress by demonstrating the product to the
-customer \cite{Trimble20134826}. Additionally, there were cases where e.g.
-completed web-pages \cite{Hong2010310} were the primary progress measure. Also, many metrics focused on progress tracking and timely completion
-of the iteration, see \cref{sec:IterationTracking}. However, some other
+customer [S30]. Additionally, there were cases where e.g.
+completed web-pages [S12] were the primary progress measure. Also, many
+metrics focused on progress tracking and timely completion of the iteration, see \cref{sec:IterationTracking}. However, some other
 measures from \cref{sec:IterationTracking} show that instead of working code
 agile teams followed completed tasks and velocity metrics. 
 
@@ -1061,7 +1096,7 @@ work.
 Agile principle \#1: ``Our highest priority is to satisfy the customer through
 early and continuous delivery of valuable software.'' was seen in the team
 measuring progress by demonstrating the product to the customer
-\cite{Trimble20134826}.
+\cite{S30}.
 
 Agile principle \#2: ``Welcome changing requirements, even late in
 development. Agile processes harness change for the customer's competitive
@@ -1088,7 +1123,7 @@ was reflected in metrics that motivated team to act and improve, see
 
 Agile principle \#6:``The most efficient and effective method of 
 conveying information to and within a development 
-team is face-to-face conversation.'' was seen in \cite{LNBIP01490121} where
+team is face-to-face conversation.'' was seen in \cite{S4} where
 a technical debt board measuring the level of technical debt was used to
 facilitate face-to-face discussion on technical debt issues, see
 \ref{sec:PreQuality}. 
@@ -1096,7 +1131,7 @@ facilitate face-to-face discussion on technical debt issues, see
 Agile principle \#7:``Working software is the primary measure of progress'' 
 was directly identified in one paper, where the team measured progress by
 demonstrating the product to the customer. Additionally, there were cases
-where for example completed web-pages \cite{Hong2010310} were the primary
+where for example completed web-pages \cite{S12} were the primary
 progress measure. However, some other measures from \cref{sec:IterationTracking} show that instead of working code agile teams followed completed tasks and velocity metrics.
 
 Agile principle \#8:``Agile processes promote sustainable development. The
@@ -1142,14 +1177,14 @@ processes, see \cref{sec:ProblemIdentification} and
 
 There were also metrics, or their usage, which were not agile in nature. E.g.,
 maintaining velocity by cutting corners in quality instead of dropping
-features from that iteration \cite{Elssamadisy2002617}. Also, adding people to
-project to reach a certain date \cite{Dubinsky200512, Middleton2007387} doesn't seem that
+features from that iteration [S6]. Also, adding people to
+project to reach a certain date [S5, S17] doesn't seem that
 agile compared to removing tasks. Adding people can have a negative impact to
 progress, considering the lack of knowledge and training time required.
 Moreover, the use of dates to plan interdependent tasks is not agile in
-nature \cite{Hong2010310}. Instead, interdependencies should be visible in
+nature [S12]. Instead, interdependencies should be visible in
 choosing the tasks to appropriate iterations. Also, the use of number of
-defects to delay a release \cite{Hodgetts2004106} is against agile thinking
+defects to delay a release [S10] is against agile thinking
 as one should rather decrease the scope to avoid such a situation.
 
 %While the flow metrics Ericsson have a good target of balancing workflow,
@@ -1164,8 +1199,8 @@ as one should rather decrease the scope to avoid such a situation.
 % measured the status of the build to make developers fix the build faster -
 % again, not trusting them to do it on their own.
 Some agile metrics that work well for an agile team, such as tracking progress
-by automated tests \cite{Talby200940}, or measuring the status of the build
-\cite{Janus20129} can turn against the agile principles if used as an external
+by automated tests [S28], or measuring the status of the build
+[S14] can turn against the agile principles if used as an external
 controlling mechanism. The fifth agile principle requires trust in the team,
 but if the metrics are enforced outside of the team, e.g., from upper
 management there is a risk that the metrics turn into control mechanisms and
@@ -1173,7 +1208,7 @@ the benefits for the team itself suffer.
 
 %\subsection{Implications for research}
 %It was interesting to notice that there wasn't many code metrics, only the
-%ones mentioned in \cite{Janus20129} even though we feel there are many
+%ones mentioned in \cite{S14} even though we feel there are many
 %% studies regarding the benefits of code metrics. Maybe there are some
 % practical
 %problems implementing and analysing the data from code metrics?
@@ -1190,18 +1225,17 @@ the benefits for the team itself suffer.
 
 \subsection{Comparison to prior studies}
 Only few papers have broadly studied the reasons for software metrics use in
-the context of agile software development. Hartmann \& Dymond \cite{1667571}
-also highlight process improvement as one of the reasons for measurement in
-their agile metrics paper. Also, they emphasize that creation of value should
-be the primary measure of progress - which was also seen in our study.
+the context of agile software development. \citetsrc{1667571} also highlight process improvement as one of the reasons
+for measurement in their agile metrics paper. Also, they emphasize that creation of value should
+be the primary measure of progress - which was also seen in this study.
 
-Korhonen \cite{Korhonen2009} found in her study that traditional defect
+\citetsrc{Korhonen2009} found in her study that traditional defect
 metrics could be reused in agile context - if modified. Defect metrics were
 also used in many of the primary studies.
 
-Kitchenham's mapping study \cite{kitchenham_whats_2010} identified several
-code metrics in academic literature. However, in our study we found almost no
-evidence of code metric use in the industrial context.   Maybe it is time to
+Kitchenham's mapping study \citepsrc{kitchenham_whats_2010} identified several
+code metrics in academic literature. However, in this study almost no evidence
+of code metric use in the industrial context was found. Maybe it is time to
 re-evaluate the need for code metrics research if industry doesn't seem to use
 them.
 
@@ -1211,7 +1245,7 @@ them.
 
 %The lone case in our study where code metrics were used, the code
 %metric usage was abstracted to a build tool, which would just indicate an
-%error or broken build \cite{Janus20129}. Maybe the use of code metrics should
+%error or broken build \cite{S14}. Maybe the use of code metrics should
 %be heavily implemented through automated tools that handle the collection and
 %analysing of code metric data?
 
@@ -1240,9 +1274,9 @@ Due to iterative nature of the coding process, it was challenging to make sure
 that all previously coded primary documents would get the same treatment,
 whenever new codes were discovered. In addition, the researcher's coding
 ``sense'' developed over time, so it is possible that data extraction accuracy
-improved during the analysis. In order to mitigate these risks we conducted a
-pilot study in order to improve the coding scheme, get familiar with the
-research method, refine the method and tools.
+improved during the analysis. In order to mitigate these risks a pilot study
+was conducted to improve the coding scheme, get familiar with the research
+method, refine the method and tools.
 
 %First author has positive mindset towards agile methods, as well as towards
 %certain metrics over others.
@@ -1258,7 +1292,8 @@ industrial agile software development. This study classifies and describes the
 main measurement types and areas that are reported in empirical studies. This
 study provides descriptions of how and why metrics are used to support agile
 software development.\fixme{lis‰‰ important metrics ja metrics categories}
-This study also analyzed how the presented metrics support the twelve principles of Agile Manifesto \cite{beck2001agile}.	
+This study also analyzed how the presented metrics support the twelve
+principles of Agile Manifesto \citepsrc{beck2001agile}.
 
 The results indicate that the reasons and use of metrics is focused on the
 following areas:
