@@ -155,6 +155,7 @@
 
 
 \usepackage{graphicx}
+\usepackage{longtable}
 \usepackage{supertabular,array}  % useampisivuinen taulukko
 
 %\bibliographystylepri{plainnat}
@@ -164,7 +165,7 @@
 % \usepackage{alltt}
 
 % The eurosym package provides a euro symbol. Use with \euro{}
-\usepackage{eurosym} 
+\usepackage{eurosym}
 
 % Verbatim provides a standard teletype environment that renderes
 % the text exactly as written in the tex file. Useful for code
@@ -294,14 +295,16 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place). 
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{Agile metrics:}
-\newcommand{\FTITLE}{Ketterät mittarit:}
+\newcommand{\TITLE}{What metrics are agile industrial teams using, why and
+how?}
+\newcommand{\FTITLE}{Mitä mittareita ketterät tiimit teollisuudessa käyttävät,
+miksi ja miten?}
 %\newcommand{\STITLE}{Den stora stygga vargen:}
-\newcommand{\SUBTITLE}{Why and how}
-\newcommand{\FSUBTITLE}{Miksi ja miten}
+\newcommand{\SUBTITLE}{A systematic literature review}
+\newcommand{\FSUBTITLE}{Systemaattinen kirjallisuuskatsaus}
 %\newcommand{\SSUBTITLE}{Lilla Vargens universum}
-\newcommand{\DATE}{June 18, 2011}
-\newcommand{\FDATE}{18. kesäkuuta 2011}
+\newcommand{\DATE}{Fix me June 18, 2011}
+\newcommand{\FDATE}{Fix me 18. kesäkuuta 2011}
 %\newcommand{\SDATE}{Den 18 Juni 2011}
 
 % Supervisors and instructors
@@ -358,8 +361,10 @@ Tkt Mika Mäntylä}
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
 \newcommand{\PROFCODE}{T3003}
-\newcommand{\KEYWORDS}{agile, metrics}
-\newcommand{\FKEYWORDS}{ketterä, mittarit}
+\newcommand{\KEYWORDS}{agile, metrics, measurement, systematic literature
+review}
+\newcommand{\FKEYWORDS}{ketterä, mittarit, mittaus, systemaattinen
+kirjallisuuskatsaus}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
 \newcommand{\LANGUAGE}{English}
@@ -522,7 +527,9 @@ ei ollut juuri yhtään.
 % show up in the TOC
 \chapter*{Acknowledgements}
 
-I wish to thank all students who use \LaTeX\ for formatting their theses,
+I want to thank my instructors Juha Itkonen and Mika Mäntylä for their
+invaluable feedback and tireless attitude towards my questions. Also, I want
+to thank Kim Dikert and Timo Lehtinen for relaxing and thoughtful chats. 
 
 \vskip 10mm
 
@@ -590,7 +597,15 @@ I wish to thank all students who use \LaTeX\ for formatting their theses,
 %\bibliography{sources}
 %\bibliographystylesrc{plain}
 
-%\addcontentsline{toc}{chapter}{\refname}  % article
+
+
+% Muutetaan otsikko "Kirjallisuutta" -> "Lähteet"
+%\renewcommand{\refname}{References}  % article-tyyppisen
+%\renewcommand{\bibname}{Lähteet}  % jos olisi book, report-tyyppinen
+
+%\addcontentsline{toc}{Chapter}{\refname}  % article
+%\addcontentsline{toc}{chapter}{\bibname}  % book, report
+
 
 \bibliographysrc{sources}
 

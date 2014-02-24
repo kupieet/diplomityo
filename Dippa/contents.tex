@@ -56,7 +56,8 @@ This study covers the following research questions:
 This thesis is structured as follows. \Cref{sec:Method} describes how
 the SR was conducted. \Cref{sec:Results} reports the results from the study.
 \Cref{sec:Discussion} discusses about the findings and how they map to agile
-principles. \Cref{sec:Conclusions} concludes the paper. \fixme{LALA}
+principles. \Cref{sec:Conclusions} concludes the paper. \fixme{Final
+structure}
 
 \chapter{Background}
 
@@ -75,11 +76,16 @@ development methods include Scrum \citepsrc{schwaber2002agile}, Extreme
 Programming \citepsrc{beck2004extreme} and Kanban
 \citepsrc{anderson2010kanban}.
 
+%\section{Software measurement}
+%Measurements for software industry started from a technical point of view.
+
 \section{Related work}
 
 \citetsrc{1667571} don't provide any specific agile metrics but rather
 describes how agile metrics should be chosen and how they should be introduced
 to the organization. Also, they provide a set of heuristics for agile metrics.
+
+
 \fixme{t‰‰ j‰i v‰h‰n laihaks}
 
 \section{Systematic literature review}
@@ -100,6 +106,7 @@ research \citepsrc{webster2002analyzing}.
 %process by which numbers of symbols are assigned to attributes of entities in
 %the real world in such way as to describe them according to clearly defined
 %rules.''
+
 
 \section{Previous metric research}
 
@@ -860,6 +867,66 @@ the test approach [S26].
 	\caption{Handovers [21]}
 	\label{fig:handOvers}
 \end{figure}
+
+\section{How were metrics used / what actions did they trigger?}
+
+\section{Create improvement ideas}
+This sections describes improvement ideas that were created based on metrics.
+
+When a waste of extra process(requirement would wait for long time before full
+specification) was identified in requirement specification with the help of
+lead time, processing time and queue time metrics, a solution idea was created
+where a quick high level proposal would be sent to customer without the need
+for in-depth specification. Customer could then use the high level proposal to
+evaluate if they want to pursue that requirement further. Similarly, two
+requirement specification phases could be combined when another waste of extra
+process was identified in requirements specification phase. Additionally,
+lead time could be decrease by increasing the collaboration with the market
+unit and the development unit. Similarly, there was a was of waiting in
+design which could be improved by starting real work only when the
+purchase order is received, not when requests are received. [S18]
+
+Same metrics as above were used to identify waste of waiting in testing
+phases. The improvement suggestion was to provide earlier beta version and
+making testing phases parallel. [S18]
+
+Cost types, rate of requirements over phases and variance in handovers were
+used to identify bottlenecks at Ericsson. They noticed that focusing on
+deadlines caused a lot of requirements to be transferred to system test phase
+close to the deadline. The improvement suggestion was to focus more on
+continuous delivery instead of focusing on market driven deadlines.
+Furthermore, Kanban was suggested as a development method to accomplish the
+continuous delivery capabilities. [S21]
+
+Throughput and queue time metrics were used to identify bottleneck in network
+integration test phase which lead to using other testing practices in future
+projects. [S26]
+
+Rate of requirements over time was used to identify problems in the
+development process. One improvement suggestion was to change from push to
+pull-approach so that team can adjust the workload to enable continuous
+delivery. Another improvement suggestion was to add intermediate release
+versions so that integration and testing would happen more often and problems
+could be identified earlier than close to the actual release. [S20]
+
+Citrix online started measuring velocity for their Operations department
+as well. This led to other departments trying to decrease their products' Ops
+story points to enable faster releases. The reduction in story points was
+possible by creating hot deployment strategies and providing better
+documentation. [S8]
+
+Mamdas, an Israel Air force IT department, were using burndown to follow their
+progress. However, when they noticed that work remaining wasn't decreasing
+according to remaining resources they had to make changes. In their iteration
+summary meeting they decided to pursue senior engineers to help them create
+optimal development environments and continuous build systems. Also, they
+decided to evaluate customer requests in more detail to avoid over polishing
+features. [28]
+
+
+
+
+
 
 \section{Metrics \& categorization}
 
