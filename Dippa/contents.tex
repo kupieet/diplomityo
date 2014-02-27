@@ -750,11 +750,6 @@ defects in monitors [S3] and increasing testing by measuring
 product size by automated tests that motivated team to write more tests
 [S28].
 
-Metrics were also used to prevent harmful behaviour such as cherry picking
-features that are most interesting to the team. Measuring
-work in progress (WIP) and setting WIP limits prevented cherry picking by
-enforcing only two features at a time and thus preventing them from working on
-lower priority but more interesting features.[S17]
 
 \subsection{Identifying process problems}
 \label{sec:ProblemIdentification}
@@ -1022,13 +1017,24 @@ Story percent complete metric were generated automatically when tests were run
 and thus kept everyone on the same page and eliminated schedule surprises. The
 metric results were required to be reported periodically as well. [S29]
 
+Technical debt board was used to make technical debt issues visible and easier
+to manage. [S4]
+
+Release burndown made the correlation clear between work remaining and team's
+progress in reducing it. [S16]
+
+Cost types, rate of requirements over phases and variance in handovers were
+used to increase the transparency of end-to-end flow in a complex system.
+[S21]
+
+
 \subsubsection{Report to upper management}
 
-Metrics(burndown, 'pulse', number of written and passed unit tests) were used
-to communicate progress to upper management [S5] and ensure good progress to
+Metrics(burndown, check-ins per day, number of written and passed unit tests)
+were used to communicate progress to upper management [S5] and ensure good progress to
 external observers and ensure that key risks were under control [S28]. 
 
-\subsubsection{iteration goal assuring}
+\subsubsection{Iteration goal assuring}
 
 There was a need for simple indicator that would quickly tell if project is
 under control. Common compo time was used to understand if project was in
@@ -1047,7 +1053,7 @@ Story flow percentage was used so that developer could finish a story in a
 steady flow. [S13]
 
 Burndown was used to mitigate the risk where developers spend too much time
-perfecting features over finishin all tasks of the iteration. [S28]
+perfecting features over finishing all tasks of the iteration. [S28]
 
 \subsubsection{Misc}
 
@@ -1057,6 +1063,9 @@ software solution. Every six weeks they demonstrated their progress to
 customer with working code. [S30]
 
 Component level burndown was used to decide on resource mobility.[S5]
+
+Monitoring and managing risks was the reason for using metrics (burndown,
+check-ins per day and number of written and passed unit tests) [S5,S27,S28].
 
 \subsection{Improve quality, understand level of quality}
 
@@ -1080,11 +1089,54 @@ Broken build was measured to prevent defects reaching production environment.
 Violations of static code analysis was used to prevent the existence of
 critical violations. [S14]
 
+Technical debt board was used to reduce technical debt. [S4]
+
+Build status was used to motivate people to fix the build as fast as possible.
+[S4]
+
+Fix time of failed build was used to motivate people to fix it faster. [S13]
+
+Work in progress was measured so it could be minimized. Otherwise there would
+be problems e.g when there would be lot of untested code. [S17]
+
+Number of change requests from customer was used as indicator customer
+satisfaction. [S19]
+
+Maintenance effort was used as an indicator of overall quality of the release
+product. [S19]
+
+Governance mechanisms, which included a set of metrics (burndown, check-ins
+per day and number of written and passed unit tests), were used to increase
+product quality. [S28]
+
+Check-ins per day was used to prevent people from integrating only late in the
+integration and instead encourage constant integration throughout the
+iteration. [S28]
+
+Critical defects sent by customers were tracked and fixed to prevent losing
+customers. [S3]
+
+Predicted number of defects was used to plan the removal of defects. If the
+removal of defects would not be well planned it could cause delays for the
+release and thus increase costs for the project. [S25]
+
+Net Promoter Score was measured because it was thought to be a pure measure of
+success, since it's measured from the customers. [S7]
+
+Defects found in system test was used to measure the quality of software
+delivered to system test process. [S7]
+
+Defects deferred was used to predict the quality customers would experience.
+[S7]
+
+Number of maintenance requests was used as an indicator of built in quality.
+[S22]
+
+Story percent complete metric supports test driven development. [S29]
 
 
 
-
-\section{What actions did the use of metrics trigger?}
+\section{What kind of effects did the use of metrics have?}
 
 \subsection{Create improvement ideas}
 This sections describes improvement ideas that were created based on metrics.
@@ -1158,7 +1210,25 @@ Root cause analysis was also conducted to decrease the amount of bounce backs.
 
 A team noticed their velocity estimations were inaccurate which led to
 dividing work items into smaller pieces to improve the accuracy of the
-estimates. 
+estimates. [P10]
+
+The reasons for the values of metrics(burndown, check-ins per day, number of
+written and passed unit tests) were discussed in iteration summary meeting
+because it can be hard to analyze metrics without understanding the context
+[S27]. Similarly, number of work items per phase was used to ask development
+unit about the values of the metric and the development unit confirmed that
+people felt overloaded as the metric suggested [S20]. Furthermore, if the
+values of number of work items were outside the control limits one could
+discuss with the developers about the workload. [S22]
+
+After analyzing long fix times for broken builds the team added
+automatic static code analysis checks to code check-in to catch defects
+earlier. [S13]
+
+Quality manager can change coding style guide and code standards based on the
+results of violations to static code analysis metric. [S14]
+
+
 
 \subsection{Planning actions}
 
@@ -1213,9 +1283,54 @@ When amount of written and passed unit tests was not increasing an alarm was
 raised, when the issue was discussed in a reflection meeting they understood
 that too much work was put to a single tester writing the tests and once she
 was doing work for another project no tests were written. The team then
-started to learn to do them on their own as well, and later a decicated tester
+started to learn to do them on their own as well, and later a dedicated tester
 was assigned to write the tests. [S28]
 
+
+\subsection{Motivate people}
+
+Number of defects was shown in monitors in hallways and that motivated
+developers to fix defects. [S3]
+
+Total reported defects and test failure and success rate was also show
+throughout the organization which motivated people to avoid problems and also
+fix problems fast. [S3]
+
+Build status was visible in minutes after commits, which helped to create
+a culture to react with high priority  to broken builds. This helped to keep
+the main branch to be closer to deployable state at all times. [S4]
+
+After meetings where technical debt categories were analyzed, team members
+agreed which categories they would focus in decreasing until the next meeting.
+Also, team members sought help from the architecture team for reducing
+technical debt, e.g by implementing automatic deployment or improving source
+code unit testability. [S4]
+
+Measuring the number of written and passed unit tests changed teams behaviour
+to write more tests. [S5]
+
+Fix time of failed build metric improved people's mindset to react to problems
+immediately. The metric was declared mandatory for all projects. Also, the
+reasons for long fix times are investigated. [S13]
+
+Violations of static code analysis cause developers to immediately fix the
+issue because the violations can cause a broken build status. Additionally,
+developers get faster feedback on their work. Furthermore, developers have
+more confidence in performing major refactorings with the safety net the
+violations of static code analysis metric provides. [S14]
+
+Metrics were also used to prevent harmful behaviour such as cherry picking
+features that are most interesting to the team. Measuring
+work in progress (WIP) and setting WIP limits prevented cherry picking by
+enforcing only two features at a time and thus preventing them from working on
+lower priority but more interesting features. [S17]
+
+Defect trend indicator created crisis awareness and motivated the developers
+to take actions in hopes to avoid possible problems. [S25]
+
+However, using velocity metric had also negative effects such as cutting corners in
+implementing features to maintain velocity with the cost of quality
+[S6].
 
 \section{Metrics \& categorization}
 
