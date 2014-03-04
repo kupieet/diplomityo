@@ -924,7 +924,6 @@ releases [S23]. Lead time was used to understand if all planned corrections
 can be completed before release date [S24]. Story estimates were used to
 understand the iteration where different features will be completed [S29].
 
-
 Other planning uses for metrics were resourcing decisions and development
 flexibility. At Timberline, they broke down requirements into smaller pieces
 that were estimated in effort to understand what skills are needed to complete
@@ -932,194 +931,139 @@ the work [S17]. Marking tasks done and undone made it possible to take undone
 tasks for the next iteration [S12]. Developers would mark expected end date
 for task so the next one can plan their own work as effectively as possible
 thus reducing idle time. Stories and their effort estimates were used as the
-fundamental units of development for the iteration [S6].
+fundamental units of development for the iteration [S6]. Predicted number of
+defects was used to plan the removal of defects. If the removal of defects
+would not be well planned it could cause delays for the release and thus
+increase costs for the project [S25].
 
 \subsection{Progress tracking}
 
+\subsubsection{Project progress}
 
+Metrics were used to monitor the progress of the project. Completed web pages
+was used as a measure of progress [S12]. Number of written and passed unit
+tests was used as a measure of progress in terms of completed work [S5].
+Breaking down tasks to 'kits' between 2 to 5 days enabled progress monitoring
+[S17]. Set of metrics(burndown, check-ins per day, number of written and
+passed unit tests) was developed to manage risks and provide timely progress
+monitoring [S27]. Story percent complete metric was used to give assessment of
+progress [S29]. A team at NASA Ames Reserch center didn't want to spend
+resources on estimating features and instead focused on designing and
+developing their software solution. Every six weeks they demonstrated their
+progress to customer with working code [S30].
+
+Other metrics were used to give higher level understanding of progress.
+Release burndown shows project trends and can be used to predict completion
+date [S16]. Release burndown also reflects addition or removal of stories.
+Cost types, rate of requirements over phases and variance in handovers were
+used to provide overview of progress [S21]. Metrics(burndown, check-ins per
+day, number of written and passed unit tests) were used to communicate
+progress to upper management [S5] and ensure good progress to external
+observers and ensure that key risks were under control [S5,S27,S28].
+
+\subsubsection{Increase visibility}
+
+Metrics were used to make complexity easier to understand and more visible.
+Cost types, rate of requirements over phases and variance in handovers were
+used to increase the transparency of end-to-end flow in a complex system
+[S21]. Technical debt board was used to make technical debt issues visible and
+easier to manage [S4]. Metrics(burndown, check-ins per
+day, number of written and passed unit tests) were used
+to replace individual perception with facts [S27].
+
+Metrics were used to keep the team informed. Defect trend indicator was used
+to monitor defect backlog and spread the information to project members [S25].
+Cycle time metrics were used to let the team track their own performance
+[S23]. Story percent complete metric were generated automatically when tests
+were run and thus kept everyone on the same page and eliminated schedule
+surprises. The metric results were required to be reported periodically as
+well [S29]. Release burndown made the correlation clear between work remaining
+and team's progress in reducing it [S16].
+ 
+\subsubsection{Accomplishing project goals}
+
+Metrics were used to get understanding how the project is going in terms of
+reaching goals. There was a need for simple indicator that would quickly tell
+if project is under control. Common compo time was used to understand if
+project was in target for delivery [S17]. Monitoring WIP was used predict lead
+time which in turn will predict project schedule [S2]. Sprint burndown was
+used to tell the team if they were on track regarding the sprint commitments
+[S7]. Burndown was used to see if the team could meet their goals, and if not
+what could be done [S5]. Story flow percentage was used so that developer
+could finish a story in a steady flow [S13]. Burndown was used to mitigate the
+risk where developers spend too much time perfecting features over finishing
+all tasks of the iteration [S28].
 
 \subsubsection{Balance workflow}
 
-Inventory of requirements over time was used to identify large handovers of
-requirements that would cause overload situations. The aim was to have steady flow of
-requirements. [S20]
+Metrics were used to balance workflow so that people working wouldn't feel
+overloaded. Inventory of requirements over time was used to identify large
+handovers of requirements that would cause overload situations. The aim was to
+have steady flow of requirements [S20]. Operations department was overloaded
+so they decided to start evaluating incoming work with Ops story points to
+level the workload [S8]. People should be respected by having balanced
+workload to avoid overload situations. Measuring number of requirements per
+phase would help noticing peaks [S22]. Timberline tried to pace work according
+to customer demand. However, too much work was pushed to development, which caused many problems, including
+developers feeling overworked. They started using common tempo time to make
+sure there would be balance of workflow [S17]. Component level burndown was
+used to decide on resource mobility [S5].
 
-Variance in handovers was used to guarantee that requirements would flow
-evenly. [S21]
+Metrics were used solve large handovers. Variance in handovers was used to
+guarantee that requirements would flow evenly [S21]. Mamdas was measuring
+check-ins per day metric, which measured how often code is committed to main
+trunk. The point was to avoid people from committing only at the end of the
+iteration and instead integrate early and often [S5]. At WMS Gaming, they had
+problems with large tasks blocking other work, so they set a rule that only
+certain size of tasks(8 story points) can be taken for development [S23].
 
-Operations was overloaded so they decided to start evaluating incoming work
-with Ops story points to level the workload. [S8]
+\subsection{Understand and improve quality}
 
-People should be respected by having balanced workload to avoid overload
-situations. Measuring number of requirements per phase would help noticing
-peaks. [S22]
+\subsubsection{Understand level of quality}
 
-Timberline tried to pace work according to customer demand. However, too much
-work was pushed to development, which caused many problems. They started using
-common tempo time to make sure there would be balance of workflow. [S17]
-
-Mamdas was measuring check-ins per day metric, which measured how often code
-is committed to main trunk. The point was to avoid people from committing only at
-the end of the iteration and instead integrate early and often. [S5]
-
-At WMS Gaming, they had problems with large tasks blocking other work, so they
-set a rule that only certain size of tasks(8 story points) can be taken for
-development. [S23]
-
-\subsubsection{Project progress}
-
-Completed web pages was used as a measure of progress. [S12]
-
-Number of written and passed unit tests was used as a measure of progress in
-terms of completed work. [S5]
-
-Breaking down tasks to 'kits' between 2 to 5 days enabled progress monitoring.
-[S17]
-
-Set of metrics(burndown, 'pulse', number of written and passed unit tests) was
-developed to manage risks and provide timely progress monitoring. [S27]
-
-Story percent complete metric is used to give assessment of progress. [S29]
-
-Release burndown shows project trends and can be used to predict completion
-date. Release burndown also reflects addition or removal of stories. [S16]
-
-Cost types, rate of requirements over phases and variance in handovers were
-used to provide overview of progress. [S21]
-
-\subsubsection{Visibility}
-
-Metrics(burndown, 'pulse', number of written and passed unit tests) were used
-to replace individual perception with facts. [S27]
-
-Defect trend indicator was used to monitor defect backlog and spread the
-information to project members. [S25]
-
-Cycle time metrics were used to let the team track their own performance.
-[S23]
-
-Story percent complete metric were generated automatically when tests were run
-and thus kept everyone on the same page and eliminated schedule surprises. The
-metric results were required to be reported periodically as well. [S29]
-
-Technical debt board was used to make technical debt issues visible and easier
-to manage. [S4]
-
-Release burndown made the correlation clear between work remaining and team's
-progress in reducing it. [S16]
-
-Cost types, rate of requirements over phases and variance in handovers were
-used to increase the transparency of end-to-end flow in a complex system.
-[S21]
-
-
-\subsubsection{Report to upper management}
-
-Metrics(burndown, check-ins per day, number of written and passed unit tests)
-were used to communicate progress to upper management [S5] and ensure good progress to
-external observers and ensure that key risks were under control [S28]. 
-
-\subsubsection{Iteration goal assuring}
-
-There was a need for simple indicator that would quickly tell if project is
-under control. Common compo time was used to understand if project was in
-target for delivery. [S17]
-
-Monitoring WIP was used predict lead time which in turn will predict project
-schedule. [S2]
-
-Sprint burndown was used to tell the team if they were on track regarding the
-sprint commitments. [S7]
-
-Burndown was used to see if the team could meet their goals, and if not what
-could be done. [S5]
-
-Story flow percentage was used so that developer could finish a story in a
-steady flow. [S13]
-
-Burndown was used to mitigate the risk where developers spend too much time
-perfecting features over finishing all tasks of the iteration. [S28]
-
-\subsubsection{Misc}
-
-A team at NASA Ames Reserch center didn't want to spend resources on
-estimating features and instead focused on designing and developing their
-software solution. Every six weeks they demonstrated their progress to
-customer with working code. [S30]
-
-Component level burndown was used to decide on resource mobility.[S5]
-
-Monitoring and managing risks was the reason for using metrics (burndown,
-check-ins per day and number of written and passed unit tests) [S5,S27,S28].
-
-\subsection{Improve quality, understand level of quality}
-
-Faults per iteration were used to measure the product's quality. Using
-number of written and passed unit tests dealt with decreasing the risk
-that the product would be un-thoroughly tested. Similarly, number of written
-and passed unit tests was used to make sure regression tests are ran and
-passed every iteration. [S5]
-
-At T-Systems International, they used a set of metrics(build status, number
-of unit tests, test coverage, test growth ratio, violations of static code
-analysis) to improve project's internal software quality. [S14]
-
-Test coverage was used to evaluate how well was the code tested. However, in
-Brown-field(legacy) projects it's better to measure test-growth-ratio
-since there might be not be that many tests in the existing code base. [S14]
-
-Build status was measured to prevent defects reaching production environment.
-[S14]
-
-Violations of static code analysis was used to prevent the existence of
-critical violations. [S14]
-
-Technical debt board was used to reduce technical debt. [S4]
-
-Build status was used to motivate people to fix the build as fast as possible.
-[S4]
-
-Fix time of failed build was used to motivate people to fix it faster. [S13]
-
-Work in progress was measured so it could be minimized. Otherwise there would
-be problems e.g when there would be lot of untested code. [S17]
-
-Number of change requests from customer was used as indicator customer
-satisfaction. [S19]
-
-Maintenance effort was used as an indicator of overall quality of the release
-product. [S19]
-
-Governance mechanisms, which included a set of metrics (burndown, check-ins
-per day and number of written and passed unit tests), were used to increase
-product quality. [S28]
-
-Check-ins per day was used to prevent people from integrating only late in the
-integration and instead encourage constant integration throughout the
-iteration. [S28]
-
-Critical defects sent by customers were tracked and fixed to prevent losing
-customers. [S3]
-
-Predicted number of defects was used to plan the removal of defects. If the
-removal of defects would not be well planned it could cause delays for the
-release and thus increase costs for the project. [S25]
-
+Metrics were used to understand the level of quality after the release.
 Net Promoter Score was measured because it was thought to be a pure measure of
-success, since it's measured from the customers. [S7]
+success, since it's measured from the customers [S7]. Number of change
+requests from customer was used as indicator customer satisfaction [S19].
+Maintenance effort was used as an indicator of overall quality of the release
+product [S19]. Number of maintenance requests was used as an indicator of
+built in quality [S22].
 
-Defects found in system test was used to measure the quality of software
-delivered to system test process. [S7]
-
-Defects deferred was used to predict the quality customers would experience.
-[S7]
-
-Number of maintenance requests was used as an indicator of built in quality.
-[S22]
-
-Story percent complete metric supports test driven development. [S29]
+Metrics were also used to understand the level of quality before the release.
+Faults per iteration were used to measure the product's quality [S5]. Defects
+found in system test was used to measure the quality of software delivered to
+system test process [S7]. Defects deferred was used to predict the quality
+customers would experience [S7].
 
 
+\subsubsection{Increase quality}
+
+Metrics were used to increase the level of quality. Governance mechanisms,
+which included a set of metrics (burndown, check-ins per day and number of
+written and passed unit tests), were used to increase product quality [S28].
+At T-Systems International, they used a set of metrics(build status, number of
+unit tests, test coverage, test growth ratio, violations of static code
+analysis) to improve project's internal software quality [S14]. Critical
+defects sent by customers were tracked and fixed to prevent losing customers
+[S3]. Build status was measured to prevent defects reaching production
+environment [S14]. Violations of static code analysis was used to prevent the
+existence of critical violations [S14]. Technical debt board was used to
+reduce technical debt [S4].
+
+
+\subsubsection{Ensure level of testing}
+
+Metrics were used to make sure product is tested enough.
+Test coverage was used to evaluate how well was the code tested [S14].
+However, in Brown-field(legacy) projects it's better to measure
+test-growth-ratio since there might be not be that many tests in the existing
+code base. Work in progress was measured so it could be minimized. Otherwise
+there would be problems e.g when there would be lot of untested code [S17].
+Using number of written and passed unit tests dealt with decreasing the risk
+that the product would be un-thoroughly tested [S5]. Similarly, number of
+written and passed unit tests was used to make sure regression tests are ran and
+passed every iteration [S5]. Story percent complete metric supports test
+driven development [S29].
 
 \section{What kind of effects did the use of metrics have?}
 
@@ -1130,72 +1074,69 @@ When a waste of extra process(requirement would wait for long time before full
 specification) was identified in requirement specification with the help of
 lead time, processing time and queue time metrics, a solution idea was created
 where a quick high level proposal would be sent to customer without the need
-for in-depth specification. Customer could then use the high level proposal to
-evaluate if they want to pursue that requirement further. Similarly, two
+for in-depth specification [S18]. Customer could then use the high level
+proposal to evaluate if they want to pursue that requirement further. Similarly, two
 requirement specification phases could be combined when another waste of extra
-process was identified in requirements specification phase. Additionally,
-lead time could be decrease by increasing the collaboration with the market
-unit and the development unit. Similarly, there was a waste of waiting in
-design which could be improved by starting real work only when the
-purchase order is received, not when requests are received. [S18]
+process was identified in requirements specification phase [S18].
+Additionally, lead time could be decrease by increasing the collaboration with the market
+unit and the development unit [S18]. Similarly, there was a waste of waiting
+in design which could be improved by starting real work only when the
+purchase order is received, not when requests are received [S18]. 
 
-Same metrics as above were used to identify waste of waiting in testing
-phases. The improvement suggestion was to provide earlier beta version and
-making testing phases parallel. Many of the improvement ideas came from
+Lead time, processing time and queue time metric were used to identify waste
+of waiting in testing phases [S18]. The improvement suggestion was to provide
+earlier beta version and making testing phases parallel. Many of the improvement ideas came from
 meetings where the value stream maps (VSM) were used as a base for
-discussion. [S18]
+discussion.
 
 Cost types, rate of requirements over phases and variance in handovers were
-used to identify bottlenecks at Ericsson. They noticed that focusing on
+used to identify bottlenecks at Ericsson [S21]. They noticed that focusing on
 deadlines caused a lot of requirements to be transferred to system test phase
 close to the deadline. The improvement suggestion was to focus more on
 continuous delivery instead of focusing on market driven deadlines.
 Furthermore, Kanban was suggested as a development method to accomplish the
-continuous delivery capabilities. [S21]
+continuous delivery capabilities.
 
 Throughput and queue time metrics were used to identify bottleneck in network
 integration test phase which lead to using other testing practices in future
-projects. [S26]
+projects [S26].
 
 Rate of requirements over time was used to identify problems in the
-development process. One improvement suggestion was to change from push to
-pull-approach so that team can adjust the workload to enable continuous
+development process [S20]. One improvement suggestion was to change from push
+to pull-approach so that team can adjust the workload to enable continuous
 delivery. Another improvement suggestion was to add intermediate release
 versions so that integration and testing would happen more often and problems
-could be identified earlier than close to the actual release. [S20]
-
-Similar solution was applied at Timberline inc. where requirements inventory
-was kept low which meant that design, implementation and testing could start
-earlier and problems in requirements would get caught sooner.  [S17] 
+could be identified earlier than close to the actual release. Similar solution
+was applied at Timberline inc. where requirements inventory was kept low which
+meant that design, implementation and testing could start earlier and problems
+in requirements would get caught sooner [S17].
 
 Citrix online started measuring velocity for their Operations department
-as well. This led to other departments trying to decrease their products' Ops
-story points to enable faster releases. The reduction in story points was
+as well [S8]. This led to other departments trying to decrease their products'
+Ops story points to enable faster releases. The reduction in story points was
 possible by creating hot deployment strategies and providing better
-documentation. [S8]
+documentation. 
 
 Mamdas, an Israel Air force IT department, were using burndown to follow their
-progress. However, when they noticed that work remaining wasn't decreasing
-according to remaining resources they had to make changes. In their iteration
+progress [28]. However, when they noticed that work remaining wasn't
+decreasing according to remaining resources they had to make changes. In their iteration
 summary meeting they decided to pursue senior engineers to help them create
 optimal development environments and continuous build systems. Also, they
 decided to evaluate customer requests in more detail to avoid over polishing
-features. [28]
+features. 
 
 When story implementation flow metric showed a drop and project managers
 complained about clarifications about features from customer were late, a root
-cause analysis meeting was held. Also, after starting to use the
+cause analysis meeting was held [S13]. Also, after starting to use the
 implementation flow metric new policies were stated to keep the flow
 high: percentage of stories ready for sprint must be 100\% and implementation
 flow must be at least 60\%, and both of the metrics need to be reported
-montly. [S13]
-
-Root cause analysis was also conducted to decrease the amount of bounce backs.
-[S17]
+montly. Root cause analysis was also conducted to decrease the amount of
+bounce backs at Timberline inc. [S17].
 
 A team noticed their velocity estimations were inaccurate which led to
 dividing work items into smaller pieces to improve the accuracy of the
-estimates. [P10]
+estimates [P10].
 
 The reasons for the values of metrics(burndown, check-ins per day, number of
 written and passed unit tests) were discussed in iteration summary meeting
@@ -1204,118 +1145,97 @@ because it can be hard to analyze metrics without understanding the context
 unit about the values of the metric and the development unit confirmed that
 people felt overloaded as the metric suggested [S20]. Furthermore, if the
 values of number of work items were outside the control limits one could
-discuss with the developers about the workload. [S22]
+discuss with the developers about the workload [S22].
 
 After analyzing long fix times for broken builds the team added
 automatic static code analysis checks to code check-in to catch defects
-earlier. [S13]
-
-Quality manager can change coding style guide and code standards based on the
-results of violations to static code analysis metric. [S14]
-
-
+earlier [S13]. Quality manager can change coding style guide and code
+standards based on the results of violations to static code analysis metric
+[S14].
 
 \subsection{Planning actions}
 
 Product owners use lead time to schedule high priority features and plan demo
-dates with customers. Velocity / 2 metric is used as scoping tool for a
-release. The team has enough work not to sit idle, but still flexible
-enough to allow high priority bug fixes to be fixed. [S23]
+dates with customers [S23]. Using revenue per customer metric allowed higher valued features to be
+prioritized higher in the backlog. [S11] 
 
-Velocity was used to define minimum delivery level for the iteration where
-'must have' requirements are assigned, and a stretch goal where lower priority
-requirements are assigned. [S2]
+Velocity / 2 metric was used as scoping tool for a release. The team had
+enough work not to sit idle, but there was still enough time to allow high
+priority bug fixes to be fixed [S23]. Effort estimates are used to scope the
+iteration and if there are tasks that cannot be completed before release date
+then they are excluded from the backlog [S12]. Velocity was used to define
+minimum delivery level for the iteration where 'must have' requirements are assigned, and a stretch goal where lower priority
+requirements are assigned [S2].
 
-Using revenue per customer metric allowed higher valued features to be
-prioritized higher in the backlog. [S11]
-
-Effort estimates are used to scope the iteration and if there are tasks that
-cannot be completed before release date then they are excluded from the
-backlog. [S12]
+Expected date of completion was used so that other team members could plan
+their own work [S12].
 
 \subsection{Reactive actions}
 
-When component level burndown was used to notice that a component was behind
-schedule, resources were added and scope was reduced for the release. [S5]
-
-If team effectiveness is not high enough to complete tasks, resources from
-other teams can be used. Other actions that were suggested were reduction of
-tasks and working overtime. [S3]
-
-Release burndown showed that work remaining was not decreasing fast enough so
-the scope of the release was decreased. [S16]
-
-Monitoring cycle times revealed high time consumption on manual testing. The
-cause was an unmotivated person who was moved to writing automated test
-scripts which he liked more. [S17]
-
-If common compo time would show too much work, then tasks would be cut or more
-resources would be added. Similarly, if work balance is uneven, some roles
-have too much work while some don't have enough, people were trained in
+Metrics were used to cut down the scope or add more resources if it seemed not
+all tasks could be completed with current pace. When component level burndown
+was used to notice that a component was behind schedule, resources were added
+and scope was reduced for the release [S5]. Release burndown showed that work remaining was not decreasing fast enough so
+the scope of the release was decreased [S16]. If common compo time would show too much work, then tasks would be cut or more
+resources would be added [S17]. Similarly, if work balance is uneven, some
+roles have too much work while some don't have enough, people were trained in
 multiple roles, e.g customer support did testing and documentation engineers
-were taught how to input their material into the system. [S17]
+were taught how to input their material into the system. If team effectiveness
+is not high enough to complete tasks, resources from other teams can be used. Other actions that were suggested were reduction of
+tasks and working overtime [S3].
 
-Number of defects were used to delay a release when too many defects were
-noticed in a QA cycle. [S10]
 
-Expected date of completion was used so that other team members could plan
-their own work. [S12]
-
-Quality manager interpreted results of static code analysis from the build
-tool and he would then make plans for necessary refactorings. [S14]
-
-When amount of written and passed unit tests was not increasing an alarm was
-raised, when the issue was discussed in a reflection meeting they understood
-that too much work was put to a single tester writing the tests and once she
-was doing work for another project no tests were written. The team then
-started to learn to do them on their own as well, and later a dedicated tester
-was assigned to write the tests. [S28]
+Metrics were also used to react to quality information. Monitoring cycle times
+revealed high time consumption on manual testing [S17]. The cause was an
+unmotivated person who was moved to writing automated test scripts which he
+liked more. Number of defects were used to delay a release when too many
+defects were noticed in a QA cycle [S10]. Quality manager interpreted results
+of static code analysis from the build tool and he would then make plans for
+necessary refactorings [S14]. When amount of written and passed unit tests was
+not increasing an alarm was raised, when the issue was discussed in a
+reflection meeting they understood that too much work was put to a single
+tester writing the tests and once she was doing work for another project no
+tests were written [S28]. The team then started to learn to do them on their
+own as well, and later a dedicated tester was assigned to write the tests.
 
 
 \subsection{Motivate people}
 
-Number of defects was shown in monitors in hallways and that motivated
-developers to fix defects. [S3]
+Metrics were used to motivate people to react faster to problems. Number of
+defects was shown in monitors in hallways and that motivated developers to fix
+defects [S3]. Total reported defects and test failure and success rate was
+also shown throughout the organization which motivated people to avoid
+problems and also fix problems fast [S3]. Fix time of failed build metric
+improved people's mindset to react to problems immediately [S13]. The metric
+was declared mandatory for all projects. Also, the reasons for long fix times
+were investigated. Build status was visible in minutes after commits, which
+helped to create a culture to react with high priority to broken builds [S4].
+This helped to keep the main branch to be closer to deployable state at all
+times. Build status was used to motivate people to fix the build as fast as
+possible [S4]. Violations of static code analysis cause developers to
+immediately fix the issue because the violations can cause a broken build
+status [S14]. Additionally, developers get faster feedback on their work.
+Furthermore, developers have more confidence in performing major refactorings
+with the safety net the violations of static code analysis metric provides.
 
-Total reported defects and test failure and success rate was also show
-throughout the organization which motivated people to avoid problems and also
-fix problems fast. [S3]
 
-Build status was visible in minutes after commits, which helped to create
-a culture to react with high priority  to broken builds. This helped to keep
-the main branch to be closer to deployable state at all times. [S4]
-
-After meetings where technical debt categories were analyzed, team members
-agreed which categories they would focus in decreasing until the next meeting.
-Also, team members sought help from the architecture team for reducing
-technical debt, e.g by implementing automatic deployment or improving source
-code unit testability. [S4]
-
+Metrics were used to change people's behaviour. After meetings where technical
+debt categories were analyzed, team members agreed which categories they would
+focus in decreasing until the next meeting [S4]. Also, team members sought
+help from the architecture team for reducing technical debt, e.g by
+implementing automatic deployment or improving source code unit testability.
 Measuring the number of written and passed unit tests changed teams behaviour
-to write more tests. [S5]
+to write more tests [S5]. Metrics were also used to prevent harmful behaviour
+such as cherry picking features that are most interesting to the team [S17].
+Measuring work in progress (WIP) and setting WIP limits prevented cherry
+picking by enforcing only two features at a time and thus preventing them from
+working on lower priority but more interesting features. Defect trend
+indicator created crisis awareness and motivated the developers to take
+actions in hopes to avoid possible problems [S25].
 
-Fix time of failed build metric improved people's mindset to react to problems
-immediately. The metric was declared mandatory for all projects. Also, the
-reasons for long fix times are investigated. [S13]
-
-Violations of static code analysis cause developers to immediately fix the
-issue because the violations can cause a broken build status. Additionally,
-developers get faster feedback on their work. Furthermore, developers have
-more confidence in performing major refactorings with the safety net the
-violations of static code analysis metric provides. [S14]
-
-Metrics were also used to prevent harmful behaviour such as cherry picking
-features that are most interesting to the team. Measuring
-work in progress (WIP) and setting WIP limits prevented cherry picking by
-enforcing only two features at a time and thus preventing them from working on
-lower priority but more interesting features. [S17]
-
-Defect trend indicator created crisis awareness and motivated the developers
-to take actions in hopes to avoid possible problems. [S25]
-
-However, using velocity metric had also negative effects such as cutting corners in
-implementing features to maintain velocity with the cost of quality
-[S6].
+There can also be negative effects in using metrics. Using velocity metric had
+negative effects such as cutting corners in implementing features to maintain
+velocity with the cost of quality [S6].
 
 \section{Metrics \& categorization}
 
@@ -1711,6 +1631,8 @@ maybe code metrics aren't widely used by agile industrial teams.
 
 
 \section{Limitations}
+
+\fixme{Add SLR vs survey - eli pöhkö tutkimusmenetelmä valittu tehtävään}
 The large shares of specific application domains in the primary documents is a
 threat to external validity. Seven out of 29 studies were from enterprise
 information systems domain and especially strong was also the share of ten
@@ -1780,5 +1702,8 @@ and tracking metrics for iteration were often used indicating a need to focus
 future research efforts on these areas. Fourth, use of metrics for motivating
 and enforcing process improvements can be an interesting future research
 topic.
+
+\fixme{Add future work - negative effects of metrics. negative motivation
+effects of metrics.}
 
 \fixme{lisää important metrics ja metric categories}
