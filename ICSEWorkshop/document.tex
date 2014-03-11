@@ -199,7 +199,7 @@ literature reviews on the actual use of software metrics in the industry.
 %\mika{Kappaleen pointti: Agile on t�rke�� eik� metriikkoja tutkittu}
 
 % \juha{Yritin konkretisoida trad vs. agile kontrastia}
-Agile software development is becoming increasing popular in the software
+Agile software development is becoming increasingly popular in the software
 industry. The agile approach seems to be contradicting with the traditional
 metrics approaches. For example, the agile emphasizes working software over
 measuring progress in terms of intermediate products or documentation, and
@@ -207,7 +207,7 @@ embracing the change invalidates the traditional approach of tracking progress
 against pre-made plan.
 However, at the same time agile software development highlights some measures
 that should be used, e.g., burndown graphs and 100\% automated unit testing
-coverage. However, measurement research in the context of agile methods
+coverage. However, metric research in the context of agile methods
 remains scarce.
 
 The goal of this paper is to review the literature of actual use of software
@@ -224,7 +224,8 @@ In this paper, we cover the following research questions: Why are metrics
 used?, What actions do the use of metrics trigger? and Which metrics are used?
 
 This paper is structured as follows. \Cref{sec:Method} describes how
-the SR was conducted. \Cref{sec:Results} reports the results from the study.
+the systematic review (SR) was conducted. \Cref{sec:Results} reports the
+results from the study.
 \Cref{sec:Discussion} discusses about the findings and how they map to agile
 principles. \Cref{sec:Conclusions} concludes the paper.
 
@@ -281,8 +282,8 @@ principles. \Cref{sec:Conclusions} concludes the paper.
 \section{Review method}
 \label{sec:Method}
 Systematic review (SR) was chosen as research method because we are trying to
-understand a problem instead of trying to find a solution to it. Also, there was already
-existing literature that could be synthesized.
+understand a problem instead of trying to find a solution to it. Also, there
+was already existing literature that could be synthesized.
 
 \subsection{Protocol development}
 Kitchenham's guide for SRs \cite{kitchenham2004procedures} was used as a basis
@@ -314,10 +315,10 @@ of papers after each stage.
 \caption{Paper selection funnel}
 \begin{tabular}{lcr} \hline
 \label{SelectionFunnel}
-Phase & Amount of papers \\ \hline
-Phase 1 & 774 \\  
-Phase 2 & 163 \\ 
-Phase 3 & 29\\
+Stage & Amount of papers \\ \hline
+Stage 1 & 774 \\  
+Stage 2 & 163 \\ 
+Stage 3 & 29\\
 \hline
 \end{tabular}
 \end{table}
@@ -423,9 +424,9 @@ agreement was 'substantial' with Kappa 0.67 \cite{landis_measurement_1977}.
 
 %\subsubsection{Stage 3 - Selection by full text}
 
-Stage 3 included multiple activities in one work flow. Selection by full text
+Stage 3 included multiple activities in one workflow. Selection by full text
 was done, data was coded and quality assessment was done. Once again, if there
-were unclear papers, they were discussed in meetings. Also, selection of 7
+were unclear papers, they were discussed in the meetings. Also, selection of 7
 papers was conducted by the second author with an 'almost perfect' agreement,
 Kappa 1.0 \cite{landis_measurement_1977}.
 
@@ -435,8 +436,8 @@ Integrated coding was selected for data extraction strategy \cite{6092576}. It
 provided focus to research questions but flexibility regarding findings.
 Deductive coding would have been too restraining and inductive coding might
 have caused too much bias. Integrated coding made it possible to create a
-sample list of code categories: Why is measurement used?, How is measurement
-used? and Metrics.
+sample list of code categories: Why is the metric used?, How is the
+metric used? and Metrics.
 
 The coding started with the first author reading the full text and marking
 interesting quotes with a temporary code. After, reading the full text first
@@ -673,13 +674,13 @@ Costs, schedule\\
 \end{table*}
 \end{comment}
 
-Categories for the reasons and the use of measurements are listed in
+Categories for the reasons and the use of metrics are listed in
 \cref{WhyHowCategories}. The following chapters will describe each category in
 more detail.
 
 \begin{table}
 \centering 
-\caption{Categories for measurement usage}
+\caption{Categories for metric usage}
 \label{WhyHowCategories}
 \begin{tabular}{c p{2,5cm}} \hline
 Categories & Sources\\ \hline
@@ -763,7 +764,7 @@ not be completed, the iteration was rescoped by cutting tasks
 When there were problems that needed to be fixed, whether they were short or long term, the metrics helped in making decisions to fix them
 \cite{Staron20101069,Dubinsky200512,Petersen2011975,LNBIP01490121}.
 It was possible to base decisions on data, not only use common sense and
-experience \cite{Talby200940}. Balance of work flow was mentioned as a reason
+experience \cite{Talby200940}. Balance of workflow was mentioned as a reason
 for using metrics in multiple papers
 \cite{Polk2011263,Petersen2010654,Petersen20101275,Greening2010,Petersen2011975,Dubinsky200512,Jakobsen2011168}.
 %Crosstraining people to work on multiple disciplines was used to balance the
@@ -793,16 +794,16 @@ Measurement data motivated teams to act and improve their
 performance
 \cite{Talby200940,Polk2011263,Cheng200929,LNBIP01490121,Jakobsen2011168}.
 Some examples included fixing the build faster by visualizing build status
-\cite{Jakobsen2011168,LNBIP01490121}, fixing bugs faster by showing amount of
+\cite{Jakobsen2011168,LNBIP01490121}, fixing bugs faster by showing number of
 defects in monitors \cite{Cheng200929} and increasing testing by measuring
 product size by automated tests that motivated team to write more tests
 \cite{Talby200940}.
 
 Metrics were also used to prevent harmful behavior such as cherry picking
-features that are most interesting to the team. Measuring
-work in progress (WIP) and setting WIP limits prevented cherry picking by
-enforcing only two features at a time and thus preventing them from working on
-lower priority but more interesting features \cite{Middleton2007387}.
+features that are most interesting to the team. Measuring work in progress
+(WIP) and setting WIP limits prevented cherry picking by enforcing working
+only two features at a time. This prevented them from working simultaneously
+on lower priority but more interesting features \cite{Middleton2007387}.
 
 \subsection{Identifying process problems}
 \label{sec:ProblemIdentification}
@@ -864,7 +865,7 @@ change requests from customers \cite{Petersen2010654} and customer's
 willingness to recommend product to other potential customers
 \cite{Green2011}.
 Quality prediction metrics included defect counts \cite{Petersen2010654},
-maintenance effort \cite{Staron20101069} and deferred defect counts
+maintenance effort \cite{Staron20101069}, and deferred defect counts
 \cite{Green2011}.
 
 \subsection{Changes in processes or tools}
@@ -888,7 +889,7 @@ and merging the step to create solution proposal and technical design
 \cite{Mujtaba2010139}.
 
 Problem with broken build, and the long times to fix the build, led to
-measurements that monitor and visualize the state of the build and the time it
+metrics that monitor and visualize the state of the build and the time it
 takes to fix it \cite{LNBIP01490121,Jakobsen2011168,Janus20129}.
 
 Also, additional code style rules were added to code check-in and build tools
@@ -906,18 +907,18 @@ the test approach \cite{Staron20113}.
 
 \subsection{Implications for practice}
 To provide implications to practice we map our findings to the principles of
-agile software development \cite{beck2001agile} categorized by Patel \& al.
+agile software development \cite{beck2001agile} categorized by Patel et al.
 \cite{1579312}. For each paragraph we use the naming by Patel et al. and
-provide references to the agile practices by numbers.
+provide references to the agile principles by numbers.
 
-Communication and Collaboration (principles 4 and 6) was reflected in metrics
-that motivated a team to act and improve, see \cref{sec:Motivate}. Also,
+Communication and Collaboration (4th and 6th agile principles
+\cite{beck2001agile}) was reflected in metrics that motivated a team to act and improve, see \cref{sec:Motivate}. Also,
 progress metrics were used to communicate the status of the project to the
 stakeholders, see \cref{sec:IterationTracking}.
 
 Team involvement (5,8) was reflected in metrics that motivated team to act and
 improve, see \cref{sec:Motivate}. Also, to promote sustainable development
-metrics were targeted to balance the flow of work, see
+metrics were targeted to balance the workflow, see
 \cref{sec:IterationTracking}.
 
 Reflection (12) was visible in metrics that were used to identify problems and
@@ -944,14 +945,15 @@ measure the end product quality with customer based metrics instead of the
 traditional quality models, such as ISO/IEC 25010 \cite{10951538}.
 
 Managing Changing Requirements (2) was seen in the metrics that support
-prioritization of features each iteration, see \cref{sec:IterationPlanning}.
+prioritization of features in each iteration, see
+\cref{sec:IterationPlanning}.
 Additionally, different metrics helped keeping the internal quality of the
 product high throughout the development which then provided safe development
 of modifications from new ideas, see \cref{sec:PreQuality}.
 
 Design (9,10,11) was seen in focus to measuring technical debt and using
 metrics to enforce writing tests before actual code, see
-\cref{sec:PreQuality}. Additionally, the status of build was continuously
+\cref{sec:PreQuality}. Additionally, the status of the build was continuously
 monitored, see \cref{sec:ChangesInProcesses}. However, the use of velocity
 metric had a negative effect on technical quality, see
 \cref{sec:IterationTracking}.
@@ -1096,8 +1098,7 @@ the benefits for the team itself suffer.
 \subsection{Comparison to prior studies}%\juha{Istuu paremmin discussioniin}
 Only few papers have broadly studied the reasons for software metrics use in
 the context of agile software development. Hartmann \& Dymond \cite{1667571}
-also highlight process improvement as one of the reasons for measurement in
-their agile metrics paper. Also, they emphasize that creation of value should
+highlight process improvement as one of the reasons for measurement in their agile metrics paper. Also, they emphasize that creation of value should
 be the primary measure of progress - which was also seen in our study.
 
 Korhonen \cite{Korhonen2009} found in her study that traditional defect
@@ -1159,13 +1160,13 @@ research method, refine the method and tools.
 \section{Conclusions}%\juha{Kirjoitin t�nne hieman lis��...} 
 \label{sec:Conclusions}
 
-This paper we present the preliminary results from a systematic literature
-review from 29 primary studies. To our knowledge there is no previous
-systematic reviews of  measurement use in the context of industrial agile
+In this paper we present the preliminary results from a systematic literature
+review of 29 primary studies. To our knowledge there is no previous
+systematic reviews of metric use in the context of industrial agile
 software development. In this paper we classify and describe the main
-measurement types and areas that are reported in empirical  studies. We
+metric types and areas that are reported in empirical  studies. We
 provide descriptions of how and why metrics are used to support agile software
-development. We also analyzed how the presented metrics support the twelve
+development. We also analyse how the presented metrics support the twelve
 principles of Agile Manifesto \cite{beck2001agile}.
 
 The results indicate that the reasons and use of metrics is focused on the
@@ -1176,8 +1177,8 @@ following areas:
 \nameref{sec:ChangesInProcesses}.
 
 This paper provides researchers and practitioners with an useful overview of
-the measurements use in agile context and documented reasonings behind the
-proposed metrics. This study can be used as a source of relevant sources
+the metric use in agile context and documented reasonings behind the
+proposed metrics. This study can be used as a source of relevant studies
 regarding researchers' interests and contexts.
 
 Finally, we identified few propositions for future research on measuring in
@@ -1195,10 +1196,10 @@ improvements can be an interesting future research topic.
 
 %\end{document}  % This is where a 'short' article might terminate
 %ACKNOWLEDGMENTS are optional
-%\section{Acknowledgments}
+\section{Acknowledgments}
 %\juha{Koska tila on kortilla, voinemme j�tt�� acknowledgementsit pois}
 %U-QASAR rahoitus?
-
+This work has been funded by EU FP7 Grant 318082 (U-QASAR).
 %
 % The following two commands are all you need in the
 % initial runs of your .tex file to
@@ -1294,7 +1295,7 @@ Exclusion criteria\juha{Tiivistin exclusion kriteerej�}
   %context is ``100 junior developers''.\juha{yhdistin edelliseen}
 
   %%\item Papers that are full conference proceedings. Individual papers should be already listed separately.
-  \item Papers where the measurements are only used for the research. For
+  \item Papers where the metrics are only used for the research. For
   example author measures which agile practices correlate with success.
   %%\item Papers that don't even show measurement usage in a pilot setting. For
   %%example method or metric is used against static industrial data set. \juha{t�m� sis�ltyy tai vain tarkentaa ensimm�ist�}
