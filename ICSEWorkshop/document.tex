@@ -127,7 +127,7 @@ Eetu Kupiainen\\
        \email{eetu.kupiainen@aalto.fi}
 % 2nd. author
 \alignauthor
-Mika Mäntylä\\
+Mika V. Mäntylä\\
        \affaddr{Department of Computer Science and Engineering}\\
        \affaddr{Aalto University}\\
        \affaddr{FI- 00076 AALTO, FINLAND}\\
@@ -188,8 +188,7 @@ interesting future research topics.
 %\mika{Kappaleen pointti: No literature reviews of actual metric use}
 Software metrics have been studied for decades and several literature reviews
 have been published.
-Yet, the literature reviews have been written from an academic viewpoint that
-typically focuses on the effectiveness of a single metric. For example, Catal
+Yet, the literature reviews have been written from an academic viewpoint. For example, Catal
 et al. review fault prediction metrics \cite{catal2009systematic}, Purao et
 al. review metrics for object oriented systems \cite{purao2003product} and
 Kitchenham performs a mapping of most cited software metrics
@@ -211,7 +210,7 @@ coverage. However, metric research in the context of agile methods
 remains scarce.
 
 The goal of this paper is to review the literature of actual use of software
-metrics in the context of agile software development. This study will lay out
+metrics in the context of agile software development. This study lays out
 the current state of metrics usage in industrial agile software development
 teams based on literature.
 Moreover, the study uncovers the reasons for metric usage as well as
@@ -220,12 +219,17 @@ highlights actions that the use of metrics can trigger.
 %goal, we focus this paper on case studies and actual empirical findings
 %excluding theoretical discussion and models lacking empirical validation.
 % The performed SR has more research questions but for this paper only
-In this paper, we cover the following research questions: Why are metrics
-used?, What actions do the use of metrics trigger? and Which metrics are used?
+In this paper, we cover the following research questions:
+\begin{itemize}
+ \item Why are metrics
+used?
+\item What actions do the use of metrics trigger?
+\item Which metrics are used?
+\end{itemize}
 
 This paper is structured as follows. \Cref{sec:Method} describes how
-the systematic review (SR) was conducted. \Cref{sec:Results} reports the
-results from the study.
+the systematic literature review (SLR) was conducted. \Cref{sec:Results}
+reports the results from the study.
 \Cref{sec:Discussion} discusses about the findings and how they map to agile
 principles. \Cref{sec:Conclusions} concludes the paper.
 
@@ -281,16 +285,17 @@ principles. \Cref{sec:Conclusions} concludes the paper.
 
 \section{Review method}
 \label{sec:Method}
-Systematic review (SR) was chosen as research method because we are trying to
-understand a problem instead of trying to find a solution to it. Also, there
+Systematic literature review (SLR) was chosen as research method because we
+are trying to understand a problem instead of trying to find a solution to it. Also, there
 was already existing literature that could be synthesized.
 
 \subsection{Protocol development}
-Kitchenham's guide for SRs \cite{kitchenham2004procedures} was used as a basis
-for developing the review protocol. Additionally, a SR on agile development
-\cite{dyba_empirical_2008} and a SR on SR \cite{kitchenham2013systematic} were
-used to further understand the challenges and opportunities of SRs. The
-protocol was also iterated in weekly meetings with the authors, as well as in a pilot study.
+Kitchenham's guide for SLRs \cite{kitchenham2004procedures} was used as a
+basis for developing the review protocol. Additionally, an SLR on agile
+development \cite{dyba_empirical_2008} and an SLR on SLR
+\cite{kitchenham2013systematic} were used to further understand the challenges
+and opportunities of SLRs. The protocol was also iterated in weekly meetings
+with the authors, as well as in a pilot study.
 
 %otherguidelines \cite{webster2002analyzing}, a lessons learned from SRs
 % \cite{brereton2007lessons},
@@ -432,7 +437,8 @@ Kappa 1.0 \cite{landis_measurement_1977}.
 
 \subsection{Data extraction}
 
-Integrated coding was selected for data extraction strategy \cite{6092576}. It
+Integrated coding was selected for data extraction strategy \cite{6092576}. Integrated coding includes having a start list of codes as
+well as creating new codes if necessary (ground-up). It
 provided focus to research questions but flexibility regarding findings.
 Deductive coding would have been too restraining and inductive coding might
 have caused too much bias. Integrated coding made it possible to create a
@@ -450,7 +456,7 @@ for collecting metrics:
   \item Don't collect metrics that are only used for the comparison and
   selection of development methods. 
   \item Don't collect metrics that are primarily used to compare teams.
-  (There were cases where researcher or management uses a metric to compare
+  (There were cases where a researcher or management uses a metric to compare
   teams. We wanted to find metrics a team could use.)
   \item Collect metric only if something is said about why it is used or what
   actions it causes. 
@@ -720,9 +726,11 @@ team able to complete in an iteration \cite{Polk2011263}. Knowing the teams'
 effective available hours was found useful when selecting tasks for an
 iteration \cite{Cheng200929}.
 Velocity metrics were also used to improve the next iteration estimates
-\cite{Mahnic201273}.
-In one case, task's start and end date metric was used to point out
-interdependent tasks in the planning phase \cite{Hong2010310}.
+\cite{Mahnic201273}. At Ericsson product maintenance team, lead time was used
+to understand if all planned corrections can be completed before release date
+\cite{Seikola2011321}.
+% In one case, task's start and end date metric was used to point out
+% interdependent tasks in the planning phase \cite{Hong2010310}.
 
 
 \subsection{Iteration tracking} %completion}
@@ -745,9 +753,9 @@ story completion percentage \cite{Trapa2006243} and velocity metrics
 %epï¿½agiilia->ongelmia - tï¿½stï¿½ asiaa discussioniin} \eetu{lisï¿½tty}
 However, using velocity metrics had also negative effects such as cutting corners in
 implementing features to maintain velocity with the cost of quality
-\cite{Elssamadisy2002617}. One qualitative progress metric was product
-demonstrations with customer \cite{Trimble20134826}. Measuring the completion
-of tasks enabled selecting incomplete tasks to the next iteration
+\cite{Elssamadisy2002617}. One qualitative progress metric was feedback
+from product demonstrations with customer \cite{Trimble20134826}. Measuring
+the completion of tasks enabled selecting incomplete tasks to the next iteration
 \cite{Hong2010310}.
 
 %Risk management was also mentioned often, for example a metric was added
@@ -763,10 +771,10 @@ not be completed, the iteration was rescoped by cutting tasks
  % understand what is the status of the iteration.
 When there were problems that needed to be fixed, whether they were short or long term, the metrics helped in making decisions to fix them
 \cite{Staron20101069,Dubinsky200512,Petersen2011975,LNBIP01490121}.
-It was possible to base decisions on data, not only use common sense and
-experience \cite{Talby200940}. Balance of workflow was mentioned as a reason
-for using metrics in multiple papers
-\cite{Polk2011263,Petersen2010654,Petersen20101275,Greening2010,Petersen2011975,Dubinsky200512,Jakobsen2011168}.
+%It was possible to base decisions on data, not only use common sense and
+% experience \cite{Talby200940}. 
+Balance of workflow was mentioned as a reason for using metrics in multiple
+papers \cite{Polk2011263,Petersen2010654,Petersen20101275,Greening2010,Petersen2011975,Dubinsky200512,Jakobsen2011168}.
 %Crosstraining people to work on multiple disciplines was used to balance the
 %work flow\cite{Middleton2007387}\cite{Talby200940}.  - Tï¿½mï¿½ jï¿½i aika irralliseksi
 Progress metrics were used to focus work on tasks that matter the most \cite{Talby200940}, avoid partially done work \cite{Seikola2011321}, avoid task switching \cite{Seikola2011321}
@@ -876,14 +884,14 @@ The successful usage of sprint readiness metric and story flow metric changed
 company policy to have target values for both metrics as well as monthly
 reporting of both metrics by all projects \cite{Jakobsen2011168}.
 
-At Ericsson by monitoring the flow of requirements metric they decided to
+At Ericsson by monitoring the flow of requirements metric, they decided to
 change their implementation flow from push to pull to help them deliver in a
 more continuous manner. Also, based on the metric they added an intermediate
 release version to have release quality earlier in the development cycle
 \cite{Petersen20101275}.
 
 Changes to requirements management were also made based on lead time in other
-case at Ericsson. Analysing lead time contributed to delaying technical design
+case at Ericsson. Analysing lead time contributed to moving technical design
 after purchase order was received, providing customer a rough estimate quickly
 and merging the step to create solution proposal and technical design
 \cite{Mujtaba2010139}.
@@ -1050,14 +1058,16 @@ processes, see \cref{sec:ProblemIdentification} and
 There were also metrics, or their usage, which were not agile in nature. E.g.,
 maintaining velocity by cutting corners in quality instead of dropping
 features from that iteration \cite{Elssamadisy2002617}. Also, adding people to
-project to reach a certain date \cite{Dubinsky200512, Middleton2007387} doesn't seem that
-agile compared to removing tasks. Adding people can have a negative impact to
-progress, considering the lack of knowledge and training time required.
-Moreover, the use of dates to plan interdependent tasks is not agile in
-nature \cite{Hong2010310}. Instead, interdependencies should be visible in
-choosing the tasks to appropriate iterations. Also, the use of number of
-defects to delay a release \cite{Hodgetts2004106} is against agile thinking
-as one should rather decrease the scope to avoid such a situation.
+project to reach a certain date \cite{Dubinsky200512, Middleton2007387}
+doesn't seem that agile compared to removing tasks. Adding people can have a
+negative impact to progress, considering the lack of knowledge and training
+time required.
+% Moreover, the use of dates to plan interdependent tasks is not agile in
+% nature \cite{Hong2010310}. Instead, interdependencies should be visible in
+% choosing the tasks to appropriate iterations.
+Also, the use of number of defects to delay a release \cite{Hodgetts2004106}
+is against agile thinking as one should rather decrease the scope to avoid
+such a situation.
 
 %While the flow metrics Ericsson have a good target of balancing workflow,
 % they seem  (or at least they are presented) complicated to use---meaning that one
@@ -1108,8 +1118,8 @@ also used in many of the primary studies.
 Kitchenham's mapping study \cite{kitchenham_whats_2010} identified several
 code metrics in academic literature. However, in our study we found almost no
 evidence of code metric use in the agile industrial context. Maybe agile
-practitioners consider code metrics self-evident and don't report them, or
-maybe code metrics aren't widely used by agile industrial teams.
+practitioners consider code metrics self-evident and do not report them, or
+maybe code metrics are not widely used by agile industrial teams.
 
 %Maybe it is time to re-evaluate the need for code metrics research in agile
 %context if industry doesn't seem to use them.
@@ -1176,7 +1186,7 @@ following areas:
 \nameref{sec:PreQuality}, \nameref{sec:PostQuality} and
 \nameref{sec:ChangesInProcesses}.
 
-This paper provides researchers and practitioners with an useful overview of
+This paper provides researchers and practitioners with an overview of
 the metric use in agile context and documented reasonings behind the
 proposed metrics. This study can be used as a source of relevant studies
 regarding researchers' interests and contexts.
@@ -1199,7 +1209,8 @@ improvements can be an interesting future research topic.
 \section{Acknowledgments}
 %\juha{Koska tila on kortilla, voinemme jï¿½ttï¿½ï¿½ acknowledgementsit pois}
 %U-QASAR rahoitus?
-This work has been funded by EU FP7 Grant 318082 (U-QASAR).
+This work has been funded by EU FP7 Grant 318082 (U-QASAR,
+http://www.uqasar.eu/).
 %
 % The following two commands are all you need in the
 % initial runs of your .tex file to

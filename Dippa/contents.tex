@@ -6,8 +6,7 @@
 % \mika{Kappaleen pointti: No literature reviews of actual metric use}
 Software metrics have been studied for decades and several literature reviews
 have been published.
-Yet, the literature reviews have been written from an academic viewpoint that
-typically focuses on the effectiveness of a single metric. For example, Catal
+Yet, the literature reviews have been written from an academic viewpoin. For example, Catal
 et al. review fault prediction metrics \citepsrc{catal2009systematic},
 \citetsrc{purao2003product} review metrics for object oriented systems and
 \citetsrc{kitchenham_whats_2010} performs a mapping of most cited software
@@ -30,7 +29,7 @@ coverage. However, metric research in the context of agile methods
 remains scarce.
 
 The goal of this paper is to review the literature of actual use of software
-metrics in the context of agile software development. This study will lay out
+metrics in the context of agile software development. This study lays out
 the current state of metrics usage in industrial agile software development
 based on literature.
 Moreover, the study uncovers the reasons for metric usage as well as
@@ -54,8 +53,8 @@ This study covers the following research questions:
 \label{section:structure} 
 
 This thesis is structured as follows. \Cref{sec:Method} describes how
-the systematic review (SR) was conducted. \Cref{sec:Results} reports the
-results from the study.
+the systematic literature review (SLR) was conducted. \Cref{sec:Results}
+reports the results from the study.
 \Cref{sec:Discussion} discusses about the findings and how they map to agile
 principles. \Cref{sec:Conclusions} concludes the paper. \fixme{Final
 structure}
@@ -134,16 +133,16 @@ research \citepsrc{webster2002analyzing}.
 
 \chapter{Review method}
 \label{sec:Method}
-Systematic review (SR) was chosen as research method because the study is more
-about trying to understand a problem instead of trying to find a solution to
+Systematic literature review (SLR) was chosen as research method because the
+study is more about trying to understand a problem instead of trying to find a solution to
 it. Also, there was already existing literature that could be synthesized.
 
 \section{Protocol development}
-Kitchenham's guide for SRs \citepsrc{kitchenham2004procedures} was used as a
-basis for developing the review protocol. Additionally, a SR on agile
-development \citepsrc{dyba_empirical_2008} and a SR on SR
+Kitchenham's guide for SLRs \citepsrc{kitchenham2004procedures} was used as a
+basis for developing the review protocol. Additionally, an SLR on agile
+development \citepsrc{dyba_empirical_2008} and an SLR on SLR
 \citepsrc{kitchenham2013systematic} were used to further understand the
-challenges and opportunities of SRs. The protocol was also iterated in weekly
+challenges and opportunities of SLRs. The protocol was also iterated in weekly
 meetings with the instructors, as well as in a pilot study.
 
 %otherguidelines \cite{webster2002analyzing}, a lessons learned from SRs
@@ -288,8 +287,9 @@ agreement, Kappa 1.0 \citepsrc{landis_measurement_1977}.
 \section{Data extraction}
 
 Integrated coding was selected for data extraction strategy
-\citepsrc{6092576}.
-It provided focus to research questions but flexibility regarding findings.
+\citepsrc{6092576}. Integrated coding includes having a start list of codes as
+well as creating new codes if necessary (ground-up). It provided focus to
+research questions but flexibility regarding findings.
 Deductive coding would have been too restraining and inductive coding might
 have caused too much bias. Integrated coding made it possible to create a
 sample list of code categories:
@@ -314,7 +314,8 @@ set for collecting metrics was slowly built:
   actions it causes or if it is described as important.
   \item Don't collect metrics that are only used for the comparison and
   selection of development methods. 
-  \item Don't collect metrics that are primarily used to compare teams. 
+  \item Don't collect metrics that are primarily used to compare teams. (There were cases where a researcher or management uses a metric to compare
+  teams. We wanted to find metrics a team could use.) 
 \end{itemize}
 
 Atlas.ti Visual QDA (Qualitative Data Analysis), version 7.1.x was used to
@@ -514,14 +515,14 @@ b-2-b e-commerce solutions/Criminal justice system development\\\relax
 [S11] & 2007 & Singlecase & ScrumMix & 500 & Security
 services\\\relax
 [S12] & 2010 & Singlecase & ScrumMix & NA & E-commerce\\\relax
-[S13] & 2011 & Singlecase & LeanScrum FDD & 5$\pm$2 & Information and
+[S13] & 2011 & Singlecase & LSD Scrum & 5$\pm$2 & Information and
 communication software development\\\relax
 [S14] & 2012 & Experience r. & XPMix & NA & Web application
 development\\\relax
 [S15] & 2006 & Multicase & NA/NA/ NA/NA & 2-5/12-15/1-10/6-7 &
 NA/NA/NA/NA\\\relax
 [S16] & 2012 & Singlecase & Scrum & 6-8 & Web page development\\\relax
-[S17] & 2007 & Singlecase & Lean & Comp. 160 devs & Various\\\relax
+[S17] & 2007 & Singlecase & NA & Comp. 160 devs & Various\\\relax
 [S18] & 2010 & Singlecase & ScrumXP Mix & Dev site 600 &
 Telecom\\\relax
 [S19] & 2010 & Singlecase & AgileMix & 6-7 & Telecom\\\relax
@@ -1111,7 +1112,7 @@ completed work at Mamdas [S5]. At Timberline Inc, breaking down tasks to
 of new and open defects) was developed to manage risks and provide timely
 progress monitoring [S27]. Developers at Avaya Communications used story
 percent complete metric to give assessment of progress [S29]. A team at NASA
-Ames Reserch Center didn't want to spend resources on estimating features and
+Ames Reserch Center did not want to spend resources on estimating features and
 instead they focused on designing and developing their software solution
 [S30]. Every six weeks they demonstrated their progress to
 customer with working code.
@@ -1830,8 +1831,8 @@ also used in many of the primary studies.
 Kitchenham's mapping study \citepsrc{kitchenham_whats_2010} identified several
 code metrics in academic literature. However, in this study almost no evidence
 of code metric use in the industrial agile context was found. Maybe agile
-practitioners consider code metrics self-evident and don't report them, or
-maybe code metrics aren't widely used by agile industrial teams.
+practitioners consider code metrics self-evident and do not report them, or
+maybe code metrics are not widely used by agile industrial teams.
 
 \fixme{Harkitse WETSOM kommenteissa mainittujen SLR:ien tarkastelua tässä.}
 
@@ -1908,7 +1909,7 @@ following areas:
 \nameref{sec:PreQuality}, \nameref{sec:PostQuality} and
 \nameref{sec:ChangesInProcesses}.
 
-This paper provides researchers and practitioners with an useful overview of
+This paper provides researchers and practitioners with an overview of
 the metric use in agile context and documented reasonings behind the
 proposed metrics. This study can be used as a source of relevant studies
 regarding researchers' interests and contexts.
