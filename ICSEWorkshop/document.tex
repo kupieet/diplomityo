@@ -51,6 +51,7 @@
 \usepackage{cleveref}
 \usepackage{booktabs}
 \usepackage{comment} 
+\usepackage{balance}
 
 \newcommand{\basicalert}[2]{\fbox{\bfseries\sffamily\scriptsize\color{blue} #1}{\sf\small$\blacktriangleright$\textit{\color{red} #2}$\blacktriangleleft$} }
 %\newcommand{\mika}[1]{\basicalert{From Mika}{#1}}
@@ -62,16 +63,26 @@
 
 \begin{document}
 
+% TeXSupport
+\makeatletter
+\def\doi#1{\gdef\@doi{#1}}\def\@doi{}
+\toappear{\the\boilerplate\par{\confname{\the\conf}} \the\confinfo\par
+\the\copyrightetc.\ifx\@doi\@empty\else\par\@doi.\fi}
+% DOI
+\doi{http://dx.doi.org/10.1145/2593868.2593873}
+%
+
 %
 % --- Author Metadata here ---
-\conferenceinfo{WETSoM}{'14 Hyderabad, India}
-%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
-%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+\conferenceinfo{WETSoM}{'14, June 3, 2014, Hyderabad, India}
+\CopyrightYear{2014} % Allows default copyright year (20XX) to be over-ridden
+% - IF NEED BE.
+\crdata{978-1-4503-2854-8/14/05}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
 
-\title{Why are industrial agile teams using metrics and how do they use
-them?}%// Agile metrics in industry: systematic literature review }
+\title{Why Are Industrial Agile Teams Using Metrics and How Do They Use
+Them?}%// Agile metrics in industry: systematic literature review }
 %\subtitle{[Extended Abstract]
 %\titlenote{A full version of this paper is available as
 %\textit{Author's Guide to Preparing ACM SIG Proceedings Using
@@ -178,7 +189,7 @@ interesting future research topics.
 
 \terms{Measurement}
 
-\keywords{agile software development, metrics, measurement}
+\keywords{Agile software development, metrics, measurement}
 
 \section{Introduction}
 
@@ -1244,18 +1255,19 @@ It found 512 hits 19 September 2013.
 
 %Then we noticed that some previously found key papers were missing from the
 %hits because they were under sub area ``Engineering'', thus 
+\balance
 The second search string was:
 
 TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
 clear" OR dsdm OR "dynamic systems development method" OR fdd OR "feature
 driven development" OR "agile unified process" OR "agile modeling" OR scrumban
 OR kanban OR scrum OR "extreme programming" OR xp) AND (measur* OR metric OR
-diagnosticOR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
+diagnostic OR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
 (LIMIT-TO(SUBJAREA, "ENGI")) AND (EXCLUDE (SUBJAREA, "COMP") OR
-EXCLUDE(SUBJAREA, "PHYS") OR EXCLUDE(SUBJAREA,"MATE") OR EXCLUDE (SUBJAREA,
-"BUSI") OR EXCLUDE(SUBJAREA, "MATH") OR EXCLUDE(SUBJAREA, "ENVI") OR
-EXCLUDE (SUBJAREA, "EART") OR EXCLUDE(SUBJAREA, "DECI") OREXCLUDE (SUBJAREA,
-"ENER"))
+EXCLUDE(SUBJAREA, \\"PHYS") OR EXCLUDE(SUBJAREA,"MATE") OR EXCLUDE (SUBJAREA,
+"BUSI") OR EXCLUDE(SUB-\\JAREA, "MATH") OR EXCLUDE(SUBJAREA, "ENVI") OR
+EXCLUDE (SUBJAREA, "EART") OR EXCLUDE\\(SUBJAREA, "DECI") OREXCLUDE
+(SUBJAREA, \\"ENER"))
 
 It found 220 hits 7 November 2013.
 
@@ -1265,9 +1277,9 @@ TITLE-ABS-KEY(software AND (agile OR lean OR "crystal method" OR "crystal
 clear" OR dsdm OR "dynamic systems development method" OR fdd OR "feature
 driven development" OR "agile unified process" OR "agile modeling" OR scrumban
 OR kanban OR scrum OR "extreme programming" OR xp) AND (measur* OR metric OR
-diagnosticOR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) AND
+diagnostic OR monitor*)) AND (LIMIT-TO(LANGUAGE, "English")) \\AND
 (LIMIT-TO(SUBJAREA, "BUSI")) AND (EXCLUDE (SUBJAREA, "ENGI") OR
-EXCLUDE(SUBJAREA, "COMP"))
+EXCLUDE(SUBJAREA, \\"COMP"))
 
 It found 42 hits 10 December 2013.
 
