@@ -1,0 +1,239 @@
+\begin{comment}
+\section{Why were metrics used and how were they used?}
+
+Categories for the reasons and the use of measurements are listed in
+\cref{WhyHowCategories}. The following chapters will describe each category in
+more detail.
+
+\begin{table}
+\centering 
+\caption{Categories for measurement usage}
+\label{WhyHowCategories}
+\begin{tabular}{c p{2,5cm}} \hline
+Categories & Sources\\ \hline
+\nameref{sec:IterationPlanning}&
+ {[}S6,S23,S3,S8,S12{]}
+{[}S16,S9,S11{]}\\
+\nameref{sec:IterationTracking} &
+{[}S21,S27,S16,S5,S12{]}
+{[}S4,S7,S6,S17,S29{]}
+{[}S30,S10,S25,S24,S23{]}
+[S8,S20]\\
+\nameref{sec:Motivate} &
+[S29,S28,S13,S4,S3]
+[S23,S25,S27]\\
+\nameref{sec:ProblemIdentification} &
+[S21,S29,S17,S13,S25]
+[S16,S19,S18,S31,S22]\\
+\nameref{sec:PreQuality} &
+[S14,S5,S29]\\
+\nameref{sec:PostQuality} &
+[S19,S3,S7,S25]\\
+\nameref{sec:ChangesInProcesses} &
+[S13,S21,S18,S4,S25,S14,S26,S20]\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Iteration planning}
+\label{sec:IterationPlanning}
+Many metrics were used to support iteration planning. The metrics were used
+for task prioritization and scoping of the iteration.
+
+Many metrics were focused to help in the prioritization of the tasks for the
+next iteration [S8,S9,S11].
+Prioritization of features was affected by a metric that measured the amount
+of revenue a customer is willing to pay for a feature [S11].
+
+Effort estimation metrics were used to measure the size of the features
+[S6].
+Furthermore, velocity metrics were used to calculate how many features is the
+team able to complete in an iteration [S23]. Knowing the teams'
+effective available hours was found useful when selecting tasks for an
+iteration [S3].
+Velocity metrics were also used to improve the next iteration estimates
+[S16].
+In one case, task's start and end date metric was used to point out
+interdependent tasks in the planning phase [S12].
+
+
+\subsection{Iteration tracking} %completion}
+\label{sec:IterationTracking}
+% Timely manner of completing iteration is one of the cornerstones of agile
+% development !ISKEVIITE.
+Purpose of iteration tracking was to track how the tasks selected for the
+iteration were performed and that necessary modifications were done to the
+plan to complete the iteration according to schedule.
+
+Metrics helped in monitoring, identifying problems, and predicting the end
+result by making it transparent to the stakeholders how the iteration is
+progressing [S21,S27,S16,S5,S12,S7,S29,S30].
+
+Progress metrics included number of completed web pages [S12], story
+completion percentage [S29] and velocity metrics [S5].
+% \juha{velocity metriikan k‰ytt‰minen etenemisenseurantaan on
+% ep‰agiilia->ongelmia - t‰st‰ asiaa discussioniin} \eetu{lis‰tty}
+However, using velocity metrics had also negative effects such as cutting
+corners in implementing features to maintain velocity with the cost of quality
+[S6]. One qualitative progress metric was product demonstrations with customer
+[S30]. Measuring the completion of tasks enabled selecting incomplete tasks to
+the next iteration [S12].
+
+%Risk management was also mentioned often, for example a metric was added
+%where it seemed valuable in decreasing a risk \cite{S5},  
+%\cite{S27}\cite{S29}\cite{S5}\cite{S28}.
+
+When the metrics indicated, during an iteration, that all planned tasks could
+not be completed, the iteration was rescoped by cutting tasks [S16,S5,S17] or
+adding extra resources [S5,S17].
+ 
+ % Almost anyone could walk into a team's room and with a quick glance
+ % understand what is the status of the iteration.
+When there were problems that needed to be fixed, whether they were short or
+long term, the metrics helped in making decisions to fix them
+[S25,S5,S21,S4].
+It was possible to base decisions on data, not only use common sense and
+experience [S28]. Balance of work flow was mentioned as a reason
+for using metrics in multiple papers
+[S23,S19,S20,S8,S21,S5,S13].
+% Crosstraining people to work on multiple disciplines was used to balance the
+% work flow\cite{S17}\cite{S28}.  - T‰m‰ j‰i aika
+% irralliseksi
+Progress metrics were used to focus work on tasks that matter the most
+[S28], avoid partially done work [S24], avoid
+task switching [S24] and polishing of features
+[S28].Finally, open defects metric was used to delay a release
+[S10].
+
+%\subsubsection{Project progress}
+%While iteration completion is important - so is the whole project's completion.
+%Metrics were also used to monitor the whole project: assess risks, follow work
+%completion and 
+
+\subsection{Motivating and improving}
+\label{sec:Motivate}
+% (Agile methods emphasize self-empowerment - this was also visible in the
+% used metrics.)
+This section describes metrics that were used to motivate people and support team level
+improvement of working practices and performance.
+
+Metrics were used to communicate different data about the project or product
+to the team members
+[S29,S28,S23,S25,S27].
+Measurement data motivated teams to act and improve their
+performance [S28,S23,S3,S4,S13].
+Some examples included fixing the build faster by visualizing build status
+[S13,S4], fixing bugs faster by showing amount of
+defects in monitors [S3] and increasing testing by measuring
+product size by automated tests that motivated team to write more tests
+[S28].
+
+
+\subsection{Identifying process problems}
+\label{sec:ProblemIdentification}
+Metrics were often used to identify or avoid problems in processes and work
+flows. This chapter describes how metrics were used to spot problems.
+
+There were multiple cases highlighting how metrics are used to identify or
+predict problems in order to solve or avoid them
+[S21,S29,S16,S19,S18,S31].
+
+Sometimes there were work phases where no value was added, e.g.,
+``waiting for finalization''. This type of activity was called waste and was
+identified by using lead time. [S22]
+
+% \juha{T‰m‰ mittari ei ole selke‰, t‰ytyy avata hieman enemm‰n mik‰ se on}
+% \eetu{Avattu nyt hieman lis‰‰.}
+Story implementation flow metric describes how efficiently a developer has
+been able to complete a story compared to the estimate. This metric helped to
+identify a problem with receiving customer requirement clarifications.
+[S13]
+
+Creating awareness with defect trend indicator helped to take actions to avoid
+problems [S25]. One common solution to problems was to find
+the root cause [S13,S17].
+
+\subsection{Pre-release quality}
+\label{sec:PreQuality}
+Metrics in the pre-release quality category were used to prevent defects
+reaching customers and to understand what was the current quality of the
+product.
+
+Integration fails was a problem to avoid with static code check metrics
+[S14]. Moreover, metrics were used to make sure that the product
+is sufficiently tested before the next step in the release path
+[S14,S5]. Additionally, making sure that the
+product is ready for further development was mentioned [S7].
+
+%\juha{T‰m‰ ei oikeastaan sano mit‰‰n, oliko tuossa joku selke‰mpi ajatus,
+%jotain muuta kuin nuo mainitut staattiset mittarit ja testikattavuus?}Also,
+%using metrics to improve pre-release quality was a goal in one case
+%\cite{S14}.
+
+Some metrics forced writing tests before the actual code [S29].
+Technical debt was measured with a technical debt board that was used to
+facilitate discussion on technical debt issues, see \cref{fig:debtBoard}
+[S4].
+
+\begin{figure}
+	\includegraphics{images/DebtBoard}
+	\centering
+	\caption{Technical debt.}
+	\label{fig:debtBoard}
+\end{figure}
+
+
+\subsection{Post-release quality}
+\label{sec:PostQuality}
+Metrics in post-release quality deal with evaluating the quality of the
+product after it has been released.
+
+Customer satisfaction, customer responsiveness, and quality indicators were
+seen as attributes of post-release quality. Some metrics included customer
+input to determine post-release quality
+[S19,S7,S3] while other metrics
+used pre-release data as predictors of post-release quality
+[S25,S19,S7]. Customer related
+metrics included, e.g., defects sent by customers [S3],
+change requests from customers [S19] and customer's
+willingness to recommend product to other potential customers
+[S7].
+Quality prediction metrics included defect counts [S19],
+maintenance effort [S25] and deferred defect counts
+[S7].
+
+\subsection{Changes in processes or tools}
+\label{sec:ChangesInProcesses}
+This chapter describes the reported changes that applying metrics had for processes and tools. The changes include changes in measurement practices, development policies, and the whole development process.
+
+The successful usage of sprint readiness metric and story flow metric changed
+company policy to have target values for both metrics as well as monthly
+reporting of both metrics by all projects [S13].
+
+At Ericsson by monitoring the flow of requirements metric they decided to
+change their implementation flow from push to pull to help them deliver in a
+more continuous manner. Also, based on the metric they added an intermediate
+release version to have release quality earlier in the development cycle.
+[S20]
+
+Changes to requirements management were also made based on lead time in other
+case at Ericsson. Analysing lead time contributed to delaying technical design
+after purchase order was received, providing customer a rough estimate quickly
+and merging the step to create solution proposal and technical design.
+[S18]
+
+Problem with broken build, and the long times to fix the build, led to
+measurements that monitor and visualize the state of the build and the time it
+takes to fix it [S4,S13,S14].
+
+Also, additional code style rules were added to code check-in and build tools
+so that builds would fail more often and defects would get caught before
+release [S13,S14]. 
+
+Similarly, testing approaches were changed based on flow metrics. Using lead
+time led to that integration testing could be started parallel to system
+testing [S18]. Also, throughput of a test process showed
+insufficient capability to handle the incoming features, which led to changing
+the test approach [S26].
+\end{comment}

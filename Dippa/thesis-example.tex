@@ -158,6 +158,7 @@
 \usepackage{longtable}
 \usepackage{supertabular,array}  % useampisivuinen taulukko
 \usepackage{threeparttable}
+\usepackage{rotating}
 
 %\bibliographystylepri{plainnat}
 % The alltt package provides an all-teletype environment that acts
@@ -364,7 +365,7 @@ Tkt Mika Mäntylä}
 \newcommand{\PROFCODE}{T3003}
 \newcommand{\KEYWORDS}{agile, metrics, measurement, systematic literature
 review}
-\newcommand{\FKEYWORDS}{ketterä, mittarit, mittaus, systemaattinen
+\newcommand{\FKEYWORDS}{ketterä kehitys, mittarit, mittaus, systemaattinen
 kirjallisuuskatsaus}
 %\newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 %yrkesutövare, intresseföretag, verifieringskedja}
@@ -463,56 +464,52 @@ kirjallisuuskatsaus}
 %\begin{comment}
 \thesisabstract{english}{
 Agile development methods are increasing in popularity, yet there are limited
-studies on the reasons and use of metrics in industrial agile development.
+studies on the reasons and effects of metrics use in industrial agile
+development.
 
 This paper presents results from a systematic literature review.
-Based on the study, metrics and their use are focused to the following areas:
-\nameref{sec:IterationPlanning}, \nameref{sec:IterationTracking},
-\nameref{sec:Motivate}, \nameref{sec:ProblemIdentification},
-\nameref{sec:PreQuality}, \nameref{sec:PostQuality} and
-\nameref{sec:ChangesInProcesses}. The findings are mapped against agile
-principles and it seems that the use of metrics supports the principles with
-some deviations.
+Based on the study, the results indicate that the reasons for the use metrics
+is focused on the following areas:
+\nameref{sec:planning}, \nameref{sec:progressTracking}, \nameref{sec:quality},
+and \nameref{sec:identifyProblems}. Similarly, the effects of metric use is
+focused on the following areas:
+\nameref{sec:planningActions}, \nameref{sec:reactiveActions},
+\nameref{sec:motivatePeople} and \nameref{sec:createImprovementIdeas}.
+The findings are mapped against agile principles and it seems that the use of
+metrics supports the principles with some deviations.
 
-Surprisingly, we find little evidence of the use of code metrics. Also, we
-note that there is a lot of evidence on the use of planning and tracking
+Surprisingly, the study reports little evidence of the use of code metrics.
+Also, the study shows a lot of evidence on the use of planning and tracking
 metrics. Finally, the use of metrics to motivate and enforce process
-improvements as well as applicable quality metrics can be
-interesting future research topics.
-} 
+improvements as well as applicable quality metrics can be interesting future
+research topics.
+}
 
 %\end{comment}
 
 % Abstract in Finnish
 % ------------------------------------------------------------------
 \thesisabstract{finnish}{
-Noh, mistäs teit dippas?
 
-- Nooh, tutkin minkälaisia mittareita ketterät tiimit teollisuudessa käytti,
-miten ja miksi.
+Ketterät ohjelmistokehitysmenetelmät ovat lisänneet suosiotaan, mutta
+tutkimuksia, joissa tutkittaisiin syitä mittareiden käytölle ja niiden
+vaikutuksille, on varsin rajallisesti teollisen ketterän kehityksen osalta.
 
-Okei, no mikäs on sen dipan tärkein anti?
+Tämä tutkimus esittää tuloksia systemaattisesta kirjallisuuskatsauksesta.
+Perustuen tähän tutkimukseen, tulokset esittävät, että syyt mittarien käytölle
+keskittyy seuraaviin alueisiin: Suunnittelu, Etenemisen seuranta, Laadun
+ymmärtäminen ja parantaminen, ja Ongelmien tunnistaminen. Lisäksi, mittareiden
+vaikutukset keskittyvät seuraaviin alueisiin: Suunnittelutoimet, reaktiiviset
+toimet, Ihmisten motivointi ja Parannusideoiden luominen. Löydöksiä verrataan
+ketterän kehityksen periaatteisiin ja näyttää siltä, että mittareiden käyttö
+tukee ketteriä periaatteita lukuuottamatta muutamia poikkeuksia.
 
+Yllättäen, tämä tutkimus raportoi vain vähäistä koodimittareiden käyttöä.
+Lisäksi, tämä tutkimus osoittaa, että suunnittelu- ja seurantamittareiden
+käytöstä on paljon näyttöä. Lopuksi, mittarit,jotai käytettiin motivointiin ja
+prosessimuutoksien täytäntöönpanoon, sekä soveltavat laatumittarit voivat
+olla mielenkiintoisia tulevaisuuden tutkimuskohteita.
 
-- Noh, kategorisoin mittareiden käyttöä ja syitä, johon halukkaat voivat
-tarkemmin tutustua. 
-
-No miksi kukaan haluis noita ihmetellä?
-
-- Mulla (timolla) on sellainen teoria, että on syitä, jotka aiheuttaa
-ohjelmistoprojektien epäonnistumisia. Mäppäsin löydettyjä mittareita em.
-syykategorioita vasten, joten voin sanoa että mitä mittareita kannattaisi
-käyttää jos haluaa ehkäistä tietyistä syistä johtuvia failureita.
-
-- Lisäksi mä näytän miten suurempi osa on reaktiivisia mittareita.
-
-- Lisäksi ideana oli, että pystyisin luomaan jonkinlaisen tärkeiden
-mittareiden luokittelun\ldots Tämä on osoittautunut aika hankalaksi. Mulla on
-nyt yksittäisiä mittareita, joita on ylistetty - ja osaan myös sanottu miksi.
-Ne voin esittää. Lisäksi jos kvantitatiivisesti ajateltuna, näyttää siltä että
-effort estimaatit on tärkeitä agiilissa, koska niitä näkyi paljon. Toisinpäin
-ajateltuna, eli mitkä ei oo tärkeitä, niin vois sanoa et koodimittarit. Niitä
-ei ollut juuri yhtään.
 
 
 }
@@ -531,8 +528,12 @@ ei ollut juuri yhtään.
 \chapter*{Acknowledgements}
 
 I want to thank my instructors Juha Itkonen and Mika Mäntylä for their
-invaluable feedback and tireless attitude towards my questions. Also, I want
-to thank Kim Dikert and Timo Lehtinen for relaxing and thoughtful chats. 
+invaluable feedback, tangible guidance and tireless attitude towards my
+questions.
+Also, I want to thank Kim Dikert and Timo Lehtinen for relaxing, thoughtful and sometimes
+painful chats.
+Furthermore, I would like to express my thanks to Kristian Rautiainen and
+Jari Vanhanen for all the answers for my miscellaneous questions.
 
 \vskip 10mm
 
