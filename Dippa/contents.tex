@@ -31,9 +31,8 @@ remains scarce.
 The goal of this paper is to review the literature of actual use of software
 metrics in the context of agile software development. This study lays out
 the current state of metrics usage in industrial agile software development
-based on literature.
-Moreover, the study uncovers the reasons for metric usage as well as
-highlights actions that the use of metrics can trigger.
+based on literature. Moreover, the study uncovers the reasons for metric
+usage as well as highlights actions that the use of metrics can trigger.
 %Due to our research
 %goal, we focus this paper on case studies and actual empirical findings
 %excluding theoretical discussion and models lacking empirical validation.
@@ -41,10 +40,14 @@ highlights actions that the use of metrics can trigger.
 This study covers the following research questions: 
 
 \begin{itemize}
-  \item Research Question 1: \emph{Which metrics are used?}
-  \item Research Question 2: \emph{Why are metrics used?} 
-  \item Research Question 3: \emph{What are the effects of using metrics?} 
-  \item Research Question 4: \emph{Which metrics are important?}
+  \item Research Question 1: \emph{What metrics are used in industrial
+  agile software development?}
+  \item Research Question 2: \emph{Why are metrics used in industrial
+  agile software development?} 
+  \item Research Question 3: \emph{What are the effects of using metrics in industrial
+  agile software development?} 
+  \item Research Question 4: \emph{What metrics are important in industrial
+  agile software development?}
 \end{itemize} 
 
 %\section{Problem statement}
@@ -88,21 +91,32 @@ tests, pair-programming and having a customer available to answer business
 questions. 
 
 Lean Software Development (LeanSD) \citepsrc{poppendieck2003lean} contains
-many attributes from Scrum and XP but it also utilises principles from Lean manufacturing, which Toyota
-used to build their competitive edge \citetsrc{womack2007machine}.
-\fixme{pitäiskö tähän avata ne princiipit? No jotain pitäis keksiä.}
+many attributes from Scrum and XP, but it also utilises principles from Lean
+manufacturing, which Toyota used to build their competitive edge.
+\citetsrc{womack2007machine}. The modified lean principles used in LeanSD are:
 
-The methods above are often well defined and they state that you must follow
-all of their practices or then there could be negative effects. Kanban
-\citepsrc{anderson2010kanban}on the other hand is more of an evolutionary
-process model that allows each Kanban implementation to be different, suited for each context. Some
+\begin{itemize}
+  \item Eliminate Waste
+  \item Amplify Learning
+  \item Decide as Late as Possible
+  \item Deliver as Fast as Possible
+  \item Empower the Team
+  \item Build Integrity In
+  \item See the Whole 
+\end{itemize}
+
+
+The aforementioned agile methods are often well defined and they require their
+practices to be used comprehensively. Kanban \citepsrc{anderson2010kanban} on
+the other hand is more of an evolutionary process model that allows each
+Kanban implementation to be different, suited for each context. Some
 principles however are the same in Kanban. For example, Kanban systems are
-always pull-systems. Work is pulled only whenever there is capacity compared
-to some other systems where work is pushed to development according to demand.
-The pull system is enabled by limiting work in progress (WIP). For example, if
-WIP limit is 2 for development and there is already two work items under
-development then no more work can be started before either of them is
-completed. 
+always pull-systems. Work is pulled to development only when there is
+capacity, compared to some other systems where work is pushed to development
+according to demand. The pull system is enabled by limiting work in progress
+(WIP). For example, if WIP limit is two for development and there is already
+two work items under development then no more work can be started before
+either of them is completed.
 
 \section{Structure of the Thesis}
 \label{section:structure} 
@@ -122,7 +136,6 @@ principles. \Cref{sec:Conclusions} concludes the paper.
 
 
 %\fixme{tää jäi vähän laihaks. pitäiskö siirtää kamat discussionin alle}
-
 
 
 %\section{Evidence based software engineering}
@@ -421,14 +434,14 @@ of evidence from primary studies.
 \section{Overview of studies}
 \label{sec:overviewOfStudies}
 
-\Cref{tab:PublicationDistribution} shows the distribution of primary
-studies by publication channels. \Cref{tab:overviewOfPdocs} lists the primary
-studies by context factors. \fixme{siisti}
+This section gives an overview of the primary studies.
+\Cref{tab:PublicationDistribution} shows the distribution of primary studies
+by publication channels. \Cref{tab:overviewOfPdocs} lists the primary studies
+by context factors. 
 
-Most studies were clearly from Agile
-Conference as can be seen from \Cref{tab:PublicationDistribution}. Rest of the
-studies have been published in a wide range of journals, conferences and
-workshops.  \fixme{siisti}
+Most primary studies (43\%) were published in Agile Conference as can be seen
+from \Cref{tab:PublicationDistribution}. Rest of the studies have been
+published in a wide range of journals, conferences and workshops.
 
 \begin{table}
 \centering
@@ -465,17 +478,17 @@ studies are quite evenly distributed from 2002 to 2013.  Singlecase was most
 used research method with 18 studies, then experience report with 8 studies,
 multicase with with 3 studies and finally survey with 2 studies. 
 
+Agile method for the studies was set based on the assessment of the
+researcher. A specific method was chosen if it seemed to be a primary method
+in the case. If it was not clear what agile method was used then 'NA' was set
+as agile method. Based on the results, Scrum was the most used agile method
+(35\%). XP was the second most used (20\%). LeanSD and Kanban were used in 5\%
+of the cases. In 33\% of the cases the used agile method was not clear.
 
+Telecom was the most represented domain with 10 cases, enterprise information
+systems was the second with 7 cases and web applications with 4 cases. There
+were 15 cases that were other domains or cases without domain information.
 
-Telecom was
-the most represented domain with 10 cases, enterprise information systems was the
-second with 7 cases and web applications with 4 cases. There were 15 other
-domains or cases without domain information.
-
-
-\fixme{agile method
-lean sotku -casper. Enää vissiin kysymys et pitäiskö muutama lause kirjoittaa
-agile methodista}
 
 \begin{comment}
 % Table generated by Excel2LaTeX from sheet 'Taul1'
@@ -593,12 +606,6 @@ control software\\
 %[S31] & 2006 & Experience r. & DSDM & NA & Library software\\\hline
 \label{tab:overviewOfPdocs}
 \end{longtable}
-
-Agile method for the studies was set based on the assessment of the
-researcher. A specific method was chosen if it seemed to be a primary method
-in the case. If it was not clear what method was used or if there were
-multiple methods mentioned 'NA' was set as agile method.
-
 
 
 \begin{comment}
@@ -752,12 +759,11 @@ relevancy for this study. The scale for the relevancy can be found from
 
 The perceived quality of the studies varied a lot (from 0 to 10). Even with
 many low quality studies they were included since they still provided valuable
-insight. For example in some cases experience reports [S4] provided more
-valuable data than a high scoring research papers [S25].
+insight. For example, in some cases an experience report [S4] provided more
+valuable data than a high scoring research paper [S25].
 
 According to the evaluation control group and reflexivity had the lowest total
 scores while value for research, context and findings scored the highest.
-
 
 \section{Metrics}
 \label{sec:metricsCategorization}
@@ -885,7 +891,9 @@ related to measuring Resources class.
    metrics found from this study}\\
    
  \toprule
-    Metrics suggested by the methods & Method & Scrum & XP    & Kanban & LeanSD & NA \\
+    Metrics suggested by literature & Method & Scrum & XP    & Kanban & LeanSD
+    & NA
+    \\
     \midrule
     Effort estimate & Scrum, XP, LeanSD & 2[S7], 1[S8], 2[S8], 3[S12] & 1[S9] &       &       & 1[S15], 2[S15], 3[S15], 4[S15], 6[S17], 1[S29] \\
     Velocity\footnote{Includes total work remaining from Scrum and effort left
@@ -910,12 +918,13 @@ related to measuring Resources class.
     \end{longtable}%
 %\end{comment}
 
-Metrics found from the primary studies are compared to the ones suggested by
-agile literature in \Cref{tab:comparisonOfMetrics}. The metrics found from
-literature are from Scrum \citepsrc{schwaber2011scrum}, XP \citepsrc{beck2004extreme}, Kanban
-\citepsrc{anderson2010kanban} and LeanSD \citepsrc{poppendieck2003lean}. The
-four rightmost columns are describing the agile method used in the primary
-studies. In some primary studies it was hard to identify a specific
+Metrics found from the primary studies are compared to the metrics suggested
+by agile literature in \Cref{tab:comparisonOfMetrics}. The metrics found
+from literature are from Scrum \citepsrc{schwaber2011scrum}, XP
+\citepsrc{beck2004extreme}, Kanban \citepsrc{anderson2010kanban} and LeanSD
+\citepsrc{poppendieck2003lean}. The four rightmost columns in
+\Cref{tab:comparisonOfMetrics} are describing the agile method used in the
+primary studies. In some primary studies it was hard to identify a specific
 agile method, thus 'NA' is used to describe those cases. The number before
 primary study reference defines the index of the metric in \Cref{tab:Metrics}.
 
@@ -958,13 +967,14 @@ People or Tasks.
 \label{sec:WhyMetricsUsed}
 The following sections describe the reasons for the use of metrics.
 \Cref{tab:whyCategories} lists the categories for reasons of metric use by
-sources. Some of the descriptions for the reasons of metric use might seem
-to be incomplete. This is because the effects of metrics use are described in
-the following \cref{sec:effects}. Also, some reason categories might seem to be
-more effect than reason, for example \nameref{sec:balanceWorkflow} in
-\cref{sec:balanceWorkflow}. However, the reasons for metric use are described
-here for \nameref{sec:balanceWorkflow} and then the actual actions and effects
-are described in the next \cref{sec:effects}.
+sources. Some of the descriptions for the reasons of metric use might seem to
+be incomplete. This is because the effects of metric use are described in the
+following \cref{sec:effects}. Also, some reason categories might seem to be
+describing more the effect than the reason, e.g.,
+\nameref{sec:balanceWorkflow} in \cref{sec:balanceWorkflow}. However, the
+reasons for metric use are described here for \nameref{sec:balanceWorkflow}
+and then the actual actions and effects are described in the next
+\cref{sec:effects}.
 
 %    \begin{tabular}{rp{7cm}}
 % Table generated by Excel2LaTeX from sheet 'Taul1'
@@ -1291,8 +1301,8 @@ schedule at Mamdas, resources were added and scope was reduced for the release
 decreasing fast enough so the scope of the release was decreased [S16].
 Furthermore, if common tempo time would indicate too much planned work, then
 the tasks would be cut or more resources would be added [S17]. Similarly,
-employees were trained with multiple skills e.g customer support did testing
-and documentation engineers were taught how to input their material into the
+employees were trained with multiple skills, e.g., customer support did
+testing and documentation engineers were taught how to input their material into the
 system, so in case of imbalanced workload the work could be reorganized to
 achieve more balanced workflow.  If team effectiveness is not high enough to
 complete tasks, resources from other teams can be used [S3]. Other actions
@@ -1342,8 +1352,8 @@ technical debt board to discuss technical debt issues in their projects, see
 \Cref{fig:debtBoard}. In the meetings, team members agreed which technical
 debt issues they would focus in solving until the next meeting [S4].
 Additionally, team members sought help from the architecture team for reducing
-technical debt, e.g by implementing automatic deployment systems and improving
-source code unit testability.
+technical debt, e.g., by implementing automatic deployment systems and
+improving source code unit testability.
 At Mamdas, measuring the number of automated passing test steps changed teams
 behaviour to write more unit tests [S5]. Metrics were also used to prevent
 harmful behaviour such as cherry picking features that are most interesting to
@@ -1460,16 +1470,16 @@ violations to static code analysis metric [S14].
 \section{Important metrics}
 \label{sec:importantMetrics}
 The following subsections describe first which metrics were described as
-important and then second which metrics were described the most times in the
+important, and then second, which metrics were described the most times in the
 primary studies.
 
 \subsection{Important metrics in terms of statements}
  
 This section describes metrics that were described as important. Metrics were
-considered important if the author, or case employees praised the metric.
-Also, metrics were considered important if there were signs of continuous use
-of the metric. Furthermore, if metrics had positive correlation to project
-success in surveys, they were considered important.
+considered important if the author of the primary study, or case employees
+praised the metric. Also, metrics were considered important if there were
+signs of continuous use of the metric. Furthermore, if metrics had positive
+correlation to project success in surveys, they were considered important.
 
 \begin{comment}
 Capacity as number of features developed in release was considered better than
@@ -1489,7 +1499,7 @@ Story percent complete metric was considered valuable since it embraces test
 driven development - no progress is made before a test is written [S29]. Also,
 story percent complete metric was considered more accurate than previously
 used metric - however that metric was not mentioned. Moreover, story percent
-complete metric giva normalized measure of progress compared to developer
+complete metric gave normalized measure of progress compared to developer
 comments about progress. Additionally, story percent complete metric leveraged
 existing unit testing framework and thus requires only minimal overhead to
 track progress. Furthermore, team members seemed to be extremely happy about
@@ -1563,12 +1573,13 @@ status (x2), number of work items per phase (x2) and customer satisfaction
 
 \section{Implications for practice}
 To provide implications to practice the findings are mapped to the principles
-of agile software development \citetsrc{beck2001agile} categorized by Patel et
-al. \citetsrc{1579312}. For each paragraph the naming by Patel et al. is used
-and references to the agile principles is provided by numbers. 
+of agile software development \citetsrc{beck2001agile} categorized by
+\citetsrc{1579312}. For each paragraph the naming by Patel et al. is used and
+references to the principles of agile software development is provided by
+numbers.
 
 Communication and Collaboration (4th and 6th agile principles
-\citetsrc{beck2001agile}) was reflected by metrics
+\citepsrc{beck2001agile}) was reflected by metrics
 providing basis for discussion. Value Stream Maps and number of bounce backs
 initiated root cause analysis meetings [S3,S17]. Moreover, metrics were
 analysed in reflection meeting where problem and improvement were identified
@@ -1586,16 +1597,17 @@ improvement ideas, see \cref{sec:createImprovementIdeas}.
 
 Frequent delivery of working software (1,3,7) was directly identified in one
 of the studies, where the team measured progress by demonstrating the product
-to the customer [S30]. Additionally, there were cases where e.g.
+to the customer [S30]. Additionally, there were cases where, e.g.,
 completed web-pages [S12] were the primary progress measure. Also, many
-metrics focused on progress tracking (\cref{sec:projectProgress}) and timely
-completion of project goals, see \cref{sec:accomplishProjectGoals}. However,
+metrics focused on progress tracking, see \cref{sec:projectProgress}), and
+timely completion of project goals, see \cref{sec:accomplishProjectGoals}. However,
 some other measures from \cref{sec:projectProgress} show that instead of
 working code agile teams followed completed tasks and velocity metrics.
 %\juha{haluaisin jotain tämänkaltaista keskustelua suorista laatumittareista,
 % mutta voiko näin sanoa tämän tutkimuksen perusteella. Eetu, etenkin tuo
 % viimeinen virke, onko linjassa sinun mielestäsi??}\eetu{Nyt muokattuna voi
 % sanoa.}
+
 An integral part of the concept of working software is measuring post-release
 quality, see  \cref{sec:understandQuality}. This was measured by customer
 satisfaction, feedback, and customer defect reports. It was also common to use
@@ -1604,8 +1616,13 @@ measure the end product quality with customer based metrics instead of the
 traditional quality models, such as ISO/IEC 25010 \citepsrc{10951538}.
 
 Managing Changing Requirements (2) was seen in the metrics that support
-prioritization of features, see \cref{sec:planning} and
-\cref{sec:planningActions}. %Additionally, different metrics helped keeping
+prioritization of features, see
+\cref{sec:planning} and \cref{sec:planningActions}. This allowed the rapid
+development of features important for the customer's business at a given time.
+Also, metrics like technical debt board provided better a better codebase for
+further development.
+
+ %Additionally, different metrics helped keeping
 % the internal quality of the product high throughout the development which
 % then provided safe development of modifications from new ideas, see
 % \cref{sec:PreQuality}.
@@ -1632,12 +1649,12 @@ is added to the product), see \cref{sec:identifyProblems}.
 %ratio, cost performance index, schedule performance index. Näitä ei kaikkia
 %ole myöskään kuvattu resultseissa, paitsi taulukossa mainittu.}
 
-There were also metrics, or their usage, which were not agile in nature. E.g.,
+There were also metrics, or their usage, which were not agile in nature. For example,
 maintaining velocity by cutting corners in quality instead of dropping
-features from that iteration [S6]. Also, adding people to project to reach a
+features from that iteration [S6]. Also, adding people to a project to reach a
 certain date [S5, S17] does not seem that agile compared to removing tasks.
-Adding people can have a negative impact to progress, considering the lack of
-knowledge and training time required.
+Furthermore, adding people can have a negative impact to progress, considering
+the lack of knowledge and training time required.
 % Moreover, the use of dates to plan interdependent tasks is not agile in
 % nature [S12].Instead, interdependencies should be visible inchoosing the
 % tasks to appropriate iterations.
@@ -1645,7 +1662,7 @@ Moreover, the use of number of defects to delay a release [S10] is against
 agile thinking as one should rather decrease the scope to avoid such a
 situation. Furthermore, developers at Avaya used effort estimates to predict
 the iteration where a feature would be completed [S29], contradicting the
-whole idea of iterations.
+idea of completing a feature within an iteration.
 
 %While the flow metrics Ericsson have a good target of balancing workflow,
 % they seem  (or at least they are presented) complicated to use---meaning that one
@@ -1666,35 +1683,31 @@ but if the metrics are enforced outside of the team, e.g., from upper
 management there is a risk that the metrics turn into control mechanisms and
 the benefits for the team itself suffer.
 
-Based on the results for important metrics (\cref{sec:importantMetrics}), some
-characteristics of important metrics can be highlighted. It seems industrial
-agile teams appreciated metrics that were easy to use, highly visual and they
-had the ability to facilitate discussion on problems and possible
-improvements. Also, it seems that customer satisfaction metrics are important
-for the success of a project. Furthermore, effort estimation and velocity
-metrics were described as important, as well as they were identified from many
-primary studies.
+Based on the results for important metrics in \cref{sec:importantMetrics},
+some characteristics of important metrics can be highlighted. It seems
+industrial agile teams appreciated metrics that were easy to use, highly
+visual and they had the ability to facilitate discussion on problems and
+possible improvements. Also, it seems that customer satisfaction metrics are
+important for the success of a project. Furthermore, effort estimation and
+velocity metrics were described as important and they were also identified
+from many primary studies.
 
-\fixme{mittareiden vertailusta agile kirjallisuuteen pitäisi sanoa jotain,
-mitä?}
-\fixme{saisko nyt avatuista mittarikategorioista jotain ajatuksia tänne?}
-%Tässä voisin kuvata omia ajatuksia kokonaisuutena
-
+Found metrics could be also categorized based on the temporal use the metric.
 There were some clearly reactive metrics that were used to provide immediate
-improvement, for example fix the build faster. On the other hand there were
-metrics that were aimed more towards long-term process improvement, for
-example many of the cases from Ericsson. However, many of these cases seemed
-to be very pilot-type, as in some metric based process improvement approach
-was used. In many cases these metrics seemed heavy and not likely to be
-applied after the pilot.
+improvement, e.g., motivate people to fix the build faster. On the other hand
+there were metrics that were aimed more towards long-term process improvement,
+e.g., many of the cases from Ericsson. However, many of these cases seemed to
+be very pilot-type, as in some metric based process improvement approach was
+used. In many cases these metrics seemed heavy and not likely to be applied
+after the pilot.
 
-If an average team would need to be described it would be described as
-follows. They would estimate effort for tasks and they would follow their
-progress using velocity. They measure pre-release quality with number of
-defects and they are interested in customer satisfaction with some metric.
-Additionally, they would have some customized metrics that were needed to
-solve some problems, for example they would measure the amount of time it
-takes to fix a build.
+Based on the results of this study an average profile for metric use of an
+agile team could be described as follows. They estimate effort for tasks
+and they follow their progress using velocity. They measure pre-release
+quality with number of defects and they are interested in customer
+satisfaction with some metric. Additionally, they have some customized
+metrics that are needed to solve immediate problems, e.g., they measure
+the amount of time it takes to fix a build.
 
 \begin{comment}
 Löytyi selkeästi reaktiivisia, välittömiä mittareita joilla haluttiin
@@ -1734,6 +1747,14 @@ Future research, mittareiden räätälöinti, agiili asiakastyytyväisyys, ?
 %Making metrics visible for the team enables them to independently act and
 %improve without the need of rapid supervision and telling people what to do.
 
+The metric categorization by \citetsrc{fenton1998software} in
+\Cref{tab:metricsCategorization} focuses on identifying the target entities
+for measurement. However, the categorization presented in
+\cref{sec:WhyMetricsUsed} and in \cref{sec:effects} focus on the reasons and
+effects of metric use. Maybe it is better to understand why metrics are used
+instead of knowing the target of measurement. Furthermore, it is important to
+understand the consequences of using a metric because the effects of using
+the metric could be dysfunctional as well.
 
 \section{Comparison to prior studies}
 Only few papers have broadly studied the reasons for software metrics use in
@@ -1759,8 +1780,6 @@ of code metric use in the industrial agile context was found. Maybe agile
 practitioners consider code metrics self-evident and do not report them, or
 maybe code metrics are not widely used by agile industrial teams.
 
-\fixme{Harkitse WETSOM kommenteissa mainittujen SLR:ien tarkastelua tässä.}
-
 %Maybe it is time to
 %re-evaluate the need for code metrics research if industry doesn't seem to
 % use them.
@@ -1777,7 +1796,6 @@ maybe code metrics are not widely used by agile industrial teams.
 
 \section{Limitations}
 
-\fixme{Add SLR vs survey - eli pöhkö tutkimusmenetelmä valittu tehtävään}
 The large shares of specific application domains in the primary documents are
 a threat to external validity. Seven out of 30 studies were from enterprise
 information systems domain and especially strong was also the share of ten
@@ -1790,7 +1808,11 @@ threat to reliability was having a single researcher performing the study
 selection and data extraction. It is possible that researcher bias could have
 had an effect on the results. This threat was mitigated by analysing the
 reliability of both study selection and data extraction as described in
-\cref{sec:Method}.
+\cref{sec:Method}. Also, another threat to reliability is the chosen research
+method, SLR. There is a great deal of industrial metric use in agile teams
+that is not reported in scientific literature. So choosing another research
+method, e.g., a survey targeted to companies practicing agile methods
+could have produced different results.
 
 %Sometimes it was hard to understand which metrics an author was referring
 %when a ``why'' was described. Moreover, we had to sometimes assume that when
@@ -1800,7 +1822,7 @@ reliability of both study selection and data extraction as described in
 Due to iterative nature of the coding process, it was challenging to make sure
 that all previously coded primary documents would get the same treatment,
 whenever new codes were discovered. In addition, the researcher's coding
-``sense'' developed over time, so it is possible that data extraction accuracy
+'sense' developed over time, so it is possible that data extraction accuracy
 improved during the analysis. In order to mitigate these risks a pilot study
 was conducted to improve the coding scheme, get familiar with the research
 method and refine the method and tools.
