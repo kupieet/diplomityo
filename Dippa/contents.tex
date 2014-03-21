@@ -51,12 +51,29 @@ This study covers the following research questions:
 
 %\section{Problem statement}
 
+\section{Structure of the thesis}
+\label{section:structure} 
+
+This thesis is structured as follows.\Cref{sec:background} provides background
+information about related concepts regarding this study.
+\Cref{sec:Method} describes how the systematic literature review was conducted. \Cref{sec:Results}
+reports the results from the study. \Cref{sec:Discussion} discusses about the
+findings and how they map to agile principles. \Cref{sec:Conclusions}
+concludes the study.
+
+
+\chapter{Background}
+\label{sec:background}
+This chapter describes the key concepts used in this study.
+First, \cref{sec:agileSoftwareDevelopment} describes agile software
+development. Second, \cref{sec:softwareMetrics} describes the benefits of
+software metric. Third, \cref{sec:systematicLiteratureReview} describes the
+used research method, Systematic Literature Review.
+
 \section{Agile software development}
 \label{sec:agileSoftwareDevelopment}
 %\eetu{tässä voisi olla historianäkökulma, voipi mennä pitkäks eikä niin
 %mielenkiintoinen ehkä tässä paperissa} 
-
-\fixme{motivointi}
 
 Agile development methods have emerged to the software world ruled by
 traditional heavyweight methods. In agile methods the focus is in lightweight
@@ -64,14 +81,20 @@ working practices, constant deliveries and customer collaboration over long
 planning periods, heavy documentation and inflexible development phases.
 
 Agile manifesto created by agile enthusiasts \citepsrc{beck2001agile} lists
-agile principles that give an idea of the core aspects of agile development.
+four core agile values:
+
+\begin{itemize}
+  \item Individuals and interactions over processes and tools
+  \item Working software over comprehensive documentation
+  \item Customer collaboration over contract negotiation
+  \item Responding to change over following a plan
+\end{itemize}
+
 Furthermore, popular agile development methods include Scrum
 \citepsrc{schwaber2002agile}, Extreme Programming \citepsrc{beck2004extreme},
 Lean Software Development \citepsrc{poppendieck2003lean} and Kanban
-\citepsrc{anderson2010kanban}.
-
-Scrum \citepsrc{schwaber2002agile} got its name from rugby, where the team
-groups up and plans its next move. Similarly in software development, the
+\citepsrc{anderson2010kanban}. Scrum \citepsrc{schwaber2002agile} got its name
+from rugby, where the team groups up and plans its next move. Similarly in software development, the
 scrum team has daily meetings where they see what has been done and what
 should be done next. On high level, the development is constructed from
 multiple subsequent sprints, where an increment of the software is developed.
@@ -123,32 +146,59 @@ is already two work items under development then no more work can be started bef
 either of them is completed.
 
 \section{Software metrics}
+\label{sec:softwareMetrics}
 
-``If you can not measure it, you can not improve it\ldots'' said Lord Kelvin,
-a mathematical physicist and engineer. 
+``\emph{If you can not measure it, you can not improve it\ldots}'' said Lord
+Kelvin, a mathematical physicist and engineer. Similarly, according to
+\citetsrc{fenton1998software}, we use metrics everyday to, understand, control
+and improve what we do and how we do it. According to
+\citetsrc{jones2008applied}, who is a founder of Software Productivity
+Research with a knowledge base of thousands of software projects, the top
+performing software companies such as IBM and Microsoft extensively use
+metrics in their business, while the lower performing teams do not.
+Furthermore, measurement is a key technology for successful software
+development and maintenance. \citetsrc{pulford1995quantitative} describes the
+following benefits of metric use:
 
-According to \citetsrc{fenton1998software}, we use metrics everyday to,
-understand, control and improve what we do and how we do it. 
+\begin{itemize}
+  \item Improved project planning and management of projects.
+  \item Alignment of software development to business objectives.
+  \item Cost-effective improvement programmes.
+  \item Improved project communication.
+\end{itemize}
 
+Similarly, \citetsrc{grady1992practical} lists reasons for metric use for
+practitioners and managers:
 
+\begin{itemize}
+  \item A basis for estimates.
+  \item To track project progress.
+  \item To determine (relative) complexity.
+  \item To help us to understand when we have achieved a desired state of
+  quality.
+  \item To analyze defects,
+  \item and to experimentally validate best practices.
+  \item In short: they help us to make better decisions.
+\end{itemize}
+  
+\begin{comment}
+First software metrics
+were used to measure programmer productivity in terms of lines of code in
+circa 1950 \citepsrc{jones2008applied}.
+%\citepsrc{wolverton1974cost}.
+
+ Software metrics eventually started to measure
+other aspects of software development, e.g., the software process.
+
+%Tää ehkä liian yleistä ja vain mun mielipiteitä.
 Metrics can be used to level discussion. Instead of people discussing on
 different levels, some common measure can focus the conversation and bring
 people to a common understanding, at least about the current situation.
+\end{comment}
 
-
-First software metrics were focused on measuring attributes of code, such as
-lines of code. Software metrics eventually started to measure other aspects of
-software development, e.g., the software process. 
-
-According to \citetsrc{jones2008applied}, who is a founder of Software
-Productivity Research with a knowledge base of thousands of software projects,
-the top performing software companies such as IBM and Microsoft extensively
-use metrics in their business, while the lower performing teams do not.
-
-
-
-
+ 
 \section{Systematic Literature Review}
+\label{sec:systematicLiteratureReview}
 
 Systematic Literature Review (SLR) is a research method originated from the
 field of medicine \citepsrc{kitchenham2004procedures}. The overarching idea is
@@ -162,17 +212,6 @@ anyone could, at least in theory, perform the study on her own. Furthermore,
 the detailed documentation of steps in SLR allows in-depth evaluation of the
 rigorousness of the conducted study. However, SLR requires considerably more
 effort than traditional reviews.
-
-
-\section{Structure of the Thesis}
-\label{section:structure} 
-
-This thesis is structured as follows. %\Cref{sec:background} provides
-% information about related concepts regarding this study.
-\Cref{sec:Method} describes how the systematic literature review was conducted. \Cref{sec:Results}
-reports the results from the study. \Cref{sec:Discussion} discusses about the
-findings and how they map to agile principles. \Cref{sec:Conclusions}
-concludes the study.
 
 
 %\section{Software measurement}
@@ -356,9 +395,7 @@ through in case of unclear abstracts.
 % - especially introduction, case description and conclusions were checked
 % briefly.
 Unclear cases were discussed with the instructors in weekly meetings and an
-exclusion rule was documented if necessary.
-
-The validity of the selection process was analysed by performing the selection
+exclusion rule was documented if necessary. The validity of the selection process was analysed by performing the selection
 for a random sample of 26 papers also by the second instructor. The level of
 agreement was 'substantial' with Kappa 0.67
 \citepsrc{landis_measurement_1977}.
