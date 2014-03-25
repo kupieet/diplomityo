@@ -29,24 +29,34 @@ coverage. However, metric research in the context of agile methods
 remains scarce.
 
 The goal of this study is to review the literature of actual use of software
-metrics in the context of agile software development. This study lays out
-the current state of metrics usage in industrial agile software development
-based on literature. Moreover, the study uncovers the reasons for metric
-usage as well as highlights the effects of metric use.
-%Due to our research
-%goal, we focus this paper on case studies and actual empirical findings
-%excluding theoretical discussion and models lacking empirical validation.
-This study covers the following research questions: 
+metrics in the context of agile software development. This study lays out the
+current state of metrics usage in industrial agile software development based
+on literature. Moreover, the study uncovers the reasons for metric usage as
+well as highlights the effects of metric use. Furthermore, this study is part
+of an EU funded project U-QASAR\footnote{http://www.uqasar.eu/}. The
+goal in the U-QASAR project is to develop an analysis tool for software
+development projects with heavy focus on metrics. This study aims to support
+the tool development by providing understanding on metric usage in industrial
+agile software development, and by providing suggestions for metrics used in
+the tool.
+% Due to our research goal, we focus this paper on case studies and actual
+% empirical findings excluding theoretical discussion and models lacking
+% empirical validation.
+This study covers the following research questions:
 
 \begin{itemize}
-  \item Research Question 1: \emph{What metrics are used in industrial
-  agile software development?}
-  \item Research Question 2: \emph{Why are metrics used in industrial
+  \item \textbf{Research Question 1:} \emph{What metrics are used in
+  industrial agile software development?}
+  \item \textbf{Research Question 1.1:} \emph{What are the entities measured
+  in industrial agile software development?}
+ \item \textbf{Research Question 1.2:} \emph{How do the metrics found in
+ industrial agile software development compare to those suggested by agile literature?}
+  \item \textbf{Research Question 2:} \emph{Why are metrics used in industrial
   agile software development?} 
-  \item Research Question 3: \emph{What are the effects of  metric use in
-  industrial agile software development?} 
-  \item Research Question 4: \emph{What metrics are important in industrial
-  agile software development?}
+  \item \textbf{Research Question 3:} \emph{What are the effects of  metric
+  use in industrial agile software development?} 
+  \item \textbf{Research Question 4:} \emph{What metrics are important in
+  industrial agile software development?}
 \end{itemize} 
 
 %\section{Problem statement}
@@ -145,19 +155,25 @@ according to demand. The pull system is enabled by limiting work in progress
 is already two work items under development then no more work can be started before
 either of them is completed.
 
+Multiple different agile software development methods conforming to similar
+principles comprise agile software development. The agile methods emphasise
+short development cycles, frequent face-to-face communication and continuous
+learning. In this Systematic Literature Review, only studies that are of agile
+software development are considered.
+
 \section{Software measurement}
 \label{sec:softwareMetrics}
 
 ``\emph{If you can not measure it, you can not improve it\ldots}'' said Lord
 Kelvin, a mathematical physicist and engineer. Similarly, according to
-\citetsrc{fenton1998software}, we use metrics every day to, understand,
+\citetsrc{fenton1998software}, we use metrics every day to understand,
 control and improve what we do and how we do it. According to
 \citetsrc{jones2008applied}, who is a founder of Software Productivity
 Research with a knowledge base of thousands of software projects, the top
 performing software companies such as IBM and Microsoft extensively use
 metrics in their business, while the lower performing teams do not.
 Furthermore, measurement is a key technology for successful software
-development and maintenance. \citetsrc{pulford1995quantitative} describes the
+development and maintenance. \citetsrc{pulford1995quantitative} describe the
 following benefits of metric use:
 
 \begin{itemize}
@@ -196,6 +212,11 @@ different levels, some common measure can focus the conversation and bring
 people to a common understanding, at least about the current situation.
 \end{comment}
 
+There are many benefits to software metrics, for example being able to improve
+many aspects of software projects, and in general, make better decisions. This
+study tries to collect software metrics and understand the reasons and effects
+for metric use. Additionally, this study tries to distinguish important
+metrics.
  
 \section{Systematic Literature Review}
 \label{sec:systematicLiteratureReview}
@@ -217,6 +238,11 @@ Furthermore, the detailed documentation of steps in SLR allows in-depth
 evaluation of the rigorousness of the conducted study. However, SLR requires
 considerably more effort than traditional reviews. Usually, SLRs are conducted
 by researchers and PhD students.
+
+SLR is an audible and trustworthy research method to for multiple purposes. In
+this study, SLR is used to understand a why metrics are used and what are the
+effects of metric use in agile software development. Furthermore, SLR is used
+to collect the used metrics, and distinguish important metrics.
 
 
 %\section{Software measurement}
@@ -491,24 +517,42 @@ primary study was for this study. The scale for the relevancy factor is:
 
 \section{Data synthesis}
 Data synthesis followed the steps recommended by \citetsrc{6092576}.
-Process started by going through all quotes within one code and giving each quote a
-more descriptive code describing the quote in high level. Then the descriptive
-codes were organized in groups based on their similarity. These groups were
-then given high level codes which are seen as categories in
-\Cref{tab:whyCategories} and \Cref{tab:howCategories}.
+Process started by going through all quotes within one code and giving each
+quote a more descriptive code describing the quote in high level. Then the
+descriptive codes were organized in groups based on their similarity, see
+e.g., \Cref{fig:whyMapExample} These groups were then given high level codes
+which are seen as categories in \Cref{tab:whyCategories} and
+\Cref{tab:howCategories}.
+
+\fixme{Tänne pitäis saada vielä lisää tekstiä. Ongelma ehkä on se, että dataa
+ei synthetisoitu liittyen mittareihin, eikä tärkeisiin mittareihin. Joten
+niiden syntetisoinnista en voi sanoa mitään. Toisaalta yksi kommentti oli,
+että pitäisi lisätä taulukko important mittareista\ldots Mitenköhän sen saan?}
+
+\begin{figure}
+	\includegraphics{images/WhyMapExample}
+	\centering
+	\caption{Reason for metric use category named 'Progress tracking'
+	was formed by organizing descriptive codes in to a group based on their similarity}
+	\label{fig:whyMapExample}
+\end{figure}
+
+
 
 \chapter{Results} % - Why and how are metrics used
 \label{sec:Results}
 
-This chapter presents the results from the systematic literature review.
-\Cref{sec:overviewOfStudies} describes the overview of studies.
-\Cref{sec:qualityEvaluationOfStudies} describes the results from the quality
-evaluation of the primary studies. \Cref{sec:metricsCategorization}
-categorizes found metrics according to categorization by
-\citetsrc{fenton1998software}. \Cref{sec:WhyMetricsUsed} describes the reasons
-for using metrics. \Cref{sec:effects} describes the effects of metric use.
-\Cref{sec:importantMetrics} describes important metrics by statements from the
-primary studies as well as by amount of evidence from primary studies.
+This chapter presents the results from the systematic literature review and
+provides the answers to the research questions. \Cref{sec:overviewOfStudies}
+describes the overview of studies. \Cref{sec:qualityEvaluationOfStudies}
+describes the results from the quality evaluation of the primary studies.
+\Cref{sec:metricsCategorization} presents the found metrics (RQ1),
+categorizes them based on the entity that is measured (RQ1.1) and compares
+them to metrics suggested by agile literature (RQ1.2).
+\Cref{sec:WhyMetricsUsed} describes the reasons for using metrics (RQ2).
+\Cref{sec:effects} describes the effects of metric use (RQ3).
+\Cref{sec:importantMetrics} describes important metrics (RQ4) by statements
+from the primary studies as well as by amount of evidence from primary studies.
 
 \section{Overview of studies}
 \label{sec:overviewOfStudies}
@@ -520,8 +564,9 @@ by context factors.
 
 The study identified 30 primary studies. Primary studies were published in 12
 different journals, conferences or workshops, see
-\Cref{tab:PublicationDistribution}. Large share of primary studies (43\%) were published in Agile Conference. Rest of the studies were
-published in a wide range of journals, conferences and workshops.
+\Cref{tab:PublicationDistribution}. Large share of primary studies (43\%) were
+published in Agile Conference. Rest of the studies were published in a wide
+range of journals, conferences and workshops.
 
 \begin{table}
 \centering
@@ -850,16 +895,23 @@ highest. There were 13 primary studies with a total score of 8, 9 or 10, and
 \label{sec:metricsCategorization}
 
 This section lists, categorizes and compares the found metrics from the SLR.
-First, the found metrics are listed by primary study in \Cref{tab:Metrics}.
-Second, the metrics are categorized according to the categorization by
-\citetsrc{fenton1998software} in \Cref{tab:metricsCategorization}. Third, the
-found metrics are compared to the metrics suggested by agile methods in
-\Cref{tab:comparisonOfMetrics}. Only metrics, which reason of use, effect of
+First, the found metrics are listed by primary study in \Cref{tab:Metrics}
+answering \textbf{Research Question 1:} \emph{What metrics are used in
+industrial agile software development?}. Second, the metrics are categorized according
+  to the categorization by \citetsrc{fenton1998software} in
+  \Cref{tab:metricsCategorization}, answering \textbf{Research Question 1.1:}
+  \emph{What are the entities measured in industrial agile software
+  development?}. Third, the found metrics are compared to the metrics
+  suggested by agile methods in \Cref{tab:comparisonOfMetrics}, answering
+  \textbf{Research Question 1.2:} \emph{How do the metrics found in industrial
+  agile software development compare to those suggested by agile literature?}.
+  Only metrics, which reason of use, effect of
 use or importance was described, were collected. A total of 102 metrics were
 found from the primary studies.
 
+
 \begin{longtable}{lp{12cm}} 
-\caption{Metrics by primary studies}\\
+\caption{RQ1: Metrics by primary studies}\\
 \toprule\\
 ID & Metrics\\
 \midrule\\ \relax
@@ -927,7 +979,8 @@ day\\\relax
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
-  \caption{Metric categorization based on \citetsrc{fenton1998software}}
+  \caption{RQ1.1: Metric categorization based on
+  \citetsrc{fenton1998software}}
  	\begin{tabular}{p{2,1cm}p{7cm}p{5,5cm}}
     \toprule
     Entities & Attributes &  \\
@@ -968,8 +1021,8 @@ related to measuring Resources class.
 % Table generated by Excel2LaTeX from sheet 'Taul2'
 %\begin{comment}
 \begin{longtable}{p{3cm}p{1,4cm}p{1,5cm}p{1cm}p{1,5cm}p{1,5cm}p{1,5cm}}
-  \caption{Comparison of metrics found from agile literature compared to the
-   metrics found from this study}\\
+  \caption{RQ1.2: Comparison of metrics found from agile literature compared
+  to the metrics found from this study}\\
    
  \toprule
     Metrics suggested by literature & Method & Scrum & XP    & Kanban & LeanSD
@@ -1046,6 +1099,8 @@ People or Tasks.
 
 \section{Why are metrics used?}
 \label{sec:WhyMetricsUsed}
+Research Question 2: \emph{Why are metrics used in industrial
+  agile software development?}\\*\\
 The following sections describe the reasons for the use of metrics.
 \Cref{tab:whyCategories} lists the categories for reasons of metric use by
 sources. Some of the descriptions for the reasons of metric use might seem to
@@ -1317,15 +1372,15 @@ the control limits it meant that there was some kind of instability.
 
 \section{What are the effects of metric use?}
 \label{sec:effects}
+Research Question 3: \emph{What are the effects of  metric use in
+  industrial agile software development?}\\*\\
 The following subsections describe the effects of metric use.
-\Cref{tab:howCategories} lists the effect categories by sources.
-
-Some of the categories for the reasons and the effects of metrics are close to
-each other so sometimes it can be hard to understand why some categories are listed
-under the reasons and not under the effects. For example
-\cref{sec:balanceWorkflow} describes that the purpose for metrics was the
-balancing of workflow and then the actual actions and effects are described
-under \cref{sec:effects}.
+\Cref{tab:howCategories} lists the effect categories by sources. Some of the
+categories for the reasons and the effects of metrics are close to each other
+so sometimes it can be hard to understand why some categories are listed under
+the reasons and not under the effects. For example \cref{sec:balanceWorkflow}
+describes that the purpose for metrics was the balancing of workflow and then
+the actual actions and effects are described under \cref{sec:effects}.
 
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
@@ -1495,8 +1550,8 @@ close to the deadline. The improvement suggestion was to focus more on
 continuous delivery instead of focusing on market driven deadlines.
 Furthermore, Kanban was suggested as a development method to accomplish the
 continuous delivery capabilities. Similarly at another case at Ericsson,
-throughput and queue time metrics were used to identify bottleneck in network
-integration test phase which led to using other testing practices in future
+throughput and queue time metrics were used to identify a bottleneck in
+network integration test phase which led to using other testing practices in future
 projects [S26].
 
 Rate of requirements over time was used to identify problems in the
@@ -1554,6 +1609,9 @@ violations to static code analysis metric [S14].
 
 \section{Important metrics}
 \label{sec:importantMetrics}
+Research Question 4: \emph{What metrics are important in industrial
+  agile software development?}\\*\\
+
 The following subsections describe first which metrics were described as
 important, and then second, which metrics were described the most times in the
 primary studies.
@@ -1656,7 +1714,51 @@ status (x2), number of work items per phase (x2) and customer satisfaction
 \chapter{Discussion}
 \label{sec:Discussion}
 
-\section{Implications for practice}
+\fixme{metateksti, tutkimuskysymykset tänne vai aliotsikoihin.}
+\fixme{Lisää summary resulteista.}
+
+Tässä vielä vähän omaa ajatuksenjuoksua: motivationia en oo nähny muissa
+papereissa. Paljon oli samoja syitä mittareiden käytölle kuin 'jo muinaisissa'
+mittarikirjoissa. Vertaa vaikka introssa vs mun kategoriat, vois yrittää vielä
+lisää tunnistaa mun kategorioista sellasia mitä ei muualla ole löytynyt. Jos
+on paljon samaa, se viittaisi siihen että mittaamisen tarkoitus ei hirveästi
+ole muuttunut menetelmän vaihtumisen vuoksi. Ja jos on muuttunut, niin mihin
+suuntaan?
+
+Mitähän nuo muut tutkimuskyssärit sit antais? Tuntuu et monet vaatis sitä et
+lukis sikana muita papereita et vois sit verrata tuloksia niihin, koska nyt
+mulla on vaan tulokset. Vaikea verrata kun ei tiedä mitään muuta\ldots Kai
+tää nimenomaan osoittaa sitä tutkimusalueen hallintaa. prkl.
+
+Entäs se vertailu? Se että ~40 prossaa mittareista ei näy ketterässä
+kirjallisuudessa vois viitata joko siihen, että ne projektit ei ollutkaan
+ketteriä, tai et ketterät projektit käyttää silti vielä muitakin mittareita.
+En usko et tän tarkemmalle tasolla tarvitsee mennä tässä aiheessa.
+
+Entäs mittauksen kohde? Fentonin kategorisoinnista sai siis selville mitä
+kohdetta mitataan. Pitäisikö löytää kirjallisuudesta joku vastaava
+tietopläjäys, vai voinko sanoa et tää on nyt uutta tietoa siitä et mitä
+kohteita mitataan ketterässä. Entä mitä tämä tarkoittaa? pitäis ehkä kattoa
+uudestaan sitä taulukkoa ja mun kirjoittamia tuloksia, jos se herättäis jotain
+lisää ajatuksia.
+
+Vois myös motivoida lisää et miks oon tehny agile mappingin. Siitä on kauan
+kun tähän ryhdyin. Mut muistaakseni huomasin, että jotkut syistä ja
+vaikutuksista tuntui noudattavan agile prinsiippejä. Sitten Mika tai Juha sano
+et pitäis kaikki prinsiipit sit käydä läpi. Mut mitä tämmönen mapping sit
+oikeen antaa ulos? Ilmeisesti mäppäyksellä voisi mitata kuinka agiilia
+mittarin käyttö on - eli tietynlainen instrumentti. Näitä ``Kuinka agiili
+projektisi on?'' mittareitahan on vaikka kuinka, olisko tämä yksi lisää
+siihen? TArvitseeko niitä olla lisää?
+
+Tärkeistä mittareista mulla on jotain. Ehkä noi discussioinit pitäis vaan
+jakaa tutkimuskysymyksien mukaan niin, ehkä se jäsentäis tätä paremmin.
+
+
+
+
+%\section{Implications for practice}
+\section{Mapping metric use to agile principles}
 To provide implications to practice the findings are mapped to the principles
 of agile software development \citetsrc{beck2001agile} categorized by
 \citetsrc{1579312}. For each paragraph the naming by Patel et al. is used and
@@ -1768,6 +1870,8 @@ but if the metrics are enforced outside of the team, e.g., from upper
 management there is a risk that the metrics turn into control mechanisms and
 the benefits for the team itself suffer.
 
+\section{Important metrics? Common metrics? wtf}
+\fixme{otsikko}
 Based on the results for important metrics in \cref{sec:importantMetrics},
 some characteristics of important metrics can be highlighted. It seems
 industrial agile teams appreciated metrics that were easy to use, highly
@@ -1776,6 +1880,15 @@ possible improvements. Also, it seems that customer satisfaction metrics are
 important for the success of a project. Furthermore, effort estimation and
 velocity metrics were described as important and they were also identified
 from many primary studies.
+
+Based on the results of this study an average profile for metric use of an
+industrial agile team could be described as follows. They estimate effort for
+tasks and they follow their progress using velocity. They measure pre-release
+quality with number of defects and they are interested in customer
+satisfaction with some metric. Additionally, they have some customized
+metrics that are needed to solve immediate problems, e.g., they measure
+the amount of time it takes to fix a build.
+
 
 Found metrics could be also categorized based on the temporal use the metric.
 There were some clearly reactive metrics that were used to provide immediate
@@ -1786,13 +1899,6 @@ be very pilot-like, as in some metric based process improvement approach was
 piloted in the organization. In many cases these metrics seemed heavy and not
 likely to be applied after the pilot.
 
-Based on the results of this study an average profile for metric use of an
-industrial agile team could be described as follows. They estimate effort for
-tasks and they follow their progress using velocity. They measure pre-release
-quality with number of defects and they are interested in customer
-satisfaction with some metric. Additionally, they have some customized
-metrics that are needed to solve immediate problems, e.g., they measure
-the amount of time it takes to fix a build.
 
 \begin{comment}
 Löytyi selkeästi reaktiivisia, välittömiä mittareita joilla haluttiin
@@ -1831,6 +1937,8 @@ Future research, mittareiden räätälöinti, agiili asiakastyytyväisyys, ?
 % - instead of high focus on managerial or upper management reporting metrics.
 %Making metrics visible for the team enables them to independently act and
 %improve without the need of rapid supervision and telling people what to do.
+\section{jotain sepitystä mittaroinnista, kohde vs tarkoitus importance}
+\fixme{otsikko}
 
 The metric categorization by \citetsrc{fenton1998software} in
 \Cref{tab:metricsCategorization} focuses on identifying the target entities
