@@ -1773,38 +1773,69 @@ status (x2),  and customer satisfaction (x2).
 \label{sec:Discussion}
 \fixme{Lisää summary resulteista.}
 
-Finding 1: Metrics can have negative effects. (Mut tää ei oo uutta tietoa.
-Joku sanoi että ``Tell me how you will measure so I know how to act'' tjms.
+\begin{comment}
+Use of metrics can have negative effects. (Mut tää ei oo uutta tietoa. Joku
+sanoi että ``Tell me how you will measure so I know how to act'' tjms.
 Toisaalta sekin on tulos että vahvistaa olemassaolevaa tietoa. Vähän niinkuin
 että ketterässäkin tapahtuu tätä. Ketterä ei suojaa vääränlaiselta
-mittarointikulttuurilta. Toisaalta tällaisista negatiivisista vaikutuksista
-ei ollut oikein kuin yksi tapaus. Mutta toisaalta se oli vahvaa näyttöä, ja
+mittarointikulttuurilta. Toisaalta tällaisista negatiivisista vaikutuksista ei
+ollut oikein kuin yksi tapaus. Mutta toisaalta se oli vahvaa näyttöä, ja
 uskoisin että negatiivista käyttöä harvoin raportoidaan tutkimuksissa,
-päinvastoin.) Ydinmittarilla voi olla negatiivisia vaikutuksia.
+päinvastoin.) Ydinmittarilla voi olla negatiivisia vaikutuksia. Software
+metrics ethiquette gradykirja
+\end{comment}
 
 
-Finding 2: Tilannesidonnaisten mittareiden merkitys. Havaittu muutamia
+Finding 1: Use of metrics can have negative effects, see
+linkkiVelocitykappaleeseen. [S14] also hints towards dysfunctional use of
+metrics, for example developers causing broken build if broken build is used
+as a KPI \fixme{tää pitäis laittaa tuloksiin}. ``Tell me how you measure me,
+and I will tell you how I will behave" said \citetsrc{goldratt2006haystack}.
+It seems agile methods don't give any special protection from dysfunctional
+use of metrics, even when using one of the core metrics of Scrum. Even though
+there weren't a lot of evidence for this, the one case showed strong evidence,
+and also it is presumable that dysfunctional use of metrics would rarely be
+reported.
+
+
+
+\begin{comment}
+Tilannesidonnaisten mittareiden merkitys. Havaittu muutamia
 mittareita mitkä luodaan jotain ongelmaa varten. Tällainen malli on
 mielenkiintoinen. Esimerkkien kautta kuvattu, mikä tarve jne. Kokemuksen
 kautta räätälöidään myös mittareita vähän niinku retrospektiin. Samaa kuin
 Finding 10.
+\end{comment}
+
+Finding 2: This study describes the reasons and effects of metric use. There
+was evidence on use of situative metrics. Situative metrics are created and
+used based on a need, for example as a solution to a problem. At Systematic,
+they had issues with build's long fix times. They started measuring fix time
+of broken build and showed the time next to the coffee machine. It provoked
+discussion on the reasons for long fix times, and eventually, the developers
+fixed the builds faster [S13]. Similarly, they had issues with preparations to
+sprints. They started then measuring \emph{percentage of stories prepared for
+sprint} supported with a checklist. Furthermore, they set an organizational
+objective of at least 100\% for that metric. At Petrobras, they had problems
+with customers related to rework and delays. They started measuring technical
+debt with a technical debt board that visualised the state of different
+technical debt categories in their projects. This helped to create
+awareness and address various technical debt issues [S4]. 
+
+In a way metrics are a common tool for process improvement (viitteet), but
+maybe this type of creation of custom metrics is something new? (En ainakaan
+löytäny äkkiä mitään artikkeleita)
 
 
-Finding 3: Tärkeiden mittareiden ominaisuuksia havaittu: helppokäyttöinen,
+\begin{comment}
+Tärkeiden mittareiden ominaisuuksia havaittu: helppokäyttöinen,
 hyödyntää olemassaolevia työkaluja. Ja ehkä why osion perusteella visualisoi
 tilannetta ja herättää keskustelua (tää ei vaan oikeen seuraa important
 metrics osuudesta). Jos why:sta saa perusteltua tärkeyden. Tärkeyttä voi
-tarkastella monelta kantilta. Monet samat syyt voi perustella tärkeyden. 
+tarkastella monelta kantilta. Monet samat syyt voi perustella tärkeyden. Tutki
+tärkeiden mittareiden listaa jos siitä näkisi ominaisuuksia.
 
-
-Finding 4: Mittaroinnin syyt vs mitä muualla sanottu mittaamisen syyksi.
-Nopeasti arvioitunu on paljon yhtäläistä. Pitäisi ehkä tutkia tarkemmin onko jotain
-syitä mitä kirjallisuudessa ei ole esitetty. Se, että joka tapauksessa on
-paljon samaa, tarkoittaisi sitä, että mittaroinnin tarkoitus ei juuri muutu,
-vaikka kehitysmetodi muuttuisikin. Tutki nuo erot.
-
-
-Finding 5: Tärkeitä mittareita nimetty. Kahdelta kantilta arvioitu. jeejee.
+Tärkeitä mittareita nimetty. Kahdelta kantilta arvioitu. jeejee.
 Onko tämä kuitenkaan löydös? Toisaalta, tämä ``tärkeä mittari'' on jo
 aikaisemmin jossain minun ja jonkun muun kanssa käydyissä keskusteluissa
 todettu huonoksi termiksi. Koska tärkeä miltä kannalta? Ei voi olla vain
@@ -1813,18 +1844,81 @@ tärkeiksi''? Sama asia kai. Liittyy edellisiin, niputa yhteen. Kato listaa, ja
 tuleeko siitä jotain mieleen. onko niillä mittareilla jotain yhteistä? Mitkä
 ei anna arvoa? Minkä asian mittaaminen on tärkeä? Mitä asioita tärkeät
 mittarit mittaa? Mitä tästä voi päätellä? Finding 3 ja 5 samanolosia, yhdistä.
+Capers: ``Most successful companies measure software productivity and quality
+accurately. They plan and estimate software projects accurately''
+
+\end{comment}
+
+Finding 3: This study describes important metrics. There are some
+characteristics of important metrics that can be pointed out: such as ease of
+use and that it utilises existing tools. Also, based on the effects of metric
+use, it seems that the ability to provoke discussion is a characteristic for important
+metrics.\fixme{varmaan esimerkkejä tähänkin}
 
 
-Finding 6: The use of code metrics: quite low, but there are some: tech debt,
-violations. Kitchenham:n tutkimuksessa näkyi paljon koodimittareita, näissä ei
+According to \citetsrc{jones2008applied}, software
+productivity and quality are measured accurately by most successful software
+companies. Also, they plan and estimate software projects accurately.
+
+
+
+
+
+\begin{comment}
+Mittaroinnin syyt vs mitä muualla sanottu mittaamisen syyksi.
+Nopeasti arvioitunu on paljon yhtäläistä. Pitäisi ehkä tutkia tarkemmin onko jotain
+syitä mitä kirjallisuudessa ei ole esitetty. Se, että joka tapauksessa on
+paljon samaa, tarkoittaisi sitä, että mittaroinnin tarkoitus ei juuri muutu,
+vaikka kehitysmetodi muuttuisikin. Tutki nuo erot.
+\end{comment}
+
+Finding 4: The categories for reasons and effects for metric use can be seen
+in \fixme{taulukot}. This answers the question why metrics are used in industrial
+agile development. If we then compare how these found reasons compare to
+reasons mentioned by others. Found category 'Planning' is found in other
+literature as Project estimation (grady), Improved project planning (ami).
+'Progress tracking' is found as Progress monitoring (grady), improved project
+communication and management of projects (grady). 'Understand and improve
+quality' is found as ``Measurement is necessary for quality control and
+assurance (Fenton, horst) and ``Measurement is important for prediction. We
+want to predict products and processes at the stages of the software
+life-cycle. (Fenton, horst)'' in terms of predicting post-release quality
+based on pre-release quality (defects deferred). ``Identify problems is found
+as ``Process improvement through failure analysis'' (grady).
+
+As a conclusion with respect to the findings
+is a similar quote from Capers: ``The goal of applied software measurement is
+to give software managers and professionals a set of useful, tangible data
+points for sizing, estimating, managing, and controlling software projects
+with rigor and precision. Estimating could be seen as ``Planning actions'',
+managing and controlling could be seen as ``Reactive actions''. Researcher was
+not able to find similar reasons or effects as ``Motivate people'' would
+suggest. Maybe this is something more unique to agile development. Maybe the
+development is more centered on the people.
+
+There were also reasons that were not found in this study, such as
+``Experimental validation of best practices'' (grady), Alignment of software
+development to business objectives'' (ami), and `` The software development
+process should be designed by measurable objectives, which leads to a precise
+definition of software quality attributes.'' (Fenton, horst). These pointers
+seemed to point out from the core activities in agile development,
+implementation and testing.
+
+
+
+\begin{comment}
+UNOHDA TÄÄ FOR NOW: Finding 5:The use of code metrics: quite low, but there
+are some:
+tech debt, violations. Kitchenham:n tutkimuksessa näkyi paljon koodimittareita, näissä ei
 hirveesti. Onko niiden käyttö kuitenkin niin hankalaa ettei niitä siksi
 käytetä? vai eikö niiden käyttöä vain raportoida? Toisaalta se yks icse
 revieweri sano, että kyllä niitä käytetään koska myynnissä on sellaisia
 työkaluja tjms. Laske prioriteettia, koska ei voi hirveesti sanoa. Voi olla
 että mittarit on käytössä koodareilla mutta ei tietoa mihin käytetään.
+\end{comment}
 
 
-Finding 7: Prosesseja mittaavat mittarit mittaavat pääsiassa vain
+Finding 5: Prosesseja mittaavat mittarit mittaavat pääsiassa vain
 implementointia, testausta ja koko devausprosessia. Muita vaiheita ei
 juurikaan mitata. Miksi ei? Ehkä agilessa keskitytään enemmän itse tekemiseen?
 Ei kuulosta vakuuttavalta. Ehkä kuulostaakin. Keskitytään agile principlesin
@@ -1833,7 +1927,7 @@ näkyviä? Voi olla että muita prosessivaiheita ei ole erotettu agiilissa. Voi
 reflektoida prinsiippejä.
 
 
-Finding 8: Lähes kaikki mittarit mittaavat asioita 'sisäisesti', vain valmista
+Finding 6: Lähes kaikki mittarit mittaavat asioita 'sisäisesti', vain valmista
 tuotetta mitataan ulkoisesti, eli sen käyttäytymisen perusteella. (Fentonin
 mukaan ulkoinen mittaus haastavaa, yleensä voidaan tehdä vain devauksen
 loppuvaiheessa. Sisäisellä mittauksella ennustetaan ulkoista. Managerit
@@ -1841,9 +1935,11 @@ arvostavat enemmän ulkoisia mittareita.) 2005 agiili testaus Itkonen.
 Agiilissa uskotaan että sisäiset käytännöt tuottavat suoraan ulkoista laatua.
 Tää sisäinen ja ulkoinen ei olekaan niin simppelijuttu. Mitäs ne nyt
 tarkottaa? Pitää pystyä määrittelemään selkeästi että voi mitään sanoa.
+(Fundamental Aspects of Software Measurement, selittää jotain external ja
+internalista))
 
 
-Finding 9: Resurssiluokan entiteettejä ei juurikaan mitata. Miksi ei?
+Finding 7: Resurssiluokan entiteettejä ei juurikaan mitata. Miksi ei?
 Ketterässä keskitytään tuotteeseen, eikä sen tekijöihin? Ehkä oletetaan, että
 on pystyvä joukko tekijöitä? Agiilissa ajatellaan että on yksinkertainen
 projekti, eikä muut. Beam ja turner, 200234, software. Balancing agile and
@@ -1851,7 +1947,7 @@ discipline. ``Mitä enemmän porukkaa joka osaa soveltaa agiilia?'' Ihmisten
 mittaamista ei nähdä tärkeänä. 
 
 
-Finding 10: Mittareiden sijoittumisesta menetelmiin: velocityä käytettiin
+Finding 8: Mittareiden sijoittumisesta menetelmiin: velocityä käytettiin
 scrum -ja xp keisseissä. Unit testeja mitattu lähes ainoastaan XP:ssä. Mitä nää
 meinaa? Suht odotettua. Eli näyttää, että teollisuus käyttää
 kirjallisuudessa ehdotettuja mittareita. Kanban ja LeanSD:ssä
