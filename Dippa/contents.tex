@@ -516,21 +516,16 @@ primary study was for this study. The scale for the relevancy factor is:
 \end{itemize}
 
 \section{Data synthesis}
-Data synthesis followed the steps recommended by \citetsrc{6092576}.
-Process started by going through all quotes within one code and giving each
-quote a more descriptive code describing the quote in high level. Then the
-descriptive codes were organized in groups based on their similarity, see
-e.g., \Cref{fig:whyMapExample} These groups were then given high level codes
-which are seen as categories in \Cref{tab:whyCategories} and
+Metrics were grouped based on similarity to enable categorization in
+\Cref{tab:metricsCategorization} and \Cref{tab:importantMetrics}. For example, burndown is
+grouped under velocity, and faults per iteration is grouped under defect
+count. For the reasons and effects the data synthesis followed the steps
+recommended by \citetsrc{6092576}. Process started by going through all quotes within one
+code and giving each quote a more descriptive code describing the quote in
+high level. Then the descriptive codes were organized in groups based on their
+similarity, see e.g., \Cref{fig:whyMapExample} These groups were then given
+high level codes which are seen as categories in \Cref{tab:whyCategories} and
 \Cref{tab:howCategories}.
-
-
-
-Metrics were grouped based on similarity to enable categorization
-(\Cref{tab:metricsCategorization} and \Cref{tab:importantMetrics}) and
-comparison (\Cref{tab:comparisonOfMetrics}). For example, burndown is grouped
-under velocity.
-
 
 \begin{figure}
 	\includegraphics{images/WhyMapExample.jpg}
@@ -930,7 +925,7 @@ faults per iteration\\\relax
 [S6] & Velocity, story estimates\\\relax
 [S7] & Burndown, story points, \# of open defects, \# of defects found
 in system test, defects deferred, Net Promoter Score\\\relax
-[S8] & Story points, task effort, velocity, operation's
+[S8] & Story points, task effort, velocity, operations'
 velocity\\\relax 
 [S9] & Effort estimate\\\relax
 [S10] & \# of defects/velocity\\\relax
@@ -983,44 +978,40 @@ day\\\relax
   \centering
   \caption{RQ1.1: Metric categorization based on
   \citetsrc{fenton1998software}}
- 	\begin{tabular}{p{2,1cm}p{7cm}p{5,5cm}}
+ 	\begin{tabular}{p{2,1cm}p{8cm}p{4,5cm}}
     \toprule
     Entities & Attributes &  \\
     \midrule
-\textbf{Products} & \textbf{Internal} & \textbf{External} \\
-    Products & Running tested features & Customer satisfaction x2, Net
-    Promoter Score, number of requests from customers, progress as working code \\
-    Test plans & Number of test cases &  \\
-    Code  & Technical debt in categories, technical debt in effort, violations of static code analysis &  \\
-    Builds & Build status x2, fix time of failed build &  \\
-    Features & Remaining task effort, task's expected end date, task done, effort estimate x14, work in progress x3, number of days in maintenance, story complete percentage & Business value delivered, change requests per requirements \\
-    Require-ments & Implemented vs wasted requirements, requirement's cost types, Percentage of stories prepared for sprint &  \\
-    Defects &       & Defect trend indicator, predicted number of defects \\
+    \textbf{Products} & \textbf{Internal} & \textbf{External} \\
+    Products & Running tested features [S1], build status [S4, S14] & Customer satisfaction [S1, S3, S7, S17, S19, S20], progress as working code [S30] \\
+    Test plans & Number of test cases [S1] &  \\
+    Code  & Technical debt in categories [S4], technical debt in effort [S4], violations of static code analysis [S14] &  \\
+    Features & task's expected end date [S12], task done [S12], effort estimate [S7, S8, S8, S9, S12, S15, S15, S15, S15, S17, S29], story complete percentage [S29] & Business value delivered [S1] \\
+    Require-ments & Requirement's cost types [S21], Percentage of stories prepared for sprint [S13] &  \\
+    Defects &       & Defect trend indicator [S25], predicted number of defects [S25] \\
     \textbf{Processes} &       &  \\
-    Testing & Defect count after testing, critical defects sent by customer, open defects x5, test success rate, test failure rate, faults per iteration, defects found in system test, defects deferred, test coverage, test growth ratio & Number of bounce backs, fault slips \\
-    Implementa-tion & Velocity x13, number of unit tests x4, completed web
-    pages, cost performance index, schedule performance index, planned
-    velocity, common tempo time, average velocity, check-ins per day x3 &
-    Story flow percentage \\
-    Requirements engineering & velocity of elaborating features &  \\
-    Whole development cycle & cycle time x2, lead time x4, processing time, queue time, maintenance effort, number of work items per phase x2, variance in handovers, rate of requirements per phase, throughput, queue &  \\
+    Testing & defect count [S1, S3, S5, S7 ,S7, S10, S25, S27], test success rate [S3], test failure rate [S3], defects deferred [S7], test coverage [S14], test growth ratio [S14] & Number of bounce backs [S17], fault slips [S19] \\
+    Implementa-tion & Velocity [S1, S2, S3, S5, S6, S8, S8, S10, S13, S16, S16, S16, S23, S27, S28], number of unit tests [S1, S5, S14, S27, S28], completed web pages [S12], cost performance index [S16], schedule performance index [S16], planned velocity [S16], common tempo time [S17], check-ins per day [S5, S27, S28], fix time of failed build [S13] & Story flow percentage [S13] \\
+    Requirements engineering & velocity of elaborating features [S13] &  \\
+    Whole development cycle & cycle time [S17, S23], lead time [S18, S19, S22, S24], processing time [S18], queue time [S18], maintenance effort [S19], work in progress [S17, S20, S21, S22, S23, S24], variance in handovers [S21], throughput [S26], queue [S26], implemented vs wasted requirements [S19] &  \\
     \textbf{Resources} &       &  \\
-    Team  &  & Team effectiveness \\
-    Customer & Revenue per customer &  \\
+    Team  &       & Team effectiveness [S3] \\
+    Customer & Revenue per customer [S11] &  \\
     \bottomrule
     \end{tabular}%
   \label{tab:metricsCategorization}%
 \end{table}%
 
-According to the categorization in \Cref{tab:metricsCategorization}, metrics
-are used to measure products, test plans, code, builds, features, requirements
-and defects. Most of the entities in Products class are measured internally,
-except the products entity, which is measured mostly externally. Furthermore,
-testing, implementation and whole development cycle
-are measured mostly internally in the Processes class. Only two metrics are
-related to measuring Resources class.
 
-\fixme{Yll‰olevaa voisi hieman muokata}
+
+According to the categorization in \Cref{tab:metricsCategorization}, metrics
+were used to measure products, test plans, code, builds, features,
+requirements and defects. Most of the entities in Products class were measured
+internally, except the products entity, which was measured mostly externally.
+Furthermore, testing, implementation and whole development cycle were measured
+mostly internally in the Processes class. Only two metrics are related to
+measuring Resources class.
+
 
 % Table generated by Excel2LaTeX from sheet 'Taul2'
 %\begin{comment}
@@ -1378,6 +1369,8 @@ the control limits it meant that there was some kind of instability.
 %Similarly, monitoring schedule and costs with a dashboard allowed to spot for
 % improvement opportunities at OCLC [S31].
 
+
+
 \section{What are the effects of metric use?}
 \label{sec:effects}
 \textbf{Research Question 3:} \emph{What are the effects of  metric use in
@@ -1523,7 +1516,9 @@ There can also be negative effects in using metrics. Using velocity metric had
 negative effects such as cutting corners in implementing features to maintain
 velocity with the cost of quality [S6]. For example, the managers excused the
 developers from writing tests and the testers cut on the thoroughness of the
-testing in hopes to maintain the velocity.
+testing in hopes to maintain the velocity. Similarly, [S14] also hints towards
+dysfunctional use of metrics, for example developers causing broken build if
+broken build is used as a KPI (Key Progress Indicator).
 
 \subsection{Create improvement ideas}
 \label{sec:createImprovementIdeas}
@@ -1624,11 +1619,11 @@ change coding style guide and code standards based on the results of
   agile software development?}\\*\\
 
 The following subsections describe first which metrics were described as
-important, and then second, which metrics were described the most times in the
-primary studies.
+important, and then second, list important metrics based on the amount of
+evidence and an importance factor.
 
 \subsection{Important metrics in terms of statements}
- 
+\label{sec:importantStatements}
 This section describes metrics that were described as important. Metrics were
 considered important if the author of the primary study, or case employees
 praised the metric. Also, metrics were considered important if there were
@@ -1708,8 +1703,7 @@ was tested. Test-growth ratio was useful in projects where old codebase was
 used as basis for new features. Finally, fixing broken builds prevented
 defects reaching customers. 
 
-
-
+\subsection{List of important metrics}
 % Table generated by Excel2LaTeX from sheet 'Taul1'
 \begin{table}[htbp]
   \centering
@@ -1718,24 +1712,22 @@ defects reaching customers.
     \begin{tabular}{p{5,5cm}rr}
     \toprule
     Metric & Amount of evidence & Importance factor \\
-\midrule
-    Effort estimate [S7, S8, S8, S9, S12, S15, S15, S15, S15, S17, S29] & 14    & 3 \\
-    Velocity [S2, S3, S5, S6, S8, S8, S10, S13, S16, S16, S16, S23, S27, S28] & 13    & 3 \\
+    \midrule
+    Velocity [S1, S2, S3, S5, S6, S8, S8, S10, S13, S16, S16, S16, S23, S27, S28] & 15    & 3 \\
+    Effort estimate [S3, S7, S8, S8, S9, S12, S15, S15, S15, S15, S17, S29] & 12    & 3 \\
+    Defect count [S1, S3, S5, S7 ,S7, S10, S25, S27] & 8     & 2 \\
+    Customer satisfaction [S1, S3, S7, S17, S19, S20] & 6     & 3 \\
     Work in progress [S17, S20, S21, S22, S23, S24] & 6     & 1 \\
-    Defect count [S1, S3, S5, S10, S25, S27] & 5     & 2 \\
-    Number of unit tests [S1, S5, S14, S27, S28] & 4     & 1 \\
+    Number of unit tests [S1, S5, S14, S27, S28] & 5     & 1 \\
     Lead time [S18, S19, S22, S24] & 4     &  \\
     Check-ins per day [S5, S27, S28] & 3     &  \\
+    Technical debt [S4, S4] & 2     & 3 \\
     Build status [S4, S14] & 2     & 3 \\
     Cycle time [S17, S23] & 2     &  \\
-    Customer satisfaction [S1, S17] & 2     &  \\
     Progress as working code [S30] & 1     & 3 \\
-    Technical debt board [S4] & 1     & 3 \\
-    Net Promoter Score [S7] & 1     & 3 \\
     Story flow percentage [S13] & 1     & 2 \\
     Velocity of elaborating features [S13] & 1     & 2 \\
     Story percent complete [S29] & 1     & 2 \\
-    Running tested features [S1] & 1     & 2 \\
     Number of test cases [S1] & 1     & 2 \\
     Value Stream Maps (lead time, processing time, queue time) [S18] & 1     & 2 \\
     Defect trend indicator [S25] & 1     & 2 \\
@@ -1750,16 +1742,28 @@ defects reaching customers.
   \label{tab:importantMetrics}%
 \end{table}%
 
-\fixme{t‰st‰ pit‰is jauhaa jotain}
 
+Important metrics are listed in \Cref{tab:importantMetrics} sorted by amount
+of evidence and an importance factor. Amount of evidence is based on the
+amount of cases describing the metric. Metrics that were only mentioned by
+name without any reasons of use, effect of use, or importance were not taken
+into account. Importance factor is an assessment of the metric's importance by
+the researcher. The list includes only metrics that were described as
+important in \cref{sec:importantStatements} or metrics that were described in
+two or more cases.
 
+Velocity and effort estimate metrics were the most described metrics
+with 15,12 occurrences and also they were considered important. Defect count,
+customer satisfaction and work in progress metrics occurred 8,6,6 times
+respectively. Number of unit tests, lead time and check-ins per day occurred
+5,4,3 times. Technical debt, build status and cycle time occurred 2 times.
 
+\begin{comment}
 \subsection{Important metrics based on the amount of evidence}
 This section describes the metrics that were discussed the most in the
-primary studies. Metrics that were only mentioned by name without any
-reasons of use, effect of use, or importance were not taken into account.
+primary studies. 
 
-\fixme{consider removing since the table}
+
 Effort estimate (x14) and velocity (x13) were clearly the most discussed
 metrics among the studies. Open defects metric (x5) was discussed
 the third most. The number of unit tests (x4) and lead time (x4) were both
@@ -1767,12 +1771,126 @@ discussed four times. Work in progress (x6) and check-ins per day (x3) were
 both described three times.
 Finally, metrics that were mentioned two times were cycle time (x2), build
 status (x2),  and customer satisfaction (x2).
-\fixme{consider removing}
+\end{comment}
 
 \chapter{Discussion}
 \label{sec:Discussion}
 \fixme{Lis‰‰ summary resulteista.}
 
+
+
+\begin{comment}
+Prosesseja mittaavat mittarit mittaavat p‰‰siassa vain
+implementointia, testausta ja koko devausprosessia. Muita vaiheita ei
+juurikaan mitata. Miksi ei? Ehk‰ agilessa keskityt‰‰n enemm‰n itse tekemiseen?
+Ei kuulosta vakuuttavalta. Ehk‰ kuulostaakin. Keskityt‰‰n agile principlesin
+mukaisesti tekemiseen, m‰‰rittelyn mittaamisen. Muut prosessit ei ehk‰ niin
+n‰kyvi‰? Voi olla ett‰ muita prosessivaiheita ei ole erotettu agiilissa. Voi
+reflektoida prinsiippej‰.
+\end{comment}
+
+\section{Mittarit}
+
+\textbf{Research Question 1:} \emph{What metrics are used in
+  industrial agile software development?}
+
+\textbf{Research Question 1.1:} \emph{What are the entities measured
+  in industrial agile software development?}
+
+Finding 5: Based on the metric categorization by \citetsrc{fenton1998software}
+in \Cref{tab:metricsCategorization}, the following processes are measured the
+most: implementation, testing and the whole development cycle. This indicates
+that requirements engineering, specification and design are not measured in
+agile development. Does this mean that aforementioned processes are not
+considered important, or does it mean that agile practitioners consider that
+there is less leeway in aforementioned processes so they do not need to be
+measured?
+% Another possibility is that aforementioned processes are integrated in agile
+% development
+
+
+\begin{comment}
+L‰hes kaikki mittarit mittaavat asioita 'sis‰isesti', vain valmista
+tuotetta mitataan ulkoisesti, eli sen k‰ytt‰ytymisen perusteella. (Fentonin
+mukaan ulkoinen mittaus haastavaa, yleens‰ voidaan tehd‰ vain devauksen
+loppuvaiheessa. Sis‰isell‰ mittauksella ennustetaan ulkoista. Managerit
+arvostavat enemm‰n ulkoisia mittareita.) 2005 agiili testaus Itkonen.
+Agiilissa uskotaan ett‰ sis‰iset k‰yt‰nnˆt tuottavat suoraan ulkoista laatua.
+T‰‰ sis‰inen ja ulkoinen ei olekaan niin simppelijuttu. Mit‰s ne nyt
+tarkottaa? Pit‰‰ pysty‰ m‰‰rittelem‰‰n selke‰sti ett‰ voi mit‰‰n sanoa.
+(Fundamental Aspects of Software Measurement, selitt‰‰ jotain external ja
+internalista)) Juha: t‰m‰ kategoriointi ep‰selv‰ ainakin processes osiossa,
+vaikea k‰ytt‰‰ ja vaikea n‰hd‰ hyˆty. Ehk‰ en sano t‰st‰ mit‰‰n atm.
+\end{comment}
+
+
+\begin{comment}
+Resurssiluokan entiteettej‰ ei juurikaan mitata. Miksi ei?
+Ketter‰ss‰ keskityt‰‰n tuotteeseen, eik‰ sen tekijˆihin? Ehk‰ oletetaan, ett‰
+on pystyv‰ joukko tekijˆit‰? Agiilissa ajatellaan ett‰ on yksinkertainen
+projekti, eik‰ muut. Beam ja turner, 200234, software. Balancing agile and
+discipline. ``Mit‰ enemm‰n porukkaa joka osaa soveltaa agiilia?'' Ihmisten
+mittaamista ei n‰hd‰ t‰rke‰n‰. Ei mitata dokumentaatiota.
+\end{comment}
+
+  
+Finding 7: Based on the metric categorization by
+\citetsrc{fenton1998software} in \Cref{tab:metricsCategorization}, measurement
+is focused towards Products and Processes, but not Resources. This implies
+that measuring resources is not important. One implication
+is that in agile development it is thought that there is a capable team and
+they can improve themselves. Also, in general, agile methods are used for more
+simple projects where resource issues are simpler than in larger, more
+complex, projects. Another possibility is that measuring resources, especially
+people, can lead to dysfunctional behaviour.
+
+Another observation is that documentation is not measured, like requirement
+specification. Instead, the focus is on the actual product and features which
+aligns with the agile principles of concentrating on the software.
+
+
+\begin{comment}
+Mittareiden sijoittumisesta menetelmiin: velocity‰ k‰ytettiin
+scrum -ja xp keisseiss‰. Unit testeja mitattu l‰hes ainoastaan XP:ss‰. Mit‰ n‰‰
+meinaa? Suht odotettua. Eli n‰ytt‰‰, ett‰ teollisuus k‰ytt‰‰
+kirjallisuudessa ehdotettuja mittareita. Kanban ja LeanSD:ss‰
+esitettyj‰ mittareita ei ollut juurikaan, mutta ehk‰ sit‰ selitt‰‰ niiden
+pieni osuus setiss‰. Toisaalta oli iso osa pala sellasia joita ei oltu
+ehdotettu. N‰it‰ t‰ydennet‰‰n sitten muilla mittareilla.
+\end{comment}
+
+\textbf{Research Question 1.2:} \emph{How do the metrics found in
+ industrial agile software development compare to those suggested by agile literature?}
+
+
+Finding 8: Based on the metric comparison in \Cref{tab:comparisonOfMetrics},
+it seems that industry is using most of the metrics suggested by agile
+literature. Although, Kanban and LeanSD metrics were not used that much, but
+that is likely due to low number of cases using Kanban or LeanSD. There were
+also many metrics that were not suggested in agile literature. This implies
+that industrial agile teams tend to add custom metrics on top of metrics
+suggested by agile literature. 
+
+
+
+
+\section{Syyt ja effectit}
+
+\begin{comment}
+Mittaroinnin syyt vs mit‰ muualla sanottu mittaamisen syyksi.
+Nopeasti arvioitunu on paljon yht‰l‰ist‰. Pit‰isi ehk‰ tutkia tarkemmin onko jotain
+syit‰ mit‰ kirjallisuudessa ei ole esitetty. Se, ett‰ joka tapauksessa on
+paljon samaa, tarkoittaisi sit‰, ett‰ mittaroinnin tarkoitus ei juuri muutu,
+vaikka kehitysmetodi muuttuisikin. Tutki nuo erot.
+\end{comment}
+
+
+\textbf{Research Question 2:} \emph{Why are metrics used in industrial
+  agile software development?}  
+  
+ \textbf{Research Question 3:} \emph{What are the effects of  metric
+  use in industrial agile software development?} 
+  
 \begin{comment}
 Use of metrics can have negative effects. (Mut t‰‰ ei oo uutta tietoa. Joku
 sanoi ett‰ ``Tell me how you will measure so I know how to act'' tjms.
@@ -1785,18 +1903,21 @@ p‰invastoin.) Ydinmittarilla voi olla negatiivisia vaikutuksia. Software
 metrics ethiquette gradykirja
 \end{comment}
 
+\subsection{Negative effects of metric use}
 
 Finding 1: Use of metrics can have negative effects, see
-linkkiVelocitykappaleeseen. [S14] also hints towards dysfunctional use of
-metrics, for example developers causing broken build if broken build is used
-as a KPI \fixme{t‰‰ pit‰is laittaa tuloksiin}. ``Tell me how you measure me,
-and I will tell you how I will behave" said \citetsrc{goldratt2006haystack}.
-It seems agile methods don't give any special protection from dysfunctional
-use of metrics, even when using one of the core metrics of Scrum. Even though
-there weren't a lot of evidence for this, the one case showed strong evidence,
-and also it is presumable that dysfunctional use of metrics would rarely be
-reported.
+\cref{sec:motivatePeople}.
+% [S14] also hints towards dysfunctional use of metrics, for example
+% developers causing broken build if broken build is used as a KPI.
+``Tell me how you  measure me, and I will tell you how I will behave" said
+\citetsrc{goldratt2006haystack}. It seems agile methods don't give any special
+protection from dysfunctional use of metrics, even when using one of the core
+metrics of Scrum. Even though there weren't a lot of evidence for this, one
+case showed strong evidence and another hinted, and also it is presumable that
+dysfunctional use of metrics would rarely be reported.
 
+\citetsrc{1667571} also discuss their experiences of improper metrics that
+waste resources and skew team behaviour in counter-productive ways.
 
 
 \begin{comment}
@@ -1806,6 +1927,7 @@ mielenkiintoinen. Esimerkkien kautta kuvattu, mik‰ tarve jne. Kokemuksen
 kautta r‰‰t‰lˆid‰‰n myˆs mittareita v‰h‰n niinku retrospektiin. Samaa kuin
 Finding 10.
 \end{comment}
+\subsection{Situative metrics}
 
 Finding 2: This study describes the reasons and effects of metric use. There
 was evidence on use of situative metrics. Situative metrics are created and
@@ -1826,6 +1948,75 @@ In a way metrics are a common tool for process improvement (viitteet), but
 maybe this type of creation of custom metrics is something new? (En ainakaan
 lˆyt‰ny ‰kki‰ mit‰‰n artikkeleita)
 
+\subsection{Reasons for metric use}
+
+Finding 4: The categories for reasons and effects for metric use can be seen
+in \Cref{tab:whyCategories} and \Cref{tab:howCategories}. This answers the
+question why metrics are used in industrial agile development. If we then
+compare how these found reasons compare to reasons mentioned by others. Found
+category 'Planning' is found in other literature as Project estimation
+(grady), Improved project planning \citepsrc{pulford1995quantitative}.
+'Progress tracking' is found as Progress monitoring \citep{312034}, improved
+project communication and management of projects \citep{312034}. 'Understand
+and improve quality' is found as ``Measurement is necessary for quality
+control and assurance''.  ``Measurement is important for prediction.
+We want to predict products and processes at the stages of the software
+life-cycle.'' \citepsrc{zuse1998framework} was identified in predicting
+post-release quality based on pre-release quality with defects deferred
+metric [S7]. Furthermore ``Identify problems'' is found as ``Process improvement
+through failure analysis'' \citep{312034}. 
+
+According to \citetsrc{jones2008applied}, software productivity and quality
+are measured accurately by most successful software companies. Also, they plan
+and estimate software projects accurately. In this study, there were almost no
+productivity metrics, but quality was measured with defect counts and customer
+satisfaction metrics. Furthermore, there was a lot of emphasis on planning and
+estimation of software projects. What does the lack of productivity
+measurement mean? Or is the productivity measured with some other method than
+traditional metrics, for example frequent deliveries to customer?
+
+
+As a conclusion with respect to the findings
+is a similar quote from Capers: ``The goal of applied software measurement is
+to give software managers and professionals a set of useful, tangible data
+points for sizing, estimating, managing, and controlling software projects
+with rigor and precision. Estimating could be seen as ``Planning actions'',
+managing and controlling could be seen as ``Reactive actions''. Researcher was
+not able to find similar reasons or effects as ``Motivate people'' would
+suggest. Maybe this is something more unique to agile development. Maybe the
+development is more centered on the people, and metrics are used as
+a tool for continuous improvement. 
+
+There were also reasons that were not found in this study, such as
+``Experimental validation of best practices'' \citep{312034}, ``Alignment of
+software development to business objectives''
+\citepsrc{pulford1995quantitative}, and `` The software development process
+should be designed by measurable objectives, which leads to a precise
+definition of software quality attributes.'' \citepsrc{zuse1998framework}.
+Instead of deficing precise quality attributes, agile developers tend to
+measure the end product quality with customer based metrics instead of the
+traditional quality models, such as ISO/IEC 25010 \citepsrc{10951538}.
+
+These benefits and reasons for metric use seem to  from the core
+activities in agile development, implementation and testing. \fixme{mist‰ t‰‰
+on}
+
+
+
+\begin{comment}
+UNOHDA Tƒƒ FOR NOW: Finding 5:The use of code metrics: quite low, but there
+are some:
+tech debt, violations. Kitchenham:n tutkimuksessa n‰kyi paljon koodimittareita, n‰iss‰ ei
+hirveesti. Onko niiden k‰yttˆ kuitenkin niin hankalaa ettei niit‰ siksi
+k‰ytet‰? vai eikˆ niiden k‰yttˆ‰ vain raportoida? Toisaalta se yks icse
+revieweri sano, ett‰ kyll‰ niit‰ k‰ytet‰‰n koska myynniss‰ on sellaisia
+tyˆkaluja tjms. Laske prioriteettia, koska ei voi hirveesti sanoa. Voi olla
+ett‰ mittarit on k‰ytˆss‰ koodareilla mutta ei tietoa mihin k‰ytet‰‰n.
+\end{comment}
+
+
+
+\section{important metrics}
 
 \begin{comment}
 T‰rkeiden mittareiden ominaisuuksia havaittu: helppok‰yttˆinen,
@@ -1849,135 +2040,32 @@ accurately. They plan and estimate software projects accurately''
 
 \end{comment}
 
-Finding 3: This study describes important metrics. There are some
-characteristics of important metrics that can be pointed out: such as ease of
-use and that it utilises existing tools. Also, based on the effects of metric
-use, it seems that the ability to provoke discussion is a characteristic for important
-metrics.\fixme{varmaan esimerkkej‰ t‰h‰nkin}
-
-
-According to \citetsrc{jones2008applied}, software
-productivity and quality are measured accurately by most successful software
-companies. Also, they plan and estimate software projects accurately.
-
-
-
-
-
-\begin{comment}
-Mittaroinnin syyt vs mit‰ muualla sanottu mittaamisen syyksi.
-Nopeasti arvioitunu on paljon yht‰l‰ist‰. Pit‰isi ehk‰ tutkia tarkemmin onko jotain
-syit‰ mit‰ kirjallisuudessa ei ole esitetty. Se, ett‰ joka tapauksessa on
-paljon samaa, tarkoittaisi sit‰, ett‰ mittaroinnin tarkoitus ei juuri muutu,
-vaikka kehitysmetodi muuttuisikin. Tutki nuo erot.
-\end{comment}
-
-Finding 4: The categories for reasons and effects for metric use can be seen
-in \fixme{taulukot}. This answers the question why metrics are used in industrial
-agile development. If we then compare how these found reasons compare to
-reasons mentioned by others. Found category 'Planning' is found in other
-literature as Project estimation (grady), Improved project planning (ami).
-'Progress tracking' is found as Progress monitoring (grady), improved project
-communication and management of projects (grady). 'Understand and improve
-quality' is found as ``Measurement is necessary for quality control and
-assurance (Fenton, horst) and ``Measurement is important for prediction. We
-want to predict products and processes at the stages of the software
-life-cycle. (Fenton, horst)'' in terms of predicting post-release quality
-based on pre-release quality (defects deferred). ``Identify problems is found
-as ``Process improvement through failure analysis'' (grady).
-
-As a conclusion with respect to the findings
-is a similar quote from Capers: ``The goal of applied software measurement is
-to give software managers and professionals a set of useful, tangible data
-points for sizing, estimating, managing, and controlling software projects
-with rigor and precision. Estimating could be seen as ``Planning actions'',
-managing and controlling could be seen as ``Reactive actions''. Researcher was
-not able to find similar reasons or effects as ``Motivate people'' would
-suggest. Maybe this is something more unique to agile development. Maybe the
-development is more centered on the people.
-
-There were also reasons that were not found in this study, such as
-``Experimental validation of best practices'' (grady), Alignment of software
-development to business objectives'' (ami), and `` The software development
-process should be designed by measurable objectives, which leads to a precise
-definition of software quality attributes.'' (Fenton, horst). These pointers
-seemed to point out from the core activities in agile development,
-implementation and testing.
-
-
-
-\begin{comment}
-UNOHDA Tƒƒ FOR NOW: Finding 5:The use of code metrics: quite low, but there
-are some:
-tech debt, violations. Kitchenham:n tutkimuksessa n‰kyi paljon koodimittareita, n‰iss‰ ei
-hirveesti. Onko niiden k‰yttˆ kuitenkin niin hankalaa ettei niit‰ siksi
-k‰ytet‰? vai eikˆ niiden k‰yttˆ‰ vain raportoida? Toisaalta se yks icse
-revieweri sano, ett‰ kyll‰ niit‰ k‰ytet‰‰n koska myynniss‰ on sellaisia
-tyˆkaluja tjms. Laske prioriteettia, koska ei voi hirveesti sanoa. Voi olla
-ett‰ mittarit on k‰ytˆss‰ koodareilla mutta ei tietoa mihin k‰ytet‰‰n.
-\end{comment}
-
-
-Finding 5: Prosesseja mittaavat mittarit mittaavat p‰‰siassa vain
-implementointia, testausta ja koko devausprosessia. Muita vaiheita ei
-juurikaan mitata. Miksi ei? Ehk‰ agilessa keskityt‰‰n enemm‰n itse tekemiseen?
-Ei kuulosta vakuuttavalta. Ehk‰ kuulostaakin. Keskityt‰‰n agile principlesin
-mukaisesti tekemiseen, m‰‰rittelyn mittaamisen. Muut prosessit ei ehk‰ niin
-n‰kyvi‰? Voi olla ett‰ muita prosessivaiheita ei ole erotettu agiilissa. Voi
-reflektoida prinsiippej‰.
-
-
-Finding 6: L‰hes kaikki mittarit mittaavat asioita 'sis‰isesti', vain valmista
-tuotetta mitataan ulkoisesti, eli sen k‰ytt‰ytymisen perusteella. (Fentonin
-mukaan ulkoinen mittaus haastavaa, yleens‰ voidaan tehd‰ vain devauksen
-loppuvaiheessa. Sis‰isell‰ mittauksella ennustetaan ulkoista. Managerit
-arvostavat enemm‰n ulkoisia mittareita.) 2005 agiili testaus Itkonen.
-Agiilissa uskotaan ett‰ sis‰iset k‰yt‰nnˆt tuottavat suoraan ulkoista laatua.
-T‰‰ sis‰inen ja ulkoinen ei olekaan niin simppelijuttu. Mit‰s ne nyt
-tarkottaa? Pit‰‰ pysty‰ m‰‰rittelem‰‰n selke‰sti ett‰ voi mit‰‰n sanoa.
-(Fundamental Aspects of Software Measurement, selitt‰‰ jotain external ja
-internalista))
-
-
-Finding 7: Resurssiluokan entiteettej‰ ei juurikaan mitata. Miksi ei?
-Ketter‰ss‰ keskityt‰‰n tuotteeseen, eik‰ sen tekijˆihin? Ehk‰ oletetaan, ett‰
-on pystyv‰ joukko tekijˆit‰? Agiilissa ajatellaan ett‰ on yksinkertainen
-projekti, eik‰ muut. Beam ja turner, 200234, software. Balancing agile and
-discipline. ``Mit‰ enemm‰n porukkaa joka osaa soveltaa agiilia?'' Ihmisten
-mittaamista ei n‰hd‰ t‰rke‰n‰. 
-
-
-Finding 8: Mittareiden sijoittumisesta menetelmiin: velocity‰ k‰ytettiin
-scrum -ja xp keisseiss‰. Unit testeja mitattu l‰hes ainoastaan XP:ss‰. Mit‰ n‰‰
-meinaa? Suht odotettua. Eli n‰ytt‰‰, ett‰ teollisuus k‰ytt‰‰
-kirjallisuudessa ehdotettuja mittareita. Kanban ja LeanSD:ss‰
-esitettyj‰ mittareita ei ollut juurikaan, mutta ehk‰ sit‰ selitt‰‰ niiden
-pieni osuus setiss‰. Toisaalta oli iso osa pala sellasia joita ei oltu
-ehdotettu. N‰it‰ t‰ydennet‰‰n sitten muilla mittareilla.
-
-
-
-
-\textbf{Research Question 1:} \emph{What metrics are used in
+ \textbf{Research Question 4:} \emph{What metrics are important in
   industrial agile software development?}
+
+Finding 3: Characteristics of important metrics are identified. This study
+describes important metrics based on descriptions of importance and amount of
+evidence. There are some characteristics of important metrics that can be
+pointed out: such as ease of use and that the metric utilises existing tools.
+Also, based on the effects of metric use, it seems that the ability to provoke
+discussion is a characteristic for important metrics. Value Stream Maps and
+number of bounce backs initiated root cause analysis meetings [S3, S17].
+Moreover, metrics were analysed in reflection meeting where problem and
+improvement were identified [S28]. Furthermore, technical debt board provided
+visibility on technical debt issues and it helped to create discussion to
+decrease technical debt [S4]. \citetsrc{1667571} also lists as one of their
+agile metric heuristics that metrics should provide fuel for meaningful
+conversation. \fixme{t‰h‰n voisi sanoa jotain customer satisfactionista}
+
+
   
-Code metrics were not described alot. Compared to Kitchenham's study that
-found many of those. Cause might be that they were not industrial studies.
+%Code metrics were not described alot. Compared to Kitchenham's study that
+% found many of those. Cause might be that they were not industrial studies.
 
 
 
   
- \textbf{Research Question 1.1:} \emph{What are the entities measured
-  in industrial agile software development?}
-  
-  Ent‰s mittauksen kohde? Fentonin kategorisoinnista sai siis selville mit‰
-kohdetta mitataan. Pit‰isikˆ lˆyt‰‰ kirjallisuudesta joku vastaava
-tietopl‰j‰ys, vai voinko sanoa et t‰‰ on nyt uutta tietoa siit‰ et mit‰
-kohteita mitataan ketter‰ss‰. Ent‰ mit‰ t‰m‰ tarkoittaa? pit‰is ehk‰ kattoa
-uudestaan sit‰ taulukkoa ja mun kirjoittamia tuloksia, jos se her‰tt‰is jotain
-lis‰‰ ajatuksia.
-
-
+\begin{comment}
 
 The metric categorization by \citetsrc{fenton1998software} in
 \Cref{tab:metricsCategorization} focuses on identifying the target entities
@@ -1987,28 +2075,13 @@ effects of metric use. Maybe it is better to understand why metrics are used
 instead of knowing the target of measurement. Furthermore, it is important to
 understand the consequences of using a metric because the effects of using
 the metric could be dysfunctional as well.
-  
- \textbf{Research Question 1.2:} \emph{How do the metrics found in
- industrial agile software development compare to those suggested by agile literature?}
- 
- Ent‰s se vertailu? Se ett‰ ~40 prossaa mittareista ei n‰y ketter‰ss‰
-kirjallisuudessa vois viitata joko siihen, ett‰ ne projektit ei ollutkaan
-ketteri‰, tai et ketter‰t projektit k‰ytt‰‰ silti viel‰ muitakin mittareita.
-En usko et t‰n tarkemmalle tasolla tarvitsee menn‰ t‰ss‰ aiheessa.
- 
-\textbf{Research Question 2:} \emph{Why are metrics used in industrial
-  agile software development?} 
-  
-  T‰ss‰ viel‰ v‰h‰n omaa ajatuksenjuoksua: motivationia en oo n‰hny muissa
-papereissa. Paljon oli samoja syit‰ mittareiden k‰ytˆlle kuin 'jo muinaisissa'
-mittarikirjoissa. Vertaa vaikka introssa vs mun kategoriat, vois yritt‰‰ viel‰
-lis‰‰ tunnistaa mun kategorioista sellasia mit‰ ei muualla ole lˆytynyt. Jos
-on paljon samaa, se viittaisi siihen ett‰ mittaamisen tarkoitus ei hirve‰sti
-ole muuttunut menetelm‰n vaihtumisen vuoksi. Ja jos on muuttunut, niin mihin
-suuntaan?
-  
-  
-  Found metrics could be also categorized based on the temporal use the metric.
+
+\end{comment}  
+
+
+
+\begin{comment}
+Found metrics could be also categorized based on the temporal use the metric.
 There were some clearly reactive metrics that were used to provide immediate
 improvement, e.g., motivate people to fix the build faster. On the other hand
 there were metrics that were aimed more towards long-term process improvement,
@@ -2016,14 +2089,11 @@ e.g., many of the cases from Ericsson. However, many of these cases seemed to
 be very pilot-like, as in some metric based process improvement approach was
 piloted in the organization. In many cases these metrics seemed heavy and not
 likely to be applied after the pilot.
-  
- \textbf{Research Question 3:} \emph{What are the effects of  metric
-  use in industrial agile software development?} 
-  
-  
- \textbf{Research Question 4:} \emph{What metrics are important in
-  industrial agile software development?}
+\end{comment} 
 
+
+
+\begin{comment}
 Based on the results for important metrics in \cref{sec:importantMetrics},
 some characteristics of important metrics can be highlighted. It seems
 industrial agile teams appreciated metrics that were easy to use, highly
@@ -2040,17 +2110,7 @@ quality with number of defects and they are interested in customer
 satisfaction with some metric. Additionally, they have some customized
 metrics that are needed to solve immediate problems, e.g., they measure
 the amount of time it takes to fix a build.
-
-
-
-
-
-Mit‰h‰n nuo muut tutkimuskyss‰rit sit antais? Tuntuu et monet vaatis sit‰ et
-lukis sikana muita papereita et vois sit verrata tuloksia niihin, koska nyt
-mulla on vaan tulokset. Vaikea verrata kun ei tied‰ mit‰‰n muuta\ldots Kai
-t‰‰ nimenomaan osoittaa sit‰ tutkimusalueen hallintaa. prkl.
-
-
+\end{comment}
 
 
 
@@ -2061,11 +2121,7 @@ et pit‰is kaikki prinsiipit sit k‰yd‰ l‰pi. Mut mit‰ t‰mmˆnen mapping sit
 oikeen antaa ulos? Ilmeisesti m‰pp‰yksell‰ voisi mitata kuinka agiilia
 mittarin k‰yttˆ on - eli tietynlainen instrumentti. N‰it‰ ``Kuinka agiili
 projektisi on?'' mittareitahan on vaikka kuinka, olisko t‰m‰ yksi lis‰‰
-siihen? TArvitseeko niit‰ olla lis‰‰?
-
-T‰rkeist‰ mittareista mulla on jotain. Ehk‰ noi discussioinit pit‰is vaan
-jakaa tutkimuskysymyksien mukaan niin, ehk‰ se j‰sent‰is t‰t‰ paremmin.
-
+siihen? TArvitseeko niit‰ olla lis‰‰? \fixme{lis‰‰ t‰‰ motivointi}
 
 
 
