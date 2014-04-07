@@ -61,6 +61,10 @@
 \newcommand{\eetu}[1]{\ignorespaces}
 \newcommand{\juha}[1]{\ignorespaces}
 
+          \clubpenalty = 10000
+          \widowpenalty = 10000
+          \displaywidowpenalty = 10000
+
 \begin{document}
 
 % TeXSupport
@@ -300,7 +304,7 @@ Systematic literature review (SLR) was chosen as research method because we
 are trying to understand a problem instead of trying to find a solution to it. Also, there
 was already existing literature that could be synthesized.
 
-\subsection{Protocol development}
+\subsection{Protocol Development}
 Kitchenham's guide for SLRs \cite{kitchenham2004procedures} was used as a
 basis for developing the review protocol. Additionally, an SLR on agile
 development \cite{dyba_empirical_2008} and an SLR on SLR
@@ -310,7 +314,7 @@ with the authors, as well as in a pilot study.
 
 %otherguidelines \cite{webster2002analyzing}, a lessons learned from SRs
 % \cite{brereton2007lessons},
-\subsection{Search and selection process}
+\subsection{Search and Selection Process}
 
 The strategy for finding primary studies was following:
 
@@ -446,7 +450,7 @@ were unclear papers, they were discussed in the meetings. Also, selection of 7
 papers was conducted by the second author with an 'almost perfect' agreement,
 Kappa 1.0 \cite{landis_measurement_1977}.
 
-\subsection{Data extraction}
+\subsection{Data Extraction}
 
 Integrated coding was selected for data extraction strategy \cite{6092576}. Integrated coding includes having a start list of codes as
 well as creating new codes if necessary (ground-up). It
@@ -497,7 +501,7 @@ evaluate the quality of each primary study.
 %  usage
 %\end{itemize}
 
-\subsection{Data synthesis}
+\subsection{Data Synthesis}
 Data synthesis followed the steps recommended by Cruzes et al. \cite{6092576}.
 Process started by going through all quotes within one code and giving each quote a
 more descriptive code describing the quote in high level. Then the descriptive
@@ -720,7 +724,7 @@ Categories & Sources\\ \hline
 \end{table}
 
 
-\subsection{Iteration planning}
+\subsection{Iteration Planning}
 \label{sec:IterationPlanning}
 Many metrics were used to support iteration planning. The metrics were used
 for task prioritization and scoping of the iteration.
@@ -744,7 +748,7 @@ to understand if all planned corrections can be completed before release date
 % interdependent tasks in the planning phase \cite{Hong2010310}.
 
 
-\subsection{Iteration tracking} %completion}
+\subsection{Iteration Tracking} %completion}
 \label{sec:IterationTracking}
 % Timely manner of completing iteration is one of the cornerstones of agile
 % development !ISKEVIITE.
@@ -799,7 +803,7 @@ to delay a release \cite{Hodgetts2004106}.
 %Metrics were also used to monitor the whole project: assess risks, follow work
 %completion and 
 
-\subsection{Motivating and improving}
+\subsection{Motivating and Improving}
 \label{sec:Motivate}
 % (Agile methods emphasize self-empowerment - this was also visible in the
 % used metrics.)
@@ -824,7 +828,7 @@ features that are most interesting to the team. Measuring work in progress
 only two features at a time. This prevented them from working simultaneously
 on lower priority but more interesting features \cite{Middleton2007387}.
 
-\subsection{Identifying process problems}
+\subsection{Identifying Process Problems}
 \label{sec:ProblemIdentification}
 Metrics were often used to identify or avoid problems in processes and work
 flows. This chapter describes how metrics were used to spot problems.
@@ -847,7 +851,7 @@ Creating awareness with defect trend indicator helped to take actions to avoid
 problems \cite{Staron20101069}. One common solution to problems was to find
 the root cause \cite{Jakobsen2011168,Middleton2007387}.
 
-\subsection{Pre-release quality}
+\subsection{Pre-release Quality}
 \label{sec:PreQuality}
 Metrics in the pre-release quality category were used to prevent defects
 reaching customers and to understand what the current quality of the
@@ -868,7 +872,7 @@ Some metrics forced writing tests before the actual code \cite{Trapa2006243}.
 Technical debt was measured with a technical debt board that was used to
 facilitate discussion on technical debt issues \cite{LNBIP01490121}.
 
-\subsection{Post-release quality}
+\subsection{Post-release Quality}
 \label{sec:PostQuality}
 Metrics in post-release quality deal with evaluating the quality of the
 product after it has been released.
@@ -887,7 +891,7 @@ Quality prediction metrics included defect counts \cite{Petersen2010654},
 maintenance effort \cite{Staron20101069}, and deferred defect counts
 \cite{Green2011}.
 
-\subsection{Changes in processes or tools}
+\subsection{Changes in Processes or Tools}
 \label{sec:ChangesInProcesses}
 This chapter describes the reported changes that applying metrics had for processes and tools. The changes include changes in measurement practices, development policies, and the whole development process.
 
@@ -924,7 +928,7 @@ the test approach \cite{Staron20113}.
 \section{Discussion}
 \label{sec:Discussion}
 
-\subsection{Implications for practice}
+\subsection{Implications for Practice}
 To provide implications to practice we map our findings to the principles of
 agile software development \cite{beck2001agile} categorized by Patel et al.
 \cite{1579312}. For each paragraph we use the naming by Patel et al. and
@@ -1116,7 +1120,7 @@ the benefits for the team itself suffer.
 %Making metrics visible for the team enables them to independently act and
 %improve without the need of rapid supervision and telling people what to do.
 
-\subsection{Comparison to prior studies}%\juha{Istuu paremmin discussioniin}
+\subsection{Comparison to Prior Studies}%\juha{Istuu paremmin discussioniin}
 Only few papers have broadly studied the reasons for software metrics use in
 the context of agile software development. Hartmann \& Dymond \cite{1667571}
 highlight process improvement as one of the reasons for measurement in their agile metrics paper. Also, they emphasize that creation of value should
@@ -1239,7 +1243,7 @@ http://www.uqasar.eu/).
 %\balancecolumns
 \appendix
 %Appendix A
-\section{Search strings}
+\section{Search Strings}
 \label{app:Strings}
 
 The first search string was:
@@ -1283,7 +1287,7 @@ EXCLUDE(SUBJAREA, \\"COMP"))
 
 It found 42 hits 10 December 2013.
 
-\section{Inclusion and exclusion criteria}
+\section{Inclusion and Exclusion Criteria}
 \label{app:Criteria}
 
 Inclusion criteria

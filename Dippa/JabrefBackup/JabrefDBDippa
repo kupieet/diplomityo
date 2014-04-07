@@ -809,6 +809,7 @@
 	Methods and Agile Development (2006) IEEE Software; Erdogmus, H.,
 	Architecture Meets Agility (2009) IEEE Software, 26 (5), pp. 2-4},
   source = {Scopus},
+  stage2reason = {RoskaEnglantia},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84869156654&partnerID=40&md5=31478018b0f6a2f8a291999914d4aa89}
 }
@@ -1722,6 +1723,7 @@
 	2001: A Net Odyssey (euromicro'01) p. 0233},
   source = {Scopus},
   sponsors = {Int. Assoc. Computer and Information Science (ACIS)},
+  stage2reason = {KuulostaaJärjettömältä},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-53149093247&partnerID=40&md5=997956f482849b8b8c5eff166591e03a}
 }
@@ -3748,6 +3750,7 @@
   issn = {00652458},
   language = {English},
   source = {Scopus},
+  stage2reason = {NotAgile},
   stage2status = {IdeaPile},
   stage3status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-21844484523&partnerID=40&md5=c58ccde3ef687eff365f281041ba4e1d}
@@ -4037,6 +4040,7 @@
 	Proc. 27th Frontiers in Education Conf., pp. 162-168. , IEEE Press,
 	Piscataway, N.J},
   source = {Scopus},
+  stage2reason = {NotAgile},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0036732470&partnerID=40&md5=3058613a0f4444af377638e99969a316}
 }
@@ -4478,6 +4482,7 @@
   owner = {ekupiain},
   source = {Scopus},
   sponsors = {IEEE},
+  stage2reason = {NotAgile},
   stage2status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-0031644923&partnerID=40&md5=c694dc64e3f811406a41b1293053c9f2}
@@ -9737,6 +9742,7 @@
 	implementation (1982) Communications of the ACM, pp. 438-440},
   source = {Scopus},
   sponsors = {IEEE Technical Committee on Engineering of Computer-Based Syst.},
+  stage2reason = {ComparisonOfMethods},
   stage2status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-28344439956&partnerID=40&md5=6d999684720ecdc1bb0a303e174cbb79}
@@ -10189,6 +10195,7 @@
 	with Care (2002) IEEE Computer, , January; Beck, K., Boehm, B., Agility
 	through Discipline : A Debate (2003) IEEE Computer, , June},
   source = {Scopus},
+  stage2reason = {MetricsForSelectingMethod},
   stage2status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-34248391783&partnerID=40&md5=d3b82b3c256a792fd983acedb3cb4a56}
@@ -16766,6 +16773,7 @@
 	Factories Approach (2009) 5th Central and Eastern European Software
 	Engineering Conference In Russia},
   source = {Scopus},
+  stage2reason = {NotAgile},
   stage2status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-78651564809&partnerID=40&md5=5f140923a5ed8ae8bf449341ac1c16a9}
@@ -16885,6 +16893,7 @@
 	L., Upchurch, R.L., (2001) In Support of Student Pair-Programming,
 	SIGCSE2001, pp. 327-331. , ACM press},
   source = {Scopus},
+  stage2reason = {ComparisonOfMethods},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-9544235176&partnerID=40&md5=72413962c0da827eba6d859cf9c2c28d}
 }
@@ -22310,6 +22319,7 @@
 	Iacovelli, A., (2007) Introduction de l'agilitÃƒÂ© dans les mÃƒÂ©thodes,
 	, Master thesis, University Paris 1 PanthÃƒÂ©on Sorbonne},
   source = {Scopus},
+  stage2reason = {ComparisonOfMethods},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84880288109&partnerID=40&md5=ed06c55fe470579257c7d0308ab68bbd}
 }
@@ -25129,6 +25139,7 @@
 	pp; YOURDON, E.L., CONSTANTINE, L.L., Re-Inventing IS/IT (1995) Australian
 	Computing Society, Seminar Proceedings},
   source = {Scopus},
+  stage2reason = {MetricsUsedForResearch},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33947533461&partnerID=40&md5=d37f184dd33493f073c366f169eec8c7}
 }
@@ -31546,6 +31557,7 @@
   sponsors = {Universities of Calgary, BC, Canada; University of Manitoba, Winnipeg,
 	Man, Canada; University of Regina, Regina, Sask, Canada; University
 	of Victoria, Victoria, BC, Canada},
+  stage2reason = {SingleTechnique},
   stage2status = {IdeaPile},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-13944275913&partnerID=40&md5=64cee0409e3d2c0ec531f1253eb7d409}
@@ -32024,6 +32036,7 @@
 	guidelines for empirical research in software engineering (2002)
 	IEEE Transactions on Software Engineering, 28 (8), pp. 721-734},
   source = {Scopus},
+  stage2reason = {MetricsUsedForResearch},
   stage2status = {IdeaPile},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746265818&partnerID=40&md5=c1f3ae9ecb666ec746ef9ffbe579cba1}
 }
@@ -62160,6 +62173,40 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-77649339032&partnerID=40&md5=a4938cb19952e369244da38fb54ddd3c}
 }
 
+@CONFERENCE{2013,
+  title = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  year = {2013},
+  address = {Innsbruck},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
+	Code:96247},
+  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
+  abstract = {The proceedings contain 18 papers. The topics discussed include: the
+	user information-based mobile application recommender system; towards
+	r&d as innovation experiment systems: a framework for moving beyond
+	agile software development; software requirement acquisition method
+	based on probabilistic action-model algorithm; investigating the
+	candidate pair generation of the VF2 algorithm; evaluating and improving
+	design patterns applicability with metrics; experienced benefits
+	of continuous integration in industry software product development:
+	a case study; interview guidelines for analyzing software architectural
+	practices in agile projects; integration of functional and interface
+	requirements of an web based software: a VDM based formal approach;
+	using AHP to compare and evaluate software security testing techniques;
+	and influence of code completion methods on the usability of APIS.},
+  document_type = {Conference Review},
+  isbn = {9780889869431},
+  journal = {IASTED Multiconferences - Proceedings of the IASTED International
+	Conference on Software Engineering, SE 2013},
+  language = {English},
+  page_count = {135},
+  source = {Scopus},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
+}
+
 @ARTICLE{2013,
   title = {3rd International Conference on Mechanical and Manufacturing Engineering,
 	ICME 2012},
@@ -62271,40 +62318,6 @@
   stage2status = {Exclude},
   timestamp = {2013.11.18},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84876355993&partnerID=40&md5=4a4b482984c052d9224dbd227299dab3}
-}
-
-@CONFERENCE{2013,
-  title = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  year = {2013},
-  address = {Innsbruck},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@313ee9dd
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@196bc56d
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@726e8424; Conference
-	Code:96247},
-  abbrev_source_title = {Proc. IASTED Int. Conf. Softw. Eng., SE},
-  abstract = {The proceedings contain 18 papers. The topics discussed include: the
-	user information-based mobile application recommender system; towards
-	r&d as innovation experiment systems: a framework for moving beyond
-	agile software development; software requirement acquisition method
-	based on probabilistic action-model algorithm; investigating the
-	candidate pair generation of the VF2 algorithm; evaluating and improving
-	design patterns applicability with metrics; experienced benefits
-	of continuous integration in industry software product development:
-	a case study; interview guidelines for analyzing software architectural
-	practices in agile projects; integration of functional and interface
-	requirements of an web based software: a VDM based formal approach;
-	using AHP to compare and evaluate software security testing techniques;
-	and influence of code completion methods on the usability of APIS.},
-  document_type = {Conference Review},
-  isbn = {9780889869431},
-  journal = {IASTED Multiconferences - Proceedings of the IASTED International
-	Conference on Software Engineering, SE 2013},
-  language = {English},
-  page_count = {135},
-  source = {Scopus},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84875540127&partnerID=40&md5=94eee2750e0e101dd87c8e36b5cb7773}
 }
 
 @ARTICLE{2013a,
@@ -63191,44 +63204,6 @@
 }
 
 @ARTICLE{NoAuthor2012,
-  title = {The Dynamics of Global Sourcing, Perspectives and Practices - 6th
-	Global Sourcing Workshop 2012, Revised Selected Papers},
-  journal = {Lecture Notes in Business Information Processing},
-  year = {2012},
-  volume = {130 LNBIP},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@3338e921
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5d518fcc
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@15b7c9f1; Conference
-	Code:93404},
-  abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
-  abstract = {The proceedings contain 13 papers. The topics discussed include: analyzing
-	client dependence in dyadic IS outsourcing relationships; measuring
-	the relative efficiency of global delivery models in IT outsourcing;
-	understanding innovation in outsourcing services; shifting sand:
-	organizational identity, partnership and IT outsourcing; learning
-	software-maintenance tasks in the transition phase of offshore outsourcing
-	projects: two learning-theoretical perspectives; understanding resistance
-	in IT outsourcing: a service provider perspective; cloud sourcing:
-	implications for managing the IT function; coordination as a service
-	to enable agile business networks; seeking opaque indifference in
-	offshore BPO; exploring failures at the team level in offshore-outsourced
-	software development projects; and global sourcing of information
-	systems development - explaining project outcomes based on social,
-	cultural, and asset-related characteristics.},
-  address = {Courchevel},
-  document_type = {Conference Review},
-  isbn = {9783642339196},
-  issn = {18651348},
-  language = {English},
-  owner = {ekupiain},
-  page_count = {236},
-  source = {Scopus},
-  stage2status = {Exclude},
-  timestamp = {2013.12.11},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84868228787&partnerID=40&md5=e79d7817d27975d4c8a681c388a7ed67}
-}
-
-@ARTICLE{NoAuthor2012,
   title = {Agile Processes in Software Engineering and Extreme Programming -
 	13th International Conference, XP 2012, Proceedings},
   journal = {Lecture Notes in Business Information Processing},
@@ -63264,6 +63239,44 @@
   stage2status = {Exclude},
   timestamp = {2013.12.11},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84862105997&partnerID=40&md5=49ea0828f7e4835e8127bd13f0d3b106}
+}
+
+@ARTICLE{NoAuthor2012,
+  title = {The Dynamics of Global Sourcing, Perspectives and Practices - 6th
+	Global Sourcing Workshop 2012, Revised Selected Papers},
+  journal = {Lecture Notes in Business Information Processing},
+  year = {2012},
+  volume = {130 LNBIP},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@3338e921
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@5d518fcc
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@15b7c9f1; Conference
+	Code:93404},
+  abbrev_source_title = {Lect. Notes Bus. Inf. Process.},
+  abstract = {The proceedings contain 13 papers. The topics discussed include: analyzing
+	client dependence in dyadic IS outsourcing relationships; measuring
+	the relative efficiency of global delivery models in IT outsourcing;
+	understanding innovation in outsourcing services; shifting sand:
+	organizational identity, partnership and IT outsourcing; learning
+	software-maintenance tasks in the transition phase of offshore outsourcing
+	projects: two learning-theoretical perspectives; understanding resistance
+	in IT outsourcing: a service provider perspective; cloud sourcing:
+	implications for managing the IT function; coordination as a service
+	to enable agile business networks; seeking opaque indifference in
+	offshore BPO; exploring failures at the team level in offshore-outsourced
+	software development projects; and global sourcing of information
+	systems development - explaining project outcomes based on social,
+	cultural, and asset-related characteristics.},
+  address = {Courchevel},
+  document_type = {Conference Review},
+  isbn = {9783642339196},
+  issn = {18651348},
+  language = {English},
+  owner = {ekupiain},
+  page_count = {236},
+  source = {Scopus},
+  stage2status = {Exclude},
+  timestamp = {2013.12.11},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-84868228787&partnerID=40&md5=e79d7817d27975d4c8a681c388a7ed67}
 }
 
 @CONFERENCE{2011,
@@ -65187,6 +65200,45 @@
 }
 
 @ARTICLE{2006,
+  title = {Extreme Programming and Agile Processes in Software Engineering -
+	7th International Conference, XP 2006, Proceedings},
+  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
+	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+  year = {2006},
+  volume = {4044 LNCS},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
+	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
+	Code:67905},
+  abbrev_source_title = {Lect. Notes Comput. Sci.},
+  abstract = {The proceedings contain 30 papers. The topics discussed include: a
+	distributed cognition account of mature XP teams; foundations of
+	agile decision making from agile mentors and developers; software
+	development as a collaborative writing project; comparative analysis
+	of job satisfaction in agile and non-agile software development teams;
+	the collaborative nature of pair programming; leveraging code smell
+	detection with inter-smell relations; studying the evolution of quality
+	metrics in an agile/distributed project; the effect of test-driven
+	development on program code; configuring hybrid agile-tradition software
+	processes; agility in the avionics software world; security planning
+	and refactoring in extreme programming; augmenting the agile planning
+	toolbox; and storytelling in interaction: agility in practice.},
+  address = {Oulu},
+  document_type = {Conference Review},
+  isbn = {3540350942; 9783540350941},
+  issn = {03029743},
+  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
+	Computer programming; Project management, Distributed cognition;
+	Pair programming; Quality metrics; Software processes, Software engineering},
+  language = {English},
+  page_count = {238},
+  source = {Scopus},
+  sponsors = {Exoftware; Philips},
+  stage2status = {Exclude},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
+}
+
+@ARTICLE{2006,
   title = {The 7th International Conference on eXtreme Programming and Agile
 	Processes in Software Engineering},
   journal = {VTT Symposium (Valtion Teknillinen Tutkimuskeskus)},
@@ -65232,84 +65284,6 @@
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-42149124552&partnerID=40&md5=49feb70ce1b552ec391cd463f8b732e3}
 }
 
-@ARTICLE{2006,
-  title = {Extreme Programming and Agile Processes in Software Engineering -
-	7th International Conference, XP 2006, Proceedings},
-  journal = {Lecture Notes in Computer Science (including subseries Lecture Notes
-	in Artificial Intelligence and Lecture Notes in Bioinformatics)},
-  year = {2006},
-  volume = {4044 LNCS},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@192066b3
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@1e367ea8
-	Through org.apache.xalan.xsltc.dom.DOMAdapter@bb55717; Conference
-	Code:67905},
-  abbrev_source_title = {Lect. Notes Comput. Sci.},
-  abstract = {The proceedings contain 30 papers. The topics discussed include: a
-	distributed cognition account of mature XP teams; foundations of
-	agile decision making from agile mentors and developers; software
-	development as a collaborative writing project; comparative analysis
-	of job satisfaction in agile and non-agile software development teams;
-	the collaborative nature of pair programming; leveraging code smell
-	detection with inter-smell relations; studying the evolution of quality
-	metrics in an agile/distributed project; the effect of test-driven
-	development on program code; configuring hybrid agile-tradition software
-	processes; agility in the avionics software world; security planning
-	and refactoring in extreme programming; augmenting the agile planning
-	toolbox; and storytelling in interaction: agility in practice.},
-  address = {Oulu},
-  document_type = {Conference Review},
-  isbn = {3540350942; 9783540350941},
-  issn = {03029743},
-  keywords = {Codes (symbols); Cognitive systems; Computer aided software engineering;
-	Computer programming; Project management, Distributed cognition;
-	Pair programming; Quality metrics; Software processes, Software engineering},
-  language = {English},
-  page_count = {238},
-  source = {Scopus},
-  sponsors = {Exoftware; Philips},
-  stage2status = {Exclude},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746207848&partnerID=40&md5=bc463c42688db7ba2fa8efe6c994f12a}
-}
-
-@CONFERENCE{2006a,
-  title = {Proceedings - Testing: Academic and Industrial Conference - Practice
-	and Research Techniques, TAIC PART 2006},
-  year = {2006},
-  address = {Windsor},
-  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@7848ffbe
-	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@8e50a4 Through
-	org.apache.xalan.xsltc.dom.DOMAdapter@7f503f44; Conference Code:87415},
-  abbrev_source_title = {Proc. - Test.: Acad. Ind. Conf. - Pract. Res. Tech., TAIC PART},
-  abstract = {The proceedings contain 25 papers. The topics discussed include: generating
-	a test strategy with bayesian networks, and common sense; on the
-	automation of software fault prediction; identifying state transitions
-	and their functions in source code; integration testing of components
-	guided by incremental state machine learning; incremental inference
-	of black-box components to support integration testing; autoabstract:
-	problem statement and hypothetical solutions; towards deploying model-based
-	testing with a domain-specific modeling approach; TRex - the refactoring
-	and metrics tool for TTCN-3 test specifications; an XP inspired test-oriented
-	life-cycle production strategy for building embedded biomedical applications;
-	using program data-state diversity in test data search; testing the
-	implementation of business rules using intensional database tests;
-	and generation of conformance test suites for compositions of web
-	services using model checking.},
-  document_type = {Conference Review},
-  isbn = {0769526721; 9780769526720},
-  journal = {Proceedings - Testing: Academic and Industrial Conference - Practice
-	and Research Techniques, TAIC PART 2006},
-  language = {English},
-  owner = {ekupiain},
-  page_count = {235},
-  source = {Scopus},
-  sponsors = {The UK Engineering and Physical Sciences Research Council (EPSRC);
-	DaimlerChrysler; Ericsson; IPL Information Processing Ltd.LDRA Software
-	Technology Ltd.},
-  stage2status = {Exclude},
-  timestamp = {2013.11.18},
-  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-81455136874&partnerID=40&md5=4a0d953942825b4d468afe22e881dc87}
-}
-
 @ARTICLE{2006a,
   title = {Product-Focused Software Process Improvement - 7th International
 	Conference, PROFES 2006, Proceedings},
@@ -65349,6 +65323,45 @@
   source = {Scopus},
   stage2status = {Exclude},
   url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-33746217393&partnerID=40&md5=eaadd80b565502215f94e2f24c06504c}
+}
+
+@CONFERENCE{2006a,
+  title = {Proceedings - Testing: Academic and Industrial Conference - Practice
+	and Research Techniques, TAIC PART 2006},
+  year = {2006},
+  address = {Windsor},
+  note = {cited By (since 1996)0; Conference of org.apache.xalan.xsltc.dom.DOMAdapter@7848ffbe
+	; Conference Date: org.apache.xalan.xsltc.dom.DOMAdapter@8e50a4 Through
+	org.apache.xalan.xsltc.dom.DOMAdapter@7f503f44; Conference Code:87415},
+  abbrev_source_title = {Proc. - Test.: Acad. Ind. Conf. - Pract. Res. Tech., TAIC PART},
+  abstract = {The proceedings contain 25 papers. The topics discussed include: generating
+	a test strategy with bayesian networks, and common sense; on the
+	automation of software fault prediction; identifying state transitions
+	and their functions in source code; integration testing of components
+	guided by incremental state machine learning; incremental inference
+	of black-box components to support integration testing; autoabstract:
+	problem statement and hypothetical solutions; towards deploying model-based
+	testing with a domain-specific modeling approach; TRex - the refactoring
+	and metrics tool for TTCN-3 test specifications; an XP inspired test-oriented
+	life-cycle production strategy for building embedded biomedical applications;
+	using program data-state diversity in test data search; testing the
+	implementation of business rules using intensional database tests;
+	and generation of conformance test suites for compositions of web
+	services using model checking.},
+  document_type = {Conference Review},
+  isbn = {0769526721; 9780769526720},
+  journal = {Proceedings - Testing: Academic and Industrial Conference - Practice
+	and Research Techniques, TAIC PART 2006},
+  language = {English},
+  owner = {ekupiain},
+  page_count = {235},
+  source = {Scopus},
+  sponsors = {The UK Engineering and Physical Sciences Research Council (EPSRC);
+	DaimlerChrysler; Ericsson; IPL Information Processing Ltd.LDRA Software
+	Technology Ltd.},
+  stage2status = {Exclude},
+  timestamp = {2013.11.18},
+  url = {http://www.scopus.com/inward/record.url?eid=2-s2.0-81455136874&partnerID=40&md5=4a0d953942825b4d468afe22e881dc87}
 }
 
 @CONFERENCE{2006b,
