@@ -1225,10 +1225,10 @@ variance in handovers were used to provide overview of progress [S21]. Metrics
 communicate progress to upper management [S5] and ensure good progress to
 external observers and ensure that key risks were under control [S5,S27,S28].
 
-\subsubsection{Increase visibility}
+\subsubsection{Simplify complexity and increase visibility}
 \label{sec:increaseVisibility}
-Metrics were used to simplify and understand complexity, and increase
-visibility for all stakeholders. Cost types, rate of requirements over phases
+Metrics were used to simplify complex aspects of software development, and
+increase visibility for all stakeholders. Cost types, rate of requirements over phases
 and variance in handovers were used to increase the transparency of end-to-end
 flow in a complex system [S21]. Similarly at Petrobras, technical debt board
 was used to make technical debt issues visible and easier to manage [S4]. Metrics (burndown,
@@ -1241,26 +1241,26 @@ project members [S25]. At WMS Gaming, cycle time metric was used to let the
 team track their performance [S23]. At Avaya Communications, story percent
 complete metrics were generated automatically when tests were run and thus
 kept everyone on the same page and eliminated schedule surprises [S29].
-Additionally, the metric results were required to be reported periodically. At
-a Slovenian publishing company, release burndown made the correlation clear
-between work remaining and team's progress in reducing it [S16].
+Additionally, the metric results were required to be reported periodically. 
  
 \subsubsection{Accomplishing project goals}
 \label{sec:accomplishProjectGoals}
 Metrics were used to understand if project goals can be achieved. At
 Timberline Inc, there was a need for a simple indicator that would quickly
 tell if a project was under control [S17]. They used common tempo time to
-understand if project was in target for delivery. At Microsoft Corporation, they monitored
-work in progress to predict lead time which in turn would predict project
-schedule [S2].
-At Adobe Systems, sprint burndown was used to tell the team if they were on
-track regarding the sprint commitments [S7]. Similarly at Mamdas, burndown was
-used to see whether the team could meet their goals, and if not, what could be
-done [S5]. Burndown was also used to mitigate the risk where developers spend too
-much time perfecting features over finishing all tasks of the iteration [S28].
-Story flow percentage was used so that a developer could finish a story in a
-steady flow [S13]. Story implementation flow metric describes how efficiently
-a developer has been able to complete a story compared with the estimate.
+understand if project was in target for delivery. At Microsoft Corporation,
+they monitored work in progress to predict lead time which in turn would
+predict project schedule [S2]. At Adobe Systems, sprint burndown was used to
+tell the team if they were on track regarding the sprint commitments [S7].
+Similarly at Mamdas, burndown was used to see whether the team could meet
+their goals, and if not, what could be done [S5]. Burndown was also used to
+mitigate the risk where developers spend too much time perfecting features
+over finishing all tasks of the iteration [S28]. Furthermore at a Slovenian
+publishing company, release burndown made the correlation clear between work
+remaining and team's progress in reducing it [S16]. Story flow percentage was
+used so that a developer could finish a story in a steady flow [S13]. Story
+implementation flow metric describes how efficiently a developer has been able
+to complete a story compared with the estimate.
 
 \subsubsection{Balance workflow}
 \label{sec:balanceWorkflow}
@@ -1282,10 +1282,10 @@ balance of workflow.
 At Ericsson, variance in handovers was used to guarantee that requirements
 would flow evenly [S21]. Mamdas was measuring check-ins per day metric, which
 measured how often code was committed to the main trunk [S5]. The point was to
-avoid people from committing only at the end of the iteration, and instead integrate
-early and often. At WMS Gaming, they had problems with large tasks
-blocking other work, so they set a rule that only certain size of tasks (8
-story points) can be taken for development [S23].
+avoid people from committing only at the end of the iteration, and instead
+verify that work is spread evenly across iterations. At WMS Gaming, they had
+problems with large tasks blocking other work, so they set a rule that only
+certain size of tasks (8 story points) can be taken for development [S23].
 
 \subsection{Understand and improve quality}
 \label{sec:quality}
@@ -1748,10 +1748,10 @@ defects reaching customers.
     Work in progress [S17, S20, S21, S22, S23, S24] & 6     & 1 \\
     Number of unit tests [S1, S5, S14, S27, S28] & 5     & 1 \\
     Lead time [S18, S19, S22, S24] & 4     & 2 \\
-    Check-ins per day [S5, S27, S28] & 3     &  \\
+    Check-ins per day [S5, S27, S28] & 3     & NA \\
     Technical debt [S4, S4] & 2     & 3 \\
     Build status [S4, S14] & 2     & 3 \\
-    Cycle time [S17, S23] & 2     &  \\
+    Cycle time [S17, S23] & 2     & NA \\
     Progress as working code [S30] & 1     & 3 \\
     Story flow percentage [S13] & 1     & 2 \\
     Velocity of elaborating features [S13] & 1     & 2 \\
@@ -1851,28 +1851,36 @@ projekti, eik‰ muut. Beam ja turner, 200234, software. Balancing agile and
 discipline. ``Mit‰ enemm‰n porukkaa joka osaa soveltaa agiilia?'' Ihmisten
 mittaamista ei n‰hd‰ t‰rke‰n‰. Ei mitata dokumentaatiota.
 \end{comment}
-In agile development, measurement is focused on the product and the process,
-but not the people. Based on the metric categorization by
-\citetsrc{fenton1998software} in \Cref{tab:metricsCategorization}, measurement
+Based on the results of this study, in agile development, target
+for measurement is the product and the process, but not the people.
+Based on the metric categorization by \citetsrc{fenton1998software} in \Cref{tab:metricsCategorization}, measurement
 is focused towards Products and Processes, but not Resources. This implies
 that measuring resources is not important. One implication is that agile
-development assumes a capable team, and that they can improve themselves.
-\citetsrc{boehm2003using} acknowledge that agile projects require people with
-higher methodological skills than plan-driven projects. Also, agile methods
-are used for simpler projects where resource issues are simpler than in
-larger, more complex projects. Another possibility is that measuring
-resources, especially people, can lead to dysfunctional behaviour. Another
-observation is that documentation is not measured. Instead, the focus is on
-the actual product and features which aligns with the agile principles,
-concentrating on the software.
+development assumes a capable team, which can improve themselves
+without metrics. \citetsrc{boehm2003using} acknowledge that agile projects
+require people with higher methodological skills than plan-driven projects.
+Also, agile methods are more suitable to be used in smaller products
+and teams while plan-driven methods are better for larger products and teams
+\citetpsrc{boehm2003using}. Based on the results of this study and prior work,
+the researcher hypothesises that measuring people becomes more important when the
+product and team is large.
+
+Another possibility for the lack of measuring people is that measuring
+resources, especially people, can lead to dysfunctional behaviour, as
+discussed in \cref{sec:negativeEffects}. Another observation from the metric
+categorization in \Cref{tab:metricsCategorization} is that documentation is
+not measured, e.g., design specifications. Instead, the focus is on the actual
+product and features, which aligns with the first agile principle \emph{``Our
+highest priority is to satisfy the customer through early and continuous
+delivery of valuable software.''} \citepsrc{beck2001agile}.
 
 Based on the metric categorization by \citetsrc{fenton1998software}
 in \Cref{tab:metricsCategorization}, the following processes are measured the
 most: implementation, testing and the whole development cycle. This indicates
 that requirements engineering, specification and design are not measured in
 agile development. One possibility is that aforementioned
-processes are not considered important in agile development, and another
-possibility is that they are so tied within 'implementation' so that
+processes are not considered important in agile development. Another
+possibility is that they are completely tied within 'implementation' so that
 they are not separated.\\*\\
 % Another possibility is that aforementioned processes are integrated in agile
 % development
@@ -1889,15 +1897,14 @@ ehdotettu. N‰it‰ t‰ydennet‰‰n sitten muilla mittareilla.
  industrial agile software development compare with those suggested by agile
  literature?}\\
 
-Industrial agile teams use metrics suggested by agile literature, but they
-also use custom metrics. Based on the metric comparison in
-\Cref{tab:comparisonOfMetrics}, it seems that industry is using most of the
-metrics suggested by agile literature. Although, Kanban and LeanSD metrics
-were not used that much, but that is likely due to low number of cases using
-Kanban or LeanSD. There were also many metrics that were not suggested in
-agile literature. This implies that industrial agile teams tend to add custom
-metrics on top of the metrics suggested by agile literature.
-
+According to this study, industrial agile teams use metrics suggested by agile
+literature, but they also use custom metrics. Based on the metric comparison
+in \Cref{tab:comparisonOfMetrics}, it seems that agile industry is using most
+of the metrics suggested by agile literature. Although, Kanban and LeanSD
+metrics were not extensively used, but that is likely due to low number of
+cases using Kanban or LeanSD. There were also many metrics that were not
+suggested in agile literature. This implies that industrial agile teams tend
+to add custom metrics on top of the metrics suggested by agile literature.
 
 \section{Findings on effects and reasons of metric use}
 
@@ -1928,22 +1935,24 @@ metrics ethiquette gradykirja
 \end{comment}
 
 \subsection{Negative effects of metric use}
+\label{sec:negativeEffects}
 
-Use of metrics can have negative effects. Based on the results in
-\cref{sec:motivatePeople}, metrics can be used to cause negative effects and
-drive dysfunctional behaviour. It seems agile methods do not give any special
-protection from the dysfunctional use of metrics, even when using one of the
-core metrics of Scrum, velocity [S6]. \begin{comment} Even though there weren't a
-lot of evidence for this, one case showed strong evidence and another hinted
-at negative effects of metric use, and also it is presumable that
-dysfunctional use of metrics would rarely be reported. \fixme{perustelu
+This study shows that use of metrics can have negative effects. Based on the
+results in \cref{sec:motivatePeople}, metrics can be used to cause negative
+effects and drive dysfunctional behaviour. Based on the results, the
+researcher hypothesises that agile methods do not provide any special
+protection from the dysfunctional use of metrics even when using the core
+metrics of agile development, e.g., velocity [S6].
+\begin{comment} Even though there weren't a lot of evidence for this, one case showed strong evidence and
+another hinted at negative effects of metric use, and also it is presumable
+that dysfunctional use of metrics would rarely be reported. \fixme{perustelu
 edelliseen?}
 \end{comment}
  \citetsrc{1667571} also discuss
-their experiences of improper metrics that waste resources and skew team
+similar experiences of improper metrics that waste resources and skew team
 behaviour in counter-productive ways. Similarly, \citetsrc{grady1992practical}
-has experiences on problems with metrics and people, thus he had written
-a software metrics etiquette, for example advising against measuring
+has experienced problems with metrics and people, thus he had written a
+software metrics etiquette, for example advising against measuring
 individuals, and not using metrics against the people who are reporting the
 data. Furthermore, \citetsrc{goldratt2006haystack} said ``Tell me how you
 measure me, and I will tell you how I will behave", which highlights the
@@ -1962,28 +1971,28 @@ Finding 10.
 
 \subsection{Situative metrics}
 
-Industrial agile teams use situative metrics. This study describes the reasons
-and effects of metric use. There is evidence on the use of situative metrics.
-Situative metrics are created and used based on a need, for example as a solution to a problem. At
-Systematic, they had issues with build's long fix times. They started
-measuring fix time of broken build and showed the time next to the coffee
-machine. It provoked discussion on the reasons for long fix times, and
-eventually, the developers fixed the builds faster [S13]. Similarly, they had
-issues with preparations for sprints. They started measuring
-\emph{percentage of stories prepared for sprint} supported with a checklist.
-Furthermore, they set an organizational objective of at least 100\% for that
-metric. At Petrobras, they had problems with customers related to rework and
-delays. They started measuring technical debt with a technical debt board that
+Based on the results of this study, industrial agile teams use situative
+metrics. Situative metrics are created and used based on a need, e.g., as a
+solution to a problem. At Systematic, they had issues with build's long fix
+times. They started measuring fix time of broken build and showed the time
+next to the coffee machine. It provoked discussion on the reasons for long fix
+times, and eventually, the developers fixed the builds faster [S13].
+Similarly, they had issues with preparations for sprints. They started
+measuring \emph{percentage of stories prepared for sprint} supported with a
+checklist. At Petrobras, they had problems with customers related to rework
+and delays. They started measuring technical debt with a technical debt board that
 visualised the state of different technical debt categories in their projects.
 This helped to create awareness and address various technical debt issues
-[S4]. 
+[S4].
 
-\citetsrc{1667571} differentiate between organizational long-term 'metrics'
-from short-term context driven 'diagnostics'. %Both types of metrics were also
-% seen in this study. 
+\citetsrc{1667571} also identified short-term context driven 'diagnostics'.
+% differentiate between organizational long-term 'metrics'from short-term
+% context driven 'diagnostics'. %Both types of metrics were also seen in this
+% study.
 'Diagnostics' seem to be the same as the situative metrics described in this
-study. These short term context driven 'diagnostics' or 'situative metrics'
-could be something that is more unique to agile development. 
+study. Based on the results of this study and prior work the researcher
+hypothesises that short term context driven 'diagnostics' or 'situative
+metrics' could be something more unique to agile development.
  
 
  %Metrics are a common tool for process improvement, but maybe this type of
@@ -2035,17 +2044,28 @@ through failure analysis'' \citep{312034}.
 
 
 According to \citetsrc{jones2008applied}, software productivity and quality
-are measured accurately by the most successful software companies. Also, they
-plan and estimate software projects accurately. In this study, there were almost no
-productivity metrics, but quality was measured with defect counts and customer
-satisfaction metrics. Furthermore, there was a lot of emphasis on the planning
-and estimation of software projects. What does the lack of productivity
-measurement mean? Or is the productivity measured with some other method than
-traditional metrics, for example frequent deliveries to customer? Do agile
-teams think that measuring productivity is not important?
+are measured accurately by the most successful software companies. In this
+study, there were a great deal of evidence on the use of velocity, which could
+be seen as a measure of productivity. \citetsrc{4755769} defines velocity as a
+measure of productivity, but identifies that it does not give a very accurate
+picture, since velocity does not capture the amount of business value very
+well. Quality was measured with defect count metrics and customer satisfaction
+metrics.
+
+\citetsrc{jones2008applied} argues that successful software companies plan and
+estimate software projects accurately. Based on the results of this study
+(\cref{sec:planning} and \cref{sec:planningActions}), there was a lot of
+emphasis on the planning and estimation of software projects. The equivalence
+the results of this study to Jones' points for successful companies implies
+that industrial agile teams are doing the right things to be successful.
+
+ %What does the
+% lack of productivity measurement mean? Or is the productivity measured with some other method
+% than traditional metrics, for example frequent deliveries to customer? Do
+% agile teams think that measuring productivity is not important?
 
 In literature, there were also reasons for metrics use that were not found in
-this study.
+this study, see \Cref{tab:comparisonOfReasons}.
 First, \emph{``Experimental validation of best practices''} \citep{312034}
 means using metrics to decide if a practice is worth using or not.  This
 type of metrics were not in the scope this study. This study was more focused
@@ -2053,22 +2073,28 @@ to find metrics that would bring immediate benefits for the team.
 %Agile teams seem to be more focused on providing value for their customers so they do not focus that much time formally evaluating work practices. Instead, they use
 % informal, qualitative, ways to assess work practices, for example in sprint
 %retrospective \citepsrc{schwaber2011scrum}.
-%\emph{``Alignment of software development to business objectives''}
-% \citepsrc{pulford1995quantitative}.
 Second, \emph{``The software development process should be designed by
 measurable objectives, which leads to a precise definition of software quality
 attributes.''} \citepsrc{zuse1998framework}. Instead of defining precise
 quality attributes, agile developers tend to measure the end product quality
-with customer based metrics instead of the traditional quality models, such as
-ISO/IEC 25010 \citepsrc{10951538}.
+with customer based metrics (\cref{sec:understandQuality}) instead of the traditional
+quality models, such as ISO/IEC 25010 \citepsrc{10951538}.
+%Third, \emph{``Alignment of software development to business objectives''}
+ %\citepsrc{pulford1995quantitative}.
+Third, \emph{``Measurement is important for prediction. We want to predict
+products and processes at the stages of the software life-cycle.''}
+\citepsrc{zuse1998framework}. In this study, prediction was mostly focused to
+predicting post-release quality by using pre-release quality metrics, see
+\cref{sec:understandQuality}. The researcher hypothesises that prediction is
+less used in agile software development due to the uncertainty of development.
+Furthermore, accurate predictions would be very hard to achieve.
 
-
-Regarding the found effects of metric use in this study,  a quote from
+Regarding the found effects of metric use in this study, a quote from
 \citetsrc{jones2008applied} can be analysed: \emph{``The goal of applied
 software measurement is to give software managers and professionals a set of
 useful, tangible data points for sizing, estimating, managing, and controlling
 software projects with rigor and precision''}. Those statements are then
-mapped to found effects of metric use (\Cref{tab:howCategories}) found in
+mapped to the found effects of metric use (\Cref{tab:howCategories}) in
 this study. \emph{``Sizing and estimating''} could be seen as ``Planning
 actions'', \emph{``managing and controlling''} could be seen as ``Reactive
 actions''. Researcher was not able to find similar effects of metric use as
@@ -2129,17 +2155,17 @@ accurately. They plan and estimate software projects accurately''
   
 \subsection{Characteristics of important metrics}
 
-Characteristics of important metrics are identified. This study describes
-important metrics based on descriptions of importance and the amount of
-evidence, see \cref{sec:listOfImportantMetrics}. There are some characteristics of
-important metrics that can be pointed out: ease of use and that the metric
-utilises existing tools. Also, based on the effects of metric use, it seems
-that the ability to provoke discussion is a characteristic for important
-metrics. Value Stream Maps and number of bounce backs initiated root cause
-analysis meetings [S3, S17]. Moreover, metrics were analysed in a reflection
-meeting where a problem and an improvement were identified [S28]. Furthermore,
-technical debt board provided visibility on technical debt issues and it
-helped to create discussion to decrease technical debt [S4].
+This study identifies characteristics of important metric. This study
+describes important metrics based on descriptions of importance and the amount
+of evidence, see \cref{sec:listOfImportantMetrics}. There are some
+characteristics of important metrics that can be pointed out: ease of use and
+ability to utilise existing tools. Also, based on the effects of metric
+use, it seems that the ability to provoke discussion is a characteristic for
+important metrics. Value Stream Maps and number of bounce backs initiated root
+cause analysis meetings [S3, S17]. Moreover, metrics were analysed in a
+reflection meeting where a problem and an improvement were identified [S28].
+Furthermore, technical debt board provided visibility on technical debt issues
+and it helped to create discussion to decrease technical debt [S4].
 \citetsrc{1667571} also list as one of their agile metric heuristics that
 metrics should provide fuel for meaningful conversation.
 
@@ -2148,10 +2174,11 @@ metrics should provide fuel for meaningful conversation.
 This study identified important metrics: velocity, effort estimate, defect
 count and customer satisfaction being top 4 in terms of amount of evidence and
 described importance. %This gives an idea what industrial agile teams are
-%interested in. 
-Based on the found important metrics, it could be argued that industrial agile
-teams value planning (effort estimate), progress tracking (velocity), pre-release quality (defect count) and
-post-release quality (customer satisfaction). 
+% interested in.
+Based on the found important metrics, the researcher argues that industrial
+agile teams value planning (effort estimate), progress tracking (velocity),
+pre-release quality (defect count) and post-release quality (customer
+satisfaction).
 
 %\citetsrc{Korhonen2009} found in her study that traditional defect metrics
 % could be reused in agile context - if modified. Defect metrics were also
@@ -2163,9 +2190,8 @@ measure of progress - which was also seen in this study [S30].
 value, preferably agreed with the business unit. They give examples for the
 key metric: Return of Investment (ROI), Net Present Value (NPV) and Internal
 Rate of Return (IRR). However, those were not seen in this study. One reason
-for the lack of these metrics in this study could be the focus of this study
-to team metrics instead of metrics of the whole organization. 
-
+for the lack of aforementioned metrics in this study could be the focus of
+this study to team metrics instead of metrics of the whole organization.
 Furthermore, \citetsrc{1667571} do not provide any specific agile metrics but
 rather describe how agile metrics should be chosen and how they should be introduced
 to the organization. Also, \citetsrc{1667571} provide a set of heuristics for
@@ -2481,17 +2507,16 @@ Finally, this study identified a few propositions for future research on
 measuring in agile software development. %First, in the academia lot of
 % emphasis has been given to code metrics yet this study found little evidence
 % of their use in agile context.
-First, the applicable quality metrics for
-agile development and the relationship between pre-release quality metrics and
-post-release quality are important directions of future research. Second, this
-study found that planning and tracking metrics for iteration were often used
-indicating a need to focus future research efforts on these areas. Third, use
-of metrics for motivating and enforcing process improvements can be an
-interesting future research topic. Fourth, the use of situative metrics and
-the use of customer satisfaction metrics in industrial agile context should
-be further investigated. Finally, the dysfunctional use of metrics and the
-negative effects of metric provide an interesting future research topic. 
+First, the applicable quality metrics for agile development and the
+relationship between pre-release quality metrics and post-release quality are
+important directions of future research. Second, this study found that
+planning and tracking metrics for iteration were often used indicating a need
+to focus future research efforts on these areas. Third, use of metrics for
+motivating and enforcing process improvements can be an interesting future
+research topic. Fourth, the use of situative metrics in industrial agile
+context should be further investigated. Finally, the dysfunctional use of metrics and the
+negative effects of metric use provide interesting future research topics.
 
-Metrics are used to improve but they can also have negative effects. One needs
-to have a holistic understanding of metrics in order to successfully apply
-them.
+To conclude, metrics can be used to improve aspects of agile software
+development but they can also have negative effects. One needs to have a holistic
+understanding of metrics in order to successfully apply them.
