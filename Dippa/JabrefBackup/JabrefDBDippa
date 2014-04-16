@@ -3829,6 +3829,7 @@
   correspondence_address1 = {Basili, Victor; Univ of Maryland, College Park, United States},
   document_type = {Article},
   doi = {10.1109/52.469763},
+  idea3reason = {NotAgile?},
   issn = {07407459},
   keywords = {Codes (symbols); Computer software; Data structures; Handbooks; Management;
 	Project management; Standards; Technology, Assessing; Process analysis;
@@ -4345,6 +4346,7 @@
 	Iceland},
   document_type = {Article},
   doi = {10.1049/ip-sen:20050061},
+  idea3reason = {MetricsUsedToCompareMethods},
   issn = {14625970},
   keywords = {Computer software; Data acquisition; Decision making; Life cycle;
 	Managers; Mathematical models, Guide developers; Software products;
@@ -5101,6 +5103,7 @@
   coden = {PCSED},
   correspondence_address1 = {Boehm, Barry W.; TRW Inc, TRW Inc},
   document_type = {Conference Paper},
+  idea3reason = {NotAgile},
   isbn = {0897912160},
   issn = {02705257},
   journal = {Proceedings - International Conference on Software Engineering},
@@ -6189,6 +6192,7 @@
 	email: Christian.Bunse@i-u.de},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-642-01648-6_8},
+  idea3reason = {MetricsUsedToCompareMethods},
   isbn = {9783642016479},
   issn = {03029743},
   keywords = {Agile development; Automotive subsystems; Component-Based Development;
@@ -6783,6 +6787,7 @@
   correspondence_address1 = {Card, D.N.; Computer Sciences Corp, Beltsville,, MD, USA, Computer
 	Sciences Corp, Beltsville, MD, USA},
   document_type = {Conference Paper},
+  idea3reason = {NotAgile},
   isbn = {0818608005},
   keywords = {COST ACCOUNTING - Management; MAINTENANCE - Costs; QUALITY CONTROL
 	- Management, LONG-LIVED MAINTENANCE PROJECT; SOFTWARE COST/QUALITY
@@ -7801,6 +7806,7 @@
 	Aarhus, Denmark; email: hbc@cs.au.dk},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-642-15114-9_11},
+  idea3reason = {NoMetrics},
   isbn = {3642151132; 9783642151132},
   issn = {03029743},
   keywords = {Agile development; Architectural quality; Large-scale softwares; Novel
@@ -8298,6 +8304,7 @@
 	Development; Reviews; Software},
   correspondence_address1 = {Centre for Software EngineeringUnited States},
   document_type = {Article},
+  idea3reason = {NotAgile},
   issn = {09639314},
   language = {English},
   references = {Humphrey, W.S., Characterising the software process: A maturity framework
@@ -10659,6 +10666,7 @@
   document_type = {Article},
   doi = {10.3233/978-1-60750-629-4-163},
   editor = {Fujita H.},
+  idea3reason = {PostImplementationAnalysis},
   isbn = {9781607506287},
   issn = {09226389},
   language = {English},
@@ -10976,6 +10984,7 @@
 	North-West University (Potchefstroom Campus), Private Bag x6001,
 	Potchefstroom, 2531, South Africa},
   document_type = {Conference Paper},
+  idea3reason = {PostImplementationAnalysis},
   isbn = {9789728939090},
   journal = {Proceedings of the IADIS International Conference Information Systems
 	2010},
@@ -12649,6 +12658,7 @@
 	email: dongxin@itechs.iscas.ac.cn},
   document_type = {Conference Paper},
   doi = {10.1109/APSEC.2011.11},
+  idea3reason = {NoMetrics},
   isbn = {9780769546094},
   issn = {15301362},
   journal = {Proceedings - Asia-Pacific Software Engineering Conference, APSEC},
@@ -13205,6 +13215,7 @@
   correspondence_address1 = {Dubinsky, Y.; Department of Computer Science, Technion - Israel Institute
 	of TechnologyIsrael; email: yael@cs.technion.ac.il},
   document_type = {Conference Paper},
+  idea3reason = {MetricsUsedToCompareImprovement},
   isbn = {9728865430; 9789728865436},
   journal = {ICEIS 2006 - 8th International Conference on Enterprise Information
 	Systems, Proceedings},
@@ -14963,6 +14974,7 @@
   document_type = {Conference Paper},
   doi = {10.1109/WCSE.2009.405},
   file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\VWZ695U5\\Farhan et al. - 2009 - Adding Agility to Architecture Tradeoff Analysis M.pdf:PDF},
+  idea3reason = {NoMetrics},
   isbn = {9780769535708},
   journal = {2009 WRI World Congress on Software Engineering, WCSE 2009},
   keywords = {Agile process model; Agility; Architecture evaluation; Architecture
@@ -15230,6 +15242,7 @@
   document_type = {Conference Paper},
   doi = {10.1145/1456659.1456666},
   file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\2J867I72\\Ferreira and Cohen - 2008 - Agile systems development and stakeholder satisfac.pdf:PDF},
+  idea3reason = {NoMetrics},
   isbn = {9781605582863},
   journal = {ACM International Conference Proceeding Series},
   keywords = {Agile methodology; Agile methods; Business environments; Collective
@@ -18623,6 +18636,7 @@
   document_type = {Article},
   doi = {10.1007/s10664-009-9120-1},
   file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\B4MQADZX\\Hackbarth et al. - 2010 - Assessing the state of software in a large enterpr.pdf:PDF},
+  idea3reason = {ResultsNotBySDM},
   issn = {13823256},
   keywords = {Agile development; Code growth; Domain expertise; Iterative development;
 	Offshore development; Productivity softwares; Software development;
@@ -19483,6 +19497,7 @@
   document_type = {Article},
   doi = {10.1002/smr.287},
   file = {:C\:\\Users\\ekupiain\\Desktop\\Dropbox\\UQasar\\Agile Metric SLR\\Eetu\\Articles\\storage\\GSPBI3V9\\Huffman Hayes et al. - 2003 - Observe-mine-adopt (OMA) an agile way to enhance .pdf:PDF},
+  idea3reason = {NotAgile},
   issn = {1532060X},
   keywords = {Data mining; Health care; Societies and institutions; World Wide Web,
 	Agile methods, Computer software maintenance},
@@ -19981,6 +19996,7 @@
   series = {Lecture Notes in Business Information Processing},
   pages = {165--179},
   publisher = {Springer},
+  idea3reason = {MeasureAgileTransformation},
   isbn = {978-3-642-38313-7},
   location = {Heidelberg},
   owner = {ekupiain},
@@ -21576,6 +21592,7 @@
   correspondence_address1 = {Aerospace Corporation, P.O. Box 92957, Los Angeles, CA, United States},
   document_type = {Conference Paper},
   doi = {10.1145/2486046.2486063},
+  idea3reason = {MetricsUsedForResearch},
   isbn = {9781450320627},
   journal = {ACM International Conference Proceeding Series},
   keywords = {Agile process; Agile software development process; Agile software
@@ -22064,6 +22081,7 @@
 	Australia; email: ming.huo@nicta.com.au},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-540-79588-9_16},
+  idea3reason = {NotAgile},
   isbn = {3540795871; 9783540795872},
   issn = {03029743},
   keywords = {Abstracting; Computer software; Mathematical models; Project management,
@@ -22404,6 +22422,7 @@
   correspondence_address1 = {Ikoma, M.; Software Division, Hitachi, Ltd.Japan; email: mikio.Ikoma.yh@hitachi.com},
   document_type = {Conference Paper},
   doi = {10.1109/ICSE-COMPANION.2009.5070967},
+  idea3reason = {NotAgile},
   isbn = {9781424434947},
   journal = {2009 31st International Conference on Software Engineering - Companion
 	Volume, ICSE 2009},
@@ -22479,6 +22498,7 @@
   coden = {EROMF},
   correspondence_address1 = {Ilieva, S.; Sofia University, Sofia, Bulgaria; email: Sylvia@acad.bg},
   document_type = {Conference Paper},
+  idea3reason = {ComparisonOfMethods},
   issn = {10896503},
   journal = {Conference Proceedings of the EUROMICRO},
   keywords = {Agile methodology; Defect rates; Extreme programming (XP); Personal
@@ -27999,6 +28019,7 @@
 	PrÃ©sident-Kennedy, MontrÃ©al, QC, Canada; email: Ktata.oualid@courrier.uqam.ca},
   document_type = {Conference Paper},
   doi = {10.1145/1822327.1822341},
+  idea3reason = {NoMetrics},
   isbn = {9781605589015},
   journal = {ACM International Conference Proceeding Series},
   keywords = {Agile metrics; Agile software process; Business value; Goal-question-metric;
@@ -33709,6 +33730,7 @@
 	United States; email: lmaruping@walton.uark.edu},
   document_type = {Article},
   doi = {10.1287/isre.1090.0238},
+  idea3reason = {NoMetrics},
   issn = {10477047},
   language = {English},
   references = {Aiken, L.S., West, S.G., (1991) Multiple Regression: Testing and Interpreting
@@ -34478,6 +34500,7 @@
 	Dundalk, Co. Louth, Ireland; email: fergal.mccaffery@lero.ie},
   document_type = {Article},
   doi = {10.1109/MS.2007.3},
+  idea3reason = {NoMetrics},
   issn = {07407459},
   keywords = {Industrial engineering; Planning; Resource allocation; Risk assessment;
 	Statistics, Software engineering process; Software industry; Software
@@ -36391,6 +36414,7 @@
   correspondence_address1 = {Moser, R.; Free University of Bolzano-BozenItaly; email: rmoser@unibz.it},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-540-85279-7_20},
+  idea3reason = {SingleTechniqueAssessment},
   isbn = {3540852786; 9783540852780},
   issn = {03029743},
   keywords = {Mobile devices; Technology; Telecommunication equipment; Transients,
@@ -36535,6 +36559,7 @@
 	of Bolzano-BozenItaly; email: raimund.moser@unibz.it},
   document_type = {Conference Paper},
   doi = {10.1007/978-3-540-69566-0_29},
+  idea3reason = {DoesntSeemRelatedToMetrics},
   isbn = {3540695648; 9783540695646},
   issn = {03029743},
   keywords = {Codes (standards); Codes (symbols); Computer software; Maintenance;
@@ -36737,6 +36762,7 @@
 	of Bolzano, Piazza Domenicani 3, Bozen, Italy; email: rmoser@unibz.it},
   document_type = {Conference Paper},
   doi = {10.1007/11763864_21},
+  idea3reason = {MetricsUsedForResearch},
   isbn = {3540346066; 9783540346067},
   issn = {03029743},
   keywords = {Codes (symbols); Computer software maintenance; Object oriented programming;
@@ -39397,6 +39423,7 @@
   correspondence_address1 = {Ostacchini, I.; Ramboll Whitbybird Ltd.United Kingdom},
   document_type = {Conference Paper},
   doi = {10.1109/SHARK.2009.5069110},
+  idea3reason = {NoMetrics},
   isbn = {9781424437269},
   journal = {Proceedings of the 2009 ICSE Workshop on Sharing and Reusing Architectural
 	Knowledge, SHARK 2009},
@@ -40093,6 +40120,7 @@
 	Tuscaloosa, AL 35487-0290, United States; email: parrish@cs.ua.edu},
   document_type = {Article},
   doi = {10.1109/MS.2004.1331306},
+  idea3reason = {NoMetrics},
   issn = {07407459},
   keywords = {Agile manufacturing systems; Concurrent engineering; Productivity;
 	Quality assurance, Concurrency metric; Concurrent development; Pair
@@ -47537,6 +47565,7 @@
   correspondence_address1 = {Sanchez, J. C.; IBM CorporationUnited States; email: juliosan@ibm.com},
   document_type = {Conference Paper},
   doi = {10.1109/AGILE.2007.43},
+  idea3reason = {ResearchOfSingleTechnique},
   isbn = {0769528724; 9780769528724},
   journal = {Proceedings - AGILE 2007},
   keywords = {(e ,3e) process; Agile Methods; Automated testing; Code complexity;
@@ -48357,6 +48386,7 @@
   correspondence_address1 = {Savola, R. M.; VTT Technical Research Centre of Finland, Oulu, Finland;
 	email: reijo.savola@vtt.fi},
   document_type = {Article},
+  idea3reason = {NoMetrics},
   issn = {0958695X},
   language = {English},
   references = {Anderson, D.J., Reinertsen, D.G., Kanban - Successful Evolutionary
@@ -49999,6 +50029,7 @@
 	Cairo University, Giza, Egypt; email: doaashawky@ieee.org},
   document_type = {Conference Paper},
   doi = {10.1109/ICCTD.2010.5645881},
+  idea3reason = {MeasuringAgility...},
   isbn = {9781424488438},
   journal = {ICCTD 2010 - 2010 2nd International Conference on Computer Technology
 	and Development, Proceedings},
@@ -51215,6 +51246,7 @@
   correspondence_address1 = {SjÃ¸berg, D.I.K.; University of OsloNorway; email: dagsj@ifi.uio.no},
   document_type = {Article},
   doi = {10.1109/MS.2012.110},
+  idea3reason = {ComparisonOfMethods},
   issn = {07407459},
   keywords = {Application domains; Empirical investigation; lean; Lean methods;
 	Process metrics; Software engineering process; Software process models;
